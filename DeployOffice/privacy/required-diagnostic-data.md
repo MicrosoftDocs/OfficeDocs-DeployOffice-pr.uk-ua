@@ -3,7 +3,7 @@ title: Обов’язкові діагностичні дані в Office
 ms.author: danbrown
 author: DHB-MSFT
 manager: laurawi
-ms.audience: ITPro
+audience: ITPro
 ms.topic: reference
 ms.service: o365-proplus-itpro
 localization_priority: Priority
@@ -13,12 +13,12 @@ ms.custom:
 - Ent_Office_Privacy
 description: Ця стаття пропонує адміністраторам Office відомості про обов’язкові діагностичні дані в Office та містить список подій і полів даних.
 hideEdit: true
-ms.openlocfilehash: 9b22b428999c51b46e6f6ce662fad99f5a727b4c
-ms.sourcegitcommit: 6145cfe372725bedab7bc6a80adab100561f74fd
+ms.openlocfilehash: a5ac5dfded3dbb51693b5d15616675b067c59dc3
+ms.sourcegitcommit: 3f5de6281b8e92c6c41a800f4374211188460320
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34106945"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34701719"
 ---
 # <a name="required-diagnostic-data-for-office"></a>Обов’язкові діагностичні дані в Office
 
