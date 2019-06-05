@@ -3,7 +3,7 @@ title: Необов’язкові діагностичні дані для Offi
 ms.author: danbrown
 author: DHB-MSFT
 manager: laurawi
-ms.audience: ITPro
+audience: ITPro
 ms.topic: reference
 ms.service: o365-proplus-itpro
 localization_priority: Priority
@@ -13,12 +13,12 @@ ms.custom:
 - Ent_Office_Privacy
 description: Ця стаття пропонує адміністраторам Office відомості про необов’язкові діагностичні дані в Office, зокрема приклади деяких подій.
 hideEdit: true
-ms.openlocfilehash: 1df576e8f5f1b3ed9fff11651ff4dd2b28d47229
-ms.sourcegitcommit: b3fd057154853fc588d0e83b4d632b6e9a051a3c
+ms.openlocfilehash: 852c53ad208cf02150de2e64e9e55d69015dda14
+ms.sourcegitcommit: 3f5de6281b8e92c6c41a800f4374211188460320
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32435880"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34701206"
 ---
 # <a name="optional-diagnostic-data-for-office"></a>Необов’язкові діагностичні дані для Office
 
@@ -45,7 +45,7 @@ ms.locfileid: "32435880"
 
 Адміністратору організації також можуть бути корисними такі ресурси:
 
-- [Огляд елементів керування конфіденційністю в Office 365 ProPlus](overview-privacy-controls.md)
+- [Огляд елементів керування конфіденційністю в Office 365 ProPlus](overview-privacy-controls.md)
 - [Параметри політики для налаштування елементів керування конфіденційністю в Office 365 ProPlus](manage-privacy-controls.md)
 
 ## <a name="categories-of-optional-diagnostic-data"></a>Категорії необов’язкових діагностичних даних
