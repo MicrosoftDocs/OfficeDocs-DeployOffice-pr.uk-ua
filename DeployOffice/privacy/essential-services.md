@@ -13,12 +13,12 @@ ms.custom:
 - Ent_Office_Privacy
 description: У цій статті наведено відомості про основні служби в Office, як-от "Office умить" і ліцензування, а також список подій і полів даних для основних служб.
 hideEdit: true
-ms.openlocfilehash: 81b5ff2e1451f910f2e9695dba488d39d27b7241
-ms.sourcegitcommit: 3f5de6281b8e92c6c41a800f4374211188460320
+ms.openlocfilehash: 291ec1b925b021f3d35e504d95649a7bdd34adc0
+ms.sourcegitcommit: 186aae0571f8ef5f62882b4edb10378ee8e42b6e
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34701298"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "34813359"
 ---
 # <a name="essential-services-for-office"></a>Основні служби для Office
 
@@ -2717,6 +2717,14 @@ ms.locfileid: "34701298"
   - **IdentityChanged** – завжди значення true. Ідентичність змінено.
 
   - **TimerDetectedChange** – указує, чи виявлено зміну під час регулярної перевірки зв’язку.
+
+### <a name="officesystemprivacyfallbacktosettingsstore"></a>Office.System.PrivacyFallbackToSettingsStore
+
+Використовується, щоб визначити, чи немає помилок у читанні настройок конфіденційності з переміщуваного сховища.
+
+Збираються такі поля:
+
+  - **Tag** – тег коду, що позначає, яка настройка повернулася до значення зі сховища настройок.
 
 ### <a name="officesystemsessiondatao365"></a>Office.System.SessionDataO365
 
