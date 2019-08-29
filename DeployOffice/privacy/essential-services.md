@@ -13,12 +13,12 @@ ms.custom:
 - Ent_Office_Privacy
 description: У цій статті наведено відомості про основні служби в Office, як-от "Office умить" і ліцензування, а також список подій і полів даних для основних служб.
 hideEdit: true
-ms.openlocfilehash: 3931f44787008e076807fe59746bccf015452ac3
-ms.sourcegitcommit: 0fd23324ba1364fa1f8dd1578adf25946adde90f
+ms.openlocfilehash: 785cd7f3e881d61be0ee3ee72924efb695e2f5a7
+ms.sourcegitcommit: a47876f7500d1ae0270f35ee79da8ab32e57ae3a
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239192"
+ms.lasthandoff: 08/28/2019
+ms.locfileid: "36656211"
 ---
 # <a name="essential-services-for-office"></a>Основні служби для Office
 
@@ -2452,9 +2452,9 @@ ms.locfileid: "36239192"
 
  - **ErrorDetails –** рядок, у якому описано розташування необробленого винятку (функція, файл, номер рядка, додаткові налаштовані параметри).
 
- - ErrorMessage –** рядок, визначений в точці необробленого винятку, який описує характер помилки.
+ - **ErrorMessage –** рядок, визначений в точці необробленого винятку, який описує характер помилки.
 
- - ErrorType –** рядок, який описує категорію необробленого винятку.
+ - **ErrorType –** рядок, який описує категорію необробленого винятку.
 
  - **ExitCode –** ціле число, пов’язане з результатом роботи завантажувача, що вказує на успіх або на певні типи помилок.
 
@@ -2480,13 +2480,13 @@ ms.locfileid: "36239192"
 
 - **ExcludedApps –** рядок з переліком окремих назв програм Office, щодо яких є запит на виключення з інстальованих пакетів Office.
 
-- InstalledCabVersion –** версія "16.0.xxxxx.yyyyy" вже інстальованого клієнта Office C2R.
+- **InstalledCabVersion –** версія "16.0.xxxxx.yyyyy" вже інстальованого клієнта Office C2R.
 
 - **InstalledProductVersion –** версія "16.0.xxxxx.yyyyy" вже інстальованого продукту Office C2R.
 
 - **IsC2RServiceRunning –** логічна позначка, яка вказує, чи працює на пристрої служба локального комп’ютера сучасного клієнта C2R.
 
-- IsElevatedFlagSet –** логічна позначка, яка вказує, чи завантажувач вже намагався одержати права адміністратора.
+- **IsElevatedFlagSet –** логічна позначка, яка вказує, чи завантажувач вже намагався одержати права адміністратора.
 
 - **IsFireFlyInstalled –** – логічна позначка, яка вказує, чи інстальовано клієнт Office 2013 RTM C2R.
 
@@ -2494,7 +2494,7 @@ ms.locfileid: "36239192"
 
 - **IsOfficeInstalled –** логічна позначка, яка вказує, чи вже інстальовано сучасний клієнт Office.
 
-- OfficeCultures –** спеціалізований список культур Office, які потрібно інсталювати.
+- **OfficeCultures –** спеціалізований список культур Office, які потрібно інсталювати.
 
 - **OfficeSourceType –** зручний рядок, пов’язаний зі значенням Enum джерела інсталяції (CDN, HTTP, UNC, CMBITS, DVD, LOCAL).
 
@@ -2553,13 +2553,13 @@ ms.locfileid: "36239192"
 
 - **ExcludedApps –** рядок з переліком окремих назв програм Office, щодо яких є запит на виключення з інстальованих пакетів Office.
 
-- InstalledCabVersion –** версія "16.0.xxxxx.yyyyy" вже інстальованого клієнта Office C2R.
+- **InstalledCabVersion –** версія "16.0.xxxxx.yyyyy" вже інстальованого клієнта Office C2R.
 
 - **InstalledProductVersion –** версія "16.0.xxxxx.yyyyy" вже інстальованого продукту Office C2R.
 
 - **IsC2RServiceRunning –** логічна позначка, яка вказує, чи працює на пристрої служба локального комп’ютера сучасного клієнта C2R.
 
-- IsElevatedFlagSet –** логічна позначка, яка вказує, чи завантажувач вже намагався одержати права адміністратора.
+- **IsElevatedFlagSet –** логічна позначка, яка вказує, чи завантажувач вже намагався одержати права адміністратора.
 
 - **IsFireFlyInstalled –** – логічна позначка, яка вказує, чи інстальовано клієнт Office 2013 RTM C2R.
 
@@ -2567,7 +2567,7 @@ ms.locfileid: "36239192"
 
 - **IsOfficeInstalled –** логічна позначка, яка вказує, чи вже інстальовано сучасний клієнт Office.
 
-- OfficeCultures –** спеціалізований список культур Office, які потрібно інсталювати.
+- **OfficeCultures –** спеціалізований список культур Office, які потрібно інсталювати.
 
 - **OfficeSourceType –** зручний рядок, пов’язаний зі значенням Enum джерела інсталяції (CDN, HTTP, UNC, CMBITS, DVD, LOCAL).
 
@@ -8508,7 +8508,7 @@ ms.locfileid: "36239192"
 
 - **HowTocheck** – параметри перевірки оновлень.
 
-- Payload** – містить ідентифікатор, який використовується для відстеження активності оновлення, та вказує повторність і необхідність реєстрації.
+- **Payload** – містить ідентифікатор, який використовується для відстеження активності оновлення, та вказує повторність і необхідність реєстрації.
 
 - **PipelineInfo_ClientCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -9989,7 +9989,7 @@ ms.locfileid: "36239192"
  
 Збираються перелічені нижче поля.
 
-- AutoShowSyncStatus** – чи відображається стан синхронізації автоматично.
+- **AutoShowSyncStatus** – чи відображається стан синхронізації автоматично.
 
 - **Cause** – причини, через які сторінки та розділи OneNote переносяться до невідповідних розділів.
 
@@ -10503,8 +10503,6 @@ ms.locfileid: "36239192"
   - **SysVolSizeMB** – обсяг місця системного тому (у мегабайтах).
 
   - **sysVolSizeMB** – обсяг місця системного тому (у мегабайтах).
-
-<!-- end list -->
 
   - **WindowsErrorReportingMachineId** – ідентифікатор пристрою з Office, призначений службою звітування про помилки Windows.
 
@@ -11163,6 +11161,12 @@ ms.locfileid: "36239192"
   - **ErrorMessage** – повідомлення про помилку аналізу.
 
   - **NodeName** – вузол, який не вдалося проаналізувати.
+
+### <a name="officetelemetrydynamicconfigpopulatedrequestignored"></a>Office.Telemetry.DynamicConfig.PopulatedRequestIgnored
+
+Ця подія створюється, коли нам не вдається налаштувати канал конфігурації телеметрії.
+
+Ця подія не збирає дані з полів.
 
 ### <a name="officetelemetrydynamicconfigpopulatetreecalledagain"></a>Office.Telemetry.DynamicConfig.PopulateTreeCalledAgain
 
