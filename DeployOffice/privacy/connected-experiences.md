@@ -13,12 +13,12 @@ ms.custom:
 - Ent_Office_Privacy
 description: Відомості для адміністраторів Office щодо підключених можливостей для Office, як-от можливості аналізу вмісту або завантаження вмісту з Інтернету.
 hideEdit: true
-ms.openlocfilehash: 1ae21c76eb0cc4addcc0a26e7ca1330aef99eee1
-ms.sourcegitcommit: 0fd23324ba1364fa1f8dd1578adf25946adde90f
+ms.openlocfilehash: 04d71fcd601f76d2613dda9bd00dccd24ab8e950
+ms.sourcegitcommit: 27db488cae3bd23342bc0d902c53b5bf89ae30a7
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36238242"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "37379792"
 ---
 # <a name="connected-experiences-in-office"></a>Підключені можливості в Office
 
@@ -47,6 +47,7 @@ ms.locfileid: "36238242"
 | Редактор    | [Помічник-редактор](https://support.office.com/article/91ecbe1b-d021-4e9e-a82e-abc4cd7163d7)  |
 | Ідеї     | [Ідеї у програмі Excel](https://support.office.com/article/3223aab8-f543-4fda-85ed-76bb0295ffc4) |
 | Перетворення рукопису на текст, перетворення рукописного фрагмента на фігуру, перетворення рукописного виразу на рівняння | [PowerPoint для Office 365 дозволяє перетворити рукописні фрагменти на фігури, текст або математичні вирази](https://support.office.com/article/0740dec3-6291-4c1f-8baa-011d18449919) |
+| Вставлення даних із зображення| [Вставлення даних із зображення](https://support.office.com/article/3c1bb58d-2c59-4bc0-b04a-a671a6868fd7)|
 | Субтитри в прямому ефірі |  [Проводьте презентації у програмі PowerPoint з автоматичними субтитрами в реальному часі](https://support.office.com/article/68d20e49-aec3-456a-939d-34a79e8ddd5f)   |
 | Карти в надбудові Power View   | [Карти в надбудові Power View](https://support.office.com/article/8A9B2AF3-A055-4131-A327-85CC835271F7) |
 | Служба презентацій Office  | [Транслюйте свої презентації PowerPoint віддаленим користувачам](https://support.office.com/article/25330108-518e-44be-a281-e3d85f784fee)    |
