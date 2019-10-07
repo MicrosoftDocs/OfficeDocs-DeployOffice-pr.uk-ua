@@ -13,12 +13,12 @@ ms.custom:
 - Ent_Office_Privacy
 description: У цій статті наведено відомості про основні служби в Office, як-от "Office умить" і ліцензування, а також список подій і полів даних для основних служб.
 hideEdit: true
-ms.openlocfilehash: 785cd7f3e881d61be0ee3ee72924efb695e2f5a7
-ms.sourcegitcommit: a47876f7500d1ae0270f35ee79da8ab32e57ae3a
+ms.openlocfilehash: 82068f529e341a71557e65e6b7d060bab878bcbe
+ms.sourcegitcommit: 4abc1462753e6cb5c01642c9711d19b220dadac0
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/28/2019
-ms.locfileid: "36656211"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "37386940"
 ---
 # <a name="essential-services-for-office"></a>Основні служби для Office
 
@@ -585,6 +585,27 @@ ms.locfileid: "36656211"
   - **Data\_PrereqFailure\_Type** – сталася помилка, пов’язана з обов’язковими компонентами.
 
   - **Data\_ProductReleaseId** – продукт, що інсталюється (наприклад, Office 365 ProPlus).
+
+### <a name="officeclicktorunrepomanlogger"></a>Office.ClickToRun.RepomanLogger
+
+Звіти про стан передавання оновлень "Office умить" ("Repoman") і про успішність завантаження та застосування оновлень Office.
+
+Збираються такі поля:
+
+  - **ApplySucceeded –** true, якщо конвеєр успішно застосував оновлення Office; false – якщо ні.
+  
+  - **DownloadSucceeded –** true, якщо конвеєр успішно завантажив оновлення Office; false – якщо ні.
+
+  - **ErrorCode – ** код останньої помилки, що сталася в конвеєрі Repoman "Office умить".
+
+  - **ErrorDetails – ** додаткові відомості про останню помилку, що сталася в конвеєрі Repoman "Office умить".
+ 
+  - **ErrorMessage – ** код останньої помилки, що сталася в конвеєрі Repoman "Office умить".
+
+  - **OpenStreamSessionSucceeded –** true, якщо конвеєр успішно створює сеанс для потокової передачі оновлень Office; false – якщо ні.
+
+  - **RepomanErrorMessage – ** повідомлення про помилку, отримане з repoman.dll.
+ 
 
 ### <a name="officeclicktorunscenarioinstalltaskconfigure"></a>Office.ClickToRun.Scenario.InstallTaskConfigure
 
@@ -2658,6 +2679,13 @@ ms.locfileid: "36656211"
 
   - **UnmergedConfigs** – список не об’єднаних конфігурацій.
 
+### <a name="officeexperimentationtriggeranalysis"></a>Office.Experimentation.TriggerAnalysis
+
+Ця подія допомагає виконати загальний аналіз використання продуктів і показників продуктивності (випадків аварійного завершення роботи, зависання тощо) за групами користувачів або пристроїв, які мають право використовувати цю функцію, що допомагає переконатися в належній роботі продукту.
+
+Збираються такі поля:
+
+  - **FeatureGate –** визначає набір функцій, до яких застосовується аналіз тригерів.
 
 ## <a name="licensing-events"></a>Події ліцензування
 
@@ -8447,7 +8475,7 @@ ms.locfileid: "36656211"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -10920,7 +10948,7 @@ ms.locfileid: "36656211"
 
 ### <a name="officesystemsystemhealthungracefulapplicationexitwin32"></a>Office.System.SystemHealthUngracefulApplicationExitWin32
 
-Використовується для збору метрик аварійного завершення роботи.
+Подія ініціюється аварійним завершенням роботи ( закриття через диспетчер завдань, зависання програми тощо) такої клієнтської програми Office, як Word, Excel, PowerPoint, Outlook чи іншої. Для оцінки справності клієнтських продуктів Office використовуються показники неправильного завершення програми. Це критично важливий сигнал, який використовується інженерами Office для визначення стабільності продукту.
 
 Збираються такі поля:
 
@@ -10932,11 +10960,7 @@ ms.locfileid: "36656211"
 
   - **CrashedAppRevision** – ідентифікатор версії збірки для процесу, на який впливає проблема.
 
-  - **CrashedConfigIds** – конфігурація, призначена процесу, який аварійно завершився.
-
   - **CrashedEcsETag** – ідентифікатор експерименту для процесу, який аварійно завершився.
-
-  - **CrashedImpressionId** – ідентифікатор перегляду для процесу, який аварійно завершився.
 
   - **CrashedModuleName** – ім’я модуля, у роботі якого сталася помилка.
 
@@ -10951,6 +10975,8 @@ ms.locfileid: "36656211"
   - **ExceptionAddress** – адреса в програмі, де сталася помилка.
 
   - **ExceptionCode** – ідентифікатор сегментування для винятку.
+
+  - **HexCrashTag – ** унікальний ідентифікатор коду аварійного завершення.
 
   - **ExceptionAddress** – шістнадцяткова адреса в програмі, у роботі якої сталася помилка.
 
@@ -10977,6 +11003,8 @@ ms.locfileid: "36656211"
   - **PreviousBuild** – раніше інстальована ​версія збірки.
 
   - **UAEOSEnvironment** – ідентифікатор середовища ОС.
+
+  - **UninitLibletId –** унікальний ідентифікатор компонента аварійного завершення, у якому сталася помилка.
 
   - **VerifyElseCrashTag** – унікальний ідентифікатор, який указує, де в роботі програми сталася помилка.
 
