@@ -15,12 +15,12 @@ ms.custom:
 - Ent_Office_Privacy
 description: Огляд надає адміністраторам Office загальне уявлення про елементи керування конфіденційністю в Office 365 ProPlus, включно з діагностикою даних та підключеними можливостями.
 hideEdit: true
-ms.openlocfilehash: 329d3de3fd4ff20518a8a49f01d7c5bfcd75342b
-ms.sourcegitcommit: de39739d7ab82666ff1389be360d74c518ae97f6
+ms.openlocfilehash: 708c8b1dae02f54d4c6a6195cec9513c8639b62d
+ms.sourcegitcommit: aed9a0908021ffc80baa7159a66b63dd4f9f28e4
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 09/13/2019
-ms.locfileid: "36980379"
+ms.lasthandoff: 10/08/2019
+ms.locfileid: "37417452"
 ---
 # <a name="overview-of-privacy-controls-for-office-365-proplus"></a>Огляд елементів керування конфіденційністю в Office 365 ProPlus
 
@@ -39,6 +39,7 @@ ms.locfileid: "36980379"
 >   - Версія 1904 і новіші версії Project і Visio для настільних комп’ютерів з певними планами передплати, як-от план Project Online професійний або Visio Online (план 2).
 > - Ці елементи керування конфіденційністю включено до версії 1908 (від 10 вересня 2019 р.) для Щопіврічному цільового каналу оновлення. Вони будуть доступними на Щопіврічному цільовому каналі оновлення у січні 2020 р.
 > - Випуск цих елементів керування конфіденційністю заплановано у другій половині жовтня 2019 р. для версій програм Excel, OneNote, PowerPoint, Visio та Word для iOS. Додаткову інформацію буде надано на початку жовтня.
+> - У більшості програм інтернет-версії Office використання нового елемента керування конфіденційністю для [необов'язкових підключених можливостей](optional-connected-experiences.md) заплановано із середини жовтня 2019 р. Серед них інтернет-версія Excel, інтернет-версія OneNote, інтернет-версія PowerPoint, інтернет-версія Visio та інтернет-версія Word. Ви можете заздалегідь налаштувати відповідний [параметр політики](manage-privacy-controls.md#policy-setting-for-optional-connected-experiences) за допомогою [служби хмарної політики Office](../overview-office-cloud-policy-service.md).
 > - Нові та покращені елементи керування конфіденційністю поширяться також на додаткових клієнтів Office, включно з Teams і мобільними програмами. Докладні відомості про ці зміни з'являться у найближчі місяці. Ми продовжуємо ретельно прислухатися до ваших відгуків і вдосконалювати всіх клієнтів і служби Office 365.
 
 ## <a name="diagnostic-data-sent-from-office-365-proplus-to-microsoft"></a>Діагностичні дані надіслані з Office 365 ProPlus до корпорації Майкрософт
