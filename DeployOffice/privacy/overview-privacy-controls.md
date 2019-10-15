@@ -15,12 +15,12 @@ ms.custom:
 - Ent_Office_Privacy
 description: Огляд надає адміністраторам Office загальне уявлення про елементи керування конфіденційністю в Office 365 ProPlus, включно з діагностикою даних та підключеними можливостями.
 hideEdit: true
-ms.openlocfilehash: 708c8b1dae02f54d4c6a6195cec9513c8639b62d
-ms.sourcegitcommit: aed9a0908021ffc80baa7159a66b63dd4f9f28e4
+ms.openlocfilehash: 24a3d30d05fb2a1456e10d8a8036f31c25c14db7
+ms.sourcegitcommit: 02c4120c0b10bfe378d21d60699ae49aaef97834
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/08/2019
-ms.locfileid: "37417452"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37510740"
 ---
 # <a name="overview-of-privacy-controls-for-office-365-proplus"></a>Огляд елементів керування конфіденційністю в Office 365 ProPlus
 
@@ -38,7 +38,7 @@ ms.locfileid: "37417452"
 >   - Версія 16.28 або новіші версії таких програм Office для Mac: Excel, Outlook, OneNote, PowerPoint і Word.
 >   - Версія 1904 і новіші версії Project і Visio для настільних комп’ютерів з певними планами передплати, як-от план Project Online професійний або Visio Online (план 2).
 > - Ці елементи керування конфіденційністю включено до версії 1908 (від 10 вересня 2019 р.) для Щопіврічному цільового каналу оновлення. Вони будуть доступними на Щопіврічному цільовому каналі оновлення у січні 2020 р.
-> - Випуск цих елементів керування конфіденційністю заплановано у другій половині жовтня 2019 р. для версій програм Excel, OneNote, PowerPoint, Visio та Word для iOS. Додаткову інформацію буде надано на початку жовтня.
+> - Ці елементи керування конфіденційністю доступні для Excel, OneNote, PowerPoint і Word для версії iOS 2.30 і новіших, а також для Переглядача Visio для iOS версії 1.17 і новіших.
 > - У більшості програм інтернет-версії Office використання нового елемента керування конфіденційністю для [необов'язкових підключених можливостей](optional-connected-experiences.md) заплановано із середини жовтня 2019 р. Серед них інтернет-версія Excel, інтернет-версія OneNote, інтернет-версія PowerPoint, інтернет-версія Visio та інтернет-версія Word. Ви можете заздалегідь налаштувати відповідний [параметр політики](manage-privacy-controls.md#policy-setting-for-optional-connected-experiences) за допомогою [служби хмарної політики Office](../overview-office-cloud-policy-service.md).
 > - Нові та покращені елементи керування конфіденційністю поширяться також на додаткових клієнтів Office, включно з Teams і мобільними програмами. Докладні відомості про ці зміни з'являться у найближчі місяці. Ми продовжуємо ретельно прислухатися до ваших відгуків і вдосконалювати всіх клієнтів і служби Office 365.
 
@@ -74,6 +74,7 @@ ms.locfileid: "37417452"
 - [Необов’язкові діагностичні дані в Office](optional-diagnostic-data.md)
 - [Параметри політики для налаштування елементів керування конфіденційністю в Office 365 ProPlus](manage-privacy-controls.md)
 - [Параметри налаштування елементів керування конфіденційністю в Office для Mac](mac-privacy-preferences.md)
+- [Параметри налаштування елементів керування конфіденційністю в Office на пристроях з iOS](ios-privacy-preferences.md)
 - [Засіб перегляду діагностичних даних з Office](https://support.office.com/article/cf761ce9-d805-4c60-a339-4e07f3182855)
 
 ## <a name="connected-experiences-for-office-365-proplus"></a>Підключені можливості для Office 365 ProPlus
@@ -99,6 +100,7 @@ Office 365 ProPlus складається з клієнтських програ
 - [Підключені можливості в Office](connected-experiences.md)
 - [Параметри політики для налаштування елементів керування конфіденційністю в Office 365 ProPlus](manage-privacy-controls.md)
 - [Параметри налаштування елементів керування конфіденційністю в Office для Mac](mac-privacy-preferences.md)
+- [Параметри налаштування елементів керування конфіденційністю в Office на пристроях з iOS](ios-privacy-preferences.md)
 
 ## <a name="optional-connected-experiences-for-office-365-proplus"></a>Необов'язкові підключені можливості для Office 365 ProPlus
 
@@ -115,6 +117,7 @@ Office 365 ProPlus складається з клієнтських програ
 - [Огляд необов’язкових підключених можливостей Office](optional-connected-experiences.md)
 - [Параметри політики для налаштування елементів керування конфіденційністю в Office 365 ProPlus](manage-privacy-controls.md)
 - [Параметри налаштування елементів керування конфіденційністю в Office для Mac](mac-privacy-preferences.md)
+- [Параметри налаштування елементів керування конфіденційністю в Office на пристроях з iOS](ios-privacy-preferences.md)
 
 ## <a name="required-service-data-for-connected-experiences"></a>Необхідні дані про службу для підключених можливостей
 

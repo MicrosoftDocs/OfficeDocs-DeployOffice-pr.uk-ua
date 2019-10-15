@@ -15,12 +15,12 @@ ms.custom:
 - Ent_Office_Privacy
 description: Ця стаття пропонує адміністраторам Office інформацію про налаштування елементів керування конфіденційністю в Office 365 ProPlus за допомогою параметрів політики.
 hideEdit: true
-ms.openlocfilehash: 041e7c5df5bb046843b07bedc4a8ee9b3848903d
-ms.sourcegitcommit: aed9a0908021ffc80baa7159a66b63dd4f9f28e4
+ms.openlocfilehash: 5f3b63c65d43827befe58ba600c7957410f2d3c0
+ms.sourcegitcommit: 02c4120c0b10bfe378d21d60699ae49aaef97834
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/08/2019
-ms.locfileid: "37417362"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37510318"
 ---
 # <a name="use-policy-settings-to-manage-privacy-controls-for-office-365-proplus"></a>Використання параметрів політики для налаштування елементів керування конфіденційністю в Office 365 ProPlus
 
@@ -43,7 +43,9 @@ ms.locfileid: "37417362"
 Ці параметри політики можна реалізувати за допомогою групової політики або [служби хмарної політики Office](https://docs.microsoft.com/DeployOffice/overview-office-client-policy-service). У разі використання групової політики буде необхідно завантажити найновішу версію файлів адміністративного шаблону (ADMX/ADML) з [Центру завантажень Microsoft](https://www.microsoft.com/download/details.aspx?id=49030).
 
 > [!NOTE]
-> Відомості про налаштування елементів керування конфіденційністю в Office для Mac наведено в статті [Параметри налаштування елементів керування конфіденційністю в Office для Mac](mac-privacy-preferences.md).
+> - Відомості про налаштування елементів керування конфіденційністю в Office для Mac наведено в статті [Параметри налаштування елементів керування конфіденційністю в Office для Mac](mac-privacy-preferences.md).
+> - Використання подібних параметрів в Office на пристроях з iOS описано в статті [Параметри налаштування елементів керування конфіденційністю в Office на пристроях з iOS](ios-privacy-preferences.md).
+
 
 У разі використання засобу керування груповою політикою всі ці параметри політики можна знайти на шляху "Конфігурація користувачів\\Політики\\Адміністративні шаблони\\Microsoft Office 2016\\Конфіденційність\\Центр безпеки та конфіденційності".
 

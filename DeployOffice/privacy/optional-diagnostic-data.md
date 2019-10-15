@@ -13,12 +13,12 @@ ms.custom:
 - Ent_Office_Privacy
 description: Ця стаття пропонує адміністраторам Office відомості про необов’язкові діагностичні дані в Office, зокрема приклади деяких подій.
 hideEdit: true
-ms.openlocfilehash: e4b42e97d7d954a968ad2a1366c6f64235c1d7f0
-ms.sourcegitcommit: 0fd23324ba1364fa1f8dd1578adf25946adde90f
+ms.openlocfilehash: d772a649a78a88112a270e839834cbe48141217f
+ms.sourcegitcommit: 02c4120c0b10bfe378d21d60699ae49aaef97834
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239027"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37510192"
 ---
 # <a name="optional-diagnostic-data-for-office"></a>Необов’язкові діагностичні дані для Office
 
@@ -28,7 +28,7 @@ ms.locfileid: "36239027"
 > - Office 365 персональний, Office 365 домашній або інші версії Office, які входять до передплати на Office 365.
 > - Project і Visio, які входять до деяких планів передплати, як-от план Project Online професійний або Visio Online (план 2).
 >
-> Ця інформація також стосується версії 16.28 або новіших версій перелічених нижче програм Office для Mac: Excel, Outlook, OneNote, PowerPoint і Word.
+> Ця інформація також стосується версії 16.28 або пізнішої версії перелічених нижче програм Office для Mac: Excel, Outlook, OneNote, PowerPoint і Word.
 
 Діагностичні дані служать для підтримки безпеки та актуальності Office, виявлення, діагностування та усунення проблем, а також для вдосконалення продукту. До цих даних не входить ім’я користувача або адреса електронної пошти, вміст файлів, а також відомості про програми, не пов’язані з Office.
 
@@ -50,6 +50,7 @@ ms.locfileid: "36239027"
 - [Огляд елементів керування конфіденційністю в Office 365 ProPlus](overview-privacy-controls.md)
 - [Параметри політики для налаштування елементів керування конфіденційністю в Office 365 ProPlus](manage-privacy-controls.md)
 - [Параметри налаштування елементів керування конфіденційністю в Office для Mac](mac-privacy-preferences.md)
+- [Параметри налаштування елементів керування конфіденційністю в Office на пристроях з iOS](ios-privacy-preferences.md)
 
 ## <a name="categories-of-optional-diagnostic-data"></a>Категорії необов’язкових діагностичних даних
 

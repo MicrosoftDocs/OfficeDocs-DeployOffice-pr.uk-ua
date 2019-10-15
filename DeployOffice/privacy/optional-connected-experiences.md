@@ -13,12 +13,12 @@ ms.custom:
 - Ent_Office_Privacy
 description: Ця стаття пропонує адміністраторам Office інформацію про необов'язкові підключені можливості, зокрема, про застосовні умови користування ними.
 hideEdit: true
-ms.openlocfilehash: e20a2cd70b8c5fbc47abac7288627cd2783855e7
-ms.sourcegitcommit: 0fd23324ba1364fa1f8dd1578adf25946adde90f
+ms.openlocfilehash: c3d6489603ff5cdc5f7a0ea4f187fb24438aeb35
+ms.sourcegitcommit: 02c4120c0b10bfe378d21d60699ae49aaef97834
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36239156"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37510102"
 ---
 # <a name="overview-of-optional-connected-experiences-in-office"></a>Огляд необов’язкових підключених можливостей Office
 
@@ -28,6 +28,7 @@ ms.locfileid: "36239156"
 > Адміністратори можуть переглянути наступні статті, щоб дізнатися, як дозволити або обмежити використання необов’язкових підключених можливостей.
 > - [Параметри політики для налаштування елементів керування конфіденційністю в Office 365 ProPlus](manage-privacy-controls.md)
 > - [Параметри налаштування елементів керування конфіденційністю в Office для Mac](mac-privacy-preferences.md)
+> - [Параметри налаштування елементів керування конфіденційністю в Office на пристроях з iOS](ios-privacy-preferences.md)
 
 ### <a name="if-you-use-these-services-what-terms-of-use-do-you-need-to-agree-to"></a>Якщо ви користуєтеся цими службами, які умови використання ви маєте прийняти?
 
