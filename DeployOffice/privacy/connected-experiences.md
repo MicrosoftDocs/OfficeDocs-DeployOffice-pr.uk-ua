@@ -13,12 +13,12 @@ ms.custom:
 - Ent_Office_Privacy
 description: Відомості для адміністраторів Office щодо підключених можливостей для Office, як-от можливості аналізу вмісту або завантаження вмісту з Інтернету.
 hideEdit: true
-ms.openlocfilehash: 8b9038bdff83c786616ae87565e6ae66ac85516a
-ms.sourcegitcommit: 02c4120c0b10bfe378d21d60699ae49aaef97834
+ms.openlocfilehash: 5bf39e1fbe7e56b77496cfc0756484a9a1c051a0
+ms.sourcegitcommit: acb22296532bbfdfcad4dc1e7162f812997fbdd1
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37510444"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38067574"
 ---
 # <a name="connected-experiences-in-office"></a>Підключені можливості в Office
 
@@ -140,6 +140,7 @@ ms.locfileid: "37510444"
 - [Параметри політики для налаштування елементів керування конфіденційністю в Office 365 ProPlus](manage-privacy-controls.md)
 - [Параметри налаштування елементів керування конфіденційністю в Office для Mac](mac-privacy-preferences.md).
 - [Параметри налаштування елементів керування конфіденційністю в Office на пристроях з iOS](ios-privacy-preferences.md)
+- [Параметри політики для налаштування елементів керування конфіденційністю в Office на пристроях з Android](android-privacy-controls.md)
 
 Якщо ви вирішите не надавати користувачам підключені можливості певного типу, відповідні команди на стрічці або в меню будуть затінені, або буде з’являтися повідомлення про помилку, якщо спробувати скористатися такою підключеною можливістю.
 

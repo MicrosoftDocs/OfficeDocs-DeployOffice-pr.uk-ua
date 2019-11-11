@@ -13,12 +13,12 @@ ms.custom:
 - Ent_Office_Privacy
 description: Ця стаття пропонує адміністраторам Office загальний огляд необхідних даних, які збираються про служби підключених можливостей у програмах Office.
 hideEdit: true
-ms.openlocfilehash: eaa659e375d3d5c29d5410ab53db7ae583df6e9d
-ms.sourcegitcommit: 02c4120c0b10bfe378d21d60699ae49aaef97834
+ms.openlocfilehash: b4cc25ae1c2a34082bff623ad630db664050effb
+ms.sourcegitcommit: acb22296532bbfdfcad4dc1e7162f812997fbdd1
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37510650"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38067253"
 ---
 # <a name="required-service-data-for-office"></a>Необхідні дані про служби для Office 
 
@@ -68,6 +68,7 @@ ms.locfileid: "37510650"
 - [Параметри політики для налаштування елементів керування конфіденційністю в Office 365 ProPlus](manage-privacy-controls.md)
 - [Параметри налаштування елементів керування конфіденційністю в Office для Mac](mac-privacy-preferences.md)
 - [Параметри налаштування елементів керування конфіденційністю в Office на пристроях з iOS](ios-privacy-preferences.md)
+- [Параметри політики для налаштування елементів керування конфіденційністю в Office на пристроях з Android](android-privacy-controls.md)
 
 ## <a name="examples-of-events-for-service-diagnostic-data"></a>Приклади подій для діагностичних даних служби
 

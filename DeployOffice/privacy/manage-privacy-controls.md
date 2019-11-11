@@ -15,12 +15,12 @@ ms.custom:
 - Ent_Office_Privacy
 description: Ця стаття пропонує адміністраторам Office інформацію про налаштування елементів керування конфіденційністю в Office 365 ProPlus за допомогою параметрів політики.
 hideEdit: true
-ms.openlocfilehash: 5f3b63c65d43827befe58ba600c7957410f2d3c0
-ms.sourcegitcommit: 02c4120c0b10bfe378d21d60699ae49aaef97834
+ms.openlocfilehash: 31db528fe639b8685acf56d88d4a4bf8dd406bd3
+ms.sourcegitcommit: acb22296532bbfdfcad4dc1e7162f812997fbdd1
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37510318"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38067484"
 ---
 # <a name="use-policy-settings-to-manage-privacy-controls-for-office-365-proplus"></a>Використання параметрів політики для налаштування елементів керування конфіденційністю в Office 365 ProPlus
 
@@ -45,6 +45,7 @@ ms.locfileid: "37510318"
 > [!NOTE]
 > - Відомості про налаштування елементів керування конфіденційністю в Office для Mac наведено в статті [Параметри налаштування елементів керування конфіденційністю в Office для Mac](mac-privacy-preferences.md).
 > - Використання подібних параметрів в Office на пристроях з iOS описано в статті [Параметри налаштування елементів керування конфіденційністю в Office на пристроях з iOS](ios-privacy-preferences.md).
+> - Використання подібних параметрів в Office на пристроях з Android описано в статті [Параметри політики для налаштування елементів керування конфіденційністю в Office на пристроях з Android](android-privacy-controls.md).
 
 
 У разі використання засобу керування груповою політикою всі ці параметри політики можна знайти на шляху "Конфігурація користувачів\\Політики\\Адміністративні шаблони\\Microsoft Office 2016\\Конфіденційність\\Центр безпеки та конфіденційності".
