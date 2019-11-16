@@ -1,9 +1,12 @@
 # Конфіденційність для Office 365 ProPlus
+
 ## [Огляд елементів керування конфіденційністю](overview-privacy-controls.md)
-## [Налаштування елементів керування конфіденційністю за допомогою параметрів політики](manage-privacy-controls.md)
-## [Налаштування елементів керування конфіденційністю за допомогою параметрів (Mac)](mac-privacy-preferences.md)
-## [Налаштування елементів керування конфіденційністю за допомогою параметрів (iOS)](ios-privacy-preferences.md)
-## [Налаштування елементів керування конфіденційністю за допомогою параметрів політики (Android)](android-privacy-controls.md)
+
+## Налаштування елементів керування конфіденційністю
+### [Параметри політики Windows](manage-privacy-controls.md)
+### [Параметри Mac](mac-privacy-preferences.md)
+### [Параметри iOS](ios-privacy-preferences.md)
+### [Параметри політики Android](android-privacy-controls.md)
 
 ## Діагностичні дані
 ### [Обов’язкові діагностичні дані](required-diagnostic-data.md)
