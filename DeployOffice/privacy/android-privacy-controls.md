@@ -13,12 +13,12 @@ ms.custom:
 - Ent_Office_Privacy
 description: Ця стаття пропонує адміністраторам Office інформацію про налаштування параметрів конфіденційності в Office на пристроях з Android.
 hideEdit: true
-ms.openlocfilehash: 36ae9878d03845c24e3717dfac970b2b961279dc
-ms.sourcegitcommit: acb22296532bbfdfcad4dc1e7162f812997fbdd1
+ms.openlocfilehash: 69a8880b03e63be391731f9882bcee17a81a51ab
+ms.sourcegitcommit: e542473cc4fe07a98874c275846f6982a6863e35
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38068456"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39837735"
 ---
 # <a name="use-policy-settings-to-manage-privacy-controls-for-office-on-android-devices"></a>Параметри політики для налаштування елементів керування конфіденційністю в Office на пристроях з Android
 
@@ -31,7 +31,7 @@ Office на пристроях з Android включає параметри п
 Докладні відомості про діагностичні дані та підключені можливості див. в статті [Огляд елементів керування конфіденційністю](overview-privacy-controls.md).
 
 Ці параметри політики застосовуються до таких програм:
-- Word для Android, Excel для Android і PowerPoint для Android версії 16.0.12226.10000 і новіших;
+- Word для Android, Excel для Android і PowerPoint для Android версії 16.0.12228.20260 і новіших;
 - OneNote для Android версії 16.0.12228.20004 і новіших.
 
 > [!NOTE]
