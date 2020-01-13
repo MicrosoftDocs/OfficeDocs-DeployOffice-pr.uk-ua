@@ -13,12 +13,12 @@ ms.custom:
 - Ent_Office_Privacy
 description: Відомості для адміністраторів Office щодо підключених можливостей для Office, як-от можливості аналізу вмісту або завантаження вмісту з Інтернету.
 hideEdit: true
-ms.openlocfilehash: 5bf39e1fbe7e56b77496cfc0756484a9a1c051a0
-ms.sourcegitcommit: acb22296532bbfdfcad4dc1e7162f812997fbdd1
+ms.openlocfilehash: a2f2a951db371336be1b425b0db45e5e72ea9d75
+ms.sourcegitcommit: aaf8caeee3367ba6cf3c811d1ee3e43cfccc8b33
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38067574"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "41024389"
 ---
 # <a name="connected-experiences-in-office"></a>Підключені можливості в Office
 
@@ -28,7 +28,9 @@ ms.locfileid: "38067574"
 > - Office 365 персональний, Office 365 домашній або інші версії Office, які входять до передплати на Office 365.
 > - Project і Visio, які входять до деяких планів передплати, як-от план Project Online професійний або Visio Online (план 2).
 >
-> Ця інформація також стосується версії 16.28 або новіших версій перелічених нижче програм Office для Mac: Excel, Outlook, OneNote, PowerPoint і Word.
+> Ця інформація також стосується версії 16.28 або пізнішої версії перелічених нижче програм Office для Mac: Excel, Outlook, OneNote, PowerPoint і Word.
+>
+> Ця інформація буде стосуватися версії Outlook для iOS і Android, яка, як очікується, буде випущена наприкінці січня 2020.
 
 До пакета Office входять клієнтські програми й підключені можливості, розроблені для покращення ефективності роботи, спілкування та співпраці. Підключені можливості – це, наприклад, сумісна робота над документом, що зберігається в службі OneDrive, або переклад документа Word на іншу мову.
 
@@ -49,13 +51,16 @@ ms.locfileid: "38067574"
 | Перетворення рукопису на текст, перетворення рукописного фрагмента на фігуру, перетворення рукописного виразу на рівняння | [PowerPoint для Office 365 дозволяє перетворити рукописні фрагменти на фігури, текст або математичні вирази](https://support.office.com/article/0740dec3-6291-4c1f-8baa-011d18449919) |
 | Вставлення даних із зображення| [Вставлення даних із зображення](https://support.office.com/article/3c1bb58d-2c59-4bc0-b04a-a671a6868fd7)|
 | Субтитри в прямому ефірі |  [Проводьте презентації у програмі PowerPoint з автоматичними субтитрами в реальному часі](https://support.office.com/article/68d20e49-aec3-456a-939d-34a79e8ddd5f)   |
+| Пропозиції щодо розташування | Після додавання адреси місця до елемента календаря програма Outlook для iOS і Android також відображатиме повну адресу в полі розташування. |
 | Карти в надбудові Power View   | [Карти в надбудові Power View](https://support.office.com/article/8A9B2AF3-A055-4131-A327-85CC835271F7) |
 | Служба презентацій Office  | [Транслюйте свої презентації PowerPoint віддаленим користувачам](https://support.office.com/article/25330108-518e-44be-a281-e3d85f784fee)    |
 | Дизайнер PowerPoint   | [Створюйте професійні макети слайдів за допомогою Дизайнера PowerPoint](https://support.office.com/article/53c77d7b-dc40-45c2-b684-81415eac0617)   |
 | Публікація в Power BI   | [Публікуйте в Power BI з Excel](https://docs.microsoft.com/power-bi/service-publish-from-excel) |
 | Публікація в Microsoft Stream    | [Перетворюйте презентації на відео](https://support.office.com/article/c140551f-cb37-4818-b5d4-3e30815c3e83#bkmk_microsoftstream)  |
 | Довідкові матеріали   | [Додавайте або змінюйте довідкові служби](https://support.office.com/article/b862efc5-9a7b-4f88-a23d-93712d6e4397)  |
+| Сканування візитної картки|  [Відскануйте або торкніться, щоб додати контакти в Outlook для Android](https://support.office.com/article/4818ef14-0fc8-4ec2-bb4d-440ea8cae17b)|
 | Інтелектуальний пошук   | [Дізнавайтеся більше про те, над чим працюєте](https://support.office.com/article/debf2083-5ac0-4739-8667-ae2467bec044) |
+| Пропоновані відповіді | [Що таке пропоновані відповіді?](https://www.osupportweb.com/a/outlook-mobile/?p=all&s=feature-walkthroughs&f=what-are-suggested-replies)|
 | Дотик для Word (додавання з файлів)   | [Знаходьте й використовуйте потрібний вміст у потрібний вам час, не виходячи з Word](https://support.office.com/article/860118fc-1f61-41f6-922f-40084a284658).   |
 | Перетворення на веб-сторінку   | [Перетворюйте документи Word на веб-сторінки Sway](https://support.office.com/article/65912b2d-8b81-41e1-ac52-c20a65ce8ecf) |
 | Перекладач   | [Перекладайте тексти на інші мови](https://support.office.com/article/287380e4-a56c-48a1-9977-f2dca89ce93f)  |
@@ -68,14 +73,19 @@ ms.locfileid: "38067574"
 
 | **Назва**      | **Докладні відомості**  |
 | ------------- | ------------- |
+| Програми календаря| [Що таке програми календаря?](https://www.osupportweb.com/a/outlook-mobile/?p=android&s=getting-started-on-outlook&f=what-are-calendar-apps) |
 | Хмарні шрифти                 | [Хмарні шрифти у програмі Office](https://support.office.com/article/f7b009fe-037f-45ed-a556-b5fe6ede6adb)  |
 | Типи даних                  | [Типи даних Excel: біржові та географічні дані](https://support.office.com/article/61a33056-9935-484f-8ac8-f1a89e210877)   |
+| Запитання й відповіді |Якщо в Outlook для iOS і Android обрати **Параметри** > **Довідка й відгук** > **Запитання й відповіді** ви потрапите на [https://www.osupportweb.com/a/outlook-mobile](https://www.osupportweb.com/a/outlook-mobile).|
 | Ефекти рукописного вводу                 | [Малювання та писання від руки в Office](https://support.office.com/article/6D76C674-7F4B-414D-B67F-B3FFEF6CCF53)  |
 | Вставлення піктограм                | [Вставлення піктограм у Microsoft Office](https://support.office.com/article/e2459f17-3996-4795-996e-b9a13486fa79)   |
 | Вставлення Microsoft Forms      | [Вставлення форми або тесту в PowerPoint](https://support.office.com/article/1a316f81-9ea7-4bc2-bda0-024c0d780df1) |
 | Вставлення 3D-моделей з джерел в Інтернеті     | [Художнє оформлення вмісту за допомогою тривимірних моделей](https://support.office.com/article/ec5feb79-b0af-47f6-a885-151fcc88ac0a)   |
 | Вставлення зображень з Інтернету      | [Вставлення зображень](https://support.office.com/article/3c51edf4-22e1-460a-b372-9329a8724344)  |
 | Вставлення онлайнового відео     | [Вставлення відео з YouTube або іншого сайту](https://support.office.com/article/8340ec69-4cee-4fe1-ab96-4849154bc6db) |
+| Цікаві календарі| [Підпишіться на календар](https://www.osupportweb.com/a/outlook-mobile/?s=feature-walkthroughs&f=where-do-i-go-on-outlook-to-subscribe-to-an-interesting-calendar&p=all) про улюблені спортивні команди або телепередачі в програмі Outlook для iOS і Android. |
+| Пропозиції щодо розташування | Після додавання адреси місця до елемента календаря програма Outlook для iOS і Android також відображатиме повну адресу в полі розташування. |
+| Карти у відомостях про подію | Дізнайтеся, куди потрібно потрапити за допомогою [Карт](https://www.osupportweb.com/a/outlook-mobile/?s=time-to-leave&f=how-can-i-choose-which-map-will-open-when-i-click-on-get-directions&p=all) у відомостях про подію в Outlook для iOS і Android. |
 | Довідка Office                 | Якщо вам потрібна **Довідка**, > **Довідка** на стрічці або натисніть F1 у програмі Office   |
 | Пошук онлайнових фігур (Visio) | [Додаткові фігури та трафарети](https://support.office.com/article/0475ddea-2a0a-4dec-ab8c-7dda9e63bca9)  |
 | Компонувальник презентації PowerPoint     | [Тематичне дослідження за допомогою Компонувальника презентації PowerPoint](https://support.office.com/article/4784f273-0b2c-456c-9c89-24e5b977c224) |

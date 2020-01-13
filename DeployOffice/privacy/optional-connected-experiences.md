@@ -13,12 +13,12 @@ ms.custom:
 - Ent_Office_Privacy
 description: Ця стаття пропонує адміністраторам Office інформацію про необов'язкові підключені можливості, зокрема, про застосовні умови користування ними.
 hideEdit: true
-ms.openlocfilehash: 7e9207148c9f294e9a1e41d353fa3cdd8878f88c
-ms.sourcegitcommit: 5be570c4403e82352142b3297507cf314815bdea
+ms.openlocfilehash: ab9404b93157875589f2625be51a9e30cc3d0795
+ms.sourcegitcommit: aaf8caeee3367ba6cf3c811d1ee3e43cfccc8b33
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38276519"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "41024479"
 ---
 # <a name="overview-of-optional-connected-experiences-in-office"></a>Огляд необов’язкових підключених можливостей Office
 
@@ -37,7 +37,15 @@ ms.locfileid: "38276519"
 
 ## <a name="experiences-that-rely-on-bing"></a>Можливості, які залежать від Bing
 
-Деякі хмарні служби базуються на платформі Microsoft Bing. Платформа Microsoft Bing існує окремо від Office 365 ProPlus і регулюється корпорацією Майкрософт незалежно від Office 365 ProPlus. У програмах Office 365 ProPlus вона використовується в таких підключених можливостях: [3D Maps](https://support.office.com/article/6b56a50d-3c3e-4a9e-a527-eea62a387030), [Картодіаграми](https://support.office.com/article/f2cfed55-d622-42cd-8ec9-ec8a358b593b), [Вставлення зображень з Інтернету](https://support.office.com/article/3C51EDF4-22E1-460A-B372-9329A8724344), [Вставлення 3D-моделей з Інтернету](https://support.office.com/article/ec5feb79-b0af-47f6-a885-151fcc88ac0a), [Компонувальник презентації PowerPoint](https://support.office.com/article/4784f273-0b2c-456c-9c89-24e5b977c224), [Дослідник](https://support.office.com/article/1728f286-8702-4d72-8169-ab7677ca0e1f) та [Інтелектуальний пошук](https://support.office.com/article/debf2083-5ac0-4739-8667-ae2467bec044). Ці можливості надаються вам на умовах [Угоди про використання служб Microsoft](https://www.microsoft.com/servicesagreement) і підпадають під [декларацію про конфіденційність](https://privacy.microsoft.com/). Будь-які пошукові запити, які ви надсилаєте до організації Office 365 ProPlus під час використання цих служб, передаються до Microsoft Bing. Організація Bing не пов’язує їх із вами.
+Деякі хмарні служби базуються на платформі Microsoft Bing. Платформа Microsoft Bing існує окремо від Office 365 ProPlus і регулюється корпорацією Майкрософт незалежно від Office 365 ProPlus. У програмах Office 365 ProPlus вона використовується в таких підключених можливостях: [3D Maps](https://support.office.com/article/6b56a50d-3c3e-4a9e-a527-eea62a387030), [Картодіаграми](https://support.office.com/article/f2cfed55-d622-42cd-8ec9-ec8a358b593b), [Вставлення зображень з Інтернету](https://support.office.com/article/3C51EDF4-22E1-460A-B372-9329A8724344), [Вставлення 3D-моделей з Інтернету](https://support.office.com/article/ec5feb79-b0af-47f6-a885-151fcc88ac0a), [Компонувальник презентації PowerPoint](https://support.office.com/article/4784f273-0b2c-456c-9c89-24e5b977c224), [Дослідник](https://support.office.com/article/1728f286-8702-4d72-8169-ab7677ca0e1f) та [Інтелектуальний пошук](https://support.office.com/article/debf2083-5ac0-4739-8667-ae2467bec044). 
+
+Bing підтримує в Outlook для iOS і Android перелічені нижче можливості.
+
+- **Пропозиції щодо розташування:**   після додавання адреси місця до елемента календаря програма Outlook для iOS і Android також відображатиме повну адресу в полі розташування.
+- **Цікаві календарі:** можна [підписатися](https://www.osupportweb.com/a/outlook-mobile/?s=feature-walkthroughs&f=where-do-i-go-on-outlook-to-subscribe-to-an-interesting-calendar&p=all) на календарі, присвячені вашим улюбленим спортивним командам або телепрограмам.
+
+
+ Ці можливості Bing надаються вам на умовах [Угоди про використання служб Microsoft](https://www.microsoft.com/servicesagreement) і підпадають під [декларацію про конфіденційність](https://privacy.microsoft.com/). Будь-які пошукові запити, які ви надсилаєте до організації Office 365 ProPlus під час використання цих служб, передаються до Microsoft Bing. Організація Bing не пов’язує їх із вами.
 
 ## <a name="experiences-that-rely-on-linkedin"></a>Можливості, які залежать від LinkedIn
 
@@ -47,9 +55,13 @@ ms.locfileid: "38276519"
 
 ## <a name="experiences-that-rely-on-other-microsoft-owned-online-services-andor-services-owned-by-third-parties"></a>Можливості, які залежать від інших онлайнових служб корпорації Майкрософт і (або) служб, які належать третім особам
 
+### <a name="help--contact-support"></a>Довідка > Зв’язок зі службою підтримки
+
+В Outlook для iOS і Android ви можете повідомити про проблему та зв'язатися з нашою командою підтримки, обравши **Параметри** > **Довідка та відгуки** > **Звернутися до служби підтримки**. Ця можливість працює на платформі, яку надає служба HelpShift, тож до неї застосовуються [умови надання послуг](https://www.helpshift.com/legal/terms/) і [політика конфіденційності](https://www.helpshift.com/legal/privacy/) Helsshift.
+
 ### <a name="help--suggest-a-feature"></a>Запропонувати функцію
 
-"Запропонувати функцію" – це можливість, яка дає змогу надсилати ваші ідеї щодо використання програми Outlook. Ваші пропозиції спрямовуються безпосередньо до сторонньої служби, яка називається UserVoice. У разі надсилання ідей за допомогою можливості "Запропонувати функцію" застосовуються [умови надання послуг і політика конфіденційності UserVoice](https://outlook.uservoice.com/tos).
+"Запропонувати функцію" – це можливість, яка дає змогу надсилати ваші ідеї щодо використання програми Outlook. Ваші пропозиції спрямовуються безпосередньо до сторонньої служби, яка називається UserVoice. У разі надсилання ідей за допомогою можливості "Запропонувати функцію" застосовуються [умови надання послуг](https://outlook.uservoice.com/tos) і [політика конфіденційності](https://outlook.uservoice.com/tos#privacy-policy) UserVoice.
 
 ### <a name="insert-online-video"></a>Вставлення онлайнового відео
 
