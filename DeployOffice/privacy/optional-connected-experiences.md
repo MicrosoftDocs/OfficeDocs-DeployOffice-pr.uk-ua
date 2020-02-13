@@ -13,12 +13,12 @@ ms.custom:
 - Ent_Office_Privacy
 description: Ця стаття пропонує адміністраторам Office інформацію про необов'язкові підключені можливості, зокрема, про застосовні умови користування ними.
 hideEdit: true
-ms.openlocfilehash: ab9404b93157875589f2625be51a9e30cc3d0795
-ms.sourcegitcommit: aaf8caeee3367ba6cf3c811d1ee3e43cfccc8b33
+ms.openlocfilehash: 3cba95a89c0a1f108485565101d10deea5a70a38
+ms.sourcegitcommit: 41232c8500173289b94a025044166f1d1e91e870
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "41024479"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41917730"
 ---
 # <a name="overview-of-optional-connected-experiences-in-office"></a>Огляд необов’язкових підключених можливостей Office
 
@@ -30,6 +30,8 @@ ms.locfileid: "41024479"
 > - [Параметри налаштування елементів керування конфіденційністю в Office для Mac](mac-privacy-preferences.md)
 > - [Параметри налаштування елементів керування конфіденційністю в Office на пристроях з iOS](ios-privacy-preferences.md)
 > - [Параметри політики для налаштування елементів керування конфіденційністю в Office на пристроях з Android](android-privacy-controls.md)
+>
+> Більшість необов’язкових підключених можливостей також можна налаштувати за допомогою елементів керування конфіденційністю для підключених можливостей. Наприклад, ""Вставлення зображення з Інтернету" можна налаштувати за допомогою параметра політики *Дозволити використання в Office підключених можливостей, які завантажують вміст з Інтернету*.
 
 ### <a name="if-you-use-these-services-what-terms-of-use-do-you-need-to-agree-to"></a>Якщо ви користуєтеся цими службами, які умови використання ви маєте прийняти?
 

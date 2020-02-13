@@ -13,12 +13,12 @@ ms.custom:
 - Ent_Office_Privacy
 description: Відомості для адміністраторів Office щодо підключених можливостей для Office, як-от можливості аналізу вмісту або завантаження вмісту з Інтернету.
 hideEdit: true
-ms.openlocfilehash: a2f2a951db371336be1b425b0db45e5e72ea9d75
-ms.sourcegitcommit: aaf8caeee3367ba6cf3c811d1ee3e43cfccc8b33
+ms.openlocfilehash: 6dc32a1456402624ab28e0acbe9c3ef85b6add9d
+ms.sourcegitcommit: 41232c8500173289b94a025044166f1d1e91e870
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "41024389"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41917640"
 ---
 # <a name="connected-experiences-in-office"></a>Підключені можливості в Office
 
@@ -42,8 +42,7 @@ ms.locfileid: "41024389"
 
 | **Назва**   | **Докладні відомості**   |
 | ----------- | ------------------ |
-| 2D Maps    | [Створення картодіаграми](https://support.office.com/article/f2cfed55-d622-42cd-8ec9-ec8a358b593b)  |
-| 3D Maps    | [Початок роботи з надбудовою 3D Maps](https://support.office.com/article/6b56a50d-3c3e-4a9e-a527-eea62a387030)   |
+| 3D Maps\*    | [Початок роботи з надбудовою 3D Maps](https://support.office.com/article/6b56a50d-3c3e-4a9e-a527-eea62a387030)   |
 | Автоматичне додавання тексту заміщення   | [Все, що необхідно знати про написання ефективного тексту заміщення](https://support.office.com/article/df98f884-ca3d-456c-807b-1a1fa82f5dc2) |
 | Диктування  | [Диктування в Office](https://support.office.com/article/d4fd296e-8f15-4168-afec-1f95b13a6408) |
 | Редактор    | [Помічник-редактор](https://support.office.com/article/91ecbe1b-d021-4e9e-a82e-abc4cd7163d7)  |
@@ -51,19 +50,22 @@ ms.locfileid: "41024389"
 | Перетворення рукопису на текст, перетворення рукописного фрагмента на фігуру, перетворення рукописного виразу на рівняння | [PowerPoint для Office 365 дозволяє перетворити рукописні фрагменти на фігури, текст або математичні вирази](https://support.office.com/article/0740dec3-6291-4c1f-8baa-011d18449919) |
 | Вставлення даних із зображення| [Вставлення даних із зображення](https://support.office.com/article/3c1bb58d-2c59-4bc0-b04a-a671a6868fd7)|
 | Субтитри в прямому ефірі |  [Проводьте презентації у програмі PowerPoint з автоматичними субтитрами в реальному часі](https://support.office.com/article/68d20e49-aec3-456a-939d-34a79e8ddd5f)   |
-| Пропозиції щодо розташування | Після додавання адреси місця до елемента календаря програма Outlook для iOS і Android також відображатиме повну адресу в полі розташування. |
+| Картодіаграма\*    | [Створення картодіаграми](https://support.office.com/article/f2cfed55-d622-42cd-8ec9-ec8a358b593b)  |
 | Карти в надбудові Power View   | [Карти в надбудові Power View](https://support.office.com/article/8A9B2AF3-A055-4131-A327-85CC835271F7) |
 | Служба презентацій Office  | [Транслюйте свої презентації PowerPoint віддаленим користувачам](https://support.office.com/article/25330108-518e-44be-a281-e3d85f784fee)    |
 | Дизайнер PowerPoint   | [Створюйте професійні макети слайдів за допомогою Дизайнера PowerPoint](https://support.office.com/article/53c77d7b-dc40-45c2-b684-81415eac0617)   |
 | Публікація в Power BI   | [Публікуйте в Power BI з Excel](https://docs.microsoft.com/power-bi/service-publish-from-excel) |
 | Публікація в Microsoft Stream    | [Перетворюйте презентації на відео](https://support.office.com/article/c140551f-cb37-4818-b5d4-3e30815c3e83#bkmk_microsoftstream)  |
-| Довідкові матеріали   | [Додавайте або змінюйте довідкові служби](https://support.office.com/article/b862efc5-9a7b-4f88-a23d-93712d6e4397)  |
+| Довідкові матеріали\*   | [Додавайте або змінюйте довідкові служби](https://support.office.com/article/b862efc5-9a7b-4f88-a23d-93712d6e4397)  |
 | Сканування візитної картки|  [Відскануйте або торкніться, щоб додати контакти в Outlook для Android](https://support.office.com/article/4818ef14-0fc8-4ec2-bb4d-440ea8cae17b)|
-| Інтелектуальний пошук   | [Дізнавайтеся більше про те, над чим працюєте](https://support.office.com/article/debf2083-5ac0-4739-8667-ae2467bec044) |
+| Інтелектуальний пошук\*   | [Дізнавайтеся більше про те, над чим працюєте](https://support.office.com/article/debf2083-5ac0-4739-8667-ae2467bec044) |
 | Пропоновані відповіді | [Що таке пропоновані відповіді?](https://www.osupportweb.com/a/outlook-mobile/?p=all&s=feature-walkthroughs&f=what-are-suggested-replies)|
 | Дотик для Word (додавання з файлів)   | [Знаходьте й використовуйте потрібний вміст у потрібний вам час, не виходячи з Word](https://support.office.com/article/860118fc-1f61-41f6-922f-40084a284658).   |
 | Перетворення на веб-сторінку   | [Перетворюйте документи Word на веб-сторінки Sway](https://support.office.com/article/65912b2d-8b81-41e1-ac52-c20a65ce8ecf) |
 | Перекладач   | [Перекладайте тексти на інші мови](https://support.office.com/article/287380e4-a56c-48a1-9977-f2dca89ce93f)  |
+
+> [!NOTE]
+> \*Якщо користувачі виконали вхід за допомогою робочого або навчального облікового запису, ця підключена можливість є необов’язковою й надається відповідно до умов [Угоди про використання служб Microsoft](https://www.microsoft.com/servicesagreement) і [декларації про конфіденційність](https://privacy.microsoft.com/), а також відповідно до інших умов. Докладні відомості див. в розділі [Огляд необов’язкових підключених можливостей в Office](optional-connected-experiences.md). Якщо у вас є права адміністратора, цю підключену можливість можна налаштувати за допомогою елементів керування конфіденційністю для підключених можливостей або застосовуючи параметр політики *Дозволити використання в Office додаткових необов’язкових підключених можливостей*.
 
 ## <a name="connected-experiences-that-download-online-content"></a>Підключені можливості, які завантажують вміст із мережі
 
@@ -80,19 +82,22 @@ ms.locfileid: "41024389"
 | Ефекти рукописного вводу                 | [Малювання та писання від руки в Office](https://support.office.com/article/6D76C674-7F4B-414D-B67F-B3FFEF6CCF53)  |
 | Вставлення піктограм                | [Вставлення піктограм у Microsoft Office](https://support.office.com/article/e2459f17-3996-4795-996e-b9a13486fa79)   |
 | Вставлення Microsoft Forms      | [Вставлення форми або тесту в PowerPoint](https://support.office.com/article/1a316f81-9ea7-4bc2-bda0-024c0d780df1) |
-| Вставлення 3D-моделей з джерел в Інтернеті     | [Художнє оформлення вмісту за допомогою тривимірних моделей](https://support.office.com/article/ec5feb79-b0af-47f6-a885-151fcc88ac0a)   |
-| Вставлення зображень з Інтернету      | [Вставлення зображень](https://support.office.com/article/3c51edf4-22e1-460a-b372-9329a8724344)  |
-| Вставлення онлайнового відео     | [Вставлення відео з YouTube або іншого сайту](https://support.office.com/article/8340ec69-4cee-4fe1-ab96-4849154bc6db) |
-| Цікаві календарі| [Підпишіться на календар](https://www.osupportweb.com/a/outlook-mobile/?s=feature-walkthroughs&f=where-do-i-go-on-outlook-to-subscribe-to-an-interesting-calendar&p=all) про улюблені спортивні команди або телепередачі в програмі Outlook для iOS і Android. |
-| Пропозиції щодо розташування | Після додавання адреси місця до елемента календаря програма Outlook для iOS і Android також відображатиме повну адресу в полі розташування. |
+| Вставлення 3D-моделей з Інтернету\*     | [Використання тривимірних моделей для художнього оформлення вмісту](https://support.office.com/article/ec5feb79-b0af-47f6-a885-151fcc88ac0a)   |
+| Вставлення зображень з Інтернету\*      | [Вставлення зображень](https://support.office.com/article/3c51edf4-22e1-460a-b372-9329a8724344)  |
+| Вставлення онлайнового відео\*     | [Вставлення відео з YouTube або іншого сайту](https://support.office.com/article/8340ec69-4cee-4fe1-ab96-4849154bc6db) |
+| Цікаві календарі\*| [Підпишіться на календар](https://www.osupportweb.com/a/outlook-mobile/?s=feature-walkthroughs&f=where-do-i-go-on-outlook-to-subscribe-to-an-interesting-calendar&p=all) про улюблені спортивні команди або телепередачі в програмі Outlook для iOS і Android. |
+| Пропозиції щодо розташування\* | Після додавання адреси місця до елемента календаря програма Outlook для iOS і Android також відображатиме повну адресу в полі розташування. |
 | Карти у відомостях про подію | Дізнайтеся, куди потрібно потрапити за допомогою [Карт](https://www.osupportweb.com/a/outlook-mobile/?s=time-to-leave&f=how-can-i-choose-which-map-will-open-when-i-click-on-get-directions&p=all) у відомостях про подію в Outlook для iOS і Android. |
 | Довідка Office                 | Якщо вам потрібна **Довідка**, > **Довідка** на стрічці або натисніть F1 у програмі Office   |
 | Пошук онлайнових фігур (Visio) | [Додаткові фігури та трафарети](https://support.office.com/article/0475ddea-2a0a-4dec-ab8c-7dda9e63bca9)  |
-| Компонувальник презентації PowerPoint     | [Тематичне дослідження за допомогою Компонувальника презентації PowerPoint](https://support.office.com/article/4784f273-0b2c-456c-9c89-24e5b977c224) |
-| Дослідник    | [Просте проведення досліджень у Word](https://support.office.com/article/1728f286-8702-4d72-8169-ab7677ca0e1f) |
+| Компонувальник презентації PowerPoint\*     | [Тематичне дослідження за допомогою Компонувальника презентації PowerPoint](https://support.office.com/article/4784f273-0b2c-456c-9c89-24e5b977c224) |
+| Дослідник\*    | [Просте проведення досліджень у Word](https://support.office.com/article/1728f286-8702-4d72-8169-ab7677ca0e1f) |
 | Допомога    | [Пришвидшення роботи завдяки функції «Допомога»](https://support.office.com/article/f20d2198-17b8-4b09-a3e5-007a337f1e4e)  |
 | Шаблони  | [Безкоштовне завантаження попередньо створених шаблонів](https://support.office.com/article/29f2a18d-29a6-4a07-998b-cfe5ff7ffbbb)  |
-| Панель погоди (Outlook)| [Змінення міста для прогнозу погоди на панелі погоди календаря](https://support.office.com/article/D11B7532-7C58-489E-8103-5CC5D727B06B) |
+| Панель погоди\* (Outlook)| [Змінення міста для прогнозу погоди на панелі погоди календаря](https://support.office.com/article/D11B7532-7C58-489E-8103-5CC5D727B06B) |
+
+> [!NOTE]
+>\*Якщо користувачі виконали вхід за допомогою робочого або навчального облікового запису, ця підключена можливість є необов’язковою й надається відповідно до умов [Угоди про використання служб Microsoft](https://www.microsoft.com/servicesagreement) і [декларації про конфіденційність](https://privacy.microsoft.com/), а також відповідно до інших умов. Докладні відомості див. в розділі [Огляд необов’язкових підключених можливостей в Office](optional-connected-experiences.md). Якщо у вас є права адміністратора, цю підключену можливість можна налаштувати за допомогою елементів керування конфіденційністю для підключених можливостей або застосовуючи параметр політики *Дозволити використання в Office додаткових необов’язкових підключених можливостей*.
 
 ## <a name="other-connected-experiences"></a>Інші підключені можливості
 
@@ -117,12 +122,12 @@ ms.locfileid: "41024389"
 | Картки контактів з LinkedIn |[Зв’яжіть облікові записи LinkedIn і Microsoft](https://support.office.com/article/dc81cc70-4d64-4755-9f1c-b9536e34d381)  |
 | Відгук про Office |[Надання відгуку про Microsoft Office](https://support.office.com/article/2b102d44-b43f-4dd2-9ff4-23cf144cfb11)  |
 | Служба підтримки клієнтів Office (зверніться до нас) |Якщо вам потрібна **Довідка**, > **Зв’язок зі службою підтримки** на стрічці |
-| Надбудови Office 365 | [Налаштування розгортання надбудов Office 365 у Центрі адміністрування Microsoft 365](https://docs.microsoft.com/office365/admin/manage/manage-deployment-of-add-ins) |
+| Надбудови Office 365\* | [Налаштування розгортання надбудов Office 365 у Центрі адміністрування Microsoft 365](https://docs.microsoft.com/office365/admin/manage/manage-deployment-of-add-ins) |
 | Організаційна діаграма (Visio) |[Створення організаційної діаграми у Visio](https://support.office.com/article/abb3dd17-2692-439f-9945-3a015767d96a)  |
 | Надбудова Outlook Social Connector | [Увімкнення надбудови Outlook Social Connector](https://support.office.com/article/255447E8-82CD-48E7-9B79-1DD8721A2907) |
-| Outlook UserVoice | [Надання відгуку про Microsoft Office](https://support.office.com/article/2b102d44-b43f-4dd2-9ff4-23cf144cfb11) |
+| Outlook UserVoice\* | [Надання відгуку про Microsoft Office](https://support.office.com/article/2b102d44-b43f-4dd2-9ff4-23cf144cfb11) |
 | Нещодавні документи |[Відкриття файлів із меню «Файл»](https://support.office.com/article/97f087d8-3136-4485-8e86-c5b12a8c4176)  |
-| Укладач резюме |[Створення резюме на основі пропозицій з LinkedIn та з допомогою Укладача резюме](https://support.office.com/article/444ff6f0-ef74-4a9c-9091-ffd7a9d1917a")  |
+| Укладач резюме\* |[Створення резюме на основі пропозицій з LinkedIn та з допомогою Укладача резюме](https://support.office.com/article/444ff6f0-ef74-4a9c-9091-ffd7a9d1917a")  |
 | Пошук аудиторій (Outlook)|[Як керувати пошуком аудиторій у програмі Outlook](https://support.microsoft.com/help/2673231/how-to-control-the-room-finder-in-outlook)  |
 | Безпечні посилання |[Функція «Безпека посилань» у системі «Розширений захист від загроз» в Office 365](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links)  |
 | Мітки конфіденційності |[Застосування міток конфіденційності до документів і електронної пошти в Office](https://support.office.com/article/2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)  |
@@ -133,6 +138,8 @@ ms.locfileid: "41024389"
 | Журнал версій |[Перегляд попередніх версій файлів Office](https://support.office.com/article/5c1e076f-a9c9-41b8-8ace-f77b9642e2c2)  |
 | Актуальне |[Отримання сповіщень про зміни, внесені до спільного файлу учасниками вашої групи](https://support.office.com/article/9cc94893-02d5-4d96-9b3f-8b9414d5047a)  |
 
+> [!NOTE]
+>\*Якщо користувачі виконали вхід за допомогою робочого або навчального облікового запису, ця підключена можливість є необов’язковою й надається відповідно до умов [Угоди про використання служб Microsoft](https://www.microsoft.com/servicesagreement) і [декларації про конфіденційність](https://privacy.microsoft.com/), а також відповідно до інших умов. Докладні відомості див. в розділі [Огляд необов’язкових підключених можливостей в Office](optional-connected-experiences.md). Якщо у вас є права адміністратора, цю підключену можливість можна налаштувати за допомогою елементів керування конфіденційністю для підключених можливостей або застосовуючи параметр політики *Дозволити використання в Office додаткових необов’язкових підключених можливостей*.
 
 ## <a name="choose-whether-these-connected-experiences-are-available-to-use"></a>Вирішіть чи ці підключені можливості будуть доступні 
 
