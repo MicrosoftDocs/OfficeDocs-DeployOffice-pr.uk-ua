@@ -13,12 +13,12 @@ ms.custom:
 - Ent_Office_Privacy
 description: Ця стаття пропонує адміністраторам Office інформацію про необов'язкові підключені можливості, зокрема, про застосовні умови користування ними.
 hideEdit: true
-ms.openlocfilehash: 3cba95a89c0a1f108485565101d10deea5a70a38
-ms.sourcegitcommit: 41232c8500173289b94a025044166f1d1e91e870
+ms.openlocfilehash: 0c48bd091998e12603e09fcc9b6ce42207e2d95b
+ms.sourcegitcommit: d07de5b2fc7ea02171b84ff34bf4db9686683ed5
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41917730"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42340873"
 ---
 # <a name="overview-of-optional-connected-experiences-in-office"></a>Огляд необов’язкових підключених можливостей Office
 
@@ -59,7 +59,7 @@ Bing підтримує в Outlook для iOS і Android перелічені н
 
 ### <a name="help--contact-support"></a>Довідка > Зв’язок зі службою підтримки
 
-В Outlook для iOS і Android ви можете повідомити про проблему та зв'язатися з нашою командою підтримки, обравши **Параметри** > **Довідка та відгуки** > **Звернутися до служби підтримки**. Ця можливість працює на платформі, яку надає служба HelpShift, тож до неї застосовуються [умови надання послуг](https://www.helpshift.com/legal/terms/) і [політика конфіденційності](https://www.helpshift.com/legal/privacy/) Helsshift.
+В Outlook для iOS і Android ви можете повідомити про проблему та зв'язатися з нашою командою підтримки, обравши **Параметри** > **Довідка та відгуки** > **Звернутися до служби підтримки**. Для цього необхідна служба PowerLift, яка належить корпорації Майкрософт і до якої застосовуються умови [Угоди про використання служб Microsoft](https://www.microsoft.com/servicesagreement) і [Декларації корпорації Майкрософт про конфіденційність](https://privacy.microsoft.com/).
 
 ### <a name="help--suggest-a-feature"></a>Запропонувати функцію
 
