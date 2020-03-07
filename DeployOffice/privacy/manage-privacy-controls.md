@@ -16,11 +16,11 @@ ms.custom:
 description: Ця стаття пропонує адміністраторам Office інформацію про налаштування елементів керування конфіденційністю в Office 365 ProPlus за допомогою параметрів політики.
 hideEdit: true
 ms.openlocfilehash: ee02079595157af2fea8883069a640b90ff962d2
-ms.sourcegitcommit: ff396a54d8e36d71ebc4cade5014eb502952dc65
+ms.sourcegitcommit: bec0b4de9d1e5444a5418d2c9d1434ee5489199a
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38639359"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42556009"
 ---
 # <a name="use-policy-settings-to-manage-privacy-controls-for-office-365-proplus"></a>Використання параметрів політики для налаштування елементів керування конфіденційністю в Office 365 ProPlus
 
