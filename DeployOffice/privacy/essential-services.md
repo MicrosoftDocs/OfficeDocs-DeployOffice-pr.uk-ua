@@ -13,12 +13,12 @@ ms.custom:
 - Ent_Office_Privacy
 description: У цій статті наведено відомості про основні служби в Office, як-от "Office умить" і ліцензування, а також список подій і полів даних для основних служб.
 hideEdit: true
-ms.openlocfilehash: d5c5fc824e380741287f0393cdae947d1aabda2d
-ms.sourcegitcommit: 6f5af9a707a833b84202040f998361383f488d23
+ms.openlocfilehash: 2d285e2e0494b08e6d17a0a72bd8465e6c8edce7
+ms.sourcegitcommit: 2b494bb428a3a1b837376c0ab9ef9c2357e3165f
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42225013"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42939783"
 ---
 # <a name="essential-services-for-office"></a>Основні служби для Office
 
@@ -40,7 +40,7 @@ ms.locfileid: "42225013"
 
 Адміністратору організації також можуть бути корисними такі ресурси:
 
-- [Огляд елементів керування конфіденційністю в Office 365 ProPlus](overview-privacy-controls.md)
+- [Огляд елементів керування конфіденційністю в Office 365 ProPlus](overview-privacy-controls.md)
 - [Параметри політики для налаштування елементів керування конфіденційністю в Office 365 ProPlus](manage-privacy-controls.md)
 - [Параметри налаштування елементів керування конфіденційністю в Office для Mac](mac-privacy-preferences.md)
 - [Параметри налаштування елементів керування конфіденційністю в Office на пристроях з iOS](ios-privacy-preferences.md)
@@ -490,7 +490,7 @@ ms.locfileid: "42225013"
 
   - **Data\_PrereqFailure\_Type** – помилка, пов’язана з обов’язковими компонентами (наприклад, непідтримуваною операційною системою).
 
-  - **Data\_ProductReleaseId** – продукт, що інсталюється (наприклад, Office 365 ProPlus).
+  - **Data\_ProductReleaseId** – продукт, що інсталюється (наприклад, Office 365 ProPlus).
 
 ### <a name="officeclicktoruncorruptioncheck"></a>Office.ClickToRun.CorruptionCheck
 
@@ -661,7 +661,7 @@ ms.locfileid: "42225013"
 
   - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
 
-  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
+  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
 
   - **Data\_15\_Version** – версія Office 15. 
 
@@ -675,7 +675,7 @@ ms.locfileid: "42225013"
 
   - **Data\_AddingFixedProducts** – продукти, які додаються. 
 
-  - **Data\_AddingProducts** – продукти, додавання яких запитується. 
+  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
 
   - **Data\_CompletionState** – указує, чи виконано завдання.
 
@@ -699,7 +699,7 @@ ms.locfileid: "42225013"
 
   - **Data\_ProductsToAdd** – продукти Office, які додаються. 
 
-  - **Data\_ProductsToRemove** – продукти Office, які вилучаються. 
+  - **Data\_ProductsToRemove** – продукти Office, які вилучаються. 
 
   - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
 
@@ -737,7 +737,7 @@ ms.locfileid: "42225013"
 
   - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
 
-  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
+  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
 
   - **Data\_15\_Version** – версія Office 15. 
 
@@ -751,7 +751,7 @@ ms.locfileid: "42225013"
 
   - **Data\_AddingFixedProducts** – продукти, які додаються. 
 
-  - **Data\_AddingProducts** – продукти, додавання яких запитується. 
+  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
 
   - **Data\_CompletionState** – указує, чи виконано завдання.
 
@@ -775,7 +775,7 @@ ms.locfileid: "42225013"
 
   - **Data\_ProductsToAdd** – продукти Office, які додаються. 
 
-  - **Data\_ProductsToRemove** – продукти Office, які вилучаються. 
+  - **Data\_ProductsToRemove**  – продукти Office, які вилучаються. 
 
   - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
 
@@ -813,7 +813,7 @@ ms.locfileid: "42225013"
 
   - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
 
-  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення.
+  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення.
 
   - **Data\_15\_Version** – версія Office 15. 
 
@@ -827,7 +827,7 @@ ms.locfileid: "42225013"
 
   - **Data\_AddingFixedProducts** – продукти, які додаються. 
 
-  - **Data\_AddingProducts** – продукти, додавання яких запитується. 
+  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
 
   - **Data\_CompletionState** – указує, чи виконано завдання.
 
@@ -851,7 +851,7 @@ ms.locfileid: "42225013"
 
   - **Data\_ProductsToAdd** – продукти Office, які додаються. 
 
-  - **Data\_ProductsToRemove** – продукти Office, які вилучаються. 
+  - **Data\_ProductsToRemove**  – продукти Office, які вилучаються. 
 
   - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
 
@@ -889,7 +889,7 @@ ms.locfileid: "42225013"
 
   - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
 
-  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
+  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
 
   - **Data\_15\_Version** – версія Office 15. 
 
@@ -903,7 +903,7 @@ ms.locfileid: "42225013"
 
   - **Data\_AddingFixedProducts** – продукти, які додаються. 
 
-  - **Data\_AddingProducts** – продукти, додавання яких запитується. 
+  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
 
   - **Data\_CompletionState** – указує, чи виконано завдання.
 
@@ -927,7 +927,7 @@ ms.locfileid: "42225013"
 
   - **Data\_ProductsToAdd** – продукти Office, які додаються. 
 
-  - **Data\_ProductsToRemove** – продукти Office, які вилучаються. 
+  - **Data\_ProductsToRemove**  – продукти Office, які вилучаються. 
 
   - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
 
@@ -965,7 +965,7 @@ ms.locfileid: "42225013"
 
   - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
 
-  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
+  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
 
   - **Data\_15\_Version** – версія Office 15. 
 
@@ -979,7 +979,7 @@ ms.locfileid: "42225013"
 
   - **Data\_AddingFixedProducts** – продукти, які додаються. 
 
-  - **Data\_AddingProducts** – продукти, додавання яких запитується. 
+  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
 
   - **Data\_CompletionState** – указує, чи виконано завдання.
 
@@ -1003,7 +1003,7 @@ ms.locfileid: "42225013"
 
   - **Data\_ProductsToAdd** – продукти Office, які додаються. 
 
-  - **Data\_ProductsToRemove** – продукти Office, які вилучаються. 
+  - **Data\_ProductsToRemove**  – продукти Office, які вилучаються. 
 
   - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
 
@@ -1041,7 +1041,7 @@ ms.locfileid: "42225013"
 
   - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
 
-  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення.
+  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення.
 
   - **Data\_15\_Version** – версія Office 15. 
 
@@ -1055,7 +1055,7 @@ ms.locfileid: "42225013"
 
   - **Data\_AddingFixedProducts** – продукти, які додаються. 
 
-  - **Data\_AddingProducts** – продукти, додавання яких запитується. 
+  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
 
   - **Data\_CompletionState** – указує, чи виконано завдання.
 
@@ -1079,7 +1079,7 @@ ms.locfileid: "42225013"
 
   - **Data\_ProductsToAdd** – продукти Office, які додаються. 
 
-  - **Data\_ProductsToRemove** – продукти Office, які вилучаються. 
+  - **Data\_ProductsToRemove**  – продукти Office, які вилучаються. 
 
   - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
 
@@ -1117,7 +1117,7 @@ ms.locfileid: "42225013"
 
   - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
 
-  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення.
+  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення.
 
   - **Data\_15\_Version** – версія Office 15. 
 
@@ -1131,7 +1131,7 @@ ms.locfileid: "42225013"
 
   - **Data\_AddingFixedProducts** – продукти, які додаються. 
 
-  - **Data\_AddingProducts** – продукти, додавання яких запитується. 
+  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
 
   - **Data\_CompletionState** – указує, чи виконано завдання.
 
@@ -1155,7 +1155,7 @@ ms.locfileid: "42225013"
 
   - **Data\_ProductsToAdd** – продукти Office, які додаються. 
 
-  - **Data\_ProductsToRemove** – продукти Office, які вилучаються. 
+  - **Data\_ProductsToRemove**  – продукти Office, які вилучаються. 
 
   - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
 
@@ -1193,7 +1193,7 @@ ms.locfileid: "42225013"
 
   - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
 
-  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення.
+  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення.
 
   - **Data\_15\_Version** – версія Office 15. 
 
@@ -1207,7 +1207,7 @@ ms.locfileid: "42225013"
 
   - **Data\_AddingFixedProducts** – продукти, які додаються. 
 
-  - **Data\_AddingProducts** – продукти, додавання яких запитується. 
+  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
 
   - **Data\_CompletionState** – указує, чи виконано завдання.
 
@@ -1231,7 +1231,7 @@ ms.locfileid: "42225013"
 
   - **Data\_ProductsToAdd** – продукти Office, які додаються. 
 
-  - **Data\_ProductsToRemove** – продукти Office, які вилучаються. 
+  - **Data\_ProductsToRemove**  – продукти Office, які вилучаються. 
 
   - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
 
@@ -1269,7 +1269,7 @@ ms.locfileid: "42225013"
 
   - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
 
-  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення.
+  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення.
 
   - **Data\_15\_Version** – версія Office 15. 
 
@@ -1283,7 +1283,7 @@ ms.locfileid: "42225013"
 
   - **Data\_AddingFixedProducts** – продукти, які додаються. 
 
-  - **Data\_AddingProducts** – продукти, додавання яких запитується. 
+  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
 
   - **Data\_CompletionState** – указує, чи виконано завдання.
 
@@ -1307,7 +1307,7 @@ ms.locfileid: "42225013"
 
   - **Data\_ProductsToAdd** – продукти Office, які додаються. 
 
-  - **Data\_ProductsToRemove** – продукти Office, які вилучаються. 
+  - **Data\_ProductsToRemove**  – продукти Office, які вилучаються. 
 
   - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
 
@@ -1359,7 +1359,7 @@ ms.locfileid: "42225013"
 
   - **Data\_AddingFixedProducts** – продукти, які додаються. 
 
-  - **Data\_AddingProducts** – продукти, додавання яких запитується. 
+  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
 
   - **Data\_CompletionState** – указує, чи виконано завдання.
 
@@ -1383,7 +1383,7 @@ ms.locfileid: "42225013"
 
   - **Data\_ProductsToAdd** – продукти Office, які додаються. 
 
-  - **Data\_ProductsToRemove** – продукти Office, які вилучаються. 
+  - **Data\_ProductsToRemove**  – продукти Office, які вилучаються. 
 
   - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
 
@@ -1459,7 +1459,7 @@ ms.locfileid: "42225013"
 
   - **Data\_ProductsToAdd** – продукти Office, які додаються. 
 
-  - **Data\_ProductsToRemove** – продукти Office, які вилучаються. 
+  - **Data\_ProductsToRemove**  – продукти Office, які вилучаються. 
 
   - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
 
@@ -1497,7 +1497,7 @@ ms.locfileid: "42225013"
 
   - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
 
-  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
+  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
 
   - **Data\_15\_Version** – версія Office 15. 
 
@@ -1511,7 +1511,7 @@ ms.locfileid: "42225013"
 
   - **Data\_AddingFixedProducts** – продукти, які додаються. 
 
-  - **Data\_AddingProducts** – продукти, додавання яких запитується. 
+  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
 
   - **Data\_CompletionState** – указує, чи виконано завдання.
 
@@ -1535,7 +1535,7 @@ ms.locfileid: "42225013"
 
   - **Data\_ProductsToAdd** – продукти Office, які додаються. 
 
-  - **Data\_ProductsToRemove** – продукти Office, які вилучаються. 
+  - **Data\_ProductsToRemove**  – продукти Office, які вилучаються. 
 
   - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
 
@@ -1587,7 +1587,7 @@ ms.locfileid: "42225013"
 
   - **Data\_AddingFixedProducts** – продукти, які додаються. 
 
-  - **Data\_AddingProducts** – продукти, додавання яких запитується. 
+  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
 
   - **Data\_CompletionState** – указує, чи виконано завдання.
 
@@ -1611,7 +1611,7 @@ ms.locfileid: "42225013"
 
   - **Data\_ProductsToAdd** – продукти Office, які додаються. 
 
-  - **Data\_ProductsToRemove** – продукти Office, які вилучаються. 
+  - **Data\_ProductsToRemove**  – продукти Office, які вилучаються. 
 
   - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
 
@@ -1649,7 +1649,7 @@ ms.locfileid: "42225013"
 
   - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
 
-  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
+  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
 
   - **Data\_15\_Version** – версія Office 15. 
 
@@ -1663,7 +1663,7 @@ ms.locfileid: "42225013"
 
   - **Data\_AddingFixedProducts** – продукти, які додаються. 
 
-  - **Data\_AddingProducts** – продукти, додавання яких запитується. 
+  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
 
   - **Data\_CompletionState** – указує, чи виконано завдання.
 
@@ -1687,7 +1687,7 @@ ms.locfileid: "42225013"
 
   - **Data\_ProductsToAdd** – продукти Office, які додаються. 
 
-  - **Data\_ProductsToRemove** – продукти Office, які вилучаються. 
+  - **Data\_ProductsToRemove**  – продукти Office, які вилучаються. 
 
   - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
 
@@ -1725,7 +1725,7 @@ ms.locfileid: "42225013"
 
   - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
 
-  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
+  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
 
   - **Data\_15\_Version** – версія Office 15. 
 
@@ -1739,7 +1739,7 @@ ms.locfileid: "42225013"
 
   - **Data\_AddingFixedProducts** – продукти, які додаються. 
 
-  - **Data\_AddingProducts** – продукти, додавання яких запитується. 
+  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
 
   - **Data\_CompletionState** – указує, чи виконано завдання.
 
@@ -1763,7 +1763,7 @@ ms.locfileid: "42225013"
 
   - **Data\_ProductsToAdd** – продукти Office, які додаються. 
 
-  - **Data\_ProductsToRemove** – продукти Office, які вилучаються. 
+  - **Data\_ProductsToRemove**  – продукти Office, які вилучаються. 
 
   - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
 
@@ -1801,7 +1801,7 @@ ms.locfileid: "42225013"
 
   - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
 
-  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
+  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
 
   - **Data\_15\_Version** – версія Office 15. 
 
@@ -1815,7 +1815,7 @@ ms.locfileid: "42225013"
 
   - **Data\_AddingFixedProducts** – продукти, які додаються. 
 
-  - **Data\_AddingProducts** – продукти, додавання яких запитується. 
+  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
 
   - **Data\_CompletionState** – указує, чи виконано завдання.
 
@@ -1839,7 +1839,7 @@ ms.locfileid: "42225013"
 
   - **Data\_ProductsToAdd** – продукти Office, які додаються. 
 
-  - **Data\_ProductsToRemove** – продукти Office, які вилучаються. 
+  - **Data\_ProductsToRemove**  – продукти Office, які вилучаються. 
 
   - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
 
@@ -1877,7 +1877,7 @@ ms.locfileid: "42225013"
 
   - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
 
-  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
+  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
 
   - **Data\_15\_Version** – версія Office 15. 
 
@@ -1891,7 +1891,7 @@ ms.locfileid: "42225013"
 
   - **Data\_AddingFixedProducts** – продукти, які додаються. 
 
-  - **Data\_AddingProducts** – продукти, додавання яких запитується. 
+  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
 
   - **Data\_CompletionState** – указує, чи виконано завдання.
 
@@ -1915,7 +1915,7 @@ ms.locfileid: "42225013"
 
   - **Data\_ProductsToAdd** – продукти Office, які додаються. 
 
-  - **Data\_ProductsToRemove** – продукти Office, які вилучаються. 
+  - **Data\_ProductsToRemove**  – продукти Office, які вилучаються. 
 
   - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
 
@@ -1953,7 +1953,7 @@ ms.locfileid: "42225013"
 
   - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
 
-  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
+  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
 
   - **Data\_15\_Version** – версія Office 15. 
 
@@ -1967,7 +1967,7 @@ ms.locfileid: "42225013"
 
   - **Data\_AddingFixedProducts** – продукти, які додаються. 
 
-  - **Data\_AddingProducts** – продукти, додавання яких запитується. 
+  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
 
   - **Data\_CompletionState** – указує, чи виконано завдання.
 
@@ -1991,7 +1991,7 @@ ms.locfileid: "42225013"
 
   - **Data\_ProductsToAdd** – продукти Office, які додаються. 
 
-  - **Data\_ProductsToRemove** – продукти Office, які вилучаються. 
+  - **Data\_ProductsToRemove**  – продукти Office, які вилучаються. 
 
   - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
 
@@ -2029,7 +2029,7 @@ ms.locfileid: "42225013"
 
   - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
 
-  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
+  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
 
   - **Data\_15\_Version** – версія Office 15. 
 
@@ -2043,7 +2043,7 @@ ms.locfileid: "42225013"
 
   - **Data\_AddingFixedProducts** – продукти, які додаються. 
 
-  - **Data\_AddingProducts** – продукти, додавання яких запитується. 
+  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
 
   - **Data\_AvailableVersion** – указує, для якої версії Office доступні оновлення.
 
@@ -2077,7 +2077,7 @@ ms.locfileid: "42225013"
 
   - **Data\_ProductsToAdd** – продукти Office, які додаються. 
 
-  - **Data\_ProductsToRemove** – продукти Office, які вилучаються. 
+  - **Data\_ProductsToRemove**  – продукти Office, які вилучаються. 
 
   - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
 
@@ -2117,7 +2117,7 @@ ms.locfileid: "42225013"
 
   - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
 
-  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
+  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
 
   - **Data\_15\_Version** – версія Office 15. 
 
@@ -2131,7 +2131,7 @@ ms.locfileid: "42225013"
 
   - **Data\_AddingFixedProducts** – продукти, які додаються. 
 
-  - **Data\_AddingProducts** – продукти, додавання яких запитується. 
+  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
 
   - **Data\_CompletionState** – указує, чи виконано завдання.
 
@@ -2155,7 +2155,7 @@ ms.locfileid: "42225013"
 
   - **Data\_ProductsToAdd** – продукти Office, які додаються. 
 
-  - **Data\_ProductsToRemove** – продукти Office, які вилучаються. 
+  - **Data\_ProductsToRemove**  – продукти Office, які вилучаються. 
 
   - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
 
@@ -2193,7 +2193,7 @@ ms.locfileid: "42225013"
 
   - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
 
-  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
+  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
 
   - **Data\_15\_Version** – версія Office 15. 
 
@@ -2207,7 +2207,7 @@ ms.locfileid: "42225013"
 
   - **Data\_AddingFixedProducts** – продукти, які додаються. 
 
-  - **Data\_AddingProducts** – продукти, додавання яких запитується. 
+  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
 
   - **Data\_AvailableVersion** – указує, для якої версії Office доступні оновлення.
 
@@ -2239,7 +2239,7 @@ ms.locfileid: "42225013"
 
   - **Data\_ProductsToAdd** – продукти Office, які додаються. 
 
-  - **Data\_ProductsToRemove** – продукти Office, які вилучаються. 
+  - **Data\_ProductsToRemove**  – продукти Office, які вилучаються. 
 
   - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
 
@@ -2291,7 +2291,7 @@ ms.locfileid: "42225013"
 
   - **Data\_AddingFixedProducts** – продукти, які додаються. 
 
-  - **Data\_AddingProducts** – продукти, додавання яких запитується. 
+  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
 
   - **Data\_AvailableVersion** – указує, для якої версії Office доступні оновлення.
 
@@ -2327,7 +2327,7 @@ ms.locfileid: "42225013"
 
   - **Data\_ProductsToAdd** – продукти Office, які додаються. 
 
-  - **Data\_ProductsToRemove** – продукти Office, які вилучаються. 
+  - **Data\_ProductsToRemove**  – продукти Office, які вилучаються. 
 
   - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
 
@@ -2379,7 +2379,7 @@ ms.locfileid: "42225013"
 
   - **Data\_AddingFixedProducts** – продукти, які додаються. 
 
-  - **Data\_AddingProducts** – продукти, додавання яких запитується. 
+  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
 
   - **Data\_CompletionState** – указує, чи виконано завдання.
 
@@ -2403,7 +2403,7 @@ ms.locfileid: "42225013"
 
   - **Data\_ProductsToAdd** – продукти Office, які додаються. 
 
-  - **Data\_ProductsToRemove** – продукти Office, які вилучаються. 
+  - **Data\_ProductsToRemove**  – продукти Office, які вилучаються. 
 
   - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
 
@@ -2446,33 +2446,33 @@ ms.locfileid: "42225013"
 
 - **canceledJobs –** кількість скасованих запитів у сеансі.
 
-- **Connected –** наявність підключення до джерела.
+- **Connected –**    наявність підключення до джерела.
 
-- **ErrorCode –** код останньої помилки.
+- **ErrorCode –**    код останньої помилки.
 
 - **Errail –** відомості про останню помилку.
 
 - **ErrorMessage** – повідомлення про останню помилку. 
 
-- **ErrorSource –** джерело останньої помилки, наприклад "Connection", "LoadFile" або "LoadRange".
+- **ErrorSource –**    джерело останньої помилки, наприклад "Connection", "LoadFile" або "LoadRange".
 
-- **FailedJob –** кількість невдалих запитів у сеансі.
+- **FailedJob –**    кількість невдалих запитів у сеансі.
 
 - **FileSize –** розмір ресурсу.
 
 - **SourcePathNoFilePath  –** вихідний шлях до джерела; повідомляється лише про джерела http, шлях до локального файлу та UNC-шлях відфільтровується.
 
-- **SucceededJobs –** кількість успішних запитів у сеансі.
+- **SucceededJobs –**    кількість успішних запитів у сеансі.
 
-- **TotalJobs –** загальна кількість запитів у сеансі.
+- **TotalJobs –**    загальна кількість запитів у сеансі.
 
-- **TotalRequestedBytes –** загальна кількість запитаних байтів у сеансі.
+- **TotalRequestedBytes –**    загальна кількість запитаних байтів у сеансі.
 
-- **TotalTransferTime –** загальний час передачі в сеансі.
+- **TotalTransferTime –**    загальний час передачі в сеансі.
 
-- **TransferredBytes –** загальна кількість переданих байтів в сеансі.
+- **TransferredBytes –**    загальна кількість переданих байтів в сеансі.
 
-- **TransportType –** тип передачі, наприклад служба оптимізації завантаження, HTTP чи служба фонового передавання даних.
+- **TransportType –**    тип передачі, наприклад служба оптимізації завантаження, HTTP чи служба фонового передавання даних.
 
 
 
@@ -2517,11 +2517,11 @@ ms.locfileid: "42225013"
 
  - **ErrorDetails –** рядок, у якому описано розташування необробленого винятку (функція, файл, номер рядка, додаткові налаштовані параметри).
 
- - **ErrorMessage –** рядок, визначений в точці необробленого винятку, який описує характер помилки.
+ - **ErrorMessage – **рядок, визначений в точці необробленого винятку, який описує природу помилки.
 
  - **ErrorType –** рядок, який описує категорію необробленого винятку.
 
- - **ExitCode –** ціле число, пов’язане з результатом роботи завантажувача, що вказує на успіх або на певні типи помилок.
+ - **ExitCode –**    ціле число, пов’язане з результатом роботи завантажувача, що вказує на успіх або на певні типи помилок.
 
 ### <a name="officeclicktorununiversalbootstrappercalculateparameters"></a>Office.ClickToRun.UniversalBootstrapper.CalculateParameters
 
@@ -2529,61 +2529,61 @@ ms.locfileid: "42225013"
 
 - **BitField –** ціле значення аргументу BitField, яке повідомляє про те, чи був запитаний канал інсталяції чи оновлення (щомісячний, з пізнім доступом, з раннім доступом, щопіврічний, щопіврічний цільовий).
 
-- **ChannelID –** ціле число, яке позначає значення Enum для вибраного каналу оновлення чи інсталяції  (щомісячного, з пізнім доступом, з раннім доступом, щопіврічного, щопіврічного цільового).
+- **ChannelID –**    ціле число, яке позначає значення Enum для вибраного каналу оновлення чи інсталяції  (щомісячного, з пізнім доступом, з раннім доступом, щопіврічного, щопіврічного цільового, недійсного).
 
-- **CMDMode –** зручний рядок, котрий визначає який перемикач загального режиму визначено в аргументах Cmd, які передано до exe.
+- **CMDMode –**    зручний рядок, котрий визначає який перемикач загального режиму визначено в аргументах Cmd, які передано до exe.
 
-- **C2RClientUICulture –** культура клієнта C2R для інсталяції.
+- **C2RClientUICulture –**    культура клієнта C2R для інсталяції.
 
-- **ErrorCode –** ціле значення, пов’язане з необробленим винятком.
+- **ErrorCode –**    ціле значення, пов’язане з необробленим винятком.
 
 - **ErrorDetails –** рядок, у якому описано розташування необробленого винятку (функція, файл, номер рядка, додаткові налаштовані параметри).
 
 - **ErrorMessage – **рядок, визначений в точці необробленого винятку, який описує природу помилки.
 
-- **ErrorType –** рядок, який описує категорію необробленого винятку.
+- **ErrorType –**    рядок, який описує категорію необробленого винятку.
 
 - **ExcludedApps –** рядок з переліком окремих назв програм Office, щодо яких є запит на виключення з інстальованих пакетів Office.
 
-- **InstalledCabVersion –** версія "16.0.xxxxx.yyyyy" вже інстальованого клієнта Office C2R.
+- **InstalledCabVersion –**    версія "16.0.xxxxx.yyyyy" вже інстальованого клієнта Office C2R.
 
-- **InstalledProductVersion –** версія "16.0.xxxxx.yyyyy" вже інстальованого продукту Office C2R.
+- **InstalledProductVersion –**    версія "16.0.xxxxx.yyyyy" вже інстальованого продукту Office C2R.
 
-- **IsC2RServiceRunning –** логічна позначка, яка вказує, чи працює на пристрої служба локального комп’ютера сучасного клієнта C2R.
+- **IsC2RServiceRunning –**    логічна позначка, яка вказує, чи працює на пристрої служба локального комп’ютера сучасного клієнта C2R.
 
-- **IsElevatedFlagSet –** логічна позначка, яка вказує, чи завантажувач вже намагався одержати права адміністратора.
+- **IsElevatedFlagSet –**    логічна позначка, яка вказує, чи завантажувач вже намагався одержати права адміністратора.
 
-- **IsFireFlyInstalled –** – логічна позначка, яка вказує, чи інстальовано клієнт Office 2013 RTM C2R.
+- **IsFireFlyInstalled –**    логічна позначка, яка вказує, чи інстальовано клієнт Office 2013 RTM C2R.
 
-- **IsFireflyServiceRunning –** логічна позначка, яка вказує, чи працює на пристрої служба локального комп’ютера клієнта 2013 RTM C2R.
+- **IsFireflyServiceRunning –**    логічна позначка, яка вказує, чи працює на пристрої служба локального комп’ютера клієнта 2013 RTM C2R.
 
-- **IsOfficeInstalled –** логічна позначка, яка вказує, чи вже інстальовано сучасний клієнт Office.
+- **IsOfficeInstalled –**    логічна позначка, яка вказує, чи вже інстальовано сучасний клієнт Office.
 
-- **OfficeCultures –** спеціалізований список культур Office, які потрібно інсталювати.
+- **OfficeCultures –**    спеціалізований список культур Office, які потрібно інсталювати.
 
 - **OfficeSourceType –** зручний рядок, пов’язаний зі значенням Enum джерела інсталяції (CDN, HTTP, UNC, CMBITS, DVD, LOCAL).
 
-- **Origin –**  значення рядка, яке вказує, які підтримувані витоки (Пуерто-Ріко [PR], Сінгапур [SG], Дублін [DB]) слід використовувати для початкового передавання інсталяції.
+- **Origin –**    значення рядка, яке вказує, які підтримувані витоки (Пуерто-Ріко [PR], Сінгапур [SG], Дублін [DB]) слід використовувати для початкового передавання інсталяції.
 
 - **PlatformFromLink –** рядок, який вказує запитувану в службі налаштування C2R розрядність Office (x86|x64|default).
 
-- **PlatformOfExistingInstallation –** рядок, який вказує, чи інстальовано на пристрої Office x86 чи X64.
+- **PlatformOfExistingInstallation –**    рядок, який вказує, чи інстальовано на пристрої Office x86 чи X64.
 
-- **PlatformToInstall –** рядок, який позначає остаточне рішення про необхідність інсталювати Office x86 чи x64. Можливості: автозапуск, налаштування, користувач, завантаження, довідка, пакувальник.
+- **PlatformToInstall –**    рядок, який позначає остаточне рішення про необхідність інсталювати Office x86 чи x64. Можливості: автозапуск, налаштування, користувач, завантаження, довідка, пакувальник.
 
-- **PRID –** значення рядка, яке відповідає запитуваному ідентифікатору випуску продукту в сценарії інсталяції користувача (наприклад, "O365ProPlusRetail")
+- **PRID –**    значення рядка, яке відповідає запитуваному ідентифікатору випуску продукту в сценарії інсталяції користувача (наприклад, "O365ProPlusRetail")
 
-- **PridsToMigrateFromCentennial-** рядок продуктів Office для міграції від встановлення з магазину до технології "Office умить"
+- **PridsToMigrateFromCentennial-**    рядок продуктів Office для міграції від встановлення з магазину до технології "Office умить"
 
-- **ProductsToAdd –** серіалізований рядок, який вказує клієнту C2R, які комбінації продуктів чи культур потрібно інсталювати.
+- **ProductsToAdd –**    серіалізований рядок, який вказує клієнту C2R, які комбінації продуктів чи культур потрібно інсталювати.
 
 - **ProductsToMigrateFromO15C2R-** рядок продуктів і культур Office для міграції з пакета Office 2013 до інсталяції за технологією "Office умить"
 
 - **ProductsToRemove –** серіалізований рядок, який вказує клієнту C2R, які комбінації продуктів чи культур потрібно видалити.
 
-- **SharedComputerLicensing –** логічне значення, яке вказує, чи ІТ-адміністратор запитав налаштування чи активацію функції "SharedComputerLicensing".
+- **SharedComputerLicensing –**    логічне значення, яке вказує, чи ІТ-адміністратор запитав налаштування чи активацію функції "SharedComputerLicensing".
 
-- **ShouldActivate –** логічне значення, яке вказує, чи ІТ-адміністратор запитав спробу автоматичної активації ліцензування в своєму configuration.xml.
+- **ShouldActivate –**    логічне значення, яке вказує, чи ІТ-адміністратор запитав спробу автоматичної активації ліцензування в своєму configuration.xml.
 
 - **ShouldUninstallCentennial -** логічний прапор, який вказує на те, чи слід видалити продукти Office із магазину.
 
@@ -2594,7 +2594,7 @@ ms.locfileid: "42225013"
 
 звітує про дію, яка зчитує введення з тегом із вбудованого підпису exe.  Це неперевірена концепція, яка не була впроваджена в попередній ітерації setup.exe, і на яку ми спираємося при перенесенні виборів користувача щодо продукту, мови чи розрядності з веб-сторінки до процесу в setup.exe.
  
-- **ErrorCode –** ціле число, пов’язане з необробленим винятком.
+- **ErrorCode –**    ціле число, пов’язане з необробленим винятком.
 
 - **ErrorDetails –** рядок, у якому описано розташування необробленого винятку (функція, файл, номер рядка, додаткові налаштовані параметри).
 
@@ -2608,81 +2608,81 @@ ms.locfileid: "42225013"
 
 - **BitField –** ціле значення аргументу BitField, яке повідомляє про те, чи був запитаний канал інсталяції чи оновлення (щомісячний, з пізнім доступом, з раннім доступом, щопіврічний, щопіврічний цільовий).
 
-- **ChannelID –** ціле число, яке позначає значення Enum для вибраного каналу оновлення чи інсталяції  (щомісячного, з пізнім доступом, з раннім доступом, щопіврічного, щопіврічного цільового).
+- **ChannelID –**    ціле число, яке позначає значення Enum для вибраного каналу оновлення чи інсталяції  (щомісячного, з пізнім доступом, з раннім доступом, щопіврічного, щопіврічного цільового, недійсного).
 
-- **CMDMode –** зручний рядок, котрий визначає який перемикач загального режиму визначено в аргументах Cmd, які передано до exe. Можливості: автозапуск, налаштування, користувач, завантаження, довідка, пакувальник.
+- **CMDMode –**    зручний рядок, котрий визначає який перемикач загального режиму визначено в аргументах Cmd, які передано до exe. Можливості: автозапуск, налаштування, користувач, завантаження, довідка, пакувальник.
 
-- **C2RClientUICulture –** культура клієнта C2R для інсталяції.
+- **C2RClientUICulture –**    культура клієнта C2R для інсталяції.
 
-- **ErrorCode –** ціле значення, пов’язане з необробленим винятком.
+- **ErrorCode –**    ціле значення, пов’язане з необробленим винятком.
 
 - **ErrorDetails –** рядок, у якому описано розташування необробленого винятку (функція, файл, номер рядка, додаткові налаштовані параметри).
 
 - **ErrorMessage – **рядок, визначений в точці необробленого винятку, який описує природу помилки.
 
-- **ErrorType –** рядок, який описує категорію необробленого винятку.
+- **ErrorType –**    рядок, який описує категорію необробленого винятку.
 
 - **ExcludedApps –** рядок з переліком окремих назв програм Office, щодо яких є запит на виключення з інстальованих пакетів Office.
 
-- **InstalledCabVersion –** версія "16.0.xxxxx.yyyyy" вже інстальованого клієнта Office C2R.
+- **InstalledCabVersion –**    версія "16.0.xxxxx.yyyyy" вже інстальованого клієнта Office C2R.
 
-- **InstalledProductVersion –** версія "16.0.xxxxx.yyyyy" вже інстальованого продукту Office C2R.
+- **InstalledProductVersion –**    версія "16.0.xxxxx.yyyyy" вже інстальованого продукту Office C2R.
 
-- **IsC2RServiceRunning –** логічна позначка, яка вказує, чи працює на пристрої служба локального комп’ютера сучасного клієнта C2R.
+- **IsC2RServiceRunning –**    логічна позначка, яка вказує, чи працює на пристрої служба локального комп’ютера сучасного клієнта C2R.
 
-- **IsElevatedFlagSet –** логічна позначка, яка вказує, чи завантажувач вже намагався одержати права адміністратора.
+- **IsElevatedFlagSet –**    логічна позначка, яка вказує, чи завантажувач вже намагався одержати права адміністратора.
 
-- **IsFireFlyInstalled –** – логічна позначка, яка вказує, чи інстальовано клієнт Office 2013 RTM C2R.
+- **IsFireFlyInstalled –**    логічна позначка, яка вказує, чи інстальовано клієнт Office 2013 RTM C2R.
 
-- **IsFireflyServiceRunning –** логічна позначка, яка вказує, чи працює на пристрої служба локального комп’ютера клієнта 2013 RTM C2R.
+- **IsFireflyServiceRunning –**    логічна позначка, яка вказує, чи працює на пристрої служба локального комп’ютера клієнта 2013 RTM C2R.
 
-- **IsOfficeInstalled –** логічна позначка, яка вказує, чи вже інстальовано сучасний клієнт Office.
+- **IsOfficeInstalled –**    логічна позначка, яка вказує, чи вже інстальовано сучасний клієнт Office.
 
-- **OfficeCultures –** спеціалізований список культур Office, які потрібно інсталювати.
+- **OfficeCultures –**    спеціалізований список культур Office, які потрібно інсталювати.
 
 - **OfficeSourceType –** зручний рядок, пов’язаний зі значенням Enum джерела інсталяції (CDN, HTTP, UNC, CMBITS, DVD, LOCAL).
 
-- **Origin –**  значення рядка, яке вказує, які підтримувані витоки (Пуерто-Ріко [PR], Сінгапур [SG], Дублін [DB]) слід використовувати для початкового передавання інсталяції.
+- **Origin –**    значення рядка, яке вказує, які підтримувані витоки (Пуерто-Ріко [PR], Сінгапур [SG], Дублін [DB]) слід використовувати для початкового передавання інсталяції.
 
 - **PlatformFromLink –** рядок, який вказує запитувану в службі налаштування C2R розрядність Office (x86|x64|default).
 
-- **PlatformOfExistingInstallation –** рядок, який вказує, чи інстальовано на пристрої Office x86 чи X64.
+- **PlatformOfExistingInstallation –**    рядок, який вказує, чи інстальовано на пристрої Office x86 чи X64.
 
-- **PlatformToInstall –** рядок, який позначає остаточне рішення про необхідність інсталювати Office x86 чи x64.
+- **PlatformToInstall –**    рядок, який позначає остаточне рішення про необхідність інсталювати Office x86 чи x64.
 
 - **PRID –**    значення рядка, яке відповідає запитуваному ідентифікатору випуску продукту в сценарії інсталяції користувача (наприклад, "O365ProPlusRetail")
 
 - **PridsToMigrateFromCentennial-** рядок продуктів Office для міграції від встановлення з магазину до технології "Office умить"
 
-- **ProductsToAdd –** серіалізований рядок, який вказує клієнту C2R, які комбінації продуктів чи культур потрібно інсталювати.
+- **ProductsToAdd –**    серіалізований рядок, який вказує клієнту C2R, які комбінації продуктів чи культур потрібно інсталювати.
 
 - **ProductsToMigrateFromO15C2R -** рядок продуктів і культур Office для міграції з пакета Office 2013 до інсталяції за технологією "Office умить"
 
 - **ProductsToRemove –** серіалізований рядок, який вказує клієнту C2R, які комбінації продуктів чи культур потрібно видалити.
 
-- **SharedComputerLicensing –** логічне значення, яке вказує, чи ІТ-адміністратор запитав налаштування чи активацію функції "SharedComputerLicensing".
+- **SharedComputerLicensing –**    логічне значення, яке вказує, чи ІТ-адміністратор запитав налаштування чи активацію функції "SharedComputerLicensing".
 
-- **ShouldActivate –** логічне значення, яке вказує, чи ІТ-адміністратор запитав спробу автоматичної активації ліцензування в своєму configuration.xml.
+- **ShouldActivate –**    логічне значення, яке вказує, чи ІТ-адміністратор запитав спробу автоматичної активації ліцензування в своєму configuration.xml.
 
 - **ShouldUninstallCentennial -** логічний прапор, який вказує на те, чи слід видалити продукти Office із магазину.
 
-- **VersionToInstall –** значення рядка Office версії "16.0.xxxxx.yyyyy", що інсталюється.
+- **VersionToInstall –**    значення рядка Office версії "16.0.xxxxx.yyyyy", що інсталюється.
 
 ### <a name="officeclicktorununiversalbootstrapperexecute"></a>Office.ClickToRun.UniversalBootstrapper.Execute
 
 звітує про виконані дії, які впливають на комп’ютер, згідно з аргументованими даними з "CalculateParameters".
 
-- **AvailableClientVersionText –** значення рядка клієнта C2R версії "16.0.xxxxx.yyyyy" з файлу XML дескриптора версій, яке використовується, щоб визначити, чи потрібно оновити інстальований клієнт C2R.
+- **AvailableClientVersionText –**    значення рядка клієнта C2R версії "16.0.xxxxx.yyyyy" з файлу XML дескриптора версій, яке використовується, щоб визначити, чи потрібно оновити інстальований клієнт C2R.
 
-- **CleanFireflyAction –** "true", якщо завдання CleanFireFlyAction заплановане до виконання під час інсталяції.
+- **CleanFireflyAction –**    "true", якщо завдання CleanFireFlyAction заплановане до виконання під час інсталяції.
 
-- **CleanO15Action –** "true", якщо завдання CleanO15Action заплановане до виконання під час інсталяції.
+- **CleanO15Action –**    "true", якщо завдання CleanO15Action заплановане до виконання під час інсталяції.
 
-- **CMDMode –** зручний рядок, котрий визначає який перемикач загального режиму визначено в аргументах Cmd, які передано до exe. Можливості: автозапуск, налаштування, користувач, завантаження, довідка, пакувальник.
+- **CMDMode –**    зручний рядок, котрий визначає який перемикач загального режиму визначено в аргументах Cmd, які передано до exe. Можливості: автозапуск, налаштування, користувач, завантаження, довідка, пакувальник.
 
-- **DeliveryMechanism –** GUID "FFNRoot", отриманий з XML дескриптора версії (з позначкою RDX), що вказує з якої аудиторії чи каналу походить джерело збірки.
+- **DeliveryMechanism –**    GUID "FFNRoot", отриманий з XML дескриптора версії (з позначкою RDX), що вказує з якої аудиторії чи каналу походить джерело збірки.
 
-- **DownloadC2RClientAction –** "true", якщо завдання DownloadC2RClientAction заплановане до виконання під час інсталяції.
+- **DownloadC2RClientAction –**    "true", якщо завдання DownloadC2RClientAction заплановане до виконання під час інсталяції.
 
 - **ErrorCode –** ціле значення, пов’язане з необробленим винятком.
 
@@ -2696,7 +2696,7 @@ ms.locfileid: "42225013"
 
 - **LaunchAction –** "true", якщо завдання LaunchAction заплановане до виконання під час інсталяції.
 
-- **LaunchUpdateAction –** "true", якщо завдання LaunchUpdateAction заплановане до виконання під час інсталяції.
+- **LaunchUpdateAction –**    "true", якщо завдання LaunchUpdateAction заплановане до виконання під час інсталяції.
 
 - **PreReqResult –** ціле значення Enum результату виконання перевірок PreReq (вдало/невдало/повторне виконання).
 
@@ -2705,6 +2705,8 @@ ms.locfileid: "42225013"
 - **VersionToInstall –** значення рядка Office версії "16.0.xxxxx.yyyyy", що інсталюється.
 
 ### <a name="officeserviceabilitymanagerinventoryaddonheartbeat"></a>Office.ServiceabilityManager.InventoryAddon.Heartbeat
+
+*[Ця подія видалена з поточних збірок Office, але все одно може відображатися в попередніх збірках.]*
 
 Ця подія використовується для отримання стандартних метаданих під час кожного запуску надбудови "Інвентаризація", яка входить до складу Диспетчера справності Office та застосовується для інвентаризації даних Office на тих комп’ютерах, для яких отримано згоду ІТ-адміністратора. Особливе значення має ідентифікатор сеансу, який використовується для зв’язування з іншими даними, що зберігаються в хмарній службі для одного клієнта.
 
@@ -2726,7 +2728,7 @@ ms.locfileid: "42225013"
 
 ### <a name="officeserviceabilitymanagerwebservicefailure"></a>Office.ServiceabilityManager.WebserviceFailure
 
-Ця подія записується щоразу, коли виклик веб-служб, що виконується в надбудові "Диспетчер справності" у "Office умить", був невдалим.
+Цю інструкцію буде записано щоразу, коли виникає помилка виклику веб-служби в одній з надбудов Диспетчера справності Office. Помилки можуть виникати через внутрішні помилки або через неможливість підключення до веб-служби.
 
 Збираються такі поля:
 
@@ -2735,6 +2737,8 @@ ms.locfileid: "42225013"
 - **Correlation ID** – випадково згенерований GUID, який використовується для поточного екземпляра, що надсилається до веб-служби для узгодження викликів між клієнтом і сервером.
 
 - **ErrorInfo** – інформація про коди числових помилок, які повертають API-інтерфейси виклику веб-служб Office.
+
+- **Errilmessage** – це повідомлення, яке надає додаткові дані про помилку. Кожен тип помилки відповідає жорстко закодованому рядку, а деякі типи помилок можуть відповідати відразу певній кількості рядків, що залежить від специфіки помилки.
 
 - **Function** – функція в коді, з якого надійшов поточний виклик.
 
@@ -3157,8 +3161,8 @@ ms.locfileid: "42225013"
   - 0x0311380 9 відсутній Інтернет/помилка служби під час перевірки маркеру
    - 0x0311380a Помилка перевірки пін-коду, надсилається з полем PinValidationFailure
   - 0x0310410f Вдало, надсилається з полем Success
-  - 0x0311380d – Помилки, які допускають повтор (проблеми з Інтернетом, невідомі помилки)
-  - 0x0311380е - Помилки, які не допускають повтор (термін дії пропозиції щодо прив'язки закінчився)
+  - 0x0311380d    Помилки, які допускають повтор (проблеми з Інтернетом, невідомі помилки)
+  - 0x0311380е    Помилки, які не допускають повтор (термін дії пропозиції щодо прив'язки закінчився)
   - 0x0311380f Інші помилки (неможливо надати ліцензію)
   - 0x03104111 Не вдалося підібрати маркер Office, надсилається з полем PinValidationResult
 
@@ -3184,7 +3188,7 @@ ms.locfileid: "42225013"
 
 - **Tag** – повідомляє, на якому етапі користувач закриває процес активації AFO. Можливі теги:
     - 0x0311380b    Користувач відхилив діалогове вікно входу з використанням ідентифікаційних даних з діалогового вікна активації
-    - 0x0311380c    Не вдалося автоматично завантажувати діалогове вікно входу користувача з діалогового вікна активації
+    - 0x0311380c    Не вдалося автоматично завантажити діалогове вікно входу користувача з діалогового вікна активації
     - 0x03113810    Не вдалося отримати демографічні дані облікового запису (код країни, мову, валюту, ознайомлювальну пропозицію та параметри комерційних пропозицій)
     - 0x03113805    Користувач відхилив діалогове вікно входу з використанням ідентифікаційних даних з діалогового вікна входу
     - 0x03113806    Не вдалося автоматично завантажувати діалог входу користувача з діалогового вікна входу
@@ -3347,7 +3351,7 @@ ms.locfileid: "42225013"
 
 Вказує на помилки підключення до помічника засобу автоматичного оновлення Microsoft (компонент, який виконує інсталяцію програми).  Ця подія позначає потенційне пошкодження програми автоматичного оновлення Microsoft. Пристрій не зможе інсталювати оновлення.
 
-Збираються такі поля: 
+Збираються такі поля:    
 
 - **App** – процес програми, яка надсилає подію.
 
@@ -11282,6 +11286,8 @@ ms.locfileid: "42225013"
 
 Збираються такі поля:
 
+  - **BootCompleted –** під час аварійного завершення роботи було виконано завантаження Office.
+
   - **CrashedAppBuild** – ідентифікатор версії збірки для процесу, на який впливає проблема.
 
   - **CrashedAppMajor** – ідентифікатор основної версії для процесу, на який впливає проблема.
@@ -11298,6 +11304,8 @@ ms.locfileid: "42225013"
 
   - **CrashedSessionInitTime** – час початку процесу, який аварійно завершився.
 
+  - **CrashTime –** час, коли клієнт неправильно завершив роботу.
+
   - **CrashType** – ідентифікатор сегментування для типу аварійного завершення роботи.
 
   - **DetectionTime** – час виявлення непередбаченого виходу.
@@ -11305,6 +11313,12 @@ ms.locfileid: "42225013"
   - **ExceptionAddress** – адреса в програмі, де сталася помилка.
 
   - **ExceptionCode** – ідентифікатор сегментування для винятку.
+
+  - **HandOff –** чи створив і передав користувач процес Office до нового сеансу.
+
+  - **HasEdit –** чи редагувався користувачем документ у клієнті, який аварійно завершив роботу.
+
+  - **HasOpen –** чи був відкритий документ у клієнті, який аварійно завершив роботу.
 
   - **HexCrashTag – ** унікальний ідентифікатор коду аварійного завершення.
 
@@ -11330,13 +11344,17 @@ ms.locfileid: "42225013"
 
   - **ModuleSize** – розмір модуля (у байтах), у роботі якого сталася помилка.
 
+  - **OfficeUiLang** – мова інтерфейсу користувача збірки Office.
+
   - **PreviousBuild** – раніше інстальована ​версія збірки.
+
+  - **SafeMode –** чи була завантажена сесія у безпечному режимі.
 
   - **UAEOSEnvironment** – ідентифікатор середовища ОС.
 
   - **UninitLibletId –** унікальний ідентифікатор компонента аварійного завершення, у якому сталася помилка.
 
-  - **VerifyElseCrashTag** – унікальний ідентифікатор, який указує, де в роботі програми сталася помилка.
+  - **VerifyElseCrashTag** – унікальний ідентифікатор, який указує, де в роботі програми сталася помилка. *[Ця поле видалене з поточних збірок Office, але все одно може відображатися в попередніх збірках.]*
 
 ### <a name="officesystemungracefulapplicationexitdesktopappexit"></a>Office.System.UngracefulApplicationExit.DesktopAppExit
 
