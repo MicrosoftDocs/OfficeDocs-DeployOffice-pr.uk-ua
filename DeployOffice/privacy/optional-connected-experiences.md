@@ -13,12 +13,12 @@ ms.custom:
 - Ent_Office_Privacy
 description: Ця стаття пропонує адміністраторам Office інформацію про необов'язкові підключені можливості, зокрема, про застосовні умови користування ними.
 hideEdit: true
-ms.openlocfilehash: 0c48bd091998e12603e09fcc9b6ce42207e2d95b
-ms.sourcegitcommit: d07de5b2fc7ea02171b84ff34bf4db9686683ed5
+ms.openlocfilehash: 9cfbae596b686e2be484756b848514d4c36108df
+ms.sourcegitcommit: 2475f3c2a61baf298a52c0bcdb0e7c9b9c0407ac
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42340873"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43166310"
 ---
 # <a name="overview-of-optional-connected-experiences-in-office"></a>Огляд необов’язкових підключених можливостей Office
 
@@ -26,7 +26,7 @@ ms.locfileid: "42340873"
 
 > [!NOTE]
 > Адміністратори можуть переглянути наступні статті, щоб дізнатися, як дозволити або обмежити використання необов’язкових підключених можливостей.
-> - [Параметри політики для налаштування елементів керування конфіденційністю в Office 365 ProPlus](manage-privacy-controls.md)
+> - [Параметри політики для налаштування елементів керування конфіденційністю в Office 365 ProPlus](manage-privacy-controls.md)
 > - [Параметри налаштування елементів керування конфіденційністю в Office для Mac](mac-privacy-preferences.md)
 > - [Параметри налаштування елементів керування конфіденційністю в Office на пристроях з iOS](ios-privacy-preferences.md)
 > - [Параметри політики для налаштування елементів керування конфіденційністю в Office на пристроях з Android](android-privacy-controls.md)
@@ -63,7 +63,7 @@ Bing підтримує в Outlook для iOS і Android перелічені н
 
 ### <a name="help--suggest-a-feature"></a>Запропонувати функцію
 
-"Запропонувати функцію" – це можливість, яка дає змогу надсилати ваші ідеї щодо використання програми Outlook. Ваші пропозиції спрямовуються безпосередньо до сторонньої служби, яка називається UserVoice. У разі надсилання ідей за допомогою можливості "Запропонувати функцію" застосовуються [умови надання послуг](https://outlook.uservoice.com/tos) і [політика конфіденційності](https://outlook.uservoice.com/tos#privacy-policy) UserVoice.
+"Запропонувати функцію" – це можливість, яка дає змогу надсилати ваші ідеї щодо використання програм Outlook або Excel. Ваші пропозиції спрямовуються безпосередньо до сторонньої служби, яка називається UserVoice. У разі надсилання ідей за допомогою можливості "Запропонувати функцію" застосовуються [умови надання послуг](https://outlook.uservoice.com/tos) і [політика конфіденційності](https://outlook.uservoice.com/tos#privacy-policy) UserVoice.
 
 ### <a name="insert-online-video"></a>Вставлення онлайнового відео
 
