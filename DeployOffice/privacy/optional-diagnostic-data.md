@@ -13,20 +13,21 @@ ms.custom:
 - Ent_Office_Privacy
 description: Ця стаття пропонує адміністраторам Office відомості про необов’язкові діагностичні дані в Office, зокрема приклади деяких подій.
 hideEdit: true
-ms.openlocfilehash: ab40e68df1ed91b1aff7510383d47967e8f13ccb
-ms.sourcegitcommit: acb22296532bbfdfcad4dc1e7162f812997fbdd1
+ms.openlocfilehash: 0190c29a017b35d945e6a1d540e1560dfab47a4c
+ms.sourcegitcommit: 3890a23390edd0b5fdb2cf33613ec0778566cf97
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38067124"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43993206"
 ---
 # <a name="optional-diagnostic-data-for-office"></a>Необов’язкові діагностичні дані для Office
 
 > [!IMPORTANT]
 > Інформація в цій статті стосується версії 1904 або новіших версій переліченого нижче клієнтського програмного забезпечення Office, інстальованого на комп’ютері з Windows.
-> - Office 365 ProPlus і Office 365 Business
-> - Office 365 персональний, Office 365 домашній або інші версії Office, які входять до передплати на Office 365.
-> - Project і Visio, які входять до деяких планів передплати, як-от план Project Online професійний або Visio Online (план 2).
+> - Програми Microsoft 365 для підприємств (раніше мали назву Office 365 ProPlus)
+> - Програми Microsoft 365 для бізнесу (раніше мали назву Office 365 Business)
+> - Microsoft 365 Персональний, Microsoft 365 Сімейний або інші версії Office, які входять до передплати на Microsoft 365.
+> - Класичні програми Project і Visio, які постачаються з певними планами передплати, як-от Project (план 5) або Visio (план 2).
 >
 > Ця інформація також стосується версії 16.28 або пізнішої версії перелічених нижче програм Office для Mac: Excel, Outlook, OneNote, PowerPoint і Word.
 
@@ -47,8 +48,8 @@ ms.locfileid: "38067124"
 
 Адміністратору організації також можуть бути корисними такі ресурси:
 
-- [Огляд елементів керування конфіденційністю в Office 365 ProPlus](overview-privacy-controls.md)
-- [Параметри політики для налаштування елементів керування конфіденційністю в Office 365 ProPlus](manage-privacy-controls.md)
+- [Огляд елементів керування конфіденційністю в Програмах Microsoft 365 для підприємств](overview-privacy-controls.md)
+- [Параметри політики для налаштування елементів керування конфіденційністю в Програмах Microsoft 365 для підприємств](manage-privacy-controls.md)
 - [Параметри налаштування елементів керування конфіденційністю в Office для Mac](mac-privacy-preferences.md)
 - [Параметри налаштування елементів керування конфіденційністю в Office на пристроях з iOS](ios-privacy-preferences.md)
 - [Параметри політики для налаштування елементів керування конфіденційністю в Office на пристроях з Android](android-privacy-controls.md)
