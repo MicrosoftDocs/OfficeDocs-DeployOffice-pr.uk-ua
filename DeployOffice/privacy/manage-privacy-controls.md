@@ -15,12 +15,12 @@ ms.custom:
 - Ent_Office_Privacy
 description: Ця стаття пропонує адміністраторам Office інформацію про налаштування елементів керування конфіденційністю в програмах Microsoft 365 для підприємств (раніше іменовано Office 365 ProPlus) за допомогою параметрів політики.
 hideEdit: true
-ms.openlocfilehash: 284b9b8a2b0231f5079e34ec2b09e35dfd0d07ca
-ms.sourcegitcommit: 3890a23390edd0b5fdb2cf33613ec0778566cf97
+ms.openlocfilehash: ca076099be15a5a4cd19ac7c99660bfe26de8eed
+ms.sourcegitcommit: edd1190877db7996206147ad1d691fd8e84f23b1
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43992999"
+ms.lasthandoff: 06/05/2020
+ms.locfileid: "44589049"
 ---
 # <a name="use-policy-settings-to-manage-privacy-controls-for-microsoft-365-apps-for-enterprise"></a>Параметри політики для налаштування елементів керування конфіденційністю в Програмах Microsoft 365 для підприємств
 
@@ -225,7 +225,7 @@ ms.locfileid: "43992999"
 
 Щоб створити REG-файл для параметрів конфіденційності, відкрийте Блокнот і скопіюйте в наведених нижче рядках. Налаштуйте значення відповідно до своїх потреб, а потім збережіть файл. Перевірте, щоб ім’я файлу мало розширення REG.
 
-```
+```console
 Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Policies\Microsoft\office\16.0\common\privacy]
