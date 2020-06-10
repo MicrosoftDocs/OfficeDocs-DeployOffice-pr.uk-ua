@@ -15,12 +15,12 @@ ms.custom:
 - Ent_Office_Privacy
 description: Тут адміністратори Office можуть отримати загальне уявлення про елементи керування конфіденційністю служби "Програми Microsoft 365 для підприємств" (раніше іменованої Office 365 ProPlus), включно з діагностикою даних і підключеними функціоналами.
 hideEdit: true
-ms.openlocfilehash: e22388cb73a539e13f67163bf0b0e949b10be349
-ms.sourcegitcommit: 3890a23390edd0b5fdb2cf33613ec0778566cf97
+ms.openlocfilehash: 134f7470354796679c9a8c69fac8dd2559302b72
+ms.sourcegitcommit: f8201a088d2b160b6fcec2342e11be0e9ba3d189
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43993171"
+ms.lasthandoff: 06/09/2020
+ms.locfileid: "44663578"
 ---
 # <a name="overview-of-privacy-controls-for-microsoft-365-apps-for-enterprise"></a>Огляд елементів керування конфіденційністю в Програмах Microsoft 365 для підприємств
 
@@ -37,7 +37,7 @@ ms.locfileid: "43993171"
 > - Ці зміни також застосовуються до наведених нижче версій програм.
 >   - Версія 16.28 або новіші версії таких програм Office для Mac: Excel, Outlook, OneNote, PowerPoint і Word.
 >   - Версія 1904 та новіші версії Project і Visio для настільних комп’ютерів із певними планами передплати, як-от план Project (план 5) або план Visio (план 2).
-> - Ці елементи керування конфіденційністю включено до версії 1908 або пізнішої щопіврічного каналу оновлення та щопіврічного цільового каналу оновлення.
+> - Ці елементи керування конфіденційністю включено до версії 1908 або пізнішої Піврічного корпоративного каналу (підготовча версія) та Піврічного корпоративного каналу.
 > - Ці елементи керування конфіденційністю доступні для Excel, OneNote, PowerPoint і Word для версії iOS 2.30 і новіших, а також для Переглядача Visio для iOS версії 1.17 і новіших.
 > - Ці елементи керування конфіденційністю доступні для Excel, PowerPoint і Word для версії Android 16.0.12226.10000 і новіших, а також для OneNote для Android версії 16.0.12228.20004 і новіших.
 > - У більшості програм інтернет-версії Office використовується новий елемент керування конфіденційністю для [необов'язкових підключених можливостей](optional-connected-experiences.md). Серед них інтернет-версія Excel, інтернет-версія OneNote, інтернет-версія PowerPoint, інтернет-версія Visio та інтернет-версія Word. Ви можете налаштувати відповідний [параметр політики](manage-privacy-controls.md#policy-setting-for-optional-connected-experiences) за допомогою [служби хмарної політики Office](../overview-office-cloud-policy-service.md).
