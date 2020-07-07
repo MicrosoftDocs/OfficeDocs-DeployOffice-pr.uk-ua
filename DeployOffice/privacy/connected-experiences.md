@@ -13,12 +13,11 @@ ms.custom:
 - Ent_Office_Privacy
 description: Ця стаття містить відомості для адміністраторів Office щодо підключених можливостей для Office, як-от можливості аналізу вмісту або завантаження вмісту з Інтернету.
 hideEdit: true
-ms.openlocfilehash: 4ec1ffef4b8bc0e82a7a1ce96061a9c715636bea
-ms.sourcegitcommit: 7adeab733277e6ed3eafddcc1d4df20e2743a752
-ms.translationtype: HT
+ms.openlocfilehash: ed42864d90c0ec8f50e28248720ffc8c2f569713
+ms.sourcegitcommit: 85c6ac9351a9305b774fb2a63cb895f952b433d6
 ms.contentlocale: uk-UA
-ms.lasthandoff: 06/30/2020
-ms.locfileid: "44930440"
+ms.lasthandoff: 07/06/2020
+ms.locfileid: "45048578"
 ---
 # <a name="connected-experiences-in-office"></a>Підключені можливості в Office
 
@@ -37,7 +36,7 @@ ms.locfileid: "44930440"
 
 ## <a name="connected-experiences-that-analyze-your-content"></a>Підключені можливості аналізу вашого вмісту
 
-Підключені можливості аналізу вмісту вивчають ваш вміст Office і надають рекомендації щодо дизайну, пропозиції з редагування, висновки про дані та виконують інші подібні функції. Наприклад, дизайнер PowerPoint або редактор у Word.
+Підключені можливості аналізу вмісту вивчають ваш вміст Office і надають рекомендації щодо дизайну, пропозиції з редагування, висновки про дані та виконують інші подібні функції. Наприклад, дизайнер PowerPoint або Перекладач.
 
 У таблиці нижче наведено список підключених можливостей аналізу вмісту та посилання на додаткові відомості про них.
 
@@ -47,7 +46,7 @@ ms.locfileid: "44930440"
 | Автоматичне додавання тексту заміщення   | [Все, що необхідно знати про написання ефективного тексту заміщення](https://support.office.com/article/df98f884-ca3d-456c-807b-1a1fa82f5dc2) |
 | Типи даних                  | [Типи даних Excel: біржові та географічні дані](https://support.office.com/article/61a33056-9935-484f-8ac8-f1a89e210877)   |
 | Диктування  | [Диктування в Office](https://support.office.com/article/d4fd296e-8f15-4168-afec-1f95b13a6408) |
-| Редактор    | [Помічник-редактор](https://support.office.com/article/91ecbe1b-d021-4e9e-a82e-abc4cd7163d7)  |
+|Редактор|[Помічник-редактор](https://support.office.com/article/91ecbe1b-d021-4e9e-a82e-abc4cd7163d7)|
 | Ідеї     | [Ідеї у програмі Excel](https://support.office.com/article/3223aab8-f543-4fda-85ed-76bb0295ffc4) |
 | Перетворення рукопису на текст, перетворення рукописного фрагмента на фігуру, перетворення рукописного виразу на рівняння | [PowerPoint для Microsoft 365 дає змогу перетворити рукописні фрагменти на фігури, текст або математичні вирази](https://support.office.com/article/0740dec3-6291-4c1f-8baa-011d18449919) |
 | Вставлення даних із зображення| [Вставлення даних із зображення](https://support.office.com/article/3c1bb58d-2c59-4bc0-b04a-a671a6868fd7)|
@@ -60,6 +59,7 @@ ms.locfileid: "44930440"
 | Публікація в Microsoft Stream    | [Перетворюйте презентації на відео](https://support.office.com/article/c140551f-cb37-4818-b5d4-3e30815c3e83#bkmk_microsoftstream)  |
 | *Довідкові матеріали*\*   | [Додавайте або змінюйте довідкові служби](https://support.office.com/article/b862efc5-9a7b-4f88-a23d-93712d6e4397)  |
 | Сканування візитної картки|  [Відскануйте або торкніться, щоб додати контакти в Outlook для Android](https://support.office.com/article/4818ef14-0fc8-4ec2-bb4d-440ea8cae17b)|
+|*Перевірка подібності*\* (функція Редактора)|[Перевірка подібності документа до джерел з Інтернету](https://support.microsoft.com/office/6d942360-b5ca-445f-a84d-6e8c66fc40d2) |
 | *Інтелектуальний пошук*\*   | [Дізнавайтеся більше про те, над чим працюєте](https://support.office.com/article/debf2083-5ac0-4739-8667-ae2467bec044) |
 | Пропоновані відповіді | [Що таке пропоновані відповіді?](https://www.osupportweb.com/a/outlook-mobile/?p=all&s=feature-walkthroughs&f=what-are-suggested-replies)|
 | Дотик для Word (додавання з файлів)   | [Знаходьте й використовуйте потрібний вміст у потрібний вам час, не виходячи з Word](https://support.office.com/article/860118fc-1f61-41f6-922f-40084a284658).   |
