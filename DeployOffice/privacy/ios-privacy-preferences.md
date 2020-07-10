@@ -14,12 +14,12 @@ ms.custom:
 - Ent_Office_Mac
 description: Ця стаття пропонує адміністраторам Office інформацію про налаштування параметрів конфіденційності на пристроях з iOS.
 hideEdit: true
-ms.openlocfilehash: 40fc1ec1f5b2abc587e1b5224dc7fe0a5a656f33
-ms.sourcegitcommit: 3890a23390edd0b5fdb2cf33613ec0778566cf97
+ms.openlocfilehash: 6465a5b5e2103070170bdec8cd64b8bc044d46a3
+ms.sourcegitcommit: f441b1a5f8853c0941b3e23c7781c89abf0be641
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "43992127"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45087868"
 ---
 # <a name="use-preferences-to-manage-privacy-controls-for-office-on-ios-devices"></a>Параметри налаштування елементів керування конфіденційністю в Office на пристроях з iOS
 
@@ -33,7 +33,9 @@ Office на пристроях з iOS включає нові параметр
 
 Ці параметри застосовуються до таких програм:
 - Word для iOS, Excel для iOS і PowerPoint для iOS версії 2.30 і новіших;
+- Outlook для iOS версії 4.30.0 і новіших;
 - OneNote для iOS версії 16.30 і новіших;
+- OneDrive для iOS версії 11.19.11 і новіших;
 - Переглядач Visio для iOS версії 1.17 і новіших.
 
 > [!NOTE]
@@ -60,6 +62,8 @@ Office на пристроях з iOS включає нові параметр
 > - Дозволити використання в Office підключених можливостей, які аналізують вміст
 > - Дозволити використання в Office підключених можливостей, які завантажують вміст з Інтернету
 > - Дозволити використання в Office додаткових необов’язкових підключених можливостей
+>
+> Параметри конфіденційності в Outlook для iOS і OneDrive для iOS можна налаштувати лише за допомогою служби хмарної політики Office.
 >
 > Додаткові відомості про використання служби хмарної політики Office див. в статті [Огляд служби хмарної політики Office](../overview-office-cloud-policy-service.md).
 
