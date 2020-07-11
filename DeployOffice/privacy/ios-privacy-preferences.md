@@ -14,12 +14,12 @@ ms.custom:
 - Ent_Office_Mac
 description: Ця стаття пропонує адміністраторам Office інформацію про налаштування параметрів конфіденційності на пристроях з iOS.
 hideEdit: true
-ms.openlocfilehash: 6465a5b5e2103070170bdec8cd64b8bc044d46a3
-ms.sourcegitcommit: f441b1a5f8853c0941b3e23c7781c89abf0be641
+ms.openlocfilehash: ac8b3428734649981f20a82be2f0793c857e09ee
+ms.sourcegitcommit: 81295dff0f2fa474f0db39fd40560e3a23fff32a
 ms.translationtype: HT
 ms.contentlocale: uk-UA
 ms.lasthandoff: 07/09/2020
-ms.locfileid: "45087868"
+ms.locfileid: "45092175"
 ---
 # <a name="use-preferences-to-manage-privacy-controls-for-office-on-ios-devices"></a>Параметри налаштування елементів керування конфіденційністю в Office на пристроях з iOS
 
@@ -36,7 +36,8 @@ Office на пристроях з iOS включає нові параметр
 - Outlook для iOS версії 4.30.0 і новіших;
 - OneNote для iOS версії 16.30 і новіших;
 - OneDrive для iOS версії 11.19.11 і новіших;
-- Переглядач Visio для iOS версії 1.17 і новіших.
+- Переглядач Visio для iOS версії 1.17 і новіших;
+- Програма Office для iOS версії 2.34 і новіших.
 
 > [!NOTE]
 > Використання подібних параметрів на комп’ютерах із macOS описано в цій [статті про Office для Mac](mac-privacy-preferences.md)
