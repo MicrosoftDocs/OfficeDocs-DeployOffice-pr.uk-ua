@@ -13,12 +13,12 @@ ms.custom:
 - Ent_Office_Privacy
 description: Ця стаття пропонує адміністраторам Office інформацію про необов'язкові підключені можливості, зокрема, про застосовні умови користування ними.
 hideEdit: true
-ms.openlocfilehash: d5de9a7a1eb2f2a825feb28798e8f0d195476696
-ms.sourcegitcommit: 9e44d65a5d59339df7d6a2f1116462c0fb774f83
+ms.openlocfilehash: 729329eeaa301cbb7bda61c0ec8d08ec9124729f
+ms.sourcegitcommit: f441b1a5f8853c0941b3e23c7781c89abf0be641
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 07/07/2020
-ms.locfileid: "45068740"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "45087826"
 ---
 # <a name="overview-of-optional-connected-experiences-in-office"></a>Огляд необов’язкових підключених можливостей Office
 
@@ -45,7 +45,7 @@ Bing підтримує в Outlook для iOS і Android перелічені н
 
 - **Пропозиції щодо розташування:**   після додавання адреси місця до елемента календаря програма Outlook для iOS і Android також відображатиме повну адресу в полі розташування.
 - **Цікаві календарі:** можна [підписатися](https://www.osupportweb.com/a/outlook-mobile/?s=feature-walkthroughs&f=where-do-i-go-on-outlook-to-subscribe-to-an-interesting-calendar&p=all) на календарі, присвячені вашим улюбленим спортивним командам або телепрограмам.
-
+- **Час подорожі у функції "Up Next":** дані про наступну заплановану подію буде підсумовано вгорі папки "Вхідні" вашої поштової скриньки на картці [Up Next](https://www.osupportweb.com/a/outlook-mobile/?s=up-next&f=how-does-up-next-work). В Outlook для Android ця можливість вимагає використання Карт Bing, щоб надавати відомості про приблизний час подорожі.
 
  Ці можливості Bing надаються вам на умовах [Угоди про використання служб Microsoft](https://www.microsoft.com/servicesagreement) і підпадають під [декларацію про конфіденційність](https://privacy.microsoft.com/). Будь-які пошукові запити, які ви надсилаєте організації з пропозицією "Програми Microsoft 365 для підприємств", використовуючи ці служби, передаються до Microsoft Bing. Організація Bing не пов’язує їх із вами.
 
@@ -83,6 +83,10 @@ Bing підтримує в Outlook для iOS і Android перелічені н
 
 > [!NOTE]
 > "Довідкові матеріали" та "Дослідник" – це різні можливості. У новіших версіях Office на додачу до "Довідкових матеріалів" пропонується інша можливість, яка має назву "Дослідник". "Дослідник" – це нова служба на платформі Bing, описана вище в розділі [Можливості, які залежать від Bing](#experiences-that-rely-on-bing).
+
+### <a name="travel-time-in-up-next-in-outlook-for-ios"></a>Час подорожі у функції "Up Next" в Outlook для iOS
+
+В Outlook для iOS дані про наступну заплановану подію буде підсумовано вгорі папки "Вхідні" вашої поштової скриньки на картці [Up Next](https://www.osupportweb.com/a/outlook-mobile/?s=up-next&f=how-does-up-next-work). Ця можливість вимагає використання служби Apple, яка називається Apple Maps, щоб надавати відомості про приблизний час подорожі. При цьому застосовуються [правила використання](https://www.apple.com/legal/internet-services/maps/) Apple Maps і [політика конфіденційності](https://www.apple.com/legal/privacy) Apple.
 
 ### <a name="weather-bar-in-outlook"></a>Панель погоди в Outlook
 
