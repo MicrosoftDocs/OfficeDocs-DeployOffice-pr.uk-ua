@@ -13,12 +13,12 @@ ms.custom:
 - Ent_Office_Privacy
 description: Ця стаття містить відомості для адміністраторів Office щодо підключених можливостей для Office, як-от можливості аналізу вмісту або завантаження вмісту з Інтернету.
 hideEdit: true
-ms.openlocfilehash: 8910b00d5201e70131eb1eb0e696d9ce048eabad
-ms.sourcegitcommit: f441b1a5f8853c0941b3e23c7781c89abf0be641
+ms.openlocfilehash: dec86a00fb6037976f29668534d59b4f99fb9093
+ms.sourcegitcommit: 721c6d39465a5b0ab8e32b876c2e74bb5aaf4b81
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "45087166"
+ms.lasthandoff: 08/14/2020
+ms.locfileid: "46682957"
 ---
 # <a name="connected-experiences-in-office"></a>Підключені можливості в Office
 
@@ -64,6 +64,7 @@ ms.locfileid: "45087166"
 | *Інтелектуальний пошук*\*   | [Дізнавайтеся більше про те, над чим працюєте](https://support.office.com/article/debf2083-5ac0-4739-8667-ae2467bec044) |
 | Пропоновані відповіді | [Що таке пропоновані відповіді?](https://www.osupportweb.com/a/outlook-mobile/?p=all&s=feature-walkthroughs&f=what-are-suggested-replies)|
 | Дотик для Word (додавання з файлів)   | [Знаходьте й використовуйте потрібний вміст у потрібний вам час, не виходячи з Word](https://support.office.com/article/860118fc-1f61-41f6-922f-40084a284658).   |
+|Транскрибування |[Транскрибування записів](https://support.microsoft.com/office/7fc2efec-245e-45f0-b053-2a97531ecf57)|
 | Перетворення на веб-сторінку   | [Перетворюйте документи Word на веб-сторінки Sway](https://support.office.com/article/65912b2d-8b81-41e1-ac52-c20a65ce8ecf) |
 | Перекладач   | [Перекладайте тексти на інші мови](https://support.office.com/article/287380e4-a56c-48a1-9977-f2dca89ce93f)  |
 
