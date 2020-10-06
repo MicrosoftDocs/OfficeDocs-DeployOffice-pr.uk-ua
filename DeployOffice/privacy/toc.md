@@ -21,3 +21,4 @@
 ### [Необхідні дані про служби](required-service-data.md)
 
 ## [Основні служби](essential-services.md)
+## [Рекомендації в продуктах](in-product-recommendations.md)
