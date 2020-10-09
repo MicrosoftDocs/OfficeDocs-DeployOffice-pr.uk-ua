@@ -13,12 +13,12 @@ ms.custom:
 - Ent_Office_Privacy
 description: У цій статті наведено відомості про основні служби в Office, як-от "Office умить" і ліцензування, а також список подій і полів даних для основних служб.
 hideEdit: true
-ms.openlocfilehash: ed550129f7d3aef9e340456b5ee2d09f85c18b07
-ms.sourcegitcommit: b4e08427f3e30a134fcbf86257bab5bf05a5ee82
+ms.openlocfilehash: 2449c56af99d40bcc1a4a3f85575984da6af3252
+ms.sourcegitcommit: a8c69c9c02320edec51c3bd7bb8dce28fa737e47
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "47941049"
+ms.lasthandoff: 10/06/2020
+ms.locfileid: "48367479"
 ---
 # <a name="essential-services-for-office"></a>Основні служби для Office
 
@@ -3312,7 +3312,7 @@ ms.locfileid: "47941049"
 
 - **EventDate** – позначка часу екземпляра події. 
 
-- **MostExplored** – ціле число, що позначає індекс елемента, який використовується найбільше, у списку програм M365 і їх функцій.
+- **MostExplored** – ціле число, що позначає індекс елемента, який використовується найбільше, у списку програм Microsoft 365 і їх функцій.
 
 - **SessionID** – GUID для підключення подій за сеансами.
 
@@ -3844,7 +3844,7 @@ ms.locfileid: "47941049"
 
 ## <a name="microsoft-autoupdate-mau-events"></a>Події автоматичного оновлення Microsoft
 
-### <a name="additionalappinfo_invalidpreference"></a>additionalappinfo_invalidpreference
+### <a name="additionalappinfoinvalidpreference"></a>additionalappinfo.invalidpreference
 
 Ця подія повідомляє про неприпустимий параметр, який налаштований для відображення докладних відомостей щодо завершення обслуговування продукту. Ми використовуємо ці данні, щоб повідомляти користувачам про необхідність настройки правильних параметрів для перегляду додаткових відомостей.
  
@@ -3882,7 +3882,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="appdelegate_launch"></a>appdelegate_launch
+### <a name="appdelegatelaunch"></a>appdelegate.launch
 
 Вказує на те, що відбулася спроба запустити програму. Її результат реєструється (невдача або успіх). Ця подія використовується для визначення випадків, у яких не вдається запустити автоматичне оновлення Microsoft.
 
@@ -3923,7 +3923,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="appdelegate_terminate"></a>appdelegate_terminate
+### <a name="appdelegateterminate"></a>appdelegate.terminate
 
 Ця подія вказує, що стався правильний вихід з програми. Вона використовується, щоб відрізняти правильні виходи з програм від неправильних.
 
@@ -3964,7 +3964,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="appinstall_connecttoxpc"></a>appinstall_connecttoxpc
+### <a name="appinstallconnecttoxpc"></a>appinstall.connecttoxpc
 
 Вказує на помилки підключення до помічника засобу автоматичного оновлення Microsoft (компонент, який виконує інсталяцію програми).  Ця подія позначає потенційне пошкодження програми автоматичного оновлення Microsoft. Пристрій не зможе інсталювати оновлення.
 
@@ -4004,7 +4004,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="appinstall_logscanned"></a>appinstall_logscanned
+### <a name="appinstalllogscanned"></a>appinstall.logscanned
 
 Ця подія використовується, щоб визначити, чи успішно оброблено файл журналу. Ця подія використовується, щоб виявляти та вирішувати будь-які проблеми, що виникають під час інсталяції програм. 
  
@@ -4044,7 +4044,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="appregistry_config"></a>appregistry_config
+### <a name="appregistryconfig"></a>appregistry.config
 
 Ця подія повідомляє про помилки, які виникають під час завантаження відомостей про реєстр програми. Ми використовуємо цей звіт, щоб повідомляти ІТ-адміністраторам правильний формат настройки реєстрацій клієнтських програм.
  
@@ -4084,7 +4084,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="appregistry_info"></a>appregistry_info
+### <a name="appregistryinfo"></a>appregistry.info
 
 Позначає запуск програми. Ця подія використовується для перелічення програм, щодо яких програма оновлення Microsoft може керувати оновленнями, кількістю доступних копій і версій та розташуваннями інсталяцій (стандартні або інші).
 
@@ -4125,7 +4125,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="appregistry_remove"></a>appregistry_remove
+### <a name="appregistryremove"></a>appregistry.remove
 
 Вказує на те, що відбулася спроба вилучити програму зі списку програм, які керуються засобом автоматичного оновлення Microsoft. Ця подія використовується для підтвердження того, що лише програми, випущені в рамках автоматичного оновлення Microsoft, керуються засобом автоматичного оновлення Microsoft (тут не має бути програм з AppStore).
 
@@ -4166,7 +4166,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="catalog_errorsignature"></a>catalog_errorsignature
+### <a name="catalogerrorsignature"></a>catalog.errorsignature
 
 Ця подія вказує на помилку під час перевірки підписування коду на файлі оновлення.  Невірна перевірка підписування коду має вважатися недійсною.
 
@@ -4206,11 +4206,11 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="cloningtask_begin"></a>cloningtask_begin
+### <a name="cloningtaskbegin"></a>cloningtask.begin
 
-Ця подія вказує на початок завдання клонування перед оновленням програми. Ця подія використовується в поєднанні з подією cloningtask_status для визначення обсягу помилок клонування, а також того, чи слід регулювати функцію клонування на різних каналах аудиторій.
+Ця подія вказує на початок завдання клонування перед оновленням програми. Ця подія використовується в поєднанні з подією cloningtask.status для визначення обсягу помилок клонування, а також того, чи слід регулювати функцію клонування на різних каналах аудиторій.
  
-Збираються такі поля:
+Збираються перелічені нижче поля.
 
 - **App** – процес програми, яка надсилає подію.
 
@@ -4249,7 +4249,7 @@ ms.locfileid: "47941049"
 - **UpdateID** – ідентифікатор оновлення.
 
 
-### <a name="cloningtask_helpertoolconnection"></a>cloningtask_helpertoolconnection
+### <a name="cloningtaskhelpertoolconnection"></a>cloningtask.helpertoolconnection
 
 Ця подія записує проблеми з інсталяцією на клон (наприклад, неможливо підключитися до помічника, щоб застосувати оновлення, або після підключення помічник не може застосувати оновлення). Якщо отримано такий запис, це означає, що інсталяція на клон не вдалася і тепер доведеться повернутися до оновлення на місці.
 
@@ -4289,7 +4289,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="cloningtask_status"></a>cloningtask_status
+### <a name="cloningtaskstatus"></a>cloningtask.status
 
 Ця подія вказує на стан процесу клонування для програми, яку потрібно оновити. Ця подія використовується, щоб визначати успішні дії, а також типи помилок, які є причинами невдалих спроб. Ця подія використовується для визначення, чи слід регулювати функцію клонування на різних каналах аудиторій.
 
@@ -4335,7 +4335,7 @@ ms.locfileid: "47941049"
 
 - **UpdateID** – ідентифікатор оновлення.
 
-### <a name="cloningtask_status_finish"></a>cloningtask_status_finish
+### <a name="cloningtaskstatusfinish"></a>cloningtask.status.finish
 
 Ця подія повідомляє про завершення завдання "клонування". Ця функція входить до складу звіту воронки оновлення і використовується для визначення роботоздатності оновлень програм.
  
@@ -4376,7 +4376,7 @@ ms.locfileid: "47941049"
 - **UpdateID** – ідентифікатор оновлення.
 
 
-### <a name="configuration_channel"></a>configuration_channel
+### <a name="configurationchannel"></a>configuration.channel
 
 Ця подія реєструє запити на перемикання каналів (групи аудиторії) в засобі автоматичного оновлення Microsoft.  Вона використовується для реєстрації спроб та їх результатів (успіх або невдача).
 
@@ -4417,7 +4417,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="configuration_metadata"></a>configuration_metadata
+### <a name="configurationmetadata"></a>configuration.metadata
 
 Ця подія реєструється при кожній ініціалізації засобу автоматичного оновлення Microsoft. Це ключова подія засобу автоматичного оновлення Microsoft.
 
@@ -4457,7 +4457,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="configuration_systemversion"></a>configuration_systemVersion
+### <a name="configurationsystemversion"></a>configuration.systemVersion
 
 Ця подія вказує на невдалу спробу отримання версії системи. Вона також містить відомості, які засіб автоматичного оновлення Microsoft зміг зібрати із системи. Ця подія використовується, щоб визначити, чи повинен засіб автоматичного оновлення передбачати помилки. Зверніть увагу, що версія системи використовується, щоб визначити, чи можна застосовувати оновлення до клієнтського пристрою.
  
@@ -4497,7 +4497,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="controller_alertmanager_reinstallresponse"></a>controller_alertmanager_reinstallresponse
+### <a name="controlleralertmanagerreinstallresponse"></a>controller.alertmanager.reinstallresponse
 
 Вказує на те, що засіб автоматичного оновлення Microsoft став непридатним і його потрібно інсталювати повторно. Ця подія позначає невиправну помилку, яка вимагає втручання користувача.
 
@@ -4535,10 +4535,10 @@ ms.locfileid: "47941049"
 
 - **PipelineInfo_ClientIp** – перші 3 октети IP-адреси.
 
-- **SessionId** – ідентифікатор сесії
+- **SessionId** – ідентифікатор сесії.
 
     
-### <a name="controller_alertmanager_tmpdiskfull"></a>controller_alertmanager_tmpdiskfull
+### <a name="controlleralertmanagertmpdiskfull"></a>controller.alertmanager.tmpdiskfull
 
 Ця подія вказує на брак дискового простору. Інсталювати оновлення не вдасться через брак вільного місця на диску.
 
@@ -4579,7 +4579,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="controller_alertmanager_tmpdiskfullretry"></a>controller_alertmanager_tmpdiskfullretry
+### <a name="controlleralertmanagertmpdiskfullretry"></a>controller.alertmanager.tmpdiskfullretry
 
 Ця подія свідчить про ініціацію повторної спроби інсталювати оновлення після виявлення браку дискового простору. Після виявлення недостатнього обсягу вільного місця на диску спробу інсталяції буде повторено.
 
@@ -4620,7 +4620,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
     
 
-### <a name="controller_alertmanager_tmpdiskfullretrycancel"></a>controller_alertmanager_tmpdiskfullretrycancel
+### <a name="controlleralertmanagertmpdiskfullretrycancel"></a>controller.alertmanager.tmpdiskfullretrycancel
 
 Свідчить про відміну повторної спроби інсталювати оновлення після виявлення браку дискового простору. Ця подія використовується, щоб визначити, чи достатньо нашого резервного механізму для направлення користувача через процес оновлення після виявлення браку дискового простору.
 
@@ -4661,7 +4661,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
     
-### <a name="controller_checkwindow_noupdatefoundok"></a>controller_checkwindow_noupdatefoundok
+### <a name="controllercheckwindownoupdatefoundok"></a>controller.checkwindow.noupdatefoundok
 
 Ця подія вказує на те, що процедура перевірки оновлень не виявила оновлень. Ця подія використовується для забезпечення наявності необхідних оновлень, оптимізації навантаження на службу та визначення необхідної періодичності перевірки оновлень. Ми також хотіли б оптимізувати періодичність випусків оновлень на основі очікувань користувачів.
 
@@ -4703,7 +4703,7 @@ ms.locfileid: "47941049"
 
     
 
-### <a name="controller_checkwindow_updatecheck"></a>controller_checkwindow_updatecheck
+### <a name="controllercheckwindowupdatecheck"></a>controller.checkwindow.updatecheck
 
 Вказує на завершення перевірки оновлень. Ця подія використовується для забезпечення наявності необхідних оновлень, оптимізації навантаження на службу та визначення необхідної періодичності перевірки оновлень. Ми також хотіли б оптимізувати періодичність випусків оновлень на основі очікувань користувачів.
 
@@ -4744,7 +4744,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="controller_checkwindow_updatecheckcancel"></a>controller_checkwindow_updatecheckcancel
+### <a name="controllercheckwindowupdatecheckcancel"></a>controller.checkwindow.updatecheckcancel
 
 Вказує на скасування (користувачем або системою) процедури перевірки оновлень. Ця подія використовується для забезпечення наявності необхідних оновлень, оптимізації навантаження на службу та визначення необхідної періодичності перевірки оновлень. Ми також хотіли б оптимізувати періодичність випусків оновлень на основі очікувань користувачів.
 
@@ -4785,7 +4785,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
     
-### <a name="controller_checkwindow_updatecheckcanceluser"></a>controller_checkwindow_updatecheckcanceluser
+### <a name="controllercheckwindowupdatecheckcanceluser"></a>controller.checkwindow.updatecheckcanceluser
 
 Вказує на скасування процедури перевірки оновлень користувачем.  Ця подія використовується для забезпечення наявності необхідних оновлень, оптимізації навантаження на службу та визначення необхідної періодичності перевірки оновлень. Ми також хотіли б оптимізувати періодичність випусків оновлень на основі очікувань користувачів.
 
@@ -4826,7 +4826,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
     
-### <a name="controller_checkwindow_updatesfound"></a>controller_checkwindow_updatesfound
+### <a name="controllercheckwindowupdatesfound"></a>controller.checkwindow.updatesfound
 
 Вказує на те, що процедура перевірки оновлень виявила наявні оновлення.  Ця подія використовується для забезпечення наявності необхідних оновлень.
 
@@ -4867,7 +4867,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
     
-### <a name="controller_checkwindow_uptodate"></a>controller_checkwindow_uptodate
+### <a name="controllercheckwindowuptodate"></a>controller.checkwindow.uptodate
 
 Вказує на те, що процедура перевірки оновлень не призвела до оновлення, оскільки програми пристрою оновлені.  Ця подія використовується для забезпечення наявності необхідних оновлень.
 
@@ -4908,7 +4908,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="controller_downloadwindow_applaunchwithpendingupdate"></a>controller_downloadwindow_applaunchwithpendingupdate
+### <a name="controllerdownloadwindowapplaunchwithpendingupdate"></a>controller.downloadwindow.applaunchwithpendingupdate
 
 Вказує на запуск програми, яка перебуває в процесі отримання оновлень. Ця подія використовується для забезпечення наявності необхідних оновлень. Відкриті програми не повинні оновлюватися. Перед оновленням програма має бути закрита.
 
@@ -4949,7 +4949,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
     
-### <a name="controller_downloadwindow_closeapplicationdialog"></a>controller_downloadwindow_closeapplicationdialog
+### <a name="controllerdownloadwindowcloseapplicationdialog"></a>controller.downloadwindow.closeapplicationdialog
 
 Вказує на запуск програми, яка перебуває в процесі отримання оновлень. Ця подія використовується для забезпечення наявності необхідних оновлень. Відкриті програми не повинні оновлюватися. Перед оновленням програма має бути закрита.
 
@@ -4990,7 +4990,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
     
-### <a name="controller_downloadwindow_curtasknull"></a>controller_downloadwindow_curtasknull
+### <a name="controllerdownloadwindowcurtasknull"></a>controller.downloadwindow.curtasknull
 
 Вказує на неочікувану помилку під час спроби застосувати оновлення. Ця подія використовується для забезпечення наявності необхідних оновлень.
 
@@ -5031,7 +5031,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
     
-### <a name="controller_downloadwindow_downloadcancel"></a>controller_downloadwindow_downloadcancel
+### <a name="controllerdownloadwindowdownloadcancel"></a>controller.downloadwindow.downloadcancel
 
 Вказує на скасування процесу завантаження користувачем.  Ця подія використовується для забезпечення наявності необхідних оновлень.
 
@@ -5072,7 +5072,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
     
-### <a name="controller_downloadwindow_downloadfailed"></a>controller_downloadwindow_downloadfailed
+### <a name="controllerdownloadwindowdownloadfailed"></a>controller.downloadwindow.downloadfailed
 
 Вказує на помилку під час завантаження оновлення. Ця подія використовується для забезпечення наявності необхідних оновлень та їх правильного завантаження.
 
@@ -5113,7 +5113,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
     
-### <a name="controller_downloadwindow_downloadfailedok"></a>controller_downloadwindow_downloadfailedok
+### <a name="controllerdownloadwindowdownloadfailedok"></a>controller.downloadwindow.downloadfailedok
 
 Вказує на помилку під час завантаження оновлення, про яку повідомлено користувачеві. Ця подія використовується для забезпечення наявності та правильного завантаження необхідних оновлень, а також інформування користувача в разі помилки.
 
@@ -5154,7 +5154,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="controller_downloadwindow_downloadpathmissing"></a>controller_downloadwindow_downloadpathmissing
+### <a name="controllerdownloadwindowdownloadpathmissing"></a>controller.downloadwindow.downloadpathmissing
 
 Вказує на помилку під час завантаження оновлення. Ця подія використовується для забезпечення наявності необхідних оновлень та їх правильного завантаження. Ця подія вказує на відсутність URL-адреси завантаження.
 
@@ -5195,7 +5195,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="controller_downloadwindow_downloadtasknull"></a>controller_downloadwindow_downloadtasknull
+### <a name="controllerdownloadwindowdownloadtasknull"></a>controller.downloadwindow.downloadtasknull
 
 Вказує на помилку під час завантаження оновлення. Ця подія використовується для забезпечення наявності необхідних оновлень та їх правильного завантаження. Ця подія вказує на те, що засіб автоматичного оновлення Microsoft отримав запит на призупинення або відновлення завантаження, але не знайшов відповідний диспетчер завантаження.
 
@@ -5236,7 +5236,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="controller_downloadwindow_filesignaturenotverified"></a>controller_downloadwindow_filesignaturenotverified
+### <a name="controllerdownloadwindowfilesignaturenotverified"></a>controller.downloadwindow.filesignaturenotverified
 
 Вказує на помилку під час завантаження оновлення. Ця подія вказує на те, що засіб автоматичного оновлення Microsoft не зміг перевірити, чи оновлення опубліковане корпорацією Майкрософт. Ця подія використовується для забезпечення наявності необхідних оновлень та їх правильного завантаження. 
 
@@ -5277,7 +5277,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="controller_downloadwindow_installcomplete"></a>controller_downloadwindow_installcomplete
+### <a name="controllerdownloadwindowinstallcomplete"></a>controller.downloadwindow.installcomplete
 
 Вказує на завершення інсталяції всіх оновлень, які запропоновано засобом автоматичного оновлення Microsoft. Ця подія використовується для забезпечення наявності необхідних оновлень та їх правильного завантаження. 
 
@@ -5318,7 +5318,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="controller_downloadwindow_networkunavailablealert"></a>controller_downloadwindow_networkunavailablealert
+### <a name="controllerdownloadwindownetworkunavailablealert"></a>controller.downloadwindow.networkunavailablealert
 
 Вказує на втрату підключення під час завантаження оновлень.  Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
 
@@ -5359,7 +5359,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
     
-### <a name="controller_downloadwindow_networkunavailablealertok"></a>controller_downloadwindow_networkunavailablealertok
+### <a name="controllerdownloadwindownetworkunavailablealertok"></a>controller.downloadwindow.networkunavailablealertok
 
 Вказує на втрату підключення під час завантаження оновлень. Крім того, це означає, що користувач сповіщений про дану помилку. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
 
@@ -5400,7 +5400,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
     
-### <a name="controller_downloadwindow_noconnectionok"></a>controller_downloadwindow_noconnectionok
+### <a name="controllerdownloadwindownoconnectionok"></a>controller.downloadwindow.noconnectionok
 
 Вказує на втрату підключення під час завантаження оновлень. Крім того, це означає, що користувач сповіщений про дану помилку. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
 
@@ -5441,7 +5441,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="controller_downloadwindow_repairrequired"></a>controller_downloadwindow_repairrequired
+### <a name="controllerdownloadwindowrepairrequired"></a>controller.downloadwindow.repairrequired
 
 Ця подія вказує на помилку процесу оновлення. Крім того, це означає, що оновлення виконане, але засіб автоматичного оновлення Microsoft виявив у оновленій програмі проблему, яка вимагає виправлення. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
 
@@ -5481,7 +5481,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="controller_downloadwindow_updateaborted"></a>controller_downloadwindow_updateaborted
+### <a name="controllerdownloadwindowupdateaborted"></a>controller.downloadwindow.updateaborted
 
 Ця подія вказує на переривання процесу оновлення. Крім того, це означає, що оновлення вже відбувалося через Daemon, а користувач натиснув кнопку OK, щоб перервати завантаження. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
 
@@ -5522,7 +5522,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="controller_downloadwindow_updatefailed"></a>controller_downloadwindow_updatefailed
+### <a name="controllerdownloadwindowupdatefailed"></a>controller.downloadwindow.updatefailed
 
 Вказує на помилку одного або кількох оновлень з поточного пакета. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
 
@@ -5563,7 +5563,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="controller_downloadwindow_updatesuccessful"></a>controller_downloadwindow_updatesuccessful
+### <a name="controllerdownloadwindowupdatesuccessful"></a>controller.downloadwindow.updatesuccessful
 
 Вказує на успішність усіх оновлень з поточного пакета. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
 
@@ -5604,7 +5604,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="controller_downloadwindow_userpaused"></a>controller_downloadwindow_userpaused
+### <a name="controllerdownloadwindowuserpaused"></a>controller.downloadwindow.userpaused
 
 Вказує на успішність усіх оновлень з поточного пакета. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
 
@@ -5645,7 +5645,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="controller_downloadwindow_userresumed"></a>controller_downloadwindow_userresumed
+### <a name="controllerdownloadwindowuserresumed"></a>controller.downloadwindow.userresumed
 
 – вказує на те, що процес завантаження оновлень успішно поновлено після призупинення. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
 
@@ -5686,7 +5686,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="controller_mainwindow_setautomaticdownloadinstall"></a>controller_mainwindow_setautomaticdownloadinstall
+### <a name="controllermainwindowsetautomaticdownloadinstall"></a>controller.mainwindow.setautomaticdownloadinstall
 
 – вказує на те, що пристрій зареєстровано в режим автоматичного оновлення. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
 
@@ -5727,7 +5727,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
     
-### <a name="controller_mainwindow_setmanualchecking"></a>controller_mainwindow_setmanualchecking
+### <a name="controllermainwindowsetmanualchecking"></a>controller.mainwindow.setmanualchecking
 
 – вказує на те, що пристрій зареєстровано в режим ручного оновлення. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
 
@@ -5768,7 +5768,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
     
-### <a name="controller_templateawindow_cancel"></a>controller_templateawindow_cancel
+### <a name="controllertemplateawindowcancel"></a>controller.templateawindow.cancel
 
 – вказує на те, що користувач вирішив скасувати або проігнорувати надане застереження. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
 
@@ -5809,7 +5809,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
     
-### <a name="controller_templateawindow_enroll"></a>controller_templateawindow_enroll
+### <a name="controllertemplateawindowenroll"></a>controller.templateawindow.enroll
 
 – вказує на те, що користувач вирішив виконати надані рекомендації. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
 
@@ -5851,7 +5851,7 @@ ms.locfileid: "47941049"
 
 
 
-### <a name="controller_templateawindow_install"></a>controller_templateawindow_install
+### <a name="controllertemplateawindowinstall"></a>controller.templateawindow.install
 
 – вказує на те, що користувач вирішив виконати надані рекомендації щодо запуску інсталяції програмного забезпечення. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
 
@@ -5892,7 +5892,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="controller_updatewindow_begindownloadingapps"></a>controller_updatewindow_begindownloadingapps
+### <a name="controllerupdatewindowbegindownloadingapps"></a>controller.updatewindow.begindownloadingapps
 
 – вказує на те, що завантаження оновлень почато через вікно оновлення. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
 
@@ -5933,7 +5933,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
     
-### <a name="controller_updatewindow_networkretry"></a>controller_updatewindow_networkretry
+### <a name="controllerupdatewindownetworkretry"></a>controller.updatewindow.networkretry
 
 – вказує на те, що через відмову мережі на аркуші оновлення була запущена повторна спроба. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
 
@@ -5974,7 +5974,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
     
-### <a name="controller_updatewindow_networkretrycancel"></a>controller_updatewindow_networkretrycancel
+### <a name="controllerupdatewindownetworkretrycancel"></a>controller.updatewindow.networkretrycancel
 
 – вказує на те, що через відмову мережі на аркуші оновлення не вдалося запустити повторну спробу. Ця подія вказує на те, що користувач обирав скасувати оновлення, коли отримав сповіщення про недоступність підключення. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -6015,7 +6015,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="controller_updatewindow_networkunavailable"></a>controller_updatewindow_networkunavailable
+### <a name="controllerupdatewindownetworkunavailable"></a>controller.updatewindow.networkunavailable
 
 – вказує на раптову втрату підключення. Ця подія вказує на недоступність сервера під час спроби завантажити пакет оновлень. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -6056,7 +6056,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="controller_updatewindow_noupdateavailable"></a>controller_updatewindow_noupdateavailable
+### <a name="controllerupdatewindownoupdateavailable"></a>controller.updatewindow.noupdateavailable
 
 – вказує на те, що пошук оновлень відбувся, але не виявив наявності оновлень. Ця подія вказує на те, що засіб автоматичного оновлення Microsoft не виявив доступних оновлень. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -6097,7 +6097,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="controller_updatewindow_noupdatestoselect"></a>controller_updatewindow_noupdatestoselect
+### <a name="controllerupdatewindownoupdatestoselect"></a>controller.updatewindow.noupdatestoselect
 
 – вказує на те, що сталася помилка, через яку списку оновлень порожній. Ця подія вказує на те, що засіб автоматичного оновлення Microsoft відображає порожній аркуш оновлень. Так не повинно бути. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -6138,7 +6138,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="controller_updatewindow_updateavailable"></a>Controller_UpdateWindow_UpdateAvailable
+### <a name="controllerupdatewindowupdateavailable"></a>Controller.UpdateWindow.UpdateAvailable
 
 – вказує на те, що відбувся пошук оновлень, який виявив наявні оновлення. Ця подія використовується, щоб визначати, чи пропонуються користувачам оновлення, чи пропоновані оновлення належні та чи належним чином працює блокування оновлень. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -6179,7 +6179,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
     
-### <a name="controller_updatewindow_updateavailablecancel"></a>controller_updatewindow_updateavailablecancel
+### <a name="controllerupdatewindowupdateavailablecancel"></a>controller.updatewindow.updateavailablecancel
 
 – вказує на скасування користувачем після того, як відобразився оновлений список аркуша оновлень. Ця подія використовується для виявлення причин відмови від оновлень (наприклад, свідоме скасування користувачем). Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -6220,7 +6220,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="downloadactor_pause"></a>downloadactor_pause
+### <a name="downloadactorpause"></a>downloadactor.pause
 
 – вказує на те, що користувач надав запит на призупинення завантаження. Ця подія використовується для пояснення причин неповного завершення оновлень. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -6261,7 +6261,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="downloadactor_redirect"></a>downloadactor_redirect
+### <a name="downloadactorredirect"></a>downloadactor.redirect
 
 – вказує на те, що агент завантажувача направляється на точку, яка переспрямовує URL-адресу запиту на завантаження. Ця подія використовується для пояснення причини помилок завантаження та проблем діагностики проксі-сервера. Крім того, вона може допомогти діагностувати причини, з яких користувачі інсталюють старіші збірки. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -6302,7 +6302,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
     
-### <a name="downloadactor_resume"></a>downloadactor_resume
+### <a name="downloadactorresume"></a>downloadactor.resume
 
 – вказує на те, що користувач надав запит на відновлення призупиненого завантаження. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -6343,7 +6343,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="downloadactor_resumeerror"></a>downloadactor_resumeerror
+### <a name="downloadactorresumeerror"></a>downloadactor.resumeerror
 
 – вказує на те, що користувач надав запит на відновлення призупиненого завантаження. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -6384,7 +6384,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
     
-### <a name="downloadactor_status"></a>downloadactor_status
+### <a name="downloadactorstatus"></a>downloadactor.status
 
 Ця подія реєструє спроби отримати супутні файли та результати цих спроб (успіх або невдача). Нас цікавить, які файли й пакети отримуються. Отримання неправильного файлу може вказувати на проблему збірки чи супутніх файлів. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -6425,7 +6425,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="downloadmanifest_configuration"></a>downloadmanifest_configuration
+### <a name="downloadmanifestconfiguration"></a>downloadmanifest.configuration
 
 Ця подія повідомляє про помилку з налаштуванням засобу автоматичного оновлення або – з налаштуванням призначеного для користувача сервера в параметрах, або в визначеннях кінцевих точок у помічнику з оновлення у встановлених компонентах засобу автоматичного оновлення. Ця подія використовується, щоб повідомляти ІТ-адміністраторам про необхідність настроювання правильних кінцевих точок сервера маніфесту.
  
@@ -6464,7 +6464,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="downloadmanifest_downloadcatalogfail"></a>downloadmanifest_downloadcatalogfail
+### <a name="downloadmanifestdownloadcatalogfail"></a>downloadmanifest.downloadcatalogfail
 
 – помилка завантаження. Дані про файл, який не вдалося завантажити, записуються. Нас цікавить, які файли й пакети отримуються. Неможливість завантажити маніфест може вказувати на помилку створення супутніх файлів збірки, помилку конфігурації CDN, помилки конфігурації клієнта чи помилку мережі. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -6505,7 +6505,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
     
-### <a name="downloadmanifest_downloadcatalogsuccess"></a>downloadmanifest_downloadcatalogsuccess
+### <a name="downloadmanifestdownloadcatalogsuccess"></a>downloadmanifest.downloadcatalogsuccess
 
 – позначає успішне завантаження файлу. Неможливість завантажити маніфест може вказувати на помилку створення супутніх файлів збірки, помилку конфігурації CDN, помилки конфігурації клієнта чи помилку мережі. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -6546,7 +6546,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="downloadmanifest_downloadfail"></a>downloadmanifest_downloadfail
+### <a name="downloadmanifestdownloadfail"></a>downloadmanifest.downloadfail
 
 – вказує на помилку завантаження. Файл маніфесту або пакету, який не вдалося завантажити, та відомості про помилку записуються. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -6587,7 +6587,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="downloadmanifest_downloadfromurl"></a>downloadmanifest_downloadfromurl
+### <a name="downloadmanifestdownloadfromurl"></a>downloadmanifest.downloadfromurl
 
 – вказує на початок завантаження файлу каталогу. URL-адреса, з якої завантажується файл каталогу, записується. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -6628,7 +6628,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="downloadmanifest_downloading"></a>downloadmanifest_downloading
+### <a name="downloadmanifestdownloading"></a>downloadmanifest.downloading
 
 – вказує на початок завантаження файлу каталогу. URL-адреса, з якої завантажується файл каталогу, записується. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -6669,7 +6669,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="downloadmanifest_downloadsuccess"></a>downloadmanifest_downloadsuccess
+### <a name="downloadmanifestdownloadsuccess"></a>downloadmanifest.downloadsuccess
 
 – вказує на успішне завантаження XML та файлу пакета. URL-адреса, з якої завантажується файл, записується. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -6710,7 +6710,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
     
-### <a name="downloadmanifest_downloadurl"></a>downloadmanifest_downloadurl
+### <a name="downloadmanifestdownloadurl"></a>downloadmanifest.downloadurl
 
 – вказує на запит завантаження файлу. URL-адреса, з якої завантажується файл, записується. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -6751,7 +6751,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="downloadmanifest_filenameerror"></a>downloadmanifest_filenameerror
+### <a name="downloadmanifestfilenameerror"></a>downloadmanifest.filenameerror
 
 – вказує на неочікувану помилку. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -6792,7 +6792,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="downloadmanifest_invalidhash"></a>downloadmanifest_invalidhash
+### <a name="downloadmanifestinvalidhash"></a>downloadmanifest.invalidhash
 
 – вказує на помилку перевірки безпеки наших файлів. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -6833,7 +6833,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="downloadmanifest_missingdaemon"></a>downloadmanifest_missingdaemon
+### <a name="downloadmanifestmissingdaemon"></a>downloadmanifest.missingdaemon
 
 – вказує на те, що користувач спробував перевірити наявність оновлень, а ми виявили, що в засобі автоматичного оновлення Microsoft відсутня основна складова (daemon). Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -6874,7 +6874,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="downloadmanifest_signatureerror"></a>downloadmanifest_signatureerror
+### <a name="downloadmanifestsignatureerror"></a>downloadmanifest.signatureerror
 
 Вказує на те, що не вдалося виконати перевірку підпису коду пакета. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -6915,7 +6915,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="downloadmanifest_status"></a>downloadmanifest_status
+### <a name="downloadmanifeststatus"></a>downloadmanifest.status
 
 – реєструє узагальнені агрегування спроб і помилок завантаження маніфесту та пакетних файлів. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -6956,7 +6956,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="downloadmgr_downloadend"></a>downloadmgr_downloadend
+### <a name="downloadmgrdownloadend"></a>downloadmgr.downloadend
 
 – реєструє позначку, яка вказує на самостійне завершення завантаження. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -6997,7 +6997,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="downloadmgr_downloadstart"></a>downloadmgr_downloadstart
+### <a name="downloadmgrdownloadstart"></a>downloadmgr.downloadstart
 
 Реєструє оновлення, яке буде завантажене. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -7037,7 +7037,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="downloadtask_downloadbegin"></a>downloadtask_downloadbegin
+### <a name="downloadtaskdownloadbegin"></a>downloadtask.downloadbegin
 
 Ця подія вказує на початок завантаження для оновлення додатка. Ця функція входить до складу воронки оновлення і використовується для визначення роботоздатності оновлень програм.
  
@@ -7086,7 +7086,7 @@ ms.locfileid: "47941049"
 - **BundleVersion** – версія програми після оновлення.
 
 
-### <a name="downloadtask_downloadfailure"></a>downloadtask_downloadfailure
+### <a name="downloadtaskdownloadfailure"></a>downloadtask.downloadfailure
 
 Ця подія реєструє помилку, яка сталася під час завантаження пакетного файлу. Реєструється шлях оновлення та помилка. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -7133,7 +7133,7 @@ ms.locfileid: "47941049"
 - **UpdateID** – ідентифікатор оновлення, що завантажується.
 
 
-### <a name="downloadtask_downloadsuccess"></a>downloadtask_downloadsuccess
+### <a name="downloadtaskdownloadsuccess"></a>downloadtask.downloadsuccess
 
 Успішне завантаження пакетного файлу. Шлях оновлення реєструється. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -7177,7 +7177,7 @@ ms.locfileid: "47941049"
 
 - **UpdateID** – ідентифікатор завантаженого оновлення.
 
-### <a name="downloadtask_updatertypeerror"></a>downloadtask_updatertypeerror
+### <a name="downloadtaskupdatertypeerror"></a>downloadtask.updatertypeerror
 
 Ця подія повідомляє про тип помилки засобу оновлення у завантаженому файлу маніфесту. Ця подія використовується для сповіщення власника файлу маніфесту про необхідність виправлення помилки.
  
@@ -7221,7 +7221,7 @@ ms.locfileid: "47941049"
 
 - **UpdateURL** – URL-адреса пакета оновлень, який потрібно застосувати.
 
-### <a name="downloadtask_urlerror"></a>downloadtask_urlerror
+### <a name="downloadtaskurlerror"></a>downloadtask.urlerror
 
 Ця подія повідомляє про помилку в URL-адресі, яка зазначена в завантаженому файлі маніфесту. Ця подія використовується для сповіщення власника файлу маніфесту про необхідність виправлення помилки.
  
@@ -7263,7 +7263,7 @@ ms.locfileid: "47941049"
 
 - **UpdateURL** – URL-адреса пакета оновлень, який потрібно застосувати.
 
-### <a name="fba_changelastupdate"></a>fba_changelastupdate
+### <a name="fbachangelastupdate"></a>fba.changelastupdate
 
 Ця подія повідомляє, коли засіб автоматичного оновлення Microsoft перевіряє наявність оновлень. Ця подія використовується для налагодження, якщо на певному пристрої не пропонувалося оновлення протягом тривалого періоду часу.
 
@@ -7302,7 +7302,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="fba_checkforupdate"></a>fba_checkforupdate
+### <a name="fbacheckforupdate"></a>fba.checkforupdate
 
 Вказує на те, що фоновий процес перевіряє наявність оновлень. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -7343,7 +7343,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="fba_checkforupdateskip"></a>fba_checkforupdateskip
+### <a name="fbacheckforupdateskip"></a>fba.checkforupdateskip
 
 Вказує на те, що фоновий процес пропустив оновлення, тому що відкрито графічний інтерфейс засобу автоматичного оновлення Microsoft. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -7384,7 +7384,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="fba_forceinstallmsgsent"></a>fba_forceinstallmsgsent
+### <a name="fbaforceinstallmsgsent"></a>fba.forceinstallmsgsent
 
 Ця подія вказує на те, що примусове оновлення ініціюється з інтерфейсу користувача. Ця функція входить до складу воронки і використовується для визначення роботоздатності функції примусового оновлення.
 
@@ -7422,7 +7422,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="fba_forceupdatecheck"></a>fba_forceupdatecheck
+### <a name="fbaforceupdatecheck"></a>fba.forceupdatecheck
 
 Ця подія вказує на те, що перевірку оновлень буде виконано примусово. Ця подія використовується для визначення обсягу перевірок вимушених оновлень, які знаходяться за межами нормального циклу перевірок оновлень.
 
@@ -7462,7 +7462,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="fba_guiappopen"></a>fba_guiappopen
+### <a name="fbaguiappopen"></a>fba.guiappopen
 
 Ця подія вказує на те, що інтерфейс користувача запускається в режимі автоматичної перевірки, оскільки зараз відкрита програма з застосовним оновленням. Ця подія використовується, щоб визначити обсяг запусків інтерфейсу користувача у режимі автоматичної перевірки, що буде корисно для майбутніх розробок функцій.
 
@@ -7502,7 +7502,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="fba_installpending"></a>fba_installpending
+### <a name="fbainstallpending"></a>fba.installpending
 
 Ця подія вказує на те, що засіб автоматичного оновлення Microsoft надіслав сповіщення про оновлення, які очікують у черзі. Ця подія використовується, щоб визначити обсяг оновлень, які ініціюються із сповіщень користувачів, що необхідно для покращення роботи користувачів через мінімізацію переривань роботи в майбутніх випусках.
 
@@ -7542,7 +7542,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="fba_launch"></a>fba_launch
+### <a name="fbalaunch"></a>fba.launch
 
 Ця подія вказує на запуск помічника з оновлення Microsoft, а також на метод цього запуску. Ця подія використовується, щоб визначити, чи був запущений помічник з оновлення Microsoft у неправильному контексті.
 
@@ -7582,7 +7582,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="fba_launchbyagent"></a>fba_launchbyagent
+### <a name="fbalaunchbyagent"></a>fba.launchbyagent
 
 Ця подія вказує на те, що помічник з оновлення Microsoft запущено за допомогою агента запуску. Ця подія використовується, щоб визначити обсяг запусків помічника з оновлення Microsoft з інтерфейсу користувача, що буде корисно для майбутніх розробок.
 
@@ -7622,7 +7622,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="fba_launchfromprotocol"></a>fba_launchfromprotocol
+### <a name="fbalaunchfromprotocol"></a>fba.launchfromprotocol
 
 Ця подія вказує на те, що помічник з оновлення Microsoft був запущений через протокол URL-адреси. Ця подія використовується, щоб визначити обсяг запусків помічника з оновлення Microsoft за допомогою URL-адреси, що буде корисно для майбутніх розробок.
 
@@ -7662,7 +7662,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="fba_launchgui"></a>fba_launchgui
+### <a name="fbalaunchgui"></a>fba.launchgui
 
 Ця подія вказує на те, що помічник з оновлення Microsoft намагається запустити графічний інтерфейс користувача (GUI). Ця подія використовується, щоб визначити обсяг запусків інтерфейсу користувача, який ініціюється з помічника з оновлення Microsoft, що буде корисно для майбутніх розробок, зокрема для мінімізації відволікання користувачів через часті запуски інтерфейсу користувача.
 
@@ -7703,7 +7703,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="fba_launchstatus"></a>fba_launchstatus
+### <a name="fbalaunchstatus"></a>fba.launchstatus
 
 Реєструє неполадки елемента daemon засобу автоматичного оновлення Microsoft під час спроби запуску. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -7748,7 +7748,7 @@ ms.locfileid: "47941049"
 - **Success** – текстовий логічний вираз, який вказує на те, чи успішно запущено процес демона MAU.
 
 
-### <a name="fba_mausilentupdate"></a>fba_mausilentupdate
+### <a name="fbamausilentupdate"></a>fba.mausilentupdate
 
 Ця подія вказує на те, що помічник з оновлення Microsoft ініціює автоматичні оновлення. Ця подія використовується, щоб визначити обсяг оновлень, які застосовуються без втручання користувача для вдосконалення взаємодії з користувачами.
 
@@ -7788,7 +7788,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="fba_moreinfofromappnotification"></a>fba_moreinfofromappnotification
+### <a name="fbamoreinfofromappnotification"></a>fba.moreinfofromappnotification
 
 Ця подія повідомляє про інформацію, яку зареєстрована програма передає через засіб автоматичного оновлення Microsoft. Наприклад, повідомлення про завершення обслуговування штовхають через сповіщення засобу автоматичного оновлення. Ми використовуємо цю подію, щоб визначити обсяг пристроїв, які відображають дане сповіщення, що необхідно для визначення успішності поширення інформації.
 
@@ -7830,7 +7830,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="fba_multipledaemon"></a>fba_multipledaemon
+### <a name="fbamultipledaemon"></a>fba.multipledaemon
 
 Ця подія вказує на те, що виявлено інший екземпляр помічника з оновлення Microsoft, і роботу поточного екземпляра буде припинено. Ця подія використовується для визначення обсягу пристроїв, які намагаються запустити кілька екземплярів помічника з оновлення, і розробки способу вирішення цієї проблеми, якщо виникне така потреба.
 
@@ -7870,7 +7870,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="fba_nofifyappclosed"></a>fba_nofifyappclosed
+### <a name="fbanofifyappclosed"></a>fba.nofifyappclosed
 
 Ця подія вказує на те, що помічник з оновлення Microsoft надсилає сповіщення про оновлення, які очікують у черзі, тому що відсутні відкриті зареєстровані програми, і оновлення можуть бути застосовані без переривання роботи користувача. Ця подія використовується, щоб визначити обсяг оновлень, які можна застосовувати, але для цього користувачу необхідно виконати дію. Ця подія використовується для вдосконалення взаємодії з користувачами.
 
@@ -7910,7 +7910,7 @@ ms.locfileid: "47941049"
     
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="fba_nofifyappopen"></a>fba_nofifyappopen
+### <a name="fbanofifyappopen"></a>fba.nofifyappopen
 
 Ця подія вказує на те, що помічник з оновлення Microsoft надсилає сповіщення про оновлення, які очікують у черзі, тому що є відкриті зареєстровані програми, які необхідно закрити для застосування оновлень.  Ця подія використовується, щоб визначити обсяг оновлень, які потребують втручання користувача.  Ця подія використовується для вдосконалення взаємодії з користувачами.
 
@@ -7950,7 +7950,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="fba_settimerfail"></a>fba_settimerfail  
+### <a name="fbasettimerfail"></a>fba.settimerfail  
 
 Ця подія вказує на те, що спроба налаштувати таймер, який ініціюватиме майбутні оновлення, була невдалою. Це критична подія, яка використовується для визначення обсягу помилок, щоб в разі потреби розробити тимчасове рішення.
 
@@ -7991,7 +7991,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="fba_silentupdateoptin"></a>fba_silentupdateoptin
+### <a name="fbasilentupdateoptin"></a>fba.silentupdateoptin
 
 Вказує на те, що користувач вибирає оновлення в автоматичному режимі. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -8031,7 +8031,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="fba_skipforcedupdate"></a>fba_skipforcedupdate
+### <a name="fbaskipforcedupdate"></a>fba.skipforcedupdate
 
 Вказує на те, що примусова перевірка оновлень пропускається через відкриття програм. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -8072,7 +8072,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="fba_startforcedupdate"></a>fba_startforcedupdate
+### <a name="fbastartforcedupdate"></a>fba.startforcedupdate
 
 Вказує на спробу застосування примусового оновлення. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -8113,7 +8113,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="fba_terminate"></a>fba_terminate
+### <a name="fbaterminate"></a>fba.terminate
 
 Вказує на те, що daemon засобу автоматичного оновлення Microsoft припинив роботу в нормальному режимі. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -8154,7 +8154,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="fba_updatefound"></a>fba_updatefound
+### <a name="fbaupdatefound"></a>fba.updatefound
 
 Вказує на те, що елемент daemon засобу автоматичного оновлення Microsoft виявив доступні оновлення. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -8195,7 +8195,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
     
-### <a name="fba_updatetimer"></a>fba_updatetimer
+### <a name="fbaupdatetimer"></a>fba.updatetimer
 
 Вказує на те, що процес Daemon засобу автоматичного оновлення Microsoft активовано для перевірки наявності оновлень після сну протягом певного періоду часу. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -8236,7 +8236,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="fbasilentupdate_allappsclosed"></a>fbasilentupdate_allappsclosed
+### <a name="fbasilentupdateallappsclosed"></a>fbasilentupdate.allappsclosed
 
 Ця подія реєструється, якщо перед інсталяцією всі програми було закрито. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -8277,7 +8277,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="fbasilentupdate_applaunchafterupdate"></a>fbasilentupdate_applaunchafterupdate
+### <a name="fbasilentupdateapplaunchafterupdate"></a>fbasilentupdate.applaunchafterupdate
 
 Реєструє спробу запустити програму повторно після автоматичного оновлення, а також режим оновлення (клон чи ні). Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -8322,7 +8322,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="fbasilentupdate_applaunchwileinstalling"></a>fbasilentupdate_applaunchwileinstalling
+### <a name="fbasilentupdateapplaunchwileinstalling"></a>fbasilentupdate.applaunchwileinstalling
 
 Реєструє запуск програми під час інсталяції оновлення. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -8363,7 +8363,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="fbasilentupdate_appneedtoclose"></a>fbasilentupdate_appneedtoclose
+### <a name="fbasilentupdateappneedtoclose"></a>fbasilentupdate.appneedtoclose
 
 Реєстрація запуску процесу оновлення та виявлення відкриття програми, яку буде оновлено. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -8404,7 +8404,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="fbasilentupdate_appterminationeventreceived"></a>fbasilentupdate_appterminationeventreceived
+### <a name="fbasilentupdateappterminationeventreceived"></a>fbasilentupdate.appterminationeventreceived
 
 Указує на те, що засіб автоматичного оновлення Microsoft отримав подію Apple, яка повідомляє про припинення роботи програми. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -8451,7 +8451,7 @@ ms.locfileid: "47941049"
 - **UpdateID** – ідентифікатор оновлення програми.
 
 
-### <a name="fbasilentupdate_clientsession"></a>FBASilentUpdate_ClientSession
+### <a name="fbasilentupdateclientsession"></a>FBASilentUpdate.ClientSession
 
 Ця подія використовується для обчислення показника роботоздатності критичних оновлень засобу автоматичного оновлення Microsoft. Ця подія вказує, який сеанс оновлення (завантаження або інсталяція) обробляє внутрішній сервер в цей момент.
  
@@ -8492,7 +8492,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="fbasilentupdate_codesignfailure"></a>fbasilentupdate_codesignfailure
+### <a name="fbasilentupdatecodesignfailure"></a>fbasilentupdate.codesignfailure
 
 Реєструє результат перевірки підпису коду після застосування оновлення. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -8533,7 +8533,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="fbasilentupdate_download"></a>fbasilentupdate_download
+### <a name="fbasilentupdatedownload"></a>fbasilentupdate.download
 
 Вказує на те, що оновлення завантажується. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -8576,7 +8576,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="fbasilentupdate_downloadfailed"></a>fbasilentupdate_downloadfailed
+### <a name="fbasilentupdatedownloadfailed"></a>fbasilentupdate.downloadfailed
 
 Вказує на помилку під час завантаження оновлення. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -8625,7 +8625,7 @@ ms.locfileid: "47941049"
 - **UpdateName** – назва оновлення програми.
 
 
-### <a name="fbasilentupdate_downloadinbackground"></a>fbasilentupdate_downloadinbackground
+### <a name="fbasilentupdatedownloadinbackground"></a>fbasilentupdate.downloadinbackground
 
 Ця подія вказує на початок завантаження набору оновлень у фоновому режимі (реєструється кількість оновлень, які завантажуються). Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -8666,7 +8666,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="fbasilentupdate_downloadingrepairupdate"></a>fbasilentupdate_downloadingrepairupdate
+### <a name="fbasilentupdatedownloadingrepairupdate"></a>fbasilentupdate.downloadingrepairupdate
 
 Ця подія вказує на те, що ми ініціювали спробу завантажити відновлення для невдалого оновлення. Реєструються версія та оновлення. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -8709,7 +8709,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="fbasilentupdate_duplicatedownloadattempted"></a>fbasilentupdate_duplicatedownloadattempted
+### <a name="fbasilentupdateduplicatedownloadattempted"></a>fbasilentupdate.duplicatedownloadattempted
 
 Ця подія вказує на помилку. Слід завантажувати одне оновлення для певної програми за раз. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -8750,7 +8750,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="fbasilentupdate_installattemptfailed"></a>fbasilentupdate_installattemptfailed
+### <a name="fbasilentupdateinstallattemptfailed"></a>fbasilentupdate.installattemptfailed
 
 Ця подія вказує на невдалу спробу інсталяції оновлення (версії). Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -8791,7 +8791,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="fbasilentupdate_installcomplete"></a>fbasilentupdate_installcomplete
+### <a name="fbasilentupdateinstallcomplete"></a>fbasilentupdate.installcomplete
 
 Ця подія вказує на завершення інсталяції всіх оновлень пакету. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -8832,7 +8832,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="fbasilentupdate_installed"></a>fbasilentupdate_installed
+### <a name="fbasilentupdateinstalled"></a>fbasilentupdate.installed
 
 Вказує на успішну інсталяцію окремого оновлення. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -8873,7 +8873,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
     
-### <a name="fbasilentupdate_installing"></a>fbasilentupdate_installing
+### <a name="fbasilentupdateinstalling"></a>fbasilentupdate.installing
 
 Вказує на ініціацію окремого оновлення. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -8913,7 +8913,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="fbasilentupdate_installstatus"></a>fbasilentupdate_installstatus
+### <a name="fbasilentupdateinstallstatus"></a>fbasilentupdate.installstatus
 
 Ця подія повідомляє про стан завдання оновлення програми. Ця функція входить до складу воронки оновлення програми і використовується для визначення роботоздатності оновлень програм.
 
@@ -8963,7 +8963,7 @@ ms.locfileid: "47941049"
 
 - **UpdatePkg** – ім’я пакета оновлення, що застосовується.
 
-### <a name="fbasilentupdate_notificationerror"></a>fbasilentupdate_notificationerror
+### <a name="fbasilentupdatenotificationerror"></a>fbasilentupdate.notificationerror
 
 Ця подія повідомляє про помилку, що сталася під час спроби надіслати сповіщення користувачу. Ця подія використовуватиметься, щоб усувати причину помилки і виконувати коригувальні дії.
 
@@ -9009,7 +9009,7 @@ ms.locfileid: "47941049"
 
 - **Type** – тип сповіщення.
 
-### <a name="fbasilentupdate_notificationremoved"></a>fbasilentupdate_notificationremoved
+### <a name="fbasilentupdatenotificationremoved"></a>fbasilentupdate.notificationremoved
 
 Вказує на те, що заблоковане оновлення більше не заблоковано. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -9050,7 +9050,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="fbasilentupdate_queueinstall"></a>fbasilentupdate_queueinstall
+### <a name="fbasilentupdatequeueinstall"></a>fbasilentupdate.queueinstall
 
 Вказує на те, що оновлення буде поставлене в чергу для автоматичної інсталяції. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -9091,7 +9091,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="fbasilentupdate_requiredappsclosed"></a>fbasilentupdate_requiredappsclosed
+### <a name="fbasilentupdaterequiredappsclosed"></a>fbasilentupdate.requiredappsclosed
 
 Реєструється закриття програми, для якої є відкладене оновлення. Вказується час, коли можна продовжити інсталяцію. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -9131,7 +9131,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="fbasilentupdate_timerforapptermination"></a>FBASilentUpdate_TimerForAppTermination
+### <a name="fbasilentupdatetimerforapptermination"></a>FBASilentUpdate.TimerForAppTermination
 
 Ця подія використовується для обчислення показника роботоздатності критичних оновлень засобу автоматичного оновлення Microsoft. Ця подія дає змогу відстежувати подію припинення роботи відкритої програми, а також тривалість її перебування у відкритому стані.
  
@@ -9171,7 +9171,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="fbasilentupdate_updateavailablenotification"></a>fbasilentupdate_updateavailablenotification
+### <a name="fbasilentupdateupdateavailablenotification"></a>fbasilentupdate.updateavailablenotification
 
 Ця подія вказує на активацію сповіщення про доступне оновлення. Ми повинні переконатися, що запит на оновлення активується, коли знайдено оновлення. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -9212,7 +9212,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="fbasilentupdate_userclicknotification"></a>fbasilentupdate_userclicknotification
+### <a name="fbasilentupdateuserclicknotification"></a>fbasilentupdate.userclicknotification
 
 Вказує на те, що користувач клацнув розділ вмісту сповіщення про оновлення і запускається графічний інтерфейс засобу автоматичного оновлення Microsoft. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -9253,7 +9253,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="fbasilentupdate_userselectinstalllater"></a>fbasilentupdate_userselectinstalllater
+### <a name="fbasilentupdateuserselectinstalllater"></a>fbasilentupdate.userselectinstalllater
 
 Вказує на те, що після перегляду сповіщення про доступність оновлення користувач вирішив інсталювати його пізніше. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -9294,7 +9294,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="fbasilentupdate_userselectinstallnow"></a>fbasilentupdate_userselectinstallnow
+### <a name="fbasilentupdateuserselectinstallnow"></a>fbasilentupdate.userselectinstallnow
 
 Вказує на те, що після перегляду сповіщення про доступність оновлення користувач вирішив інсталювати його. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -9334,7 +9334,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="gui_dashboardview_appisopendialog_display"></a>gui_dashboardview_appisopendialog_display 
+### <a name="guidashboardviewappisopendialogdisplay"></a>gui.dashboardview.appisopendialog.display 
 
 Ця подія вказує, що в інтерфейсі показано діалогове вікно для закриття відкритої програми, щоб продовжити її оновлення. Ця подія використовується для визначення обсягу оновлень, що затягуються, щоб забезпечити майбутні вдосконалення, пов'язані з мінімізацією переривання роботи користувачів.
 
@@ -9378,7 +9378,7 @@ ms.locfileid: "47941049"
 
 - **UpdateName** – ім'я оновлення, яке відображається в завантаженому файлі маніфесту.
 
-### <a name="gui_dashboardview_appisopendialogbutton_clicked"></a>gui_dashboardview_appisopendialogbutton_clicked
+### <a name="guidashboardviewappisopendialogbuttonclicked"></a>gui.dashboardview.appisopendialogbutton.clicked
 
 Ця подія вказує на те, коли оновлення програми пропускається або виконується інша спроба після відображення діалогового вікна відкритої програми. Ця подія використовується для визначення обсягу пропущених оновлень, щоб забезпечити майбутні вдосконалення, пов'язані з мінімізацією переривання роботи користувачів.
 
@@ -9424,7 +9424,7 @@ ms.locfileid: "47941049"
 
 - **UpdateName** – ім'я оновлення, яке відображається в завантаженому файлі маніфесту.
 
-### <a name="gui_dashboardview_updateinprogressdialog_display"></a>gui_dashboardview_updateinprogressdialog_display
+### <a name="guidashboardviewupdateinprogressdialogdisplay"></a>gui.dashboardview.updateinprogressdialog.display
 
 Ця подія реєструє, чи відображається діалогове вікно користувачам, яке вказує на те, що вже виконується оновлення.
  
@@ -9462,7 +9462,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="gui_dashboardview_updatemodebutton_clicked"></a>gui_dashboardview_updatemodebutton_clicked
+### <a name="guidashboardviewupdatemodebuttonclicked"></a>gui.dashboardview.updatemodebutton.clicked
 
 Ця подія вказує на зміну режиму оновлення з елемента керування інтерфейсу користувача. Ця подія використовується, щоб визначити обсяг пристроїв, що переходять з одного режиму до іншого, це допомагає з'ясувати, чому клієнти відмовляються від автоматичних оновлень. 
 
@@ -9502,7 +9502,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="gui_feedbackwindow_buttonclicked"></a>gui_feedbackwindow_buttonclicked
+### <a name="guifeedbackwindowbuttonclicked"></a>gui.feedbackwindow.buttonclicked
 
 Ця подія повідомляє про те, коли надіслано відгук або його було скасовано до надсилання. Ця подія використовується для визначення обсягу відгуків, надісланого на певній версії випуску. Це допомагає ізолювати можливі проблеми на ранніх етапах.
 
@@ -9542,7 +9542,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="gui_preferenceview_consentsheet_display"></a>gui_preferenceview_consentsheet_display
+### <a name="guipreferenceviewconsentsheetdisplay"></a>gui.preferenceview.consentsheet.display
 
 Ця подія вказує на те, що відображається аркуш згоди для певного каналу, якщо він доступний. Ця подія використовується для визначення обсягу пристроїв, які вперше зареєстровано у відповідних каналах аудиторій (Програма оцінювання з раннім доступом / Програма оцінювання з пізнім доступом). Цю подію також можна використовувати, щоб відобразити діалогове вікно згоди для відображення умов використання користувачам.
  
@@ -9582,7 +9582,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="gui_preferenceview_consentsheet_licenseerror"></a>gui_preferenceview_consentsheet_licenseerror
+### <a name="guipreferenceviewconsentsheetlicenseerror"></a>gui.preferenceview.consentsheet.licenseerror
 
 Ця подія повідомляє, що сталася помилка під час спроби показу діалогового вікна згоди. Ця подія є критично важливою і використовується для усунення будь-яких проблем, викликаних зміною продукту, якщо такі є.
 
@@ -9624,7 +9624,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="gui_preferenceview_switchchannel"></a>gui_preferenceview_switchchannel
+### <a name="guipreferenceviewswitchchannel"></a>gui.preferenceview.switchchannel
 
 Ця подія повідомляє про перехід між вибраними користувачем каналами. Ця подія використовується, щоб визначити причини, через які клієнти відмовляються від каналів оцінювачів.  
 
@@ -9666,7 +9666,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="gui_updatemanager_applaunchduringupdate"></a>gui_updatemanager_applaunchduringupdate
+### <a name="guiupdatemanagerapplaunchduringupdate"></a>gui.updatemanager.applaunchduringupdate
 
 Ця подія повідомляє, якщо програма запускається під час оновлення, а засіб автоматичного оновлення Microsoft завершує її роботу. Зверніть увагу, що запуск програми під час оновлення може призвести до пошкодження програми. Ця подія використовується, щоб гарантувати, що відкрита програма не перешкоджатиме процесу оновлення до того, поки оновлення не буде готове до використання.
  
@@ -9710,7 +9710,7 @@ ms.locfileid: "47941049"
 
 - **UpdateID** – ідентифікатор оновлення програми.
 
-### <a name="gui_updatemanager_downloadupdateforapp"></a>gui_updatemanager_downloadupdateforapp
+### <a name="guiupdatemanagerdownloadupdateforapp"></a>gui.updatemanager.downloadupdateforapp
 
 Ця подія повідомляє про стан завершення завантаження оновлення. Ми використовуємо цю подію, щоб забезпечити належну роботу процесу оновлення й відстежувати/реагувати на інформацію про точки несправностей.
 
@@ -9759,7 +9759,7 @@ ms.locfileid: "47941049"
 - **UpdateName** – ім'я оновлення.
 
 
-### <a name="gui_updatemanager_error"></a>gui_updatemanager_error
+### <a name="guiupdatemanagererror"></a>gui.updatemanager.error
 
 Ця подія повідомляє про помилки, які виникають під час оновлень програми. Це може вказувати на наявність помилки в послідовності виконання автоматичного оновлення засобом Microsoft.  Цей звіт використовується для застосування оновлень, щоб засіб автоматичного оновлення передбачав поширені сценарії помилок.
 
@@ -9801,7 +9801,7 @@ ms.locfileid: "47941049"
 
 - **Success** – логічне рядкове значення, яке вказує, чи була успішно завершена робота програми.
 
-### <a name="gui_updatemanager_installcleanupforapp"></a>gui_updatemanager_installcleanupforapp
+### <a name="guiupdatemanagerinstallcleanupforapp"></a>gui.updatemanager.installcleanupforapp
 
 Ця подія вказує на те, що тимчасові файли, створені під час інсталяції програми, успішно очищено. Ця функція входить до складу воронки оновлення і використовується для визначення роботоздатності оновлень програм.
  
@@ -9846,7 +9846,7 @@ ms.locfileid: "47941049"
 - **UpdateID** – ідентифікатор оновлення.
 
 
-### <a name="gui_updatemanager_installsuccessforapp"></a>gui_updatemanager_installsuccessforapp
+### <a name="guiupdatemanagerinstallsuccessforapp"></a>gui.updatemanager.installsuccessforapp
 
 Ця подія вказує на успішне оновлення програми. Ця функція входить до складу воронки оновлення і використовується для визначення роботоздатності оновлень програм.
  
@@ -9890,7 +9890,7 @@ ms.locfileid: "47941049"
 
 - **UpdateID** – ідентифікатор оновлення.
 
-### <a name="gui_updatemanager_installupdateforapp"></a>gui_updatemanager_installupdateforapp
+### <a name="guiupdatemanagerinstallupdateforapp"></a>gui.updatemanager.installupdateforapp
 
 Ця подія вказує на початок фактичного процесу інсталяції для оновлення програми. Ця функція входить до складу воронки оновлення програми і використовується для визначення роботоздатності оновлень.
  
@@ -9932,7 +9932,7 @@ ms.locfileid: "47941049"
 
 - **UpdateID** – ідентифікатор оновлення.
 
-### <a name="gui_updatemanager_queueinstallforapp"></a>gui_updatemanager_queueinstallforapp
+### <a name="guiupdatemanagerqueueinstallforapp"></a>gui.updatemanager.queueinstallforapp
 
 Ця подія вказує на початок фактичного процесу інсталяції для оновлення програми. Ця функція входить до складу воронки оновлення програми і використовується для визначення роботоздатності оновлень.
  
@@ -9974,7 +9974,7 @@ ms.locfileid: "47941049"
 
 - **UpdateID** – ідентифікатор оновлення.
 
-### <a name="gui_updatemanager_relaunchapp"></a>gui_updatemanager_relaunchapp
+### <a name="guiupdatemanagerrelaunchapp"></a>gui.updatemanager.relaunchapp
 
 Ця подія реєструє, чи успішно програми перезапустилися після оновлень.
  
@@ -10020,7 +10020,7 @@ ms.locfileid: "47941049"
 
 - **UpdateName** – ім'я оновлення.
 
-### <a name="installdata_checkrunning"></a>installdata_checkrunning
+### <a name="installdatacheckrunning"></a>installdata.checkrunning
 
 Реєструє результат перевірки між програмами, які будуть інстальовані, і чи продовжиться спроба інсталяції залежно від того, чи програма відкрита. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -10061,7 +10061,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
     
-### <a name="installdata_cleanup"></a>installdata_cleanup
+### <a name="installdatacleanup"></a>installdata.cleanup
 
 Після інсталяції пакетні файли мають видалятися. Ця подія реєструє випадки, коли вони не видаляються. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -10102,7 +10102,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="installedapp_invalidbundle"></a>installedapp_invalidbundle
+### <a name="installedappinvalidbundle"></a>installedapp.invalidbundle
 
 Вказує на те, що засіб автоматичного оновлення Microsoft не може отримати відомості про комплект зареєстрованої програми за вказаним шляхом. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -10143,7 +10143,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
     
-### <a name="installedapp_invalidpreference"></a>installedapp_invalidpreference
+### <a name="installedappinvalidpreference"></a>installedapp.invalidpreference
 
 Реєструє випадки, коли налаштування користувача містять неприпустимий запис застосунку. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -10184,7 +10184,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
     
-### <a name="installedapp_nilbundleid"></a>installedapp_nilbundleid
+### <a name="installedappnilbundleid"></a>installedapp.nilbundleid
 
 Реєструє випадки, коли програмі бракує ідентифікатора комплекту. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -10225,7 +10225,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="installedapp_nilbundlename"></a>installedapp_nilbundlename
+### <a name="installedappnilbundlename"></a>installedapp.nilbundlename
 
 Реєструє випадки, коли програмі бракує імені комплекту. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -10266,7 +10266,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="installedapp_sendcoreappleevent"></a>installedapp_sendcoreappleevent
+### <a name="installedappsendcoreappleevent"></a>installedapp.sendcoreappleevent
 
 Ця подія вказує на те, що засіб автоматичного оновлення Microsoft надсилає подію Apple у зареєстровану програму, щоб завершити роботу програми для продовження застосування оновлення програми, яке очікує в черзі. Ця подія наразі використовується, щоб забезпечити майбутні вдосконалення, пов'язані з мінімізацією переривання роботи користувачів під час оновлення програми. 
 
@@ -10317,7 +10317,7 @@ ms.locfileid: "47941049"
 - **Success** – указує, чи повідомила програма-суб'єкт про успішність операції.
 
     
-### <a name="installstatus_codesign"></a>installstatus_codesign
+### <a name="installstatuscodesign"></a>installstatus.codesign
 
 Реєструє стан двійкового підпису коду ОС. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -10358,7 +10358,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="installstatus_daemon"></a>installstatus_daemon
+### <a name="installstatusdaemon"></a>installstatus.daemon
 
 Реєструє стан елемента daemon засобу автоматичного оновлення Microsoft. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -10399,7 +10399,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="installstatus_helper"></a>installstatus_helper
+### <a name="installstatushelper"></a>installstatus.helper
 
 Реєструє стан помічника служби автоматичного оновлення Microsoft. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -10440,7 +10440,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
     
-### <a name="installupdatestask_applaunched"></a>installupdatestask_applaunched
+### <a name="installupdatestaskapplaunched"></a>installupdatestask.applaunched
 
 Вказує на те, що засіб автоматичного оновлення Microsoft виявив запуск програми заблокованого оновлення, але не знайшов відповідного інсталятора. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -10481,7 +10481,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
     
-### <a name="installupdatestask_applaunchwithpendingupdate"></a>installupdatestask_applaunchwithpendingupdate
+### <a name="installupdatestaskapplaunchwithpendingupdate"></a>installupdatestask.applaunchwithpendingupdate
 
 Вказує на те, що засіб автоматичного оновлення Microsoft виявив запуск програми, до якої є відкладене оновлення. Запущена програма буде припинена. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -10522,7 +10522,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
     
-### <a name="installupdatestask_codesignverificationfail"></a>installupdatestask_codesignverificationfail
+### <a name="installupdatestaskcodesignverificationfail"></a>installupdatestask.codesignverificationfail
 
 Вказує на те, що не вдалося виконати перевірку підпису коду для оновлення програми. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -10563,7 +10563,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="installupdatestask_codesignverificationstart"></a>installupdatestask_codesignverificationstart
+### <a name="installupdatestaskcodesignverificationstart"></a>installupdatestask.codesignverificationstart
 
 Вказує на початок перевірки підпису коду для оновлення програми. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -10604,7 +10604,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="installupdatestask_codesignverificationsuccess"></a>installupdatestask_codesignverificationsuccess
+### <a name="installupdatestaskcodesignverificationsuccess"></a>installupdatestask.codesignverificationsuccess
 
 Вказує на вдалу перевірку підпису коду для оновлення програми. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -10645,7 +10645,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="installupdatestask_failsilentinstall"></a>installupdatestask_failsilentinstall
+### <a name="installupdatestaskfailsilentinstall"></a>installupdatestask.failsilentinstall
 
 Реєструє помилки застосування автоматичних оновлень, а також тип інсталяції – клонована чи звичайна. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -10686,7 +10686,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
     
-### <a name="installupdatestask_multiplerelocatablepackage"></a>installupdatestask_multiplerelocatablepackage
+### <a name="installupdatestaskmultiplerelocatablepackage"></a>installupdatestask.multiplerelocatablepackage
 
 Вказує на те, що у завантаженому маніфесті засіб автоматичного оновлення Microsoft виявив кілька екземплярів запису застосунку для певного пакета оновлень. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -10727,7 +10727,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
     
-### <a name="installupdatestask_removeclone"></a>installupdatestask_removeclone
+### <a name="installupdatestaskremoveclone"></a>installupdatestask.removeclone
 
 Ця подія позначає, що клон видалено. Клон видаляється або після завершення процесу інсталяції на клон, або коли запускається новий процес, а в комп’ютері знайдено стару клоновану версію. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -10768,7 +10768,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="installupdatestask_retryfail"></a>installupdatestask_retryfail
+### <a name="installupdatestaskretryfail"></a>installupdatestask.retryfail
 
 Вказує на те, що під час повторної спроби інсталяції сталися помилки. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -10809,7 +10809,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="installupdatestask_retryproxyerror"></a>installupdatestask_retryproxyerror
+### <a name="installupdatestaskretryproxyerror"></a>installupdatestask.retryproxyerror
 
 Реєструє помилки взаємодії між процесами (зв’язок із помічником засобу автоматичного оновлення Microsoft). Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -10850,7 +10850,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
     
-### <a name="installupdatestask_retryproxyerror"></a>installupdatestask_retryproxyerror
+### <a name="installupdatestaskretryproxyerror"></a>installupdatestask.retryproxyerror
 
 Реєструє помилки взаємодії між процесами (зв’язок із помічником засобу автоматичного оновлення Microsoft). Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -10892,7 +10892,7 @@ ms.locfileid: "47941049"
 
     
 
-### <a name="installupdatestask_retryresponse"></a>installupdatestask_retryresponse
+### <a name="installupdatestaskretryresponse"></a>installupdatestask.retryresponse
 
 Реєструє невдалу повторну спробу. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -10933,7 +10933,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="installupdatestask_retrysuccess"></a>installupdatestask_retrysuccess
+### <a name="installupdatestaskretrysuccess"></a>installupdatestask.retrysuccess
 
 Реєструє успішну інсталяцію оновлення після повторної спроби. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -10974,7 +10974,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="installupdatestask_setreopengui"></a>installupdatestask_setreopengui
+### <a name="installupdatestasksetreopengui"></a>installupdatestask.setreopengui
 
 Вказує на успішність налаштування повторного відкриття графічного інтерфейсу після вдалої інсталяції. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -11015,7 +11015,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="installupdatestask_updatestatus"></a>installupdatestask_updatestatus
+### <a name="installupdatestaskupdatestatus"></a>installupdatestask.updatestatus
 
 Ця подія повідомляє про стан завдання інсталяції. Ця функція входить до складу воронки оновлення і використовується для визначення роботоздатності оновлень програм.
 
@@ -11069,8 +11069,58 @@ ms.locfileid: "47941049"
 
 - **UpdatePkg** – ім’я пакета оновлення, що застосовується.
 
+### <a name="lifecycleperiodiccheck"></a>Lifecycle.periodiccheck
 
-### <a name="msupdate_cli_eventhandler"></a>msupdate_cli_eventhandler
+Ця подія регулярно повідомляє про стан процесу MicrosoftAutoUpdate. Зокрема, вона повідомляє про те, на виконання яких завдань, що залишилися, очікує процес від помічника з оновлення, а також у випадку інтерфейсу користувача повідомляє, чи процес завершується через бездіяльність користувача.  Ми використовуємо цю подію, щоб визначити, що заважає помічнику з оновлення виконати оновлення або завершити його, а також визначити, чи інтерфейс користувача завершує роботу через бездіяльність користувача.
+
+Збираються перелічені нижче поля.
+
+- **App** – процес програми, яка надсилає подію.
+
+- **AppInfo_Language** – мова, на якій працює програма.
+
+- **AppVersionLong** – версія програми.
+
+- **Channel** – уподобання для аудиторії.
+
+- **dataCollectionDialog** – логічне значення, яке вказує, чи процес очікує на відповідь користувача в діалоговому вікні збирання даних.
+
+- **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
+
+- **DeviceID** – ідентифікатор пристрою.
+
+- **DeviceInfo_Model** – апаратна модель пристрою.
+
+- **DeviceInfo_NetworkTypee** – тип мережі (Wi-Fi, провідна, невідома).
+
+- **DeviceInfo_OsBuild** – версія ОС.
+
+- **Event_ReceivedTime** – час отримання телеметрії.
+
+- **EventInfo_Name** – ім’я телеметричної події, яка фіксується.
+
+- **EventInfo_Time** – час події, яка фіксується. 
+
+- **dataCollectionDialog** – логічне значення, яке вказує, чи процес очікує на відповідь користувача в діалоговому вікні примусового оновлення.
+
+- **HowToCheck** – параметр способу перевірки.
+
+- **isBusy** – логічне значення, яке вказує, чи в процесі відбувається активне оновлення.
+
+- **isInactive** – логічне значення, яке вказує, чи процес очікував на дію користувача протягом тривалого періоду часу.
+
+- **isWaiting** – логічне значення, яке вказує, чи процес очікує на відповідь користувача в сповіщенні.
+
+- **PipelineInfo_ClientCountry** – країна або регіон пристрою (на основі IP-адреси).
+
+- **PipelineInfo_ClientIp** – перші 3 октети IP-адреси.
+
+- **SessionId** – ідентифікатор сесії.
+
+- **SessionLength** – тривалість поточного сеансу процесу в секундах.
+
+
+### <a name="msupdateclieventhandler"></a>msupdate.cli.eventhandler
 
 Ця подія використовується, щоб обчислювати використання різних типів API інтерфейсу командного рядка служби автоматичного оновлення Microsoft.
 
@@ -11113,7 +11163,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="msupdate_cli_eventhandler_applyupdates_appids"></a>msupdate_cli_eventhandler_applyupdates_appids
+### <a name="msupdateclieventhandlerapplyupdatesappids"></a>msupdate.cli.eventhandler.applyupdates.appids
 
 Вказує на те, що для застосування оновлення була надана команда CLI (client-line interface). Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -11154,7 +11204,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="msupdate_cli_eventhandler_config"></a>msupdate_cli_eventhandler_config
+### <a name="msupdateclieventhandlerconfig"></a>msupdate.cli.eventhandler.config
 
 Указує на те, що модуль інтерфейсу командного рядка засобу автоматичного оновлення Microsoft одержав подію Apple для налаштування. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -11195,7 +11245,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="msupdate_cli_eventhandler_updates"></a>msupdate_cli_eventhandler_updates
+### <a name="msupdateclieventhandlerupdates"></a>msupdate.cli.eventhandler.updates
 
 Указує на те, що модуль інтерфейсу командного рядка засобу автоматичного оновлення Microsoft одержав подію Apple для створення списку оновлень. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -11236,7 +11286,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
     
-### <a name="msupdate_monitor_progress_downloaded"></a>msupdate_monitor_progress_downloaded
+### <a name="msupdatemonitorprogressdownloaded"></a>msupdate.monitor.progress.downloaded
 
 Вказує на те, що оновлення завантажено. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -11277,7 +11327,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="msupdate_monitor_progress_failure"></a>msupdate_monitor_progress_failure
+### <a name="msupdatemonitorprogressfailure"></a>msupdate.monitor.progress.failure
 
 Реєструє список оновлень у черзі, які не вдалося застосувати. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -11318,7 +11368,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
     
-### <a name="msupdate_monitor_progress_finished"></a>msupdate_monitor_progress_finished
+### <a name="msupdatemonitorprogressfinished"></a>msupdate.monitor.progress.finished
 
 Реєструє список оновлень у черзі, інсталяцію яких завершено. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -11359,7 +11409,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="msupdate_monitor_progress_queued"></a>msupdate_monitor_progress_queued
+### <a name="msupdatemonitorprogressqueued"></a>msupdate.monitor.progress.queued
 
 Реєструє список оновлень у черзі. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -11441,7 +11491,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="sauforcedupdate_autodismiss"></a>sauforcedupdate_autodismiss
+### <a name="sauforcedupdateautodismiss"></a>sauforcedupdate.autodismiss
 
 Ця подія вказує на те, що показане діалогове вікно примусового оновлення закривається через відсутність активності користувача. Ця подія використовується, щоб визначити обсяг примусових оновлень, які оброблюються без реакції користувачів на сповіщення, що відображаються. Ця подія використовується для вдосконалення інтерфейсу користувача з метою мінімізації переривання роботи.
 
@@ -11481,7 +11531,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="sauforcedupdate_close"></a>sauforcedupdate_close
+### <a name="sauforcedupdateclose"></a>sauforcedupdate.close
 
 Ця подія вказує на те, що користувач вирішив закрити діалогове вікно примусового оновлення. Ця подія використовується, щоб визначити обсяг вимушених оновлень, які відкладено користувачами. Ця подія використовується для вдосконалення інтерфейсу користувача з метою мінімізації переривання роботи. 
 
@@ -11521,7 +11571,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="sauforcedupdate_completeautodismiss"></a>sauforcedupdate_completeautodismiss
+### <a name="sauforcedupdatecompleteautodismiss"></a>sauforcedupdate.completeautodismiss
 
 Ця подія вказує на те, що показане діалогове вікно примусового оновлення з функції з крайнім терміном закривається через відсутність активності користувача. Ця подія використовується, щоб визначити обсяг примусових оновлень, які оброблюються без реакції користувачів на сповіщення, що відображаються. Ця подія використовується для вдосконалення інтерфейсу користувача з метою мінімізації переривання роботи для функції з крайнім терміном.
 
@@ -11561,7 +11611,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="sauforcedupdate_completeclose"></a>sauforcedupdate_completeclose
+### <a name="sauforcedupdatecompleteclose"></a>sauforcedupdate.completeclose
 
 Ця подія вказує на успішне завершення примусового оновлення. Ця подія використовується, щоб визначити роботоздатність функції примусового оновлення. 
 
@@ -11601,7 +11651,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="sauforcedupdate_display"></a>sauforcedupdate_display
+### <a name="sauforcedupdatedisplay"></a>sauforcedupdate.display
 
 Ця подія вказує на те, що було відображено діалогове вікно примусового оновлення.  Ця функція входить до складу воронки примусового оновлення і використовується для визначення роботоздатності функції примусового оновлення.
 
@@ -11641,7 +11691,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="sauforcedupdate_displayfinalhour"></a>sauforcedupdate_displayfinalhour
+### <a name="sauforcedupdatedisplayfinalhour"></a>sauforcedupdate.displayfinalhour
 
 Ця подія вказує на те, що було відображено діалогове вікно останнього часу примусового оновлення. Ця функція входить до складу воронки примусового оновлення і використовується для визначення роботоздатності функції примусового оновлення.
 
@@ -11681,7 +11731,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="sauforcedupdate_done"></a>sauforcedupdate_done
+### <a name="sauforcedupdatedone"></a>sauforcedupdate.done
 
 Ця подія вказує на те, що примусове оновлення успішно завершено. Ця функція входить до складу воронки примусового оновлення і використовується для визначення роботоздатності функції примусового оновлення. 
 
@@ -11721,7 +11771,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="sauforcedupdate_enabled"></a>sauforcedupdate_enabled
+### <a name="sauforcedupdateenabled"></a>sauforcedupdate.enabled
 
 Ця подія запускається, коли засіб автоматичного оновлення Microsoft визначає, що можна застосовувати примусове оновлення.  Ця подія використовується, щоб визначити роботоздатність функції ‎примусового оновлення. 
 
@@ -11763,7 +11813,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="sauforcedupdate_forcedupdatedismiss"></a>sauforcedupdate_forcedupdatedismiss
+### <a name="sauforcedupdateforcedupdatedismiss"></a>sauforcedupdate.forcedupdatedismiss
 
 Ця подія вказує на те, що показане діалогове вікно примусового оновлення останнього часу закривається через відсутність активності користувача. Ця подія використовується, щоб визначити обсяг примусових оновлень, які оброблюються без реакції користувачів на сповіщення, що відображаються. Ця подія використовується для вдосконалення інтерфейсу користувача з метою мінімізації переривання роботи. 
 
@@ -11803,7 +11853,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="sauforcedupdate_forcequitandupdatenow"></a>sauforcedupdate_forcequitandupdatenow
+### <a name="sauforcedupdateforcequitandupdatenow"></a>sauforcedupdate.forcequitandupdatenow
 
 Ця подія вказує на те, що користувач розпочав примусове оновлення. Ця функція входить до складу воронки і використовується для визначення роботоздатності функції примусового оновлення. 
 
@@ -11843,7 +11893,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії. 
 
-### <a name="sauforcedupdate_forceterminate"></a>sauforcedupdate_forceterminate
+### <a name="sauforcedupdateforceterminate"></a>sauforcedupdate.forceterminate
 
 Ця подія вказує на початок примусового оновлення після примусового припинення роботи програми.  Ця функція входить до складу воронки і використовується для визначення роботоздатності функції примусового оновлення.
 
@@ -11883,7 +11933,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="sauforcedupdate_quitandupdatenow"></a>sauforcedupdate_quitandupdatenow
+### <a name="sauforcedupdatequitandupdatenow"></a>sauforcedupdate.quitandupdatenow
 
 Ця подія вказує на те, що користувач вирішив закрити програму і застосовувати оновлення. Ця функція входить до складу воронки і використовується для визначення роботоздатності функції примусового оновлення. 
 
@@ -11923,7 +11973,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="sauforcedupdate_snooze"></a>sauforcedupdate_snooze
+### <a name="sauforcedupdatesnooze"></a>sauforcedupdate.snooze
 
 Ця подія вказує на те, що користувач вирішив відкласти примусове оновлення. Ця функція входить до складу воронки і використовується для визначення роботоздатності функції примусового оновлення. 
 
@@ -11963,7 +12013,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="sauforcedupdate_terminate"></a>sauforcedupdate_terminate
+### <a name="sauforcedupdateterminate"></a>sauforcedupdate.terminate
 
 Ця подія вказує на початок примусового оновлення після припинення роботи програми. Ця функція входить до складу воронки і використовується для визначення роботоздатності функції примусового оновлення.
 
@@ -12003,7 +12053,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="sauforcedupdate_updatenow"></a>sauforcedupdate_updatenow
+### <a name="sauforcedupdateupdatenow"></a>sauforcedupdate.updatenow
 
 Ця подія вказує на те, що користувач вирішив оновити програму зараз.  Ця функція входить до складу воронки і використовується для визначення роботоздатності функції примусового оновлення.
 
@@ -12085,7 +12135,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="update_applaunchdetected"></a>update_applaunchdetected
+### <a name="updateapplaunchdetected"></a>update.applaunchdetected
 
 Ця подія вказує на те, що програма запускалася під час оновлення. Ця подія використовується, щоб визначити обсяг програм, які запускалися під час оновлення, а також – для вдосконалення взаємодії з користувачем в майбутніх випусках.
 
@@ -12129,7 +12179,7 @@ ms.locfileid: "47941049"
 
 - **UpdateID** – ідентифікатор для оновлення програми.
 
-### <a name="update_appterminationreceived"></a>update_appterminationreceived
+### <a name="updateappterminationreceived"></a>update.appterminationreceived
 
 Ця подія вказує на те, що робота програми з заблокованим оновленням була припинена, а також на те, чи може засіб автоматичного оновлення Microsoft продовжувати оновлення. Ця функція входить до складу воронки і використовується для визначення роботоздатності оновлень програм.
 
@@ -12175,7 +12225,7 @@ ms.locfileid: "47941049"
 
 - **UpdateID** – ідентифікатор для оновлення програми.
 
-### <a name="update_blockedappclosed"></a>update_blockedappclosed
+### <a name="updateblockedappclosed"></a>update.blockedappclosed
 
 Ця подія вказує на те, що засіб автоматичного оновлення Microsoft виявив, що програма з заблокованим оновленням закрита, і він може продовжувати оновлення. Ця функція входить до складу воронки і використовується для визначення роботоздатності оновлень програм. 
 
@@ -12219,7 +12269,7 @@ ms.locfileid: "47941049"
 
 - **UpdateID** – ідентифікатор для оновлення програми.
 
-### <a name="update_blockedinstallskip"></a>update_blockedinstallskip
+### <a name="updateblockedinstallskip"></a>update.blockedinstallskip
 
 Ця подія реєструє помилку під час спроби пропустити оновлення програми. Це критична подія, яка використовується для визначення причин отриманих повідомлень про помилки.  
 
@@ -12261,7 +12311,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="update_clientsession"></a>update_clientsession
+### <a name="updateclientsession"></a>update.clientsession
 
 Ця подія повідомляє про зміни стану клієнтського пристрою, тому помічник з оновлення Microsoft призупинить роботу або відновить процес оновлення. Ця функція входить до складу воронки і використовується для визначення роботоздатності оновлень програм. 
 
@@ -12301,7 +12351,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="update_download_begin"></a>update_download_begin 
+### <a name="updatedownloadbegin"></a>update.download.begin 
 
 Ця подія вказує на початок процесу оновлення програми. Ця функція входить до складу воронки оновлення і використовується для визначення роботоздатності оновлень програм. 
 
@@ -12347,7 +12397,7 @@ ms.locfileid: "47941049"
 
 - **UpdateName** – ім'я оновлення, яке відображається в завантаженому файлі маніфесту.
 
-### <a name="update_download_finish"></a>update_download_finish
+### <a name="updatedownloadfinish"></a>update.download.finish
 
 Ця подія вказує про завершення етапу завантаження для оновлення програми. Ця функція входить до складу воронки оновлення і використовується для визначення роботоздатності оновлень програм.  
 
@@ -12393,7 +12443,7 @@ ms.locfileid: "47941049"
 
 - **UpdateName** – ім'я оновлення, яке відображається в завантаженому файлі маніфесту.
 
-### <a name="update_downloadresume"></a>update_downloadresume
+### <a name="updatedownloadresume"></a>update.downloadresume
 
 Ця подія повідомляє, що сталася помилка під час спроби відновити призупинене завдання завантаження. Це критична подія, яка використовується для визначення причин отриманих повідомлень про помилки. 
 
@@ -12437,7 +12487,7 @@ ms.locfileid: "47941049"
 
 - **UpdateID** – ідентифікатор для оновлення програми.
 
-### <a name="update_error"></a>update_error
+### <a name="updateerror"></a>update.error
 
 Ця подія повідомляє, що сталася помилка під час спроби оновити зареєстровану програму.  Це критична подія, яка використовується для визначення причин отриманих повідомлень про помилки. 
 
@@ -12479,7 +12529,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="update_installcleanupforapp"></a>update_installcleanupforapp
+### <a name="updateinstallcleanupforapp"></a>update.installcleanupforapp
 
 Ця подія вказує на те, що інсталяцію оновлення завершено і засіб автоматичного оновлення Microsoft (МАУ) виконує очищення.  Ця функція входить до складу воронки оновлення і використовується для визначення роботоздатності оновлень програм.
 
@@ -12523,7 +12573,7 @@ ms.locfileid: "47941049"
 
 - **UpdateID** – ідентифікатор для оновлення програми.
 
-### <a name="update_installupdateforapp"></a>update_installupdateforapp
+### <a name="updateinstallupdateforapp"></a>update.installupdateforapp
 
 Ця подія використовується, щоб звітувати про початок процесу інсталяції оновлення програми. Ця функція входить до складу воронки оновлення і використовується для визначення роботоздатності оновлень програм. 
 
@@ -12569,7 +12619,7 @@ ms.locfileid: "47941049"
 
 - **UpdateName** – ім'я оновлення, яке відображається в завантаженому файлі маніфесту.
 
-### <a name="update_installupdateforapp_success"></a>update_installupdateforapp_success
+### <a name="updateinstallupdateforappsuccess"></a>update.installupdateforapp.success
 
 Ця подія повідомляє про стан завдання інсталяції. Ця функція входить до складу воронки оновлення і використовується для визначення роботоздатності оновлень програм. 
 
@@ -12615,7 +12665,7 @@ ms.locfileid: "47941049"
 
 - **UpdateID** – ідентифікатор для оновлення програми.
 
-### <a name="update_installvariance"></a>Update_InstallVariance
+### <a name="updateinstallvariance"></a>Update.InstallVariance
 
 Ця подія використовується для обчислення показника роботоздатності критичних оновлень засобу автоматичного оновлення Microsoft. Ця подія дозволяє визначити показники успішності функції пріоритету інсталяції і перевірити цілісність цієї функції.
  
@@ -12655,7 +12705,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="update_multipleappupdates"></a>update_multipleappupdates 
+### <a name="updatemultipleappupdates"></a>update.multipleappupdates 
 
 Ця подія вказує на те, що у фоновому режимі виконуються кілька оновлень програм. Ця функція входить до складу воронки оновлення і використовується для визначення роботоздатності оновлень програм.
 
@@ -12695,7 +12745,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="update_previousidnil"></a>update_previousidnil
+### <a name="updatepreviousidnil"></a>update.previousidnil
 
 Ця подія вказує, що пакет оновлень для відновлення завантажується, але відомості про попереднє завантаження відсутні. Це критична подія, яка використовується для визначення причин отриманих повідомлень про помилки. 
 
@@ -12737,7 +12787,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="update_queueinstallforapp"></a>update_queueinstallforapp 
+### <a name="updatequeueinstallforapp"></a>update.queueinstallforapp 
 
 Ця подія вказує на те, що завантажений пакет оновлень розміщено в черзі для інсталяції.  Ця функція входить до складу воронки оновлення і використовується для визначення роботоздатності оновлень програм.
 
@@ -12783,7 +12833,7 @@ ms.locfileid: "47941049"
 
 - **UpdateName** – ім'я оновлення, яке відображається в завантаженому файлі маніфесту.
 
-### <a name="update_relaunchafterupdate"></a>update_relaunchafterupdate 
+### <a name="updaterelaunchafterupdate"></a>update.relaunchafterupdate 
 
 Ця подія вказує на те, що оновлення програми завершено і її перезапущено. Ця функція входить до складу воронки оновлення і використовується для визначення роботоздатності оновлень програм. 
 
@@ -12827,7 +12877,7 @@ ms.locfileid: "47941049"
 
 - **UpdateID** – ідентифікатор для оновлення програми.
 
-### <a name="update_timerforapptermination"></a>update_timerforapptermination 
+### <a name="updatetimerforapptermination"></a>update.timerforapptermination 
 
 Ця подія вказує початок або завершення роботи таймера для перевірки програми стану. Ця подія виникає в парі і використовується для визначення того, що всі об'єкти таймера видалені під час оновлення програми.
 
@@ -12868,7 +12918,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="updatecore_appregistration"></a>updatecore_appregistration
+### <a name="updatecoreappregistration"></a>updatecore.appregistration
 
 Реєструє спроби реєстрації програми та результат або причину невдачі. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -12909,7 +12959,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="updatecore_loadinglaunchagent"></a>updatecore_loadinglaunchagent
+### <a name="updatecoreloadinglaunchagent"></a>updatecore.loadinglaunchagent
 
 Вказує на завантаження агента запуску. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -12949,7 +12999,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="updatecore_runnstaskcommand"></a>updatecore_runnstaskcommand
+### <a name="updatecorerunnstaskcommand"></a>updatecore.runnstaskcommand
 
 Ця подія повідомляє про помилку під час спроби запустити завдання. Це критична подія, яка використовується для визначення причин отриманих повідомлень про помилки.  
 
@@ -12989,7 +13039,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="updatecore_server_connectionfail"></a>updatecore_server_connectionfail
+### <a name="updatecoreserverconnectionfail"></a>updatecore.server.connectionfail
 
 Реєструє помилки взаємодії з мережею доставки вмісту. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -13029,7 +13079,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="updatecore_server_nullurl"></a>updatecore_server_nullurl
+### <a name="updatecoreservernullurl"></a>updatecore.server.nullurl
 
 Ця подія повідомляє про помилку, яка вказує на недосяжність заданого сервера. Ця подія використовується для визначення частоти невдалих оновлень через проблеми з мережею. 
 
@@ -13069,7 +13119,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="updatefilterhelper_cannotretrievebuilddate"></a>updatefilterhelper_cannotretrievebuilddate
+### <a name="updatefilterhelpercannotretrievebuilddate"></a>updatefilterhelper.cannotretrievebuilddate
 
 Оновлення фільтруються за допомогою служби автоматичного оновлення Microsoft лише якщо запропоноване оновлення не старіше за певну кількість днів. Тут реєструється неможливість отримати дату з метаданих програми. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -13110,7 +13160,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="updatefilterhelper_invalidappid"></a>updatefilterhelper_invalidappid
+### <a name="updatefilterhelperinvalidappid"></a>updatefilterhelper.invalidappid
 
 Ця подія повідомляє про помилку, що вказує на відсутність файлів маніфесту, які відповідають ідентифікатору програми, який отримано з веб-відповіді. Ця подія використовується для визначення причини отриманого повідомлення про помилку.
 
@@ -13150,7 +13200,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="updatefilterhelper_invalidappidfromwebservices"></a>updatefilterhelper_invalidappidfromwebservices
+### <a name="updatefilterhelperinvalidappidfromwebservices"></a>updatefilterhelper.invalidappidfromwebservices
 
 Ця подія повідомляє про помилку, яка вказує на те, що ідентифікатор програми, отриманий з веб-відповіді має неправильний формат. Ця подія використовується для визначення причини отриманого повідомлення про помилку.
 
@@ -13190,7 +13240,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="updatefilterhelper_invalidresponsefromupdatefiltering"></a>updatefilterhelper_invalidresponsefromupdatefiltering
+### <a name="updatefilterhelperinvalidresponsefromupdatefiltering"></a>updatefilterhelper.invalidresponsefromupdatefiltering
 
 Оновлення фільтруються за допомогою служби автоматичного оновлення Microsoft лише якщо запропоноване оновлення не старіше за певну кількість днів. Тут реєструється відсутність дати в метаданих програми. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -13231,7 +13281,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="updatefilterhelper_missingbuilddate"></a>updatefilterhelper_missingbuilddate
+### <a name="updatefilterhelpermissingbuilddate"></a>updatefilterhelper.missingbuilddate
 
 Оновлення фільтруються за допомогою служби автоматичного оновлення Microsoft лише якщо запропоноване оновлення не старіше за певну кількість днів. Тут реєструється відсутність дати в метаданих програми. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -13272,7 +13322,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="updatefilterhelper_updatebypassedoldage"></a>updatefilterhelper_updatebypassedoldage
+### <a name="updatefilterhelperupdatebypassedoldage"></a>updatefilterhelper.updatebypassedoldage
 
 Оновлення фільтруються за допомогою служби автоматичного оновлення Microsoft лише якщо запропоноване оновлення не старіше за певну кількість днів. Тут реєструються випадки, коли служба обходиться через стару дату оновлення. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -13313,7 +13363,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="updatefinder_check_error"></a>updatefinder_check_error
+### <a name="updatefindercheckerror"></a>updatefinder.check.error
 
 Ця подія повідомляє, що під час перевірки наявності оновлень сталася помилка. Це критична подія, яка використовується для визначення причини отриманого повідомлення про помилку. 
 
@@ -13356,7 +13406,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
  
-### <a name="updatefinder_check_start"></a>updatefinder_check_start
+### <a name="updatefindercheckstart"></a>updatefinder.check.start
 
 Реєструє ініціацію перевірки наявності оновлень. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -13397,7 +13447,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="updatefinder_check_status"></a>updatefinder_check_status
+### <a name="updatefindercheckstatus"></a>updatefinder.check.status
 
 Агрегує стан перевірки операцій оновлення (від пошуку до завантаження). Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -13438,7 +13488,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="updatefinder_check_updatefound"></a>updatefinder_check_updatefound
+### <a name="updatefindercheckupdatefound"></a>updatefinder.check.updatefound
 
 Реєструє випадки, коли перевірка наявності оновлень виявляє оновлення. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -13479,7 +13529,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="updatefinder_check_updatenotfound"></a>updatefinder_check_updatenotfound
+### <a name="updatefindercheckupdatenotfound"></a>updatefinder.check.updatenotfound
 
 Реєструє випадки, коли перевірка наявності оновлень не пропонує оновлення, оскільки їх не виявлено. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -13520,7 +13570,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="updatefinder_check_uptodate"></a>updatefinder_check_uptodate
+### <a name="updatefindercheckuptodate"></a>updatefinder.check.uptodate
 
 Реєструє випадки, коли перевірка наявності оновлень не пропонує оновлення, оскільки всі програми вже оновлено. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -13561,7 +13611,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="updatefinder_offerupdates_invalidappid"></a>updatefinder_offerupdates_invalidappid
+### <a name="updatefinderofferupdatesinvalidappid"></a>updatefinder.offerupdates.invalidappid
 
 Ця подія повідомляє про помилку під час спроби оцінити, чи може бути застосовано оновлення. Це критична подія, яка використовується для визначення причини отриманого повідомлення про помилку.  
 
@@ -13603,7 +13653,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="updatefinder_offerupdates_minoscheckfail"></a>updatefinder_offerupdates_minoscheckfail
+### <a name="updatefinderofferupdatesminoscheckfail"></a>updatefinder.offerupdates.minoscheckfail
 
 Реєструє випадки, коли оновлення блокується через невідповідність вимогам ОС. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -13643,7 +13693,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="updatefinder_offerupdates_missingtrigger"></a>updatefinder_offerupdates_missingtrigger
+### <a name="updatefinderofferupdatesmissingtrigger"></a>updatefinder.offerupdates.missingtrigger
 
 Ця подія повідомляє про помилку під час спроби оцінити тригери із завантаженого маніфесту оновлення програми. Це критична подія, яка використовується для визначення причини отриманого повідомлення про помилку.  
 
@@ -13685,7 +13735,7 @@ ms.locfileid: "47941049"
 
 - **Triggers** – словник тригерів, знайдений у маніфесті.
 
-### <a name="updatefinder_offerupdates_nullbundleforappid"></a>updatefinder_offerupdates_nullbundleforappid
+### <a name="updatefinderofferupdatesnullbundleforappid"></a>updatefinder.offerupdates.nullbundleforappid
 
 Вказує на те, що засіб автоматичного оновлення Microsoft не зміг завантажити відомості про комплект для ідентифікатора програми, який вказано в завантаженому файлі маніфесту. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -13726,7 +13776,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="updatefinder_offerupdates_updaterulematched"></a>updatefinder_offerupdates_updaterulematched
+### <a name="updatefinderofferupdatesupdaterulematched"></a>updatefinder.offerupdates.updaterulematched
 
 Вказує на те, що для програми та бази знайдено оновлення. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -13767,7 +13817,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
     
-### <a name="updatefinder_registeredapps"></a>updatefinder_registeredapps
+### <a name="updatefinderregisteredapps"></a>updatefinder.registeredapps
 
 Реєструє програми, які інстальовані, зареєстровані чи контролюються засобом автоматичного оновлення Microsoft. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -13807,7 +13857,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="updatefinder_suite_invalidsuiteversion"></a>updatefinder_suite_invalidsuiteversion
+### <a name="updatefindersuiteinvalidsuiteversion"></a>updatefinder.suite.invalidsuiteversion
 
 Ця подія повідомляє про помилку версії пакету, яка виникає під час спроби оцінити, чи може бути застосовано оновлення. Це критична подія, яка використовується для визначення причини отриманого повідомлення про помилку.
 
@@ -13847,7 +13897,7 @@ ms.locfileid: "47941049"
 
 - **Suite** – ім'я пакета, що розглядається
 
-### <a name="updatefinder_suite_keyvaluemissing"></a>updatefinder_suite_keyvaluemissing
+### <a name="updatefindersuitekeyvaluemissing"></a>updatefinder.suite.keyvaluemissing
 
 Ця подія повідомляє про помилку під час спроби додати програму до пакета. Це критична подія, яка використовується для визначення причини отриманого повідомлення про помилку.
 
@@ -13890,7 +13940,7 @@ ms.locfileid: "47941049"
 - **Suite** – ім'я програми пакету, яку треба додати.
 
     
-### <a name="updatefinder_suite_missingcollateral"></a>updatefinder_suite_missingcollateral
+### <a name="updatefindersuitemissingcollateral"></a>updatefinder.suite.missingcollateral
 
 Оновлення програмного комплексу – реєструється незастосовність оновлення програмного комплексу у зв’язку з відсутністю супутніх файлів. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -13931,7 +13981,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="updatefinder_suite_staleversion"></a>updatefinder_suite_staleversion
+### <a name="updatefindersuitestaleversion"></a>updatefinder.suite.staleversion
 
 Оновлення програмного комплексу – реєструється незастосовність оновлення програмного комплексу через застарілість версії бази. Реєструються версія бази та ідентифікатор програмного комплексу. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -13972,7 +14022,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="updatefinder_suite_updateapplicable"></a>updatefinder_suite_updateapplicable
+### <a name="updatefindersuiteupdateapplicable"></a>updatefinder.suite.updateapplicable
 
 Оновлення програмного комплексу – реєструється застосовність оновлення програмного комплексу. Реєструються версія бази та ідентифікатор програмного комплексу. Реєструються версія бази та ідентифікатор програмного комплексу. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -14013,7 +14063,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="updatefinder_suite_updatenotapplicabledefaultpath"></a>updatefinder_suite_updatenotapplicabledefaultpath
+### <a name="updatefindersuiteupdatenotapplicabledefaultpath"></a>updatefinder.suite.updatenotapplicabledefaultpath
 
 Оновлення програмного комплексу – реєструються випадки, коли пакет оновлень не пропонується, оскільки не всі програми комплексу інстальовані за стандартними шляхами. Реєструються версія бази та ідентифікатор програмного комплексу. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -14054,7 +14104,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
     
-### <a name="updatefinder_suite_updatenotapplicableversion"></a>updatefinder_suite_updatenotapplicableversion
+### <a name="updatefindersuiteupdatenotapplicableversion"></a>updatefinder.suite.updatenotapplicableversion
 
 Оновлення програмного комплексу – реєструються випадки, коли пакет оновлень не пропонується, оскільки не всі програми комплексу мають однакову базу. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -14095,7 +14145,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="updatefinder_suite_updatenotoffered"></a>updatefinder_suite_updatenotoffered
+### <a name="updatefindersuiteupdatenotoffered"></a>updatefinder.suite.updatenotoffered
 
 Оновлення програмного комплексу – реєструються випадки, коли оновлення програмного комплексу не пропонується, оскільки його розмір перевищує розмір окремих оновлень. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -14136,7 +14186,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="updatefinder_suite_updateoffered"></a>updatefinder_suite_updateoffered
+### <a name="updatefindersuiteupdateoffered"></a>updatefinder.suite.updateoffered
 
 Оновлення програмного комплексу – реєструються випадки, коли пропонується оновлення програмного комплексу. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -14177,7 +14227,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="updatemanager_checkupdate"></a>updatemanager_checkupdate
+### <a name="updatemanagercheckupdate"></a>updatemanager.checkupdate
 
 Реєструє кількість оновлень, які засіб автоматичного оновлення Microsoft виявив під час пошуку доступних оновлень. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -14218,7 +14268,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
     
-### <a name="updatemanager_updatespending"></a>updatemanager_updatespending
+### <a name="updatemanagerupdatespending"></a>updatemanager.updatespending
 
 Вказує на те, що оновлення знайдені і очікують інсталяції. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -14258,7 +14308,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="updatestatus_codesign"></a>UpdateStatus_Codesign
+### <a name="updatestatuscodesign"></a>UpdateStatus.Codesign
 
 Ця подія повідомляє про стан перевірки підпису коду, яку помічник з оновлення Microsoft виконує після інсталяції оновлень клієнтської програми. Ця подія використовується для забезпечення надання дійсних пакетів, які оновлять встановлену програму до останньої версії.
 
@@ -14308,7 +14358,7 @@ ms.locfileid: "47941049"
 
 - **UpdatePkg** – ім'я застосованого пакета оновлень.
 
-### <a name="urlutilities_getmauinfo"></a>urlutilities_getmauinfo
+### <a name="urlutilitiesgetmauinfo"></a>urlutilities.getmauinfo
 
 Ця подія повідомляє, що сталася помилка під час доступу до пакета програми автоматичного оновлення Microsoft. Це критична подія, яка використовується для визначення причини отриманого повідомлення про помилку.
 
@@ -14348,7 +14398,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
    
-### <a name="webservices_checkforsilentupdates"></a>webservices_checkforsilentupdates
+### <a name="webservicescheckforsilentupdates"></a>webservices.checkforsilentupdates
 
 Вказує на те, що виявлено елементи для автоматичного оновлення. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -14389,7 +14439,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="webservices_deltaupdater"></a>webservices_deltaupdater
+### <a name="webservicesdeltaupdater"></a>webservices.deltaupdater
 
 Реєструє взаємодію між клієнтським кодом і шлюзом функції, який контролює, чи повинен клієнт надати дозвіл на оновлення відмінностей. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -14430,7 +14480,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="webservices_serviceaction"></a>webservices_serviceaction
+### <a name="webservicesserviceaction"></a>webservices.serviceaction
 
 Реєструє помилки, які виникають в результаті неочікуваної реакції веб-служби. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -14471,7 +14521,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="webservices_serviceaction"></a>webservices_serviceaction
+### <a name="webservicesserviceaction"></a>webservices.serviceaction
 
 Реєструє помилки, які виникають в результаті неочікуваної реакції веб-служби. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -14512,7 +14562,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="webservices_serviceresponse"></a>webservices_serviceresponse
+### <a name="webservicesserviceresponse"></a>webservices.serviceresponse
 
 Реєструє запити до служби автоматичного оновлення Microsoft, час відгуку та помилки. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -14553,7 +14603,7 @@ ms.locfileid: "47941049"
 - **SessionId** – ідентифікатор сесії.
 
     
-### <a name="webservices_silentupdate"></a>webservices_silentupdate
+### <a name="webservicessilentupdate"></a>webservices.silentupdate
 
 Реєструються запити на перевірку застосовності будь-яких правил примусового оновлення, наприклад коли через критичну проблему користувача необхідно перевести зі збірки N до збірки N+1. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -14593,7 +14643,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="webservices_updatefiltering"></a>webservices_updatefiltering
+### <a name="webservicesupdatefiltering"></a>webservices.updatefiltering
 
 Ця подія вказує на фільтрування, що виконується в списку застосовних оновлень за допомогою веб-служб. Ця подія використовується для забезпечення правильного функціонування програмного блокування, коли потрібно блокувати оновлення.
 
@@ -14633,7 +14683,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="webservices_webcontent"></a>webservices_webcontent
+### <a name="webserviceswebcontent"></a>webservices.webcontent
 
 Реєструються запити до веб-служб та відповіді від них. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
  
@@ -14673,7 +14723,7 @@ ms.locfileid: "47941049"
 
 - **SessionId** – ідентифікатор сесії.
 
-### <a name="webservices_whatsnew"></a>webservices_whatsnew
+### <a name="webserviceswhatsnew"></a>webservices.whatsnew
 
 Ця подія запускається, коли засіб автоматичного оновлення відправляє запит веб-службам в функції "Нові можливості" для зареєстрованих програм. Ця подія використовується, щоб визначити роботоздатність нашої функції ‎"Нові можливості‎". 
 
@@ -15128,8 +15178,26 @@ ms.locfileid: "47941049"
 
 - **PaywallOperationType** – вид операції платного доступу (Enum або визначене ціле число).
 
+### <a name="officeandroiddocsuiviewspaywallsessiondata"></a>Office.Android.DocsUI.Views.PaywallSessionData
 
-### <a name="office_firstrun_apple_telemetryoptin"></a>Office_FirstRun_Apple_TelemetryOptIn
+Метадані на основі сеансів, коли для користувача відображається інтерфейс платного доступу. Ця подія надає корпорації Майкрософт відомості про шлях взаємодії користувача та версії пристрою й ОС, які використовує користувач, і допомагає приймати рішення щодо інвестицій задля покращення роботи в цих областях.
+
+Збираються перелічені нижче поля.
+
+- **App Version** – код версії споживацької програми.
+
+- **ClientId** – анонімний унікальний ідентифікатор пристрою, не пов’язаний із персональними даними (GUID / рядок).
+
+- **Entry Point** – унікальний ідентифікатор для контекстних або постійних точок входу зі споживацької програми.
+
+- **isTablet** – чи на пристрої відображається графічний інтерфейс планшета.
+
+- **OSVersion** – версія ОС Android для пристрою.
+
+- **SesssionId** – GUID: унікальний ідентифікатор сеансу платного доступу
+
+
+### <a name="officefirstrunappletelemetryoptin"></a>Office.FirstRun.Apple.TelemetryOptIn
 
 Ця подія зібрана для програм Office, що працюють на платформах Apple. Використовується для відстеження справності потоку телеметричних даних під час першого запуску. Збирається код, який визначає тип параметра збирання діагностичних даних, вибраний користувачем. 
 
