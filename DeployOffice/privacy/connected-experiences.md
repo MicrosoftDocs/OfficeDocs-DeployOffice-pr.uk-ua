@@ -13,12 +13,12 @@ ms.custom:
 - Ent_Office_Privacy
 description: Ця стаття містить відомості для адміністраторів Office щодо підключених можливостей для Office, як-от можливості аналізу вмісту або завантаження вмісту з Інтернету.
 hideEdit: true
-ms.openlocfilehash: 3e44c9c20bed531f46390c91a41ce559cabc9e72
-ms.sourcegitcommit: 25a0925e7caf8fbb53e6757e8a65126eb2c9da65
+ms.openlocfilehash: ca3139f95f20392efce25bb00572c2973cec82db
+ms.sourcegitcommit: e2ba452c1e353fc388512d71c14b89d0928369c0
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "48338203"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "48491599"
 ---
 # <a name="connected-experiences-in-office"></a>Підключені можливості в Office
 
@@ -40,6 +40,7 @@ ms.locfileid: "48338203"
 |Рекомендовані діаграми (вебпрограма Excel)|[Створення діаграми за допомогою рекомендованих діаграм](https://support.microsoft.com/office/cd131b77-79c7-4537-a438-8db20cea84c0#ID0EAADAAA=Web)|
 |Надбудови Блокнота для класу (OneNote)|[Початок роботи з програмою "Блокнот OneNote для класу": короткий огляд для викладачів](https://support.microsoft.com/office/28666b8e-b0ae-48fe-b001-1874f5f6db58)|
 | Типи даних| [Типи даних Excel: біржові та географічні дані](https://support.microsoft.com/office/61a33056-9935-484f-8ac8-f1a89e210877)   |
+|Конструктор (вебпрограма Microsoft Word)|[Створення ідеальних документів за допомогою конструктора](https://support.microsoft.com/office/97844bd3-b52d-4c94-9deb-b51db7f36d91    )|
 | Диктування  | [Диктування документів Word](https://support.microsoft.com/office/d4fd296e-8f15-4168-afec-1f95b13a6408) |
 |Редактор<sup>1</sup> |[Редактор Microsoft перевіряє текст на граматичні та інші помилки в документах, електронних листах та Інтернеті](https://support.microsoft.com/office/91ecbe1b-d021-4e9e-a82e-abc4cd7163d7)|
 | Ідеї     | [Ідеї у програмі Excel](https://support.microsoft.com/office/3223aab8-f543-4fda-85ed-76bb0295ffc4) |
@@ -62,6 +63,7 @@ ms.locfileid: "48338203"
 | *Інтелектуальний пошук*\*   | [Дізнавайтеся більше про те, над чим працюєте](https://support.microsoft.com/office/debf2083-5ac0-4739-8667-ae2467bec044) |
 | Пропоновані відповіді | [Що таке пропоновані відповіді?](https://www.osupportweb.com/a/outlook-mobile/?p=all&s=feature-walkthroughs&f=what-are-suggested-replies)|
 | Дотик для Word (додавання з файлів)   | [Знаходьте й використовуйте потрібний вміст у потрібний вам час, не виходячи з Word](https://support.microsoft.com/office/860118fc-1f61-41f6-922f-40084a284658).   |
+|Передбачення тексту (функція редактора)|[Швидке написання тексту за допомогою функції передбачення тексту в Word](https://support.microsoft.com/office/7afcb4f3-4aa2-443a-9b08-125a5d692576)|
 |Транскрибування |[Транскрибування записів](https://support.microsoft.com/office/7fc2efec-245e-45f0-b053-2a97531ecf57)|
 | Перетворення на веб-сторінку   | [Перетворюйте документи Word на веб-сторінки Sway](https://support.microsoft.com/office/65912b2d-8b81-41e1-ac52-c20a65ce8ecf) |
 | Перекладач   | [Перекладайте тексти на інші мови](https://support.microsoft.com/office/287380e4-a56c-48a1-9977-f2dca89ce93f)  |
