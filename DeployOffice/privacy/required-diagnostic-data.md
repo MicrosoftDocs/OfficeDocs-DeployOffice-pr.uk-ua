@@ -13,12 +13,12 @@ ms.custom:
 - Ent_Office_Privacy
 description: Ця стаття пропонує адміністраторам Office відомості про обов’язкові діагностичні дані в Office та містить список подій і полів даних.
 hideEdit: true
-ms.openlocfilehash: e8b54e50ca8fc080cf09b26d83f4b7f28bc81290
-ms.sourcegitcommit: 521da3465e94ca9d29f3c6f49b78dd5f952d9cc6
+ms.openlocfilehash: 97d334551743566bde549da4b3b4a2476255d248
+ms.sourcegitcommit: 1c635a2906afb601e7c92b3f48dde3d271d06105
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "49088141"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "49367382"
 ---
 # <a name="required-diagnostic-data-for-office"></a>Обов’язкові діагностичні дані в Office
 
@@ -665,7 +665,7 @@ ms.locfileid: "49088141"
 
 Нижче наведено підтипи даних у цій категорії.
 - [Настроювання та облік Office](#office-setup-and-inventory-subtype)
-- [Конфігурація надбудов Office](#office-add-in-configuration-subtype)
+- [Конфігурація надбудови для Office](#office-add-in-configuration-subtype)
 - [Безпека](#security-subtype)  
 
 ### <a name="office-setup-and-inventory-subtype"></a>*Підтип настроювання та обліку Office*
@@ -1534,7 +1534,7 @@ ms.locfileid: "49088141"
  
 - **number_of_accounts** – загальна кількість облікових записів, над якими виконується дія.
  
-- **result** – результат для дії, наприклад успіх чи невдача.
+- **result** – результат дії, наприклад успіх чи невдача.
    
 - **server_type** – тип сервера для облікового запису (подібне до account_type).
  
@@ -1556,7 +1556,7 @@ ms.locfileid: "49088141"
 
 - **account_creation_source** – необов’язкова властивість, яка використовується для пошуку та діагностики проблем, що виникають під час створення облікового запису з таким типом дії, як додавання.  Вона може мати такі значення: єдиний вхід (SS0), create_new_account, вручну тощо.
 
-- **action** – тип дії, яку було виконано в обліковому записі, як-от додавання, вилучення або скидання
+- **action** – тип дії, яку було виконано над обліковим записом, як-от додавання, вилучення або скидання
 
 #### <a name="addnewaccountstep"></a>add.new.account.step
 
@@ -5110,7 +5110,7 @@ ms.locfileid: "49088141"
 
 - **Data_RestoreButtonFlowType** – код, який позначає тип процесу, який виконувався
 
-- **Data_RestoredFailedPaymentCancelledFlowType** – код, який позначає процес скасування платежу, який було здійснено
+- **Data_RestoredFailedPaymentCancelledFlowType** – код, що позначає процес скасування платежу, який було здійснено
 
 - **Data_RestoredFailedUnKnownFlowType** – визначає, чи була спроба невдалою через виконання неочікуваного процесу користувачем
 
