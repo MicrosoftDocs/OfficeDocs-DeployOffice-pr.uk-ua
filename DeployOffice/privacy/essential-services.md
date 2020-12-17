@@ -13,12 +13,12 @@ ms.custom:
 - Ent_Office_Privacy
 description: У цій статті наведено відомості про основні служби в Office, як-от "Office умить" і ліцензування, а також список подій і полів даних для основних служб.
 hideEdit: true
-ms.openlocfilehash: 94f248d64c74cd6575b4039178270f62b3715d15
-ms.sourcegitcommit: e2ba452c1e353fc388512d71c14b89d0928369c0
+ms.openlocfilehash: 03274656b30fe1e30e609ef32aa38947917a23cd
+ms.sourcegitcommit: 954510a42df092730412aa25cd8683f6a629537c
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "48491563"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "49685850"
 ---
 # <a name="essential-services-for-office"></a>Основні служби для Office
 
@@ -27,12 +27,12 @@ ms.locfileid: "48491563"
 
 До пакета Office входять клієнтські програми й підключені можливості, розроблені для покращення ефективності роботи, спілкування та співпраці. Незважаючи на те, що ви можете керувати багатьма підключеними можливостями, доступними для вас та інших користувачів, якщо ви є адміністратором організації, ви не можете вимикати певний набір служб, які необхідні для функціонування Office. Наприклад, служба ліцензування, яка підтверджує наявність ліцензії на використання Office. Необхідні дані про ці служби збираються та надсилаються до корпорації Майкрософт незалежно від будь-яких інших параметрів конфіденційності, які ви могли вказати.
 
-Докладні відомості див. в таких статтях:
+Докладні відомості див. в цих статтях:
 
 - [Необхідні дані про служби для Office](required-service-data.md)
 - [Підключені можливості в Office](connected-experiences.md)
 
-Адміністратору організації також можуть бути корисними такі ресурси:
+Адміністратору організації також можуть бути корисними такі статті:
 
 - [Огляд елементів керування конфіденційністю в Програмах Microsoft 365 для підприємств](overview-privacy-controls.md)
 - [Параметри політики для налаштування елементів керування конфіденційністю в Програмах Microsoft 365 для підприємств](manage-privacy-controls.md)
@@ -47,8 +47,8 @@ ms.locfileid: "48491563"
 
 | **Служба**  | **Опис**  |
 | ------ | ---- |
-| [Автентифікація](#authentication-events) | Автентифікація – це кросплатформна служба, яка перевіряє ідентичність користувача Office. Ця служба дає змогу ввійти в Office, активувати ліцензію Office, отримати доступ до файлів, які зберігаються в хмарі, а також забезпечує узгоджені умови роботи всіх сеансів Office і ваших пристроїв.    |
-| [Технологія "Office умить"](#click-to-run-events) | "Office умить" – це технологія інсталяції, яка використовується для інсталяції та оновлення Office у Windows. Ця технологія дає змогу перевірити наявність нових версій програм Office, завантажує та інсталює нові версії, коли вони стають доступними."Office умить" дає змогу виявити необхідність завантаження, а також завантажити та інсталювати оновлення Office, зокрема оновлення системи безпеки.     |
+| [Автентифікація](#authentication-events) | Автентифікація – це кросплатформна служба, яка перевіряє ідентичність користувача Office.  Ця служба дає змогу ввійти в Office, активувати ліцензію Office, отримати доступ до файлів, які зберігаються в хмарі, а також забезпечує узгоджені умови роботи всіх сеансів Office і ваших пристроїв.    |
+| [Технологія "Office умить"](#click-to-run-events) | "Office умить" – це технологія інсталяції, яка використовується для інсталяції та оновлення Office у Windows. Ця технологія дає змогу перевірити наявність нових версій програм Office, завантажує та інсталює нові версії, коли вони стають доступними. "Office умить" дає змогу виявити необхідність завантаження, а також завантажити та інсталювати оновлення Office, зокрема оновлення системи безпеки.     |
 | [Служба розширеної конфігурації (ECS)](#enhanced-configuration-service-ecs-events) | Служба ECS дає корпорації Майкрософт можливість змінити конфігурації програми Office без необхідності її повторного розгортання. Ця служба використовується для контролю поступового впровадження функцій і оновлень, а спостереження за впливом розгортання здійснюється на основі зібраних даних діагностики. Вона також використовується для усунення проблем безпеки або продуктивності функції або оновлення. Крім того, ECS підтримує внесення змін до конфігурації, які стосуються діагностичних даних, що дає змогу переконатися, що відповідні події збираються. |
 | [Ліцензування](#licensing-events)     | "Ліцензування" – це хмарна служба з підтримкою активації пакета Office для нових інсталяцій, яка підтримує ліцензію на пристроях після активації цього пакета. За допомогою цієї служби можна зареєструвати кожен пристрій і активувати Office, а також перевірити стан передплати на Office і керувати ключами продукту.    |
 |[Автоматичне оновлення Microsoft](#microsoft-autoupdate-mau-events)|Засіб автоматичного оновлення Microsoft – це технологія, яка використовується для оновлення програм Microsoft (як-от Office) для macOS. Засіб автоматичного оновлення виявляє необхідність завантаження, а також завантажує та інсталює оновлення програми, зокрема оновлення системи безпеки.|
@@ -955,7 +955,7 @@ ms.locfileid: "48491563"
 
 ### <a name="officeclicktoruncorruptioncheck"></a>Office.ClickToRun.CorruptionCheck
 
-Дані настроювання та обліку Office, що збираються, коли клієнт технології "Office умить" виконує перевірку на пошкодження, щоб переконатися в цілісності двійкових файлів Office. Використовується для виявлення пошкоджених двійкових файлів Office і оцінки їх пошкодження.
+Дані настроювання та обліку Office, що збираються, коли клієнт технології "Office умить" виконує перевірку на пошкодження, щоб переконатися в цілісності двійкових файлів Office. Використовується для виявлення пошкоджених двійкових файлів Office і оцінки їхнього пошкодження.
 
 Збираються такі поля:
 
@@ -1101,15 +1101,15 @@ ms.locfileid: "48491563"
   
   - **DownloadSucceeded –** true, якщо конвеєр успішно завантажив оновлення Office; false – якщо ні.
 
-  - **ErrorCode – ** код останньої помилки, що сталася в конвеєрі Repoman "Office умить".
+  - **ErrorCode –** код останньої помилки, що сталася в конвеєрі Repoman "Office умить".
 
-  - **ErrorDetails – ** додаткові відомості про останню помилку, що сталася в конвеєрі Repoman "Office умить".
+  - **ErrorDetails –** додаткові відомості про останню помилку, що сталася в конвеєрі Repoman "Office умить".
  
-  - **ErrorMessage – ** код останньої помилки, що сталася в конвеєрі Repoman "Office умить".
+  - **ErrorMessage –** код останньої помилки, що сталася в конвеєрі Repoman "Office умить".
 
   - **OpenStreamSessionSucceeded –** true, якщо конвеєр успішно створює сеанс для потокової передачі оновлень Office; false – якщо ні.
 
-  - **RepomanErrorMessage – ** повідомлення про помилку, отримане з repoman.dll.
+  - **RepomanErrorMessage –** повідомлення про помилку, отримане з repoman.dll.
  
 
 ### <a name="officeclicktorunscenarioinstalltaskconfigure"></a>Office.ClickToRun.Scenario.InstallTaskConfigure
@@ -1118,75 +1118,75 @@ ms.locfileid: "48491563"
 
 Збираються такі поля:
 
-  - **Data\_15\_SourceType** – розташування джерела Office 15 (наприклад, мережа CDN або локальна мережа). 
+  - **Data\_15\_SourceType** – розташування джерела Office 15 (наприклад, мережа CDN або локальна мережа). 
 
-  - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
+  - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
 
-  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
+  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
 
-  - **Data\_15\_Version** – версія Office 15. 
+  - **Data\_15\_Version** – версія Office 15. 
 
-  - **Data\_16\_SourceType** – розташування джерела Office 16 (наприклад, мережа CDN або локальна мережа). 
+  - **Data\_16\_SourceType** – розташування джерела Office 16 (наприклад, мережа CDN або локальна мережа). 
 
-  - **Data\_16\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 16. 
+  - **Data\_16\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 16. 
 
-  - **Data\_16\_UpdateVersion** – версія Office 16, до якої здійснюється оновлення. 
+  - **Data\_16\_UpdateVersion** – версія Office 16, до якої здійснюється оновлення. 
 
-  - **Data\_16\_Version** – версія Office 16. 
+  - **Data\_16\_Version** – версія Office 16. 
 
-  - **Data\_AddingFixedProducts** – продукти, які додаються. 
+  - **Data\_AddingFixedProducts** – продукти, які додаються. 
 
-  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
+  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
 
   - **Data\_CompletionState** – указує, чи виконано завдання.
 
-  - **Data\_ErrorCode** – код помилки, що сталася. 
+  - **Data\_ErrorCode** – код помилки, що сталася. 
 
-  - **Data\_ErrorDetails** – додаткові відомості щодо помилки. 
+  - **Data\_ErrorDetails** – додаткові відомості щодо помилки. 
 
-  - **Data\_ErrorMessage** – повідомлення про помилку. 
+  - **Data\_ErrorMessage** – повідомлення про помилку. 
 
-  - **Data\_ErrorSource** – указує, де сталася помилка. 
+  - **Data\_ErrorSource** – указує, де сталася помилка. 
 
-  - **Data\_ExceptionType** – виняток помилки. 
+  - **Data\_ExceptionType** – виняток помилки. 
 
-  - **Data\_IsErrorCodeIgnorable** – указує, чи можна ігнорувати помилку, що сталася. 
+  - **Data\_IsErrorCodeIgnorable** – указує, чи можна ігнорувати помилку, що сталася. 
 
-  - **Data\_IsErrorCodeIgnorableForScenarioHealth** – указує, чи вважаємо ми, що помилку можна ігнорувати. 
+  - **Data\_IsErrorCodeIgnorableForScenarioHealth** – указує, чи вважаємо ми, що помилку можна ігнорувати. 
 
-  - **Data\_NewestPackageVersion** – найпізніша версія Office на комп’ютері. 
+  - **Data\_NewestPackageVersion** – найпізніша версія Office на комп’ютері. 
 
-  - **Data\_OldestPackageVersion** – найраніша версія Office на комп’ютері. 
+  - **Data\_OldestPackageVersion** – найраніша версія Office на комп’ютері. 
 
-  - **Data\_ProductsToAdd** – продукти Office, які додаються. 
+  - **Data\_ProductsToAdd** – продукти Office, які додаються. 
 
-  - **Data\_ProductsToRemove** – продукти Office, які вилучаються. 
+  - **Data\_ProductsToRemove** – продукти Office, які вилучаються. 
 
-  - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
+  - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
 
-  - **Data\_RemovingProducts** – продукти, для яких надходять запити на вилучення. 
+  - **Data\_RemovingProducts** – продукти, для яких надходять запити на вилучення. 
 
-  - **Data\_ScenarioInstanceID** – унікальний ідентифікатор GUID для сценарію, що виконується. 
+  - **Data\_ScenarioInstanceID** – унікальний ідентифікатор GUID для сценарію, що виконується. 
 
-  - **Data\_ScenarioName** – сценарій, що виконується (наприклад, інсталяція). 
+  - **Data\_ScenarioName** – сценарій, що виконується (наприклад, інсталяція). 
 
-  - **Data\_ScenarioSubType** – тип сценарію, що виконується (наприклад, видалення, повторна інсталяція). 
+  - **Data\_ScenarioSubType** – тип сценарію, що виконується (наприклад, видалення, повторна інсталяція). 
 
-  - **Data\_SourceType** – розташування джерела (наприклад, CDN). 
+  - **Data\_SourceType** – розташування джерела (наприклад, CDN). 
 
-  - **Data\_SqmMachineID** – унікальний ідентифікатор комп’ютера, який використовується в SQM Windows. 
+  - **Data\_SqmMachineID** – унікальний ідентифікатор комп’ютера, який використовується в SQM Windows. 
 
-  - **Data\_SusClientID** – ідентифікатор комп’ютера для оновлення Office. 
+  - **Data\_SusClientID** – ідентифікатор комп’ютера для оновлення Office. 
 
-  - **Data\_TaskState** – стан завдання (наприклад, "Виконується" або "Скасовано"). 
+  - **Data\_TaskState** – стан завдання (наприклад, "Виконується" або "Скасовано"). 
 
-  - **Data\_TotalClientCabSize** – розмір файлу CAB клієнта. 
+  - **Data\_TotalClientCabSize** – розмір файлу CAB клієнта. 
 
-  - **Data\_TriggeringUI** – указує, що спричинило активацію інтерфейсу користувача. 
+  - **Data\_TriggeringUI** – указує, що спричинило активацію інтерфейсу користувача. 
 
-  - **Data\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office. 
+  - **Data\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office. 
 
-  - **Data\_Version** – версія Office. 
+  - **Data\_Version** – версія Office. 
 
 ### <a name="officeclicktorunscenarioinstalltaskconfigurelight"></a>Office.ClickToRun.Scenario.InstallTaskConfigurelight
 
@@ -1194,75 +1194,75 @@ ms.locfileid: "48491563"
 
 Збираються такі поля:
 
-  - **Data\_15\_SourceType** – розташування джерела Office 15 (наприклад, мережа CDN або локальна мережа). 
+  - **Data\_15\_SourceType** – розташування джерела Office 15 (наприклад, мережа CDN або локальна мережа). 
 
-  - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
+  - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
 
-  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
+  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
 
-  - **Data\_15\_Version** – версія Office 15. 
+  - **Data\_15\_Version** – версія Office 15. 
 
-  - **Data\_16\_SourceType** – розташування джерела Office 16 (наприклад, мережа CDN або локальна мережа). 
+  - **Data\_16\_SourceType** – розташування джерела Office 16 (наприклад, мережа CDN або локальна мережа). 
 
-  - **Data\_16\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 16. 
+  - **Data\_16\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 16. 
 
-  - **Data\_16\_UpdateVersion** – версія Office 16, до якої здійснюється оновлення. 
+  - **Data\_16\_UpdateVersion** – версія Office 16, до якої здійснюється оновлення. 
 
-  - **Data\_16\_Version** – версія Office 16. 
+  - **Data\_16\_Version** – версія Office 16. 
 
-  - **Data\_AddingFixedProducts** – продукти, які додаються. 
+  - **Data\_AddingFixedProducts** – продукти, які додаються. 
 
-  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
+  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
 
   - **Data\_CompletionState** – указує, чи виконано завдання.
 
-  - **Data\_ErrorCode** – код помилки, що сталася. 
+  - **Data\_ErrorCode** – код помилки, що сталася. 
 
-  - **Data\_ErrorDetails** – додаткові відомості щодо помилки. 
+  - **Data\_ErrorDetails** – додаткові відомості щодо помилки. 
 
-  - **Data\_ErrorMessage** – повідомлення про помилку. 
+  - **Data\_ErrorMessage** – повідомлення про помилку. 
 
-  - **Data\_ErrorSource** – указує, де сталася помилка. 
+  - **Data\_ErrorSource** – указує, де сталася помилка. 
 
-  - **Data\_ExceptionType** – виняток помилки. 
+  - **Data\_ExceptionType** – виняток помилки. 
 
-  - **Data\_IsErrorCodeIgnorable** – указує, чи можна ігнорувати помилку, що сталася. 
+  - **Data\_IsErrorCodeIgnorable** – указує, чи можна ігнорувати помилку, що сталася. 
 
-  - **Data\_IsErrorCodeIgnorableForScenarioHealth** – указує, чи вважаємо ми, що помилку можна ігнорувати. 
+  - **Data\_IsErrorCodeIgnorableForScenarioHealth** – указує, чи вважаємо ми, що помилку можна ігнорувати. 
 
-  - **Data\_NewestPackageVersion** – найпізніша версія Office на комп’ютері. 
+  - **Data\_NewestPackageVersion** – найпізніша версія Office на комп’ютері. 
 
-  - **Data\_OldestPackageVersion** – найраніша версія Office на комп’ютері. 
+  - **Data\_OldestPackageVersion** – найраніша версія Office на комп’ютері. 
 
-  - **Data\_ProductsToAdd** – продукти Office, які додаються. 
+  - **Data\_ProductsToAdd** – продукти Office, які додаються. 
 
-  - **Data\_ProductsToRemove**  – продукти Office, які вилучаються. 
+  - **Data\_ProductsToRemove** – продукти Office, які вилучаються. 
 
-  - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
+  - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
 
-  - **Data\_RemovingProducts** – продукти, для яких надходять запити на вилучення. 
+  - **Data\_RemovingProducts** – продукти, для яких надходять запити на вилучення. 
 
-  - **Data\_ScenarioInstanceID** – унікальний ідентифікатор GUID для сценарію, що виконується. 
+  - **Data\_ScenarioInstanceID** – унікальний ідентифікатор GUID для сценарію, що виконується. 
 
-  - **Data\_ScenarioName** – сценарій, що виконується (наприклад, інсталяція). 
+  - **Data\_ScenarioName** – сценарій, що виконується. (наприклад, інсталяція). 
 
-  - **Data\_ScenarioSubType** – тип сценарію, що виконується (наприклад, видалення, повторна інсталяція). 
+  - **Data\_ScenarioSubType** – тип сценарію, що виконується (наприклад, видалення, повторна інсталяція). 
 
-  - **Data\_SourceType** – розташування джерела (наприклад, CDN). 
+  - **Data\_SourceType** – розташування джерела (наприклад, CDN). 
 
-  - **Data\_SqmMachineID** – унікальний ідентифікатор комп’ютера, який використовується в SQM Windows. 
+  - **Data\_SqmMachineID** – унікальний ідентифікатор комп’ютера, який використовується в SQM Windows. 
 
-  - **Data\_SusClientID** – ідентифікатор комп’ютера для оновлення Office. 
+  - **Data\_SusClientID** – ідентифікатор комп’ютера для оновлення Office. 
 
-  - **Data\_TaskState** – стан завдання (наприклад, "Виконується" або "Скасовано"). 
+  - **Data\_TaskState** – стан завдання (наприклад, "Виконується" або "Скасовано"). 
 
-  - **Data\_TotalClientCabSize** – розмір файлу CAB клієнта. 
+  - **Data\_TotalClientCabSize** – розмір файлу CAB клієнта. 
 
-  - **Data\_TriggeringUI** – указує, що спричинило активацію інтерфейсу користувача. 
+  - **Data\_TriggeringUI** – указує, що спричинило активацію інтерфейсу користувача. 
 
-  - **Data\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office. 
+  - **Data\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office. 
 
-  - **Data\_Version** – версія Office. 
+  - **Data\_Version** – версія Office. 
 
 ### <a name="officeclicktorunscenarioinstalltaskfinalintegrate"></a>Office.ClickToRun.Scenario.InstallTaskFinalintegrate
 
@@ -1270,75 +1270,75 @@ ms.locfileid: "48491563"
 
 Збираються такі поля:
 
-  - **Data\_15\_SourceType** – розташування джерела Office 15 (наприклад, мережа CDN або локальна мережа). 
+  - **Data\_15\_SourceType** – розташування джерела Office 15 (наприклад, мережа CDN або локальна мережа). 
 
-  - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
+  - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
 
   - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення.
 
-  - **Data\_15\_Version** – версія Office 15. 
+  - **Data\_15\_Version** – версія Office 15. 
 
-  - **Data\_16\_SourceType** – розташування джерела Office 16 (наприклад, мережа CDN або локальна мережа). 
+  - **Data\_16\_SourceType** – розташування джерела Office 16 (наприклад, мережа CDN або локальна мережа). 
 
-  - **Data\_16\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 16. 
+  - **Data\_16\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 16. 
 
-  - **Data\_16\_UpdateVersion** – версія Office 16, до якої здійснюється оновлення. 
+  - **Data\_16\_UpdateVersion** – версія Office 16, до якої здійснюється оновлення. 
 
-  - **Data\_16\_Version** – версія Office 16. 
+  - **Data\_16\_Version** – версія Office 16. 
 
-  - **Data\_AddingFixedProducts** – продукти, які додаються. 
+  - **Data\_AddingFixedProducts** – продукти, які додаються. 
 
-  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
+  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
 
   - **Data\_CompletionState** – указує, чи виконано завдання.
 
-  - **Data\_ErrorCode** – код помилки, що сталася. 
+  - **Data\_ErrorCode** – код помилки, що сталася. 
 
-  - **Data\_ErrorDetails** – додаткові відомості щодо помилки. 
+  - **Data\_ErrorDetails** – додаткові відомості щодо помилки. 
 
-  - **Data\_ErrorMessage** – повідомлення про помилку. 
+  - **Data\_ErrorMessage** – повідомлення про помилку. 
 
   - **Data\_ErrorSource** – указує, де сталася помилка.
 
-  - **Data\_ExceptionType** – виняток помилки. 
+  - **Data\_ExceptionType** – виняток помилки. 
 
-  - **Data\_IsErrorCodeIgnorable** – указує, чи можна ігнорувати помилку, що сталася. 
+  - **Data\_IsErrorCodeIgnorable** – указує, чи можна ігнорувати помилку, що сталася. 
 
-  - **Data\_IsErrorCodeIgnorableForScenarioHealth** – указує, чи вважаємо ми, що помилку можна ігнорувати. 
+  - **Data\_IsErrorCodeIgnorableForScenarioHealth** – указує, чи вважаємо ми, що помилку можна ігнорувати. 
 
-  - **Data\_NewestPackageVersion** – найпізніша версія Office на комп’ютері. 
+  - **Data\_NewestPackageVersion** – найпізніша версія Office на комп’ютері. 
 
-  - **Data\_OldestPackageVersion** – найраніша версія Office на комп’ютері. 
+  - **Data\_OldestPackageVersion** – найраніша версія Office на комп’ютері. 
 
-  - **Data\_ProductsToAdd** – продукти Office, які додаються. 
+  - **Data\_ProductsToAdd** – продукти Office, які додаються. 
 
-  - **Data\_ProductsToRemove**  – продукти Office, які вилучаються. 
+  - **Data\_ProductsToRemove** – продукти Office, які вилучаються. 
 
-  - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
+  - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
 
-  - **Data\_RemovingProducts** – продукти, для яких надходять запити на вилучення. 
+  - **Data\_RemovingProducts** – продукти, для яких надходять запити на вилучення. 
 
-  - **Data\_ScenarioInstanceID** – унікальний ідентифікатор GUID для сценарію, що виконується. 
+  - **Data\_ScenarioInstanceID** – унікальний ідентифікатор GUID для сценарію, що виконується. 
 
-  - **Data\_ScenarioName** – сценарій, що виконується (наприклад, інсталяція). 
+  - **Data\_ScenarioName** – сценарій, що виконується (наприклад, інсталяція). 
 
-  - **Data\_ScenarioSubType** – тип сценарію, що виконується (наприклад, видалення, повторна інсталяція). 
+  - **Data\_ScenarioSubType** – тип сценарію, що виконується (наприклад, видалення, повторна інсталяція). 
 
-  - **Data\_SourceType** – розташування джерела (наприклад, CDN). 
+  - **Data\_SourceType** – розташування джерела (наприклад, CDN). 
 
-  - **Data\_SqmMachineID** – унікальний ідентифікатор комп’ютера, який використовується в SQM Windows. 
+  - **Data\_SqmMachineID**– унікальний ідентифікатор комп’ютера, який використовується в SQM Windows. 
 
-  - **Data\_SusClientID** – ідентифікатор комп’ютера для оновлення Office. 
+  - **Data\_SusClientID** – ідентифікатор комп’ютера для оновлення Office. 
 
-  - **Data\_TaskState** – стан завдання (наприклад, "Виконується" або "Скасовано"). 
+  - **Data\_TaskState** – стан завдання (наприклад, "Виконується" або "Скасовано"). 
 
-  - **Data\_TotalClientCabSize** – розмір файлу CAB клієнта. 
+  - **Data\_TotalClientCabSize** – розмір файлу CAB клієнта. 
 
-  - **Data\_TriggeringUI** – указує, що спричинило активацію інтерфейсу користувача. 
+  - **Data\_TriggeringUI** – указує, що спричинило активацію інтерфейсу користувача. 
 
-  - **Data\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office. 
+  - **Data\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office. 
 
-  - **Data\_Version** – версія Office. 
+  - **Data\_Version** – версія Office. 
 
 ### <a name="officeclicktorunscenarioinstalltaskfonts"></a>Office.ClickToRun.Scenario.InstallTaskFonts
 
@@ -1346,75 +1346,75 @@ ms.locfileid: "48491563"
 
 Збираються такі поля:
 
-  - **Data\_15\_SourceType** – розташування джерела Office 15 (наприклад, мережа CDN або локальна мережа). 
+  - **Data\_15\_SourceType** – розташування джерела Office 15 (наприклад, мережа CDN або локальна мережа). 
 
-  - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
+  - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
 
-  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
+  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
 
-  - **Data\_15\_Version** – версія Office 15. 
+  - **Data\_15\_Version** – версія Office 15. 
 
-  - **Data\_16\_SourceType** – розташування джерела Office 16 (наприклад, мережа CDN або локальна мережа). 
+  - **Data\_16\_SourceType** – розташування джерела Office 16 (наприклад, мережа CDN або локальна мережа). 
 
-  - **Data\_16\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 16. 
+  - **Data\_16\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 16. 
 
-  - **Data\_16\_UpdateVersion** – версія Office 16, до якої здійснюється оновлення. 
+  - **Data\_16\_UpdateVersion** – версія Office 16, до якої здійснюється оновлення. 
 
-  - **Data\_16\_Version** – версія Office 16. 
+  - **Data\_16\_Version** – версія Office 16. 
 
-  - **Data\_AddingFixedProducts** – продукти, які додаються. 
+  - **Data\_AddingFixedProducts** – продукти, які додаються. 
 
-  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
+  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
 
   - **Data\_CompletionState** – указує, чи виконано завдання.
 
-  - **Data\_ErrorCode** – код помилки, що сталася. 
+  - **Data\_ErrorCode** – код помилки, що сталася. 
 
-  - **Data\_ErrorDetails** – додаткові відомості щодо помилки. 
+  - **Data\_ErrorDetails** – додаткові відомості щодо помилки. 
 
-  - **Data\_ErrorMessage** – повідомлення про помилку. 
+  - **Data\_ErrorMessage** – повідомлення про помилку. 
 
-  - **Data\_ErrorSource** – указує, де сталася помилка. 
+  - **Data\_ErrorSource** – указує, де сталася помилка. 
 
-  - **Data\_ExceptionType** – виняток помилки. 
+  - **Data\_ExceptionType** – виняток помилки. 
 
-  - **Data\_IsErrorCodeIgnorable** – указує, чи можна ігнорувати помилку, що сталася. 
+  - **Data\_IsErrorCodeIgnorable** – указує, чи можна ігнорувати помилку, що сталася. 
 
-  - **Data\_IsErrorCodeIgnorableForScenarioHealth** – указує, чи вважаємо ми, що помилку можна ігнорувати. 
+  - **Data\_IsErrorCodeIgnorableForScenarioHealth** – указує, чи вважаємо ми, що помилку можна ігнорувати. 
 
-  - **Data\_NewestPackageVersion** – найпізніша версія Office на комп’ютері. 
+  - **Data\_NewestPackageVersion** – найпізніша версія Office на комп’ютері. 
 
-  - **Data\_OldestPackageVersion** – найраніша версія Office на комп’ютері. 
+  - **Data\_OldestPackageVersion** – найраніша версія Office на комп’ютері. 
 
-  - **Data\_ProductsToAdd** – продукти Office, які додаються. 
+  - **Data\_ProductsToAdd** – продукти Office, які додаються. 
 
-  - **Data\_ProductsToRemove**  – продукти Office, які вилучаються. 
+  - **Data\_ProductsToRemove** – продукти Office, які вилучаються. 
 
-  - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
+  - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
 
-  - **Data\_RemovingProducts** – продукти, для яких надходять запити на вилучення. 
+  - **Data\_RemovingProducts** – продукти, для яких надходять запити на вилучення. 
 
-  - **Data\_ScenarioInstanceID** – унікальний ідентифікатор GUID для сценарію, що виконується. 
+  - **Data\_ScenarioInstanceID** – унікальний ідентифікатор GUID для сценарію, що виконується. 
 
-  - **Data\_ScenarioName** – сценарій, що виконується (наприклад, інсталяція).
+  - **Data\_ScenarioName** – сценарій, що виконується. (наприклад, інсталяція).
 
-  - **Data\_ScenarioSubType** – тип сценарію, що виконується (наприклад, видалення, повторна інсталяція). 
+  - **Data\_ScenarioSubType** – тип сценарію, що виконується (наприклад, видалення, повторна інсталяція). 
 
-  - **Data\_SourceType** – розташування джерела (наприклад, CDN). 
+  - **Data\_SourceType** – розташування джерела (наприклад, CDN). 
 
-  - **Data\_SqmMachineID** – унікальний ідентифікатор комп’ютера, який використовується в SQM Windows. 
+  - **Data\_SqmMachineID** – унікальний ідентифікатор комп’ютера, який використовується в SQM Windows. 
 
-  - **Data\_SusClientID** – ідентифікатор комп’ютера для оновлення Office. 
+  - **Data\_SusClientID** – ідентифікатор комп’ютера для оновлення Office. 
 
-  - **Data\_TaskState** – стан завдання (наприклад, "Виконується" або "Скасовано"). 
+  - **Data\_TaskState** – стан завдання (наприклад, "Виконується" або "Скасовано"). 
 
-  - **Data\_TotalClientCabSize** – розмір файлу CAB клієнта. 
+  - **Data\_TotalClientCabSize** – розмір файлу CAB клієнта. 
 
-  - **Data\_TriggeringUI** – указує, що спричинило активацію інтерфейсу користувача. 
+  - **Data\_TriggeringUI** – указує, що спричинило активацію інтерфейсу користувача. 
 
-  - **Data\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office. 
+  - **Data\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office. 
 
-  - **Data\_Version** – версія Office. 
+  - **Data\_Version** – версія Office. 
 
 ### <a name="officeclicktorunscenarioinstalltaskinitupdates"></a>Office.ClickToRun.Scenario.InstallTaskInitupdates
 
@@ -1422,75 +1422,75 @@ ms.locfileid: "48491563"
 
 Збираються такі поля:
 
-  - **Data\_15\_SourceType** – розташування джерела Office 15 (наприклад, мережа CDN або локальна мережа). 
+  - **Data\_15\_SourceType** – розташування джерела Office 15 (наприклад, мережа CDN або локальна мережа). 
 
-  - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
+  - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
 
-  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
+  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
 
-  - **Data\_15\_Version** – версія Office 15. 
+  - **Data\_15\_Version** – версія Office 15. 
 
-  - **Data\_16\_SourceType** – розташування джерела Office 16 (наприклад, мережа CDN або локальна мережа). 
+  - **Data\_16\_SourceType** – розташування джерела Office 16 (наприклад, мережа CDN або локальна мережа). 
 
-  - **Data\_16\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 16. 
+  - **Data\_16\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 16. 
 
-  - **Data\_16\_UpdateVersion** – версія Office 16, до якої здійснюється оновлення. 
+  - **Data\_16\_UpdateVersion** – версія Office 16, до якої здійснюється оновлення. 
 
-  - **Data\_16\_Version** – версія Office 16. 
+  - **Data\_16\_Version** – версія Office 16. 
 
-  - **Data\_AddingFixedProducts** – продукти, які додаються. 
+  - **Data\_AddingFixedProducts** – продукти, які додаються. 
 
-  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
+  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
 
   - **Data\_CompletionState** – указує, чи виконано завдання.
 
-  - **Data\_ErrorCode** – код помилки, що сталася. 
+  - **Data\_ErrorCode** – код помилки, що сталася. 
 
-  - **Data\_ErrorDetails** – додаткові відомості щодо помилки. 
+  - **Data\_ErrorDetails** – додаткові відомості щодо помилки. 
 
-  - **Data\_ErrorMessage** – повідомлення про помилку. 
+  - **Data\_ErrorMessage** – повідомлення про помилку. 
 
-  - **Data\_ErrorSource** – указує, де сталася помилка. 
+  - **Data\_ErrorSource** – указує, де сталася помилка. 
 
-  - **Data\_ExceptionType** – виняток помилки. 
+  - **Data\_ExceptionType** – виняток помилки. 
 
-  - **Data\_IsErrorCodeIgnorable** – указує, чи можна ігнорувати помилку, що сталася. 
+  - **Data\_IsErrorCodeIgnorable** – указує, чи можна ігнорувати помилку, що сталася. 
 
-  - **Data\_IsErrorCodeIgnorableForScenarioHealth** – указує, чи вважаємо ми, що помилку можна ігнорувати. 
+  - **Data\_IsErrorCodeIgnorableForScenarioHealth** – указує, чи вважаємо ми, що помилку можна ігнорувати. 
 
-  - **Data\_NewestPackageVersion** – найпізніша версія Office на комп’ютері. 
+  - **Data\_NewestPackageVersion** – найпізніша версія Office на комп’ютері. 
 
-  - **Data\_OldestPackageVersion** – найраніша версія Office на комп’ютері. 
+  - **Data\_OldestPackageVersion** – найраніша версія Office на комп’ютері. 
 
-  - **Data\_ProductsToAdd** – продукти Office, які додаються. 
+  - **Data\_ProductsToAdd** – продукти Office, які додаються. 
 
-  - **Data\_ProductsToRemove**  – продукти Office, які вилучаються. 
+  - **Data\_ProductsToRemove** – продукти Office, які вилучаються. 
 
-  - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
+  - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
 
-  - **Data\_RemovingProducts** – продукти, для яких надходять запити на вилучення. 
+  - **Data\_RemovingProducts** – продукти, для яких надходять запити на вилучення. 
 
-  - **Data\_ScenarioInstanceID** – унікальний ідентифікатор GUID для сценарію, що виконується. 
+  - **Data\_ScenarioInstanceID** – унікальний ідентифікатор GUID для сценарію, що виконується. 
 
   - **Data\_ScenarioName** – сценарій, що виконується (наприклад, інсталяція).
 
-  - **Data\_ScenarioSubType** – тип сценарію, що виконується (наприклад, видалення, повторна інсталяція). 
+  - **Data\_ScenarioSubType** – тип сценарію, що виконується (наприклад, видалення, повторна інсталяція). 
 
-  - **Data\_SourceType** – розташування джерела (наприклад, CDN). 
+  - **Data\_SourceType** – розташування джерела (наприклад, CDN). 
 
-  - **Data\_SqmMachineID** – унікальний ідентифікатор комп’ютера, який використовується в SQM Windows. 
+  - **Data\_SqmMachineID** – унікальний ідентифікатор комп’ютера, який використовується в SQM Windows. 
 
-  - **Data\_SusClientID** – ідентифікатор комп’ютера для оновлення Office. 
+  - **Data\_SusClientID** – ідентифікатор комп’ютера для оновлення Office. 
 
-  - **Data\_TaskState** – стан завдання (наприклад, "Виконується" або "Скасовано"). 
+  - **Data\_TaskState** – стан завдання (наприклад, "Виконується" або "Скасовано"). 
 
-  - **Data\_TotalClientCabSize** – розмір файлу CAB клієнта. 
+  - **Data\_TotalClientCabSize** – розмір файлу CAB клієнта. 
 
-  - **Data\_TriggeringUI** – указує, що спричинило активацію інтерфейсу користувача. 
+  - **Data\_TriggeringUI** – указує, що спричинило активацію інтерфейсу користувача. 
 
-  - **Data\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office. 
+  - **Data\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office. 
 
-  - **Data\_Version** – версія Office. 
+  - **Data\_Version** – версія Office. 
 
 ### <a name="officeclicktorunscenarioinstalltaskintegrateinstall"></a>Office.ClickToRun.Scenario.InstallTaskIntegrateinstall
 
@@ -1498,75 +1498,75 @@ ms.locfileid: "48491563"
 
 Збираються такі поля:
 
-  - **Data\_15\_SourceType** – розташування джерела Office 15 (наприклад, мережа CDN або локальна мережа). 
+  - **Data\_15\_SourceType** – розташування джерела Office 15 (наприклад, мережа CDN або локальна мережа). 
 
-  - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
+  - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
 
   - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення.
 
-  - **Data\_15\_Version** – версія Office 15. 
+  - **Data\_15\_Version** – версія Office 15. 
 
-  - **Data\_16\_SourceType** – розташування джерела Office 16 (наприклад, мережа CDN або локальна мережа). 
+  - **Data\_16\_SourceType** – розташування джерела Office 16 (наприклад, мережа CDN або локальна мережа). 
 
-  - **Data\_16\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 16. 
+  - **Data\_16\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 16. 
 
-  - **Data\_16\_UpdateVersion** – версія Office 16, до якої здійснюється оновлення. 
+  - **Data\_16\_UpdateVersion** – версія Office 16, до якої здійснюється оновлення. 
 
-  - **Data\_16\_Version** – версія Office 16. 
+  - **Data\_16\_Version** – версія Office 16. 
 
-  - **Data\_AddingFixedProducts** – продукти, які додаються. 
+  - **Data\_AddingFixedProducts** – продукти, які додаються. 
 
-  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
+  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
 
   - **Data\_CompletionState** – указує, чи виконано завдання.
 
-  - **Data\_ErrorCode** – код помилки, що сталася. 
+  - **Data\_ErrorCode** – код помилки, що сталася. 
 
-  - **Data\_ErrorDetails** – додаткові відомості щодо помилки. 
+  - **Data\_ErrorDetails** – додаткові відомості щодо помилки. 
 
-  - **Data\_ErrorMessage** – повідомлення про помилку. 
+  - **Data\_ErrorMessage** – повідомлення про помилку. 
 
-  - **Data\_ErrorSource** – указує, де сталася помилка. 
+  - **Data\_ErrorSource** – указує, де сталася помилка. 
 
-  - **Data\_ExceptionType** – виняток помилки. 
+  - **Data\_ExceptionType** – виняток помилки. 
 
-  - **Data\_IsErrorCodeIgnorable** – указує, чи можна ігнорувати помилку, що сталася. 
+  - **Data\_IsErrorCodeIgnorable** – указує, чи можна ігнорувати помилку, що сталася. 
 
-  - **Data\_IsErrorCodeIgnorableForScenarioHealth** – указує, чи вважаємо ми, що помилку можна ігнорувати. 
+  - **Data\_IsErrorCodeIgnorableForScenarioHealth** – указує, чи вважаємо ми, що помилку можна ігнорувати. 
 
-  - **Data\_NewestPackageVersion** – найпізніша версія Office на комп’ютері. 
+  - **Data\_NewestPackageVersion** – найпізніша версія Office на комп’ютері. 
 
-  - **Data\_OldestPackageVersion** – найраніша версія Office на комп’ютері. 
+  - **Data\_OldestPackageVersion** – найраніша версія Office на комп’ютері. 
 
-  - **Data\_ProductsToAdd** – продукти Office, які додаються. 
+  - **Data\_ProductsToAdd** – продукти Office, які додаються. 
 
-  - **Data\_ProductsToRemove**  – продукти Office, які вилучаються. 
+  - **Data\_ProductsToRemove** – продукти Office, які вилучаються. 
 
-  - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
+  - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
 
-  - **Data\_RemovingProducts** – продукти, для яких надходять запити на вилучення. 
+  - **Data\_RemovingProducts** – продукти, для яких надходять запити на вилучення. 
 
-  - **Data\_ScenarioInstanceID** – унікальний ідентифікатор GUID для сценарію, що виконується. 
+  - **Data\_ScenarioInstanceID** – унікальний ідентифікатор GUID для сценарію, що виконується. 
 
-  - **Data\_ScenarioName** – сценарій, що виконується (наприклад, інсталяція). 
+  - **Data\_ScenarioName** – сценарій, що виконується (наприклад, інсталяція). 
 
-  - **Data\_ScenarioSubType** – тип сценарію, що виконується (наприклад, видалення, повторна інсталяція). 
+  - **Data\_ScenarioSubType** – тип сценарію, що виконується (наприклад, видалення, повторна інсталяція). 
 
-  - **Data\_SourceType** – розташування джерела (наприклад, CDN). 
+  - **Data\_SourceType** – розташування джерела (наприклад, CDN). 
 
   - **Data\_SqmMachineID** – унікальний ідентифікатор комп’ютера, який використовується в SQM Windows.
 
-  - **Data\_SusClientID** – ідентифікатор комп’ютера для оновлення Office. 
+  - **Data\_SusClientID** – ідентифікатор комп’ютера для оновлення Office. 
 
-  - **Data\_TaskState** – стан завдання (наприклад, "Виконується" або "Скасовано"). 
+  - **Data\_TaskState** – стан завдання (наприклад, "Виконується" або "Скасовано"). 
 
-  - **Data\_TotalClientCabSize** – розмір файлу CAB клієнта. 
+  - **Data\_TotalClientCabSize** – розмір файлу CAB клієнта. 
 
-  - **Data\_TriggeringUI** – указує, що спричинило активацію інтерфейсу користувача. 
+  - **Data\_TriggeringUI** – указує, що спричинило активацію інтерфейсу користувача. 
 
-  - **Data\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office. 
+  - **Data\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office. 
 
-  - **Data\_Version** – версія Office. 
+  - **Data\_Version** – версія Office. 
 
 ### <a name="officeclicktorunscenarioinstalltasklastrun"></a>Office.ClickToRun.Scenario.InstallTaskLastrun
 
@@ -1574,75 +1574,75 @@ ms.locfileid: "48491563"
 
 Збираються такі поля:
 
-  - **Data\_15\_SourceType** – розташування джерела Office 15 (наприклад, мережа CDN або локальна мережа). 
+  - **Data\_15\_SourceType** – розташування джерела Office 15 (наприклад, мережа CDN або локальна мережа). 
 
-  - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
+  - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
 
   - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення.
 
-  - **Data\_15\_Version** – версія Office 15. 
+  - **Data\_15\_Version** – версія Office 15. 
 
-  - **Data\_16\_SourceType** – розташування джерела Office 16 (наприклад, мережа CDN або локальна мережа). 
+  - **Data\_16\_SourceType** – розташування джерела Office 16 (наприклад, мережа CDN або локальна мережа). 
 
-  - **Data\_16\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 16. 
+  - **Data\_16\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 16. 
 
-  - **Data\_16\_UpdateVersion** – версія Office 16, до якої здійснюється оновлення. 
+  - **Data\_16\_UpdateVersion** – версія Office 16, до якої здійснюється оновлення. 
 
-  - **Data\_16\_Version** – версія Office 16. 
+  - **Data\_16\_Version** – версія Office 16. 
 
-  - **Data\_AddingFixedProducts** – продукти, які додаються. 
+  - **Data\_AddingFixedProducts** – продукти, які додаються. 
 
-  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
+  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
 
   - **Data\_CompletionState** – указує, чи виконано завдання.
 
-  - **Data\_ErrorCode** – код помилки, що сталася. 
+  - **Data\_ErrorCode** – код помилки, що сталася. 
 
-  - **Data\_ErrorDetails** – додаткові відомості щодо помилки. 
+  - **Data\_ErrorDetails** – додаткові відомості щодо помилки. 
 
-  - **Data\_ErrorMessage** – повідомлення про помилку. 
+  - **Data\_ErrorMessage** – повідомлення про помилку. 
 
-  - **Data\_ErrorSource** – указує, де сталася помилка. 
+  - **Data\_ErrorSource** – указує, де сталася помилка. 
 
-  - **Data\_ExceptionType** – виняток помилки. 
+  - **Data\_ExceptionType** – виняток помилки. 
 
-  - **Data\_IsErrorCodeIgnorable** – указує, чи можна ігнорувати помилку, що сталася. 
+  - **Data\_IsErrorCodeIgnorable** – указує, чи можна ігнорувати помилку, що сталася. 
 
-  - **Data\_IsErrorCodeIgnorableForScenarioHealth** – указує, чи вважаємо ми, що помилку можна ігнорувати. 
+  - **Data\_IsErrorCodeIgnorableForScenarioHealth** – указує, чи вважаємо ми, що помилку можна ігнорувати. 
 
-  - **Data\_NewestPackageVersion** – найпізніша версія Office на комп’ютері. 
+  - **Data\_NewestPackageVersion** – найпізніша версія Office на комп’ютері. 
 
-  - **Data\_OldestPackageVersion** – найраніша версія Office на комп’ютері. 
+  - **Data\_OldestPackageVersion** – найраніша версія Office на комп’ютері. 
 
-  - **Data\_ProductsToAdd** – продукти Office, які додаються. 
+  - **Data\_ProductsToAdd** – продукти Office, які додаються. 
 
-  - **Data\_ProductsToRemove**  – продукти Office, які вилучаються. 
+  - **Data\_ProductsToRemove** – продукти Office, які вилучаються. 
 
-  - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
+  - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
 
-  - **Data\_RemovingProducts** – продукти, для яких надходять запити на вилучення. 
+  - **Data\_RemovingProducts** – продукти, для яких надходять запити на вилучення. 
 
-  - **Data\_ScenarioInstanceID** – унікальний ідентифікатор GUID для сценарію, що виконується. 
+  - **Data\_ScenarioInstanceID** – унікальний ідентифікатор GUID для сценарію, що виконується. 
 
   - **Data\_ScenarioName** – сценарій, що виконується (наприклад, інсталяція).
 
-  - **Data\_ScenarioSubType** – тип сценарію, що виконується (наприклад, видалення, повторна інсталяція). 
+  - **Data\_ScenarioSubType** – тип сценарію, що виконується (наприклад, видалення, повторна інсталяція). 
 
-  - **Data\_SourceType** – розташування джерела (наприклад, CDN). 
+  - **Data\_SourceType** – розташування джерела (наприклад, CDN). 
 
   - **Data\_SqmMachineID** – унікальний ідентифікатор комп’ютера, який використовується в SQM Windows.
 
-  - **Data\_SusClientID** – ідентифікатор комп’ютера для оновлення Office. 
+  - **Data\_SusClientID** – ідентифікатор комп’ютера для оновлення Office. 
 
-  - **Data\_TaskState** – стан завдання (наприклад, "Виконується" або "Скасовано"). 
+  - **Data\_TaskState** – стан завдання (наприклад, "Виконується" або "Скасовано"). 
 
-  - **Data\_TotalClientCabSize** – розмір файлу CAB клієнта. 
+  - **Data\_TotalClientCabSize** – розмір файлу CAB клієнта. 
 
-  - **Data\_TriggeringUI** – указує, що спричинило активацію інтерфейсу користувача. 
+  - **Data\_TriggeringUI** – указує, що спричинило активацію інтерфейсу користувача. 
 
-  - **Data\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office. 
+  - **Data\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office. 
 
-  - **Data\_Version** – версія Office. 
+  - **Data\_Version** – версія Office. 
 
 ### <a name="officeclicktorunscenarioinstalltaskmigrate"></a>Office.ClickToRun.Scenario.InstallTaskMigrate
 
@@ -1650,75 +1650,75 @@ ms.locfileid: "48491563"
 
 Збираються такі поля:
 
-  - **Data\_15\_SourceType** – розташування джерела Office 15 (наприклад, мережа CDN або локальна мережа). 
+  - **Data\_15\_SourceType** – розташування джерела Office 15 (наприклад, мережа CDN або локальна мережа). 
 
-  - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
+  - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
 
   - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення.
 
-  - **Data\_15\_Version** – версія Office 15. 
+  - **Data\_15\_Version** – версія Office 15. 
 
-  - **Data\_16\_SourceType** – розташування джерела Office 16 (наприклад, мережа CDN або локальна мережа). 
+  - **Data\_16\_SourceType** – розташування джерела Office 16 (наприклад, мережа CDN або локальна мережа). 
 
-  - **Data\_16\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 16. 
+  - **Data\_16\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 16. 
 
-  - **Data\_16\_UpdateVersion** – версія Office 16, до якої здійснюється оновлення. 
+  - **Data\_16\_UpdateVersion** – версія Office 16, до якої здійснюється оновлення. 
 
-  - **Data\_16\_Version** – версія Office 16. 
+  - **Data\_16\_Version** – версія Office 16. 
 
-  - **Data\_AddingFixedProducts** – продукти, які додаються. 
+  - **Data\_AddingFixedProducts** – продукти, які додаються. 
 
-  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
+  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
 
   - **Data\_CompletionState** – указує, чи виконано завдання.
 
-  - **Data\_ErrorCode** – код помилки, що сталася. 
+  - **Data\_ErrorCode** – код помилки, що сталася. 
 
-  - **Data\_ErrorDetails** – додаткові відомості щодо помилки. 
+  - **Data\_ErrorDetails** – додаткові відомості щодо помилки. 
 
-  - **Data\_ErrorMessage** – повідомлення про помилку. 
+  - **Data\_ErrorMessage** – повідомлення про помилку. 
 
   - **Data\_ErrorSource** – указує, де сталася помилка.
 
-  - **Data\_ExceptionType** – виняток помилки. 
+  - **Data\_ExceptionType** – виняток помилки. 
 
-  - **Data\_IsErrorCodeIgnorable** – указує, чи можна ігнорувати помилку, що сталася. 
+  - **Data\_IsErrorCodeIgnorable** – указує, чи можна ігнорувати помилку, що сталася. 
 
-  - **Data\_IsErrorCodeIgnorableForScenarioHealth** – указує, чи вважаємо ми, що помилку можна ігнорувати. 
+  - **Data\_IsErrorCodeIgnorableForScenarioHealth** – указує, чи вважаємо ми, що помилку можна ігнорувати. 
 
-  - **Data\_NewestPackageVersion** – найпізніша версія Office на комп’ютері. 
+  - **Data\_NewestPackageVersion** – найпізніша версія Office на комп’ютері. 
 
-  - **Data\_OldestPackageVersion** – найраніша версія Office на комп’ютері. 
+  - **Data\_OldestPackageVersion** – найраніша версія Office на комп’ютері. 
 
-  - **Data\_ProductsToAdd** – продукти Office, які додаються. 
+  - **Data\_ProductsToAdd** – продукти Office, які додаються. 
 
-  - **Data\_ProductsToRemove**  – продукти Office, які вилучаються. 
+  - **Data\_ProductsToRemove** – продукти Office, які вилучаються. 
 
-  - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
+  - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
 
-  - **Data\_RemovingProducts** – продукти, для яких надходять запити на вилучення. 
+  - **Data\_RemovingProducts** – продукти, для яких надходять запити на вилучення. 
 
-  - **Data\_ScenarioInstanceID** – унікальний ідентифікатор GUID для сценарію, що виконується. 
+  - **Data\_ScenarioInstanceID** – унікальний ідентифікатор GUID для сценарію, що виконується. 
 
-  - **Data\_ScenarioName** – сценарій, що виконується. (наприклад, інсталяція).
+  - **Data\_ScenarioName** – сценарій, що виконується (наприклад, інсталяція).
 
-  - **Data\_ScenarioSubType** – тип сценарію, що виконується (наприклад, видалення, повторна інсталяція). 
+  - **Data\_ScenarioSubType** – тип сценарію, що виконується (наприклад, видалення, повторна інсталяція). 
 
-  - **Data\_SourceType** – розташування джерела (наприклад, CDN). 
+  - **Data\_SourceType** – розташування джерела (наприклад, CDN). 
 
   - **Data\_SqmMachineID** – унікальний ідентифікатор комп’ютера, який використовується в SQM Windows.
 
-  - **Data\_SusClientID** – ідентифікатор комп’ютера для оновлення Office.
+  - **Data\_SusClientID**  – ідентифікатор комп’ютера для оновлення Office.
 
-  - **Data\_TaskState** – стан завдання (наприклад, "Виконується" або "Скасовано"). 
+  - **Data\_TaskState** – стан завдання (наприклад, "Виконується" або "Скасовано"). 
 
-  - **Data\_TotalClientCabSize** – розмір файлу CAB клієнта. 
+  - **Data\_TotalClientCabSize** – розмір файлу CAB клієнта. 
 
-  - **Data\_TriggeringUI** – указує, що спричинило активацію інтерфейсу користувача. 
+  - **Data\_TriggeringUI** – указує, що спричинило активацію інтерфейсу користувача. 
 
-  - **Data\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office. 
+  - **Data\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office. 
 
-  - **Data\_Version** – версія Office. 
+  - **Data\_Version** – версія Office. 
 
 ### <a name="officeclicktorunscenarioinstalltaskpublishrsod"></a>Office.ClickToRun.Scenario.InstallTaskPublishrsod
 
@@ -1726,75 +1726,75 @@ ms.locfileid: "48491563"
 
 Збираються такі поля:
 
-  - **Data\_15\_SourceType** – розташування джерела Office 15 (наприклад, мережа CDN або локальна мережа). 
+  - **Data\_15\_SourceType** – розташування джерела Office 15 (наприклад, мережа CDN або локальна мережа). 
 
-  - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
+  - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
 
   - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення.
 
-  - **Data\_15\_Version** – версія Office 15. 
+  - **Data\_15\_Version** – версія Office 15. 
 
-  - **Data\_16\_SourceType** – розташування джерела Office 16 (наприклад, мережа CDN або локальна мережа). 
+  - **Data\_16\_SourceType** – розташування джерела Office 16 (наприклад, мережа CDN або локальна мережа). 
 
-  - **Data\_16\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 16. 
+  - **Data\_16\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 16. 
 
-  - **Data\_16\_UpdateVersion** – версія Office 16, до якої здійснюється оновлення. 
+  - **Data\_16\_UpdateVersion** – версія Office 16, до якої здійснюється оновлення. 
 
-  - **Data\_16\_Version** – версія Office 16. 
+  - **Data\_16\_Version** – версія Office 16. 
 
-  - **Data\_AddingFixedProducts** – продукти, які додаються. 
+  - **Data\_AddingFixedProducts** – продукти, які додаються. 
 
-  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
+  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
 
   - **Data\_CompletionState** – указує, чи виконано завдання.
 
-  - **Data\_ErrorCode** – код помилки, що сталася. 
+  - **Data\_ErrorCode** – код помилки, що сталася. 
 
-  - **Data\_ErrorDetails** – додаткові відомості щодо помилки. 
+  - **Data\_ErrorDetails** – додаткові відомості щодо помилки. 
 
-  - **Data\_ErrorMessage** – повідомлення про помилку. 
+  - **Data\_ErrorMessage** – повідомлення про помилку. 
 
   - **Data\_ErrorSource** – указує, де сталася помилка.
 
-  - **Data\_ExceptionType** – виняток помилки. 
+  - **Data\_ExceptionType** – виняток помилки. 
 
-  - **Data\_IsErrorCodeIgnorable** – указує, чи можна ігнорувати помилку, що сталася. 
+  - **Data\_IsErrorCodeIgnorable** – указує, чи можна ігнорувати помилку, що сталася. 
 
-  - **Data\_IsErrorCodeIgnorableForScenarioHealth** – указує, чи вважаємо ми, що помилку можна ігнорувати. 
+  - **Data\_IsErrorCodeIgnorableForScenarioHealth** – указує, чи вважаємо ми, що помилку можна ігнорувати. 
 
-  - **Data\_NewestPackageVersion** – найпізніша версія Office на комп’ютері. 
+  - **Data\_NewestPackageVersion** – найпізніша версія Office на комп’ютері. 
 
-  - **Data\_OldestPackageVersion** – найраніша версія Office на комп’ютері. 
+  - **Data\_OldestPackageVersion** – найраніша версія Office на комп’ютері. 
 
-  - **Data\_ProductsToAdd** – продукти Office, які додаються. 
+  - **Data\_ProductsToAdd** – продукти Office, які додаються. 
 
-  - **Data\_ProductsToRemove**  – продукти Office, які вилучаються. 
+  - **Data\_ProductsToRemove** – продукти Office, які вилучаються. 
 
-  - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
+  - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
 
-  - **Data\_RemovingProducts** – продукти, для яких надходять запити на вилучення. 
+  - **Data\_RemovingProducts** – продукти, для яких надходять запити на вилучення. 
 
-  - **Data\_ScenarioInstanceID** – унікальний ідентифікатор GUID для сценарію, що виконується. 
+  - **Data\_ScenarioInstanceID** – унікальний ідентифікатор GUID для сценарію, що виконується. 
 
-  - **Data\_ScenarioName** – сценарій, що виконується (наприклад, інсталяція). 
+  - **Data\_ScenarioName** – сценарій, що виконується (наприклад, інсталяція). 
 
-  - **Data\_ScenarioSubType** – тип сценарію, що виконується (наприклад, видалення, повторна інсталяція). 
+  - **Data\_ScenarioSubType** – тип сценарію, що виконується (наприклад, видалення, повторна інсталяція). 
 
-  - **Data\_SourceType** – розташування джерела (наприклад, CDN). 
+  - **Data\_SourceType** – розташування джерела (наприклад, CDN). 
 
   - **Data\_SqmMachineID** – унікальний ідентифікатор комп’ютера, який використовується в SQM Windows.
 
-  - **Data\_SusClientID** – ідентифікатор комп’ютера для оновлення Office. 
+  - **Data\_SusClientID** – ідентифікатор комп’ютера для оновлення Office. 
 
-  - **Data\_TaskState** – стан завдання (наприклад, "Виконується" або "Скасовано"). 
+  - **Data\_TaskState** – стан завдання (наприклад, "Виконується" або "Скасовано"). 
 
-  - **Data\_TotalClientCabSize** – розмір файлу CAB клієнта. 
+  - **Data\_TotalClientCabSize** – розмір файлу CAB клієнта. 
 
-  - **Data\_TriggeringUI** – указує, що спричинило активацію інтерфейсу користувача. 
+  - **Data\_TriggeringUI** – указує, що спричинило активацію інтерфейсу користувача. 
 
-  - **Data\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office. 
+  - **Data\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office. 
 
-  - **Data\_Version** – версія Office. 
+  - **Data\_Version** – версія Office. 
 
 ### <a name="officeclicktorunscenarioinstalltaskremoveinstallation"></a>Office.ClickToRun.Scenario.InstallTaskRemoveinstallation
 
@@ -1802,75 +1802,75 @@ ms.locfileid: "48491563"
 
 Збираються такі поля:
 
-  - **Data\_15\_SourceType** – розташування джерела Office 15 (наприклад, мережа CDN або локальна мережа). 
+  - **Data\_15\_SourceType** – розташування джерела Office 15 (наприклад, мережа CDN або локальна мережа). 
 
-  - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
+  - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
 
-  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
+  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
 
-  - **Data\_15\_Version** – версія Office 15. 
+  - **Data\_15\_Version** – версія Office 15. 
 
-  - **Data\_16\_SourceType** – розташування джерела Office 16 (наприклад, мережа CDN або локальна мережа). 
+  - **Data\_16\_SourceType** – розташування джерела Office 16 (наприклад, мережа CDN або локальна мережа). 
 
-  - **Data\_16\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 16. 
+  - **Data\_16\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 16. 
 
-  - **Data\_16\_UpdateVersion** – версія Office 16, до якої здійснюється оновлення. 
+  - **Data\_16\_UpdateVersion** – версія Office 16, до якої здійснюється оновлення. 
 
-  - **Data\_16\_Version** – версія Office 16. 
+  - **Data\_16\_Version** – версія Office 16. 
 
-  - **Data\_AddingFixedProducts** – продукти, які додаються. 
+  - **Data\_AddingFixedProducts** – продукти, які додаються. 
 
-  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
+  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
 
   - **Data\_CompletionState** – указує, чи виконано завдання.
 
-  - **Data\_ErrorCode** – код помилки, що сталася. 
+  - **Data\_ErrorCode** – код помилки, що сталася. 
 
-  - **Data\_ErrorDetails** – додаткові відомості щодо помилки. 
+  - **Data\_ErrorDetails** – додаткові відомості щодо помилки. 
 
-  - **Data\_ErrorMessage** – повідомлення про помилку. 
+  - **Data\_ErrorMessage** – повідомлення про помилку. 
 
-  - **Data\_ErrorSource** – указує, де сталася помилка. 
+  - **Data\_ErrorSource** – указує, де сталася помилка. 
 
-  - **Data\_ExceptionType** – виняток помилки. 
+  - **Data\_ExceptionType** – виняток помилки. 
 
-  - **Data\_IsErrorCodeIgnorable** – указує, чи можна ігнорувати помилку, що сталася. 
+  - **Data\_IsErrorCodeIgnorable** – указує, чи можна ігнорувати помилку, що сталася. 
 
-  - **Data\_IsErrorCodeIgnorableForScenarioHealth** – указує, чи вважаємо ми, що помилку можна ігнорувати. 
+  - **Data\_IsErrorCodeIgnorableForScenarioHealth** – указує, чи вважаємо ми, що помилку можна ігнорувати. 
 
-  - **Data\_NewestPackageVersion** – найпізніша версія Office на комп’ютері. 
+  - **Data\_NewestPackageVersion** – найпізніша версія Office на комп’ютері. 
 
-  - **Data\_OldestPackageVersion** – найраніша версія Office на комп’ютері. 
+  - **Data\_OldestPackageVersion** – найраніша версія Office на комп’ютері. 
 
-  - **Data\_ProductsToAdd** – продукти Office, які додаються. 
+  - **Data\_ProductsToAdd** – продукти Office, які додаються. 
 
-  - **Data\_ProductsToRemove**  – продукти Office, які вилучаються. 
+  - **Data\_ProductsToRemove** – продукти Office, які вилучаються. 
 
-  - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
+  - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
 
-  - **Data\_RemovingProducts** – продукти, для яких надходять запити на вилучення. 
+  - **Data\_RemovingProducts** – продукти, для яких надходять запити на вилучення. 
 
-  - **Data\_ScenarioInstanceID** – унікальний ідентифікатор GUID для сценарію, що виконується. 
+  - **Data\_ScenarioInstanceID** – унікальний ідентифікатор GUID для сценарію, що виконується. 
 
-  - **Data\_ScenarioName** – сценарій, що виконується (наприклад, інсталяція). 
+  - **Data\_ScenarioName** – сценарій, що виконується (наприклад, інсталяція). 
 
-  - **Data\_ScenarioSubType** – тип сценарію, що виконується (наприклад, видалення, повторна інсталяція). 
+  - **Data\_ScenarioSubType** – тип сценарію, що виконується (наприклад, видалення, повторна інсталяція). 
 
-  - **Data\_SourceType** – розташування джерела (наприклад, CDN). 
+  - **Data\_SourceType** – розташування джерела (наприклад, CDN). 
 
   - **Data\_SqmMachineID** – унікальний ідентифікатор комп’ютера, який використовується в SQM Windows.
 
-  - **Data\_SusClientID** – ідентифікатор комп’ютера для оновлення Office. 
+  - **Data\_SusClientID** – ідентифікатор комп’ютера для оновлення Office. 
 
-  - **Data\_TaskState** – стан завдання (наприклад, "Виконується" або "Скасовано"). 
+  - **Data\_TaskState** – стан завдання (наприклад, "Виконується" або "Скасовано"). 
 
-  - **Data\_TotalClientCabSize** – розмір файлу CAB клієнта. 
+  - **Data\_TotalClientCabSize** – розмір файлу CAB клієнта. 
 
-  - **Data\_TriggeringUI** – указує, що спричинило активацію інтерфейсу користувача. 
+  - **Data\_TriggeringUI** – указує, що спричинило активацію інтерфейсу користувача. 
 
-  - **Data\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office. 
+  - **Data\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office. 
 
-  - **Data\_Version** – версія Office. 
+  - **Data\_Version** – версія Office. 
 
 ### <a name="officeclicktorunscenarioinstalltaskstream"></a>Office.ClickToRun.Scenario.InstallTaskStream
 
@@ -1878,75 +1878,75 @@ ms.locfileid: "48491563"
 
 Збираються такі поля:
 
-  - **Data\_15\_SourceType** – розташування джерела Office 15 (наприклад, мережа CDN або локальна мережа). 
+  - **Data\_15\_SourceType** – розташування джерела Office 15 (наприклад, мережа CDN або локальна мережа). 
 
-  - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
+  - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
 
-  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
+  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
 
-  - **Data\_15\_Version** – версія Office 15. 
+  - **Data\_15\_Version** – версія Office 15. 
 
-  - **Data\_16\_SourceType** – розташування джерела Office 16 (наприклад, мережа CDN або локальна мережа). 
+  - **Data\_16\_SourceType** – розташування джерела Office 16 (наприклад, мережа CDN або локальна мережа). 
 
-  - **Data\_16\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 16. 
+  - **Data\_16\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 16. 
 
-  - **Data\_16\_UpdateVersion** – версія Office 16, до якої здійснюється оновлення. 
+  - **Data\_16\_UpdateVersion** – версія Office 16, до якої здійснюється оновлення. 
 
-  - **Data\_16\_Version** – версія Office 16. 
+  - **Data\_16\_Version** – версія Office 16. 
 
-  - **Data\_AddingFixedProducts** – продукти, які додаються. 
+  - **Data\_AddingFixedProducts** – продукти, які додаються. 
 
-  - **Data\_AddingProducts** – продукти, додавання яких запитується. 
+  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
 
   - **Data\_CompletionState** – указує, чи виконано завдання.
 
-  - **Data\_ErrorCode** – код помилки, що сталася. 
+  - **Data\_ErrorCode** – код помилки, що сталася. 
 
-  - **Data\_ErrorDetails** – додаткові відомості щодо помилки. 
+  - **Data\_ErrorDetails** – додаткові відомості щодо помилки. 
 
-  - **Data\_ErrorMessage** – повідомлення про помилку. 
+  - **Data\_ErrorMessage** – повідомлення про помилку. 
 
-  - **Data\_ErrorSource** – указує, де сталася помилка. 
+  - **Data\_ErrorSource** – указує, де сталася помилка. 
 
-  - **Data\_ExceptionType** – виняток помилки. 
+  - **Data\_ExceptionType** – виняток помилки. 
 
-  - **Data\_IsErrorCodeIgnorable** – указує, чи можна ігнорувати помилку, що сталася. 
+  - **Data\_IsErrorCodeIgnorable** – указує, чи можна ігнорувати помилку, що сталася. 
 
-  - **Data\_IsErrorCodeIgnorableForScenarioHealth** – указує, чи вважаємо ми, що помилку можна ігнорувати. 
+  - **Data\_IsErrorCodeIgnorableForScenarioHealth** – указує, чи вважаємо ми, що помилку можна ігнорувати. 
 
-  - **Data\_NewestPackageVersion** – найпізніша версія Office на комп’ютері. 
+  - **Data\_NewestPackageVersion** – найпізніша версія Office на комп’ютері. 
 
-  - **Data\_OldestPackageVersion** – найраніша версія Office на комп’ютері. 
+  - **Data\_OldestPackageVersion** – найраніша версія Office на комп’ютері. 
 
-  - **Data\_ProductsToAdd** – продукти Office, які додаються. 
+  - **Data\_ProductsToAdd** – продукти Office, які додаються. 
 
-  - **Data\_ProductsToRemove**  – продукти Office, які вилучаються. 
+  - **Data\_ProductsToRemove** – продукти Office, які вилучаються. 
 
-  - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
+  - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
 
-  - **Data\_RemovingProducts** – продукти, для яких надходять запити на вилучення. 
+  - **Data\_RemovingProducts** – продукти, для яких надходять запити на вилучення. 
 
-  - **Data\_ScenarioInstanceID** – унікальний ідентифікатор GUID для сценарію, що виконується. 
+  - **Data\_ScenarioInstanceID** – унікальний ідентифікатор GUID для сценарію, що виконується. 
 
-  - **Data\_ScenarioName** – сценарій, що виконується (наприклад, інсталяція). 
+  - **Data\_ScenarioName** – сценарій, що виконується (наприклад, інсталяція). 
 
-  - **Data\_ScenarioSubType** – тип сценарію, що виконується (наприклад, видалення, повторна інсталяція). 
+  - **Data\_ScenarioSubType** – тип сценарію, що виконується (наприклад, видалення, повторна інсталяція). 
 
-  - **Data\_SourceType** – розташування джерела (наприклад, CDN). 
+  - **Data\_SourceType** – розташування джерела (наприклад, CDN). 
 
-  - **Data\_SqmMachineID**  – унікальний ідентифікатор комп’ютера, який використовується в SQM Windows. 
+  - **Data\_SqmMachineID** – унікальний ідентифікатор комп’ютера, який використовується в SQM Windows. 
 
-  - **Data\_SusClientID**   – ідентифікатор комп’ютера для оновлення Office. 
+  - **Data\_SusClientID** – ідентифікатор комп’ютера для оновлення Office. 
 
-  - **Data\_TaskState** – стан завдання (наприклад, "Виконується" або "Скасовано"). 
+  - **Data\_TaskState** – стан завдання (наприклад, "Виконується" або "Скасовано"). 
 
-  - **Data\_TotalClientCabSize** – розмір файлу CAB клієнта. 
+  - **Data\_TotalClientCabSize** – розмір файлу CAB клієнта. 
 
-  - **Data\_TriggeringUI** – указує, що спричинило активацію інтерфейсу користувача. 
+  - **Data\_TriggeringUI** – указує, що спричинило активацію інтерфейсу користувача. 
 
-  - **Data\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office. 
+  - **Data\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office. 
 
-  - **Data\_Version** – версія Office. 
+  - **Data\_Version** – версія Office. 
 
 ### <a name="officeclicktorunscenarioinstalltaskuninstallcentennial"></a>Office.ClickToRun.Scenario.InstallTaskUninstallcentennial
 
@@ -1954,75 +1954,75 @@ ms.locfileid: "48491563"
 
 Збираються такі поля:
 
-  - **Data\_15\_SourceType** – розташування джерела Office 15 (наприклад, мережа CDN або локальна мережа). 
+  - **Data\_15\_SourceType** – розташування джерела Office 15 (наприклад, мережа CDN або локальна мережа). 
 
-  - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
+  - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
 
-  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
+  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
 
-  - **Data\_15\_Version** – версія Office 15. 
+  - **Data\_15\_Version** – версія Office 15. 
 
-  - **Data\_16\_SourceType** – розташування джерела Office 16 (наприклад, мережа CDN або локальна мережа). 
+  - **Data\_16\_SourceType** – розташування джерела Office 16 (наприклад, мережа CDN або локальна мережа). 
 
-  - **Data\_16\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 16. 
+  - **Data\_16\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 16. 
 
-  - **Data\_16\_UpdateVersion** – версія Office 16, до якої здійснюється оновлення. 
+  - **Data\_16\_UpdateVersion** – версія Office 16, до якої здійснюється оновлення. 
 
-  - **Data\_16\_Version** – версія Office 16. 
+  - **Data\_16\_Version** – версія Office 16. 
 
-  - **Data\_AddingFixedProducts** – продукти, які додаються. 
+  - **Data\_AddingFixedProducts** – продукти, які додаються. 
 
-  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
+  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
 
   - **Data\_CompletionState** – указує, чи виконано завдання.
 
-  - **Data\_ErrorCode** – код помилки, що сталася. 
+  - **Data\_ErrorCode** – код помилки, що сталася. 
 
-  - **Data\_ErrorDetails** – додаткові відомості щодо помилки. 
+  - **Data\_ErrorDetails** – додаткові відомості щодо помилки. 
 
-  - **Data\_ErrorMessage** – повідомлення про помилку. 
+  - **Data\_ErrorMessage** – повідомлення про помилку. 
 
-  - **Data\_ErrorSource** – указує, де сталася помилка. 
+  - **Data\_ErrorSource** – указує, де сталася помилка. 
 
-  - **Data\_ExceptionType** – виняток помилки. 
+  - **Data\_ExceptionType** – виняток помилки. 
 
-  - **Data\_IsErrorCodeIgnorable** – указує, чи можна ігнорувати помилку, що сталася. 
+  - **Data\_IsErrorCodeIgnorable** – указує, чи можна ігнорувати помилку, що сталася. 
 
-  - **Data\_IsErrorCodeIgnorableForScenarioHealth** – указує, чи вважаємо ми, що помилку можна ігнорувати. 
+  - **Data\_IsErrorCodeIgnorableForScenarioHealth** – указує, чи вважаємо ми, що помилку можна ігнорувати. 
 
-  - **Data\_NewestPackageVersion** – найпізніша версія Office на комп’ютері. 
+  - **Data\_NewestPackageVersion** – найпізніша версія Office на комп’ютері. 
 
-  - **Data\_OldestPackageVersion** – найраніша версія Office на комп’ютері. 
+  - **Data\_OldestPackageVersion** – найраніша версія Office на комп’ютері. 
 
-  - **Data\_ProductsToAdd** – продукти Office, які додаються. 
+  - **Data\_ProductsToAdd** – продукти Office, які додаються. 
 
-  - **Data\_ProductsToRemove**  – продукти Office, які вилучаються. 
+  - **Data\_ProductsToRemove** – продукти Office, які вилучаються. 
 
-  - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
+  - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
 
-  - **Data\_RemovingProducts** – продукти, для яких надходять запити на вилучення. 
+  - **Data\_RemovingProducts** – продукти, для яких надходять запити на вилучення. 
 
-  - **Data\_ScenarioInstanceID** – унікальний ідентифікатор GUID для сценарію, що виконується. 
+  - **Data\_ScenarioInstanceID** – унікальний ідентифікатор GUID для сценарію, що виконується. 
 
-  - **Data\_ScenarioName** – сценарій, що виконується (наприклад, інсталяція). 
+  - **Data\_ScenarioName** – сценарій, що виконується (наприклад, інсталяція). 
 
-  - **Data\_ScenarioSubType** – тип сценарію, що виконується (наприклад, видалення, повторна інсталяція). 
+  - **Data\_ScenarioSubType** – тип сценарію, що виконується (наприклад, видалення, повторна інсталяція). 
 
-  - **Data\_SourceType** – розташування джерела (наприклад, CDN). 
+  - **Data\_SourceType** – розташування джерела (наприклад, CDN). 
 
-  - **Data\_SqmMachineID**  – унікальний ідентифікатор комп’ютера, який використовується в SQM Windows.
+  - **Data\_SqmMachineID** – унікальний ідентифікатор комп’ютера, який використовується в SQM Windows.
 
-  - **Data\_SusClientID** – ідентифікатор комп’ютера для оновлення Office. 
+  - **Data\_SusClientID** – ідентифікатор комп’ютера для оновлення Office. 
 
-  - **Data\_TaskState** – стан завдання (наприклад, "Виконується" або "Скасовано"). 
+  - **Data\_TaskState** – стан завдання (наприклад, "Виконується" або "Скасовано"). 
 
-  - **Data\_TotalClientCabSize** – розмір файлу CAB клієнта. 
+  - **Data\_TotalClientCabSize** – розмір файлу CAB клієнта. 
 
-  - **Data\_TriggeringUI** – указує, що спричинило активацію інтерфейсу користувача. 
+  - **Data\_TriggeringUI** – указує, що спричинило активацію інтерфейсу користувача. 
 
-  - **Data\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office. 
+  - **Data\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office. 
 
-  - **Data\_Version** – версія Office. 
+  - **Data\_Version** – версія Office. 
 
 ### <a name="officeclicktorunscenariorepairtaskfinalintegrate"></a>Office.ClickToRun.Scenario.RepairTaskFinalintegrate
 
@@ -2030,75 +2030,75 @@ ms.locfileid: "48491563"
 
 Збираються такі поля:
 
-  - **Data\_15\_SourceType** – розташування джерела Office 15 (наприклад, мережа CDN або локальна мережа). 
+  - **Data\_15\_SourceType** – розташування джерела Office 15 (наприклад, мережа CDN або локальна мережа). 
 
-  - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
+  - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
 
-  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
+  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
 
-  - **Data\_15\_Version** – версія Office 15. 
+  - **Data\_15\_Version** – версія Office 15. 
 
-  - **Data\_16\_SourceType** – розташування джерела Office 16 (наприклад, мережа CDN або локальна мережа). 
+  - **Data\_16\_SourceType** – розташування джерела Office 16 (наприклад, мережа CDN або локальна мережа). 
 
-  - **Data\_16\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 16. 
+  - **Data\_16\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 16. 
 
-  - **Data\_16\_UpdateVersion** – версія Office 16, до якої здійснюється оновлення. 
+  - **Data\_16\_UpdateVersion** – версія Office 16, до якої здійснюється оновлення. 
 
-  - **Data\_16\_Version** – версія Office 16. 
+  - **Data\_16\_Version** – версія Office 16. 
 
-  - **Data\_AddingFixedProducts** – продукти, які додаються. 
+  - **Data\_AddingFixedProducts** – продукти, які додаються. 
 
-  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
+  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
 
   - **Data\_CompletionState** – указує, чи виконано завдання.
 
-  - **Data\_ErrorCode** – код помилки, що сталася. 
+  - **Data\_ErrorCode** – код помилки, що сталася. 
 
-  - **Data\_ErrorDetails** – додаткові відомості щодо помилки. 
+  - **Data\_ErrorDetails** – додаткові відомості щодо помилки. 
 
-  - **Data\_ErrorMessage** – повідомлення про помилку. 
+  - **Data\_ErrorMessage** – повідомлення про помилку. 
 
-  - **Data\_ErrorSource** – указує, де сталася помилка. 
+  - **Data\_ErrorSource** – указує, де сталася помилка. 
 
-  - **Data\_ExceptionType** – виняток помилки. 
+  - **Data\_ExceptionType** – виняток помилки. 
 
-  - **Data\_IsErrorCodeIgnorable** – указує, чи можна ігнорувати помилку, що сталася. 
+  - **Data\_IsErrorCodeIgnorable** – указує, чи можна ігнорувати помилку, що сталася. 
 
-  - **Data\_IsErrorCodeIgnorableForScenarioHealth** – указує, чи вважаємо ми, що помилку можна ігнорувати. 
+  - **Data\_IsErrorCodeIgnorableForScenarioHealth** – указує, чи ми вважаємо, що помилку можна ігнорувати. 
 
-  - **Data\_NewestPackageVersion** – найпізніша версія Office на комп’ютері. 
+  - **Data\_NewestPackageVersion** – найпізніша версія Office на комп’ютері. 
 
-  - **Data\_OldestPackageVersion** – найраніша версія Office на комп’ютері. 
+  - **Data\_OldestPackageVersion** – найраніша версія Office на комп’ютері. 
 
-  - **Data\_ProductsToAdd** – продукти Office, які додаються. 
+  - **Data\_ProductsToAdd** – продукти Office, які додаються. 
 
-  - **Data\_ProductsToRemove**  – продукти Office, які вилучаються. 
+  - **Data\_ProductsToRemove** – продукти Office, які вилучаються. 
 
-  - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
+  - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
 
-  - **Data\_RemovingProducts** – продукти, для яких надходять запити на вилучення. 
+  - **Data\_RemovingProducts** – продукти, для яких надходять запити на вилучення. 
 
-  - **Data\_ScenarioInstanceID** – унікальний ідентифікатор GUID для сценарію, що виконується. 
+  - **Data\_ScenarioInstanceID** – унікальний ідентифікатор GUID для сценарію, що виконується. 
 
-  - **Data\_ScenarioName** – сценарій, що виконується (наприклад, інсталяція). 
+  - **Data\_ScenarioName** – сценарій, що виконується (наприклад, інсталяція). 
 
-  - **Data\_ScenarioSubType** – тип сценарію, що виконується (наприклад, видалення, повторна інсталяція). 
+  - **Data\_ScenarioSubType** – тип сценарію, що виконується (наприклад, видалення, повторна інсталяція). 
 
-  - **Data\_SourceType** – розташування джерела (наприклад, CDN). 
+  - **Data\_SourceType** – розташування джерела (наприклад, CDN). 
 
-  - **Data\_SqmMachineID**  – унікальний ідентифікатор комп’ютера, який використовується в SQM Windows. 
+  - **Data\_SqmMachineID** – унікальний ідентифікатор комп’ютера, який використовується в SQM Windows. 
 
-  - **Data\_SusClientID** – ідентифікатор комп’ютера для оновлення Office. 
+  - **Data\_SusClientID** – ідентифікатор комп’ютера для оновлення Office. 
 
-  - **Data\_TaskState** – стан завдання (наприклад, "Виконується" або "Скасовано"). 
+  - **Data\_TaskState** – стан завдання (наприклад, "Виконується" або "Скасовано"). 
 
-  - **Data\_TotalClientCabSize** – розмір файлу CAB клієнта. 
+  - **Data\_TotalClientCabSize** – розмір файлу CAB клієнта. 
 
-  - **Data\_TriggeringUI** – указує, що спричинило активацію інтерфейсу користувача. 
+  - **Data\_TriggeringUI** – указує, що спричинило активацію інтерфейсу користувача. 
 
-  - **Data\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office. 
+  - **Data\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office. 
 
-  - **Data\_Version** – версія Office. 
+  - **Data\_Version** – версія Office. 
 
 ### <a name="officeclicktorunscenariorepairtaskfullrepair"></a>Office.ClickToRun.Scenario.RepairTaskFullrepair
 
@@ -2106,75 +2106,75 @@ ms.locfileid: "48491563"
 
 Збираються такі поля:
 
-  - **Data\_15\_SourceType** – розташування джерела Office 15 (наприклад, мережа CDN або локальна мережа). 
+  - **Data\_15\_SourceType** – розташування джерела Office 15 (наприклад, мережа CDN або локальна мережа). 
 
-  - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
+  - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
 
-  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
+  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
 
-  - **Data\_15\_Version** – версія Office 15. 
+  - **Data\_15\_Version** – версія Office 15. 
 
-  - **Data\_16\_SourceType** – розташування джерела Office 16 (наприклад, мережа CDN або локальна мережа). 
+  - **Data\_16\_SourceType** – розташування джерела Office 16 (наприклад, мережа CDN або локальна мережа). 
 
-  - **Data\_16\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 16. 
+  - **Data\_16\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 16. 
 
-  - **Data\_16\_UpdateVersion** – версія Office 16, до якої здійснюється оновлення. 
+  - **Data\_16\_UpdateVersion** – версія Office 16, до якої здійснюється оновлення. 
 
-  - **Data\_16\_Version** – версія Office 16. 
+  - **Data\_16\_Version** – версія Office 16. 
 
-  - **Data\_AddingFixedProducts** – продукти, які додаються. 
+  - **Data\_AddingFixedProducts** – продукти, які додаються. 
 
-  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
+  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
 
   - **Data\_CompletionState** – указує, чи виконано завдання.
 
-  - **Data\_ErrorCode** – код помилки, що сталася. 
+  - **Data\_ErrorCode** – код помилки, що сталася. 
 
-  - **Data\_ErrorDetails** – додаткові відомості щодо помилки. 
+  - **Data\_ErrorDetails** – додаткові відомості щодо помилки. 
 
-  - **Data\_ErrorMessage** – повідомлення про помилку. 
+  - **Data\_ErrorMessage** – повідомлення про помилку. 
 
-  - **Data\_ErrorSource** – указує, де сталася помилка. 
+  - **Data\_ErrorSource** – указує, де сталася помилка. 
 
-  - **Data\_ExceptionType** – виняток помилки. 
+  - **Data\_ExceptionType** – виняток помилки. 
 
-  - **Data\_IsErrorCodeIgnorable** – указує, чи можна ігнорувати помилку, що сталася. 
+  - **Data\_IsErrorCodeIgnorable** – указує, чи можна ігнорувати помилку, що сталася. 
 
-  - **Data\_IsErrorCodeIgnorableForScenarioHealth** – указує, чи вважаємо ми, що помилку можна ігнорувати. 
+  - **Data\_IsErrorCodeIgnorableForScenarioHealth** – указує, чи вважаємо ми, що помилку можна ігнорувати. 
 
-  - **Data\_NewestPackageVersion** – найпізніша версія Office на комп’ютері. 
+  - **Data\_NewestPackageVersion** – найпізніша версія Office на комп’ютері. 
 
-  - **Data\_OldestPackageVersion** – найраніша версія Office на комп’ютері. 
+  - **Data\_OldestPackageVersion** – найраніша версія Office на комп’ютері. 
 
-  - **Data\_ProductsToAdd** – продукти Office, які додаються. 
+  - **Data\_ProductsToAdd** – продукти Office, які додаються. 
 
-  - **Data\_ProductsToRemove**  – продукти Office, які вилучаються. 
+  - **Data\_ProductsToRemove** – продукти Office, які вилучаються. 
 
-  - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
+  - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
 
-  - **Data\_RemovingProducts** – продукти, для яких надходять запити на вилучення. 
+  - **Data\_RemovingProducts** – продукти, для яких надходять запити на вилучення. 
 
-  - **Data\_ScenarioInstanceID** – унікальний ідентифікатор GUID для сценарію, що виконується. 
+  - **Data\_ScenarioInstanceID** – унікальний ідентифікатор GUID для сценарію, що виконується. 
 
-  - **Data\_ScenarioName** – сценарій, що виконується (наприклад, інсталяція). 
+  - **Data\_ScenarioName** – сценарій, що виконується (наприклад, інсталяція). 
 
-  - **Data\_ScenarioSubType** – тип сценарію, що виконується (наприклад, видалення, повторна інсталяція). 
+  - **Data\_ScenarioSubType** – тип сценарію, що виконується (наприклад, видалення, повторна інсталяція). 
 
-  - **Data\_SourceType** – розташування джерела (наприклад, CDN). 
+  - **Data\_SourceType** – розташування джерела (наприклад, CDN). 
 
-  - **Data\_SqmMachineID**  – унікальний ідентифікатор комп’ютера, який використовується в SQM Windows. 
+  - **Data\_SqmMachineID** – унікальний ідентифікатор комп’ютера, який використовується в SQM Windows. 
 
-  - **Data\_SusClientID** – ідентифікатор комп’ютера для оновлення Office. 
+  - **Data\_SusClientID** – ідентифікатор комп’ютера для оновлення Office. 
 
-  - **Data\_TaskState** – стан завдання (наприклад, "Виконується" або "Скасовано"). 
+  - **Data\_TaskState** – стан завдання (наприклад, "Виконується" або "Скасовано"). 
 
-  - **Data\_TotalClientCabSize** – розмір файлу CAB клієнта. 
+  - **Data\_TotalClientCabSize** – розмір файлу CAB клієнта. 
 
-  - **Data\_TriggeringUI** – указує, що спричинило активацію інтерфейсу користувача. 
+  - **Data\_TriggeringUI** – указує, що спричинило активацію інтерфейсу користувача. 
 
-  - **Data\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office. 
+  - **Data\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office. 
 
-  - **Data\_Version** – версія Office. 
+  - **Data\_Version** – версія Office. 
 
 ### <a name="officeclicktorunscenariorepairtaskintegraterepair"></a>Office.ClickToRun.Scenario.RepairTaskIntegraterepair
 
@@ -2182,75 +2182,75 @@ ms.locfileid: "48491563"
 
 Збираються такі поля:
 
-  - **Data\_15\_SourceType** – розташування джерела Office 15 (наприклад, мережа CDN або локальна мережа). 
+  - **Data\_15\_SourceType** – розташування джерела Office 15 (наприклад, мережа CDN або локальна мережа). 
 
-  - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
+  - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
 
-  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
+  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
 
-  - **Data\_15\_Version** – версія Office 15. 
+  - **Data\_15\_Version** – версія Office 15. 
 
-  - **Data\_16\_SourceType** – розташування джерела Office 16 (наприклад, мережа CDN або локальна мережа). 
+  - **Data\_16\_SourceType** – розташування джерела Office 16 (наприклад, мережа CDN або локальна мережа). 
 
-  - **Data\_16\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 16. 
+  - **Data\_16\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 16. 
 
-  - **Data\_16\_UpdateVersion** – версія Office 16, до якої здійснюється оновлення. 
+  - **Data\_16\_UpdateVersion** – версія Office 16, до якої здійснюється оновлення. 
 
-  - **Data\_16\_Version** – версія Office 16. 
+  - **Data\_16\_Version** – версія Office 16. 
 
-  - **Data\_AddingFixedProducts** – продукти, які додаються. 
+  - **Data\_AddingFixedProducts** – продукти, які додаються. 
 
-  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
+  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
 
   - **Data\_CompletionState** – указує, чи виконано завдання.
 
-  - **Data\_ErrorCode** – код помилки, що сталася. 
+  - **Data\_ErrorCode** – код помилки, що сталася. 
 
-  - **Data\_ErrorDetails** – додаткові відомості щодо помилки. 
+  - **Data\_ErrorDetails** – додаткові відомості щодо помилки. 
 
-  - **Data\_ErrorMessage** – повідомлення про помилку. 
+  - **Data\_ErrorMessage** – повідомлення про помилку. 
 
-  - **Data\_ErrorSource** – указує, де сталася помилка. 
+  - **Data\_ErrorSource** – указує, де сталася помилка. 
 
-  - **Data\_ExceptionType** – виняток помилки. 
+  - **Data\_ExceptionType** – виняток помилки. 
 
-  - **Data\_IsErrorCodeIgnorable** – указує, чи можна ігнорувати помилку, що сталася. 
+  - **Data\_IsErrorCodeIgnorable** – указує, чи можна ігнорувати помилку, що сталася. 
 
-  - **Data\_IsErrorCodeIgnorableForScenarioHealth** – указує, чи вважаємо ми, що помилку можна ігнорувати. 
+  - **Data\_IsErrorCodeIgnorableForScenarioHealth** – указує, чи ми вважаємо, що помилку можна ігнорувати. 
 
-  - **Data\_NewestPackageVersion** – найпізніша версія Office на комп’ютері. 
+  - **Data\_NewestPackageVersion** – найпізніша версія Office на комп’ютері. 
 
-  - **Data\_OldestPackageVersion** – найраніша версія Office на комп’ютері. 
+  - **Data\_OldestPackageVersion** – найраніша версія Office на комп’ютері. 
 
-  - **Data\_ProductsToAdd** – продукти Office, які додаються. 
+  - **Data\_ProductsToAdd** – продукти Office, які додаються. 
 
-  - **Data\_ProductsToRemove**  – продукти Office, які вилучаються. 
+  - **Data\_ProductsToRemove** – продукти Office, які вилучаються. 
 
-  - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
+  - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
 
-  - **Data\_RemovingProducts** – продукти, для яких надходять запити на вилучення. 
+  - **Data\_RemovingProducts** – продукти, для яких надходять запити на вилучення. 
 
-  - **Data\_ScenarioInstanceID** – унікальний ідентифікатор GUID для сценарію, що виконується. 
+  - **Data\_ScenarioInstanceID** – унікальний ідентифікатор GUID для сценарію, що виконується. 
 
-  - **Data\_ScenarioName** – сценарій, що виконується (наприклад, інсталяція). 
+  - **Data\_ScenarioName** – сценарій, що виконується (наприклад, інсталяція). 
 
-  - **Data\_ScenarioSubType** – тип сценарію, що виконується (наприклад, видалення, повторна інсталяція). 
+  - **Data\_ScenarioSubType** – тип сценарію, що виконується (наприклад, видалення, повторна інсталяція). 
 
-  - **Data\_SourceType** – розташування джерела (наприклад, CDN). 
+  - **Data\_SourceType** – розташування джерела (наприклад, CDN). 
 
-  - **Data\_SqmMachineID**  – унікальний ідентифікатор комп’ютера, який використовується в SQM Windows. 
+  - **Data\_SqmMachineID** – унікальний ідентифікатор комп’ютера, який використовується в SQM Windows. 
 
-  - **Data\_SusClientID** – ідентифікатор комп’ютера для оновлення Office. 
+  - **Data\_SusClientID** – ідентифікатор комп’ютера для оновлення Office. 
 
-  - **Data\_TaskState** – стан завдання (наприклад, "Виконується" або "Скасовано"). 
+  - **Data\_TaskState** – стан завдання (наприклад, "Виконується" або "Скасовано"). 
 
-  - **Data\_TotalClientCabSize** – розмір файлу CAB клієнта. 
+  - **Data\_TotalClientCabSize** – розмір файлу CAB клієнта. 
 
-  - **Data\_TriggeringUI** – указує, що спричинило активацію інтерфейсу користувача. 
+  - **Data\_TriggeringUI** – указує, що спричинило активацію інтерфейсу користувача. 
 
-  - **Data\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office. 
+  - **Data\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office. 
 
-  - **Data\_Version** – версія Office. 
+  - **Data\_Version** – версія Office. 
 
 ### <a name="officeclicktorunscenariorepairtaskremoveinstallation"></a>Office.ClickToRun.Scenario.RepairTaskRemoveinstallation
 
@@ -2258,75 +2258,75 @@ ms.locfileid: "48491563"
 
 Збираються такі поля:
 
-  - **Data\_15\_SourceType** – розташування джерела Office 15 (наприклад, мережа CDN або локальна мережа). 
+  - **Data\_15\_SourceType** – розташування джерела Office 15 (наприклад, мережа CDN або локальна мережа). 
 
-  - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
+  - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
 
-  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
+  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
 
-  - **Data\_15\_Version** – версія Office 15. 
+  - **Data\_15\_Version** – версія Office 15. 
 
-  - **Data\_16\_SourceType** – розташування джерела Office 16 (наприклад, мережа CDN або локальна мережа). 
+  - **Data\_16\_SourceType** – розташування джерела Office 16 (наприклад, мережа CDN або локальна мережа). 
 
-  - **Data\_16\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 16. 
+  - **Data\_16\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 16. 
 
-  - **Data\_16\_UpdateVersion** – версія Office 16, до якої здійснюється оновлення. 
+  - **Data\_16\_UpdateVersion** – версія Office 16, до якої здійснюється оновлення. 
 
-  - **Data\_16\_Version** – версія Office 16. 
+  - **Data\_16\_Version** – версія Office 16. 
 
-  - **Data\_AddingFixedProducts** – продукти, які додаються. 
+  - **Data\_AddingFixedProducts** – продукти, які додаються. 
 
-  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
+  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
 
   - **Data\_CompletionState** – указує, чи виконано завдання.
 
-  - **Data\_ErrorCode** – код помилки, що сталася. 
+  - **Data\_ErrorCode** – код помилки, що сталася. 
 
-  - **Data\_ErrorDetails** – додаткові відомості щодо помилки. 
+  - **Data\_ErrorDetails** – додаткові відомості щодо помилки. 
 
-  - **Data\_ErrorMessage** – повідомлення про помилку. 
+  - **Data\_ErrorMessage** – повідомлення про помилку. 
 
-  - **Data\_ErrorSource** – указує, де сталася помилка. 
+  - **Data\_ErrorSource** – указує, де сталася помилка. 
 
-  - **Data\_ExceptionType** – виняток помилки. 
+  - **Data\_ExceptionType** – виняток помилки. 
 
-  - **Data\_IsErrorCodeIgnorable** – указує, чи можна ігнорувати помилку, що сталася. 
+  - **Data\_IsErrorCodeIgnorable** – указує, чи можна ігнорувати помилку, що сталася. 
 
-  - **Data\_IsErrorCodeIgnorableForScenarioHealth** – указує, чи вважаємо ми, що помилку можна ігнорувати. 
+  - **Data\_IsErrorCodeIgnorableForScenarioHealth** – указує, чи вважаємо ми, що помилку можна ігнорувати. 
 
-  - **Data\_NewestPackageVersion** – найпізніша версія Office на комп’ютері. 
+  - **Data\_NewestPackageVersion** – найпізніша версія Office на комп’ютері. 
 
-  - **Data\_OldestPackageVersion** – найраніша версія Office на комп’ютері. 
+  - **Data\_OldestPackageVersion** – найраніша версія Office на комп’ютері. 
 
-  - **Data\_ProductsToAdd** – продукти Office, які додаються. 
+  - **Data\_ProductsToAdd** – продукти Office, які додаються. 
 
-  - **Data\_ProductsToRemove**  – продукти Office, які вилучаються. 
+  - **Data\_ProductsToRemove** – продукти Office, які вилучаються. 
 
-  - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
+  - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
 
-  - **Data\_RemovingProducts** – продукти, для яких надходять запити на вилучення. 
+  - **Data\_RemovingProducts** – продукти, для яких надходять запити на вилучення. 
 
-  - **Data\_ScenarioInstanceID** – унікальний ідентифікатор GUID для сценарію, що виконується. 
+  - **Data\_ScenarioInstanceID** – унікальний ідентифікатор GUID для сценарію, що виконується. 
 
-  - **Data\_ScenarioName** – сценарій, що виконується (наприклад, інсталяція). 
+  - **Data\_ScenarioName** – сценарій, що виконується (наприклад, інсталяція). 
 
-  - **Data\_ScenarioSubType** – тип сценарію, що виконується (наприклад, видалення, повторна інсталяція). 
+  - **Data\_ScenarioSubType** – тип сценарію, що виконується (наприклад, видалення, повторна інсталяція). 
 
-  - **Data\_SourceType** – розташування джерела (наприклад, CDN). 
+  - **Data\_SourceType** – розташування джерела (наприклад, CDN). 
 
-  - **Data\_SqmMachineID**  – унікальний ідентифікатор комп’ютера, який використовується в SQM Windows. 
+  - **Data\_SqmMachineID** – унікальний ідентифікатор комп’ютера, який використовується в SQM Windows. 
 
-  - **Data\_SusClientID** – ідентифікатор комп’ютера для оновлення Office. 
+  - **Data\_SusClientID** – ідентифікатор комп’ютера для оновлення Office. 
 
-  - **Data\_TaskState** – стан завдання (наприклад, "Виконується" або "Скасовано"). 
+  - **Data\_TaskState** – стан завдання (наприклад, "Виконується" або "Скасовано"). 
 
-  - **Data\_TotalClientCabSize** – розмір файлу CAB клієнта. 
+  - **Data\_TotalClientCabSize** – розмір файлу CAB клієнта. 
 
-  - **Data\_TriggeringUI** – указує, що спричинило активацію інтерфейсу користувача. 
+  - **Data\_TriggeringUI** – указує, що спричинило активацію інтерфейсу користувача. 
 
-  - **Data\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office. 
+  - **Data\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office. 
 
-  - **Data\_Version** – версія Office. 
+  - **Data\_Version** – версія Office. 
 
 ### <a name="officeclicktorunscenarioupdatetaskintegrateupdate"></a>Office.ClickToRun.Scenario.UpdateTaskIntegrateupdate 
 
@@ -2334,75 +2334,75 @@ ms.locfileid: "48491563"
 
 Збираються такі поля:
 
-  - **Data\_15\_SourceType** – розташування джерела Office 15 (наприклад, мережа CDN або локальна мережа). 
+  - **Data\_15\_SourceType** – розташування джерела Office 15 (наприклад, мережа CDN або локальна мережа). 
 
-  - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
+  - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
 
-  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
+  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
 
-  - **Data\_15\_Version** – версія Office 15. 
+  - **Data\_15\_Version** – версія Office 15. 
 
-  - **Data\_16\_SourceType** – розташування джерела Office 16 (наприклад, мережа CDN або локальна мережа). 
+  - **Data\_16\_SourceType** – розташування джерела Office 16 (наприклад, мережа CDN або локальна мережа). 
 
-  - **Data\_16\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 16. 
+  - **Data\_16\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 16. 
 
-  - **Data\_16\_UpdateVersion** – версія Office 16, до якої здійснюється оновлення. 
+  - **Data\_16\_UpdateVersion** – версія Office 16, до якої здійснюється оновлення. 
 
-  - **Data\_16\_Version** – версія Office 16. 
+  - **Data\_16\_Version** – версія Office 16. 
 
-  - **Data\_AddingFixedProducts** – продукти, які додаються. 
+  - **Data\_AddingFixedProducts** – продукти, які додаються. 
 
-  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
+  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
 
   - **Data\_CompletionState** – указує, чи виконано завдання.
 
-  - **Data\_ErrorCode** – код помилки, що сталася. 
+  - **Data\_ErrorCode** – код помилки, що сталася. 
 
-  - **Data\_ErrorDetails** – додаткові відомості щодо помилки. 
+  - **Data\_ErrorDetails** – додаткові відомості щодо помилки. 
 
-  - **Data\_ErrorMessage** – повідомлення про помилку. 
+  - **Data\_ErrorMessage** – повідомлення про помилку. 
 
-  - **Data\_ErrorSource** – указує, де сталася помилка. 
+  - **Data\_ErrorSource** – указує, де сталася помилка. 
 
-  - **Data\_ExceptionType** – виняток помилки. 
+  - **Data\_ExceptionType** – виняток помилки. 
 
-  - **Data\_IsErrorCodeIgnorable** – указує, чи можна ігнорувати помилку, що сталася. 
+  - **Data\_IsErrorCodeIgnorable** – указує, чи можна ігнорувати помилку, що сталася. 
 
-  - **Data\_IsErrorCodeIgnorableForScenarioHealth** – указує, чи вважаємо ми, що помилку можна ігнорувати. 
+  - **Data\_IsErrorCodeIgnorableForScenarioHealth** – указує, чи вважаємо ми, що помилку можна ігнорувати. 
 
-  - **Data\_NewestPackageVersion** – найпізніша версія Office на комп’ютері. 
+  - **Data\_NewestPackageVersion** – найпізніша версія Office на комп’ютері. 
 
-  - **Data\_OldestPackageVersion** – найраніша версія Office на комп’ютері. 
+  - **Data\_OldestPackageVersion** – найраніша версія Office на комп’ютері. 
 
-  - **Data\_ProductsToAdd** – продукти Office, які додаються. 
+  - **Data\_ProductsToAdd** – продукти Office, які додаються. 
 
-  - **Data\_ProductsToRemove**  – продукти Office, які вилучаються. 
+  - **Data\_ProductsToRemove** – продукти Office, які вилучаються. 
 
-  - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
+  - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
 
-  - **Data\_RemovingProducts** – продукти, для яких надходять запити на вилучення. 
+  - **Data\_RemovingProducts** – продукти, для яких надходять запити на вилучення. 
 
-  - **Data\_ScenarioInstanceID** – унікальний ідентифікатор GUID для сценарію, що виконується. 
+  - **Data\_ScenarioInstanceID** – унікальний ідентифікатор GUID для сценарію, що виконується. 
 
-  - **Data\_ScenarioName** – сценарій, що виконується (наприклад, інсталяція). 
+  - **Data\_ScenarioName** – сценарій, що виконується (наприклад, інсталяція). 
 
-  - **Data\_ScenarioSubType** – тип сценарію, що виконується (наприклад, видалення, повторна інсталяція). 
+  - **Data\_ScenarioSubType** – тип сценарію, що виконується (наприклад, видалення, повторна інсталяція). 
 
-  - **Data\_SourceType** – розташування джерела (наприклад, CDN). 
+  - **Data\_SourceType** – розташування джерела (наприклад, CDN). 
 
-  - **Data\_SqmMachineID**  – унікальний ідентифікатор комп’ютера, який використовується в SQM Windows. 
+  - **Data\_SqmMachineID** – унікальний ідентифікатор комп’ютера, який використовується в SQM Windows. 
 
-  - **Data\_SusClientID** – ідентифікатор комп’ютера для оновлення Office. 
+  - **Data\_SusClientID** – ідентифікатор комп’ютера для оновлення Office. 
 
-  - **Data\_TaskState** – стан завдання (наприклад, "Виконується" або "Скасовано"). 
+  - **Data\_TaskState** – стан завдання (наприклад, "Виконується" або "Скасовано"). 
 
-  - **Data\_TotalClientCabSize** – розмір файлу CAB клієнта. 
+  - **Data\_TotalClientCabSize** – розмір файлу CAB клієнта. 
 
-  - **Data\_TriggeringUI** – указує, що спричинило активацію інтерфейсу користувача. 
+  - **Data\_TriggeringUI** – указує, що спричинило активацію інтерфейсу користувача. 
 
-  - **Data\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office. 
+  - **Data\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office. 
 
-  - **Data\_Version** – версія Office. 
+  - **Data\_Version** – версія Office. 
 
 ### <a name="officeclicktorunscenarioupdatetaskpublishrsod"></a>Office.ClickToRun.Scenario.UpdateTaskPublishrsod
 
@@ -2410,75 +2410,75 @@ ms.locfileid: "48491563"
 
 Збираються такі поля:
 
-  - **Data\_15\_SourceType** – розташування джерела Office 15 (наприклад, мережа CDN або локальна мережа). 
+  - **Data\_15\_SourceType** – розташування джерела Office 15 (наприклад, мережа CDN або локальна мережа). 
 
-  - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
+  - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
 
-  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
+  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
 
-  - **Data\_15\_Version** – версія Office 15. 
+  - **Data\_15\_Version** – версія Office 15. 
 
-  - **Data\_16\_SourceType** – розташування джерела Office 16 (наприклад, мережа CDN або локальна мережа). 
+  - **Data\_16\_SourceType** – розташування джерела Office 16 (наприклад, мережа CDN або локальна мережа). 
 
-  - **Data\_16\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 16. 
+  - **Data\_16\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 16. 
 
-  - **Data\_16\_UpdateVersion** – версія Office 16, до якої здійснюється оновлення. 
+  - **Data\_16\_UpdateVersion** – версія Office 16, до якої здійснюється оновлення. 
 
-  - **Data\_16\_Version** – версія Office 16. 
+  - **Data\_16\_Version** – версія Office 16. 
 
-  - **Data\_AddingFixedProducts** – продукти, які додаються. 
+  - **Data\_AddingFixedProducts** – продукти, які додаються. 
 
-  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
+  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
 
   - **Data\_CompletionState** – указує, чи виконано завдання.
 
-  - **Data\_ErrorCode** – код помилки, що сталася. 
+  - **Data\_ErrorCode** – код помилки, що сталася. 
 
-  - **Data\_ErrorDetails** – додаткові відомості щодо помилки. 
+  - **Data\_ErrorDetails** – додаткові відомості щодо помилки. 
 
-  - **Data\_ErrorMessage** – повідомлення про помилку. 
+  - **Data\_ErrorMessage** – повідомлення про помилку. 
 
-  - **Data\_ErrorSource** – указує, де сталася помилка. 
+  - **Data\_ErrorSource** – указує, де сталася помилка. 
 
-  - **Data\_ExceptionType** – виняток помилки. 
+  - **Data\_ExceptionType** – виняток помилки. 
 
-  - **Data\_IsErrorCodeIgnorable** – указує, чи можна ігнорувати помилку, що сталася. 
+  - **Data\_IsErrorCodeIgnorable** – указує, чи можна ігнорувати помилку, що сталася. 
 
-  - **Data\_IsErrorCodeIgnorableForScenarioHealth** – указує, чи вважаємо ми, що помилку можна ігнорувати. 
+  - **Data\_IsErrorCodeIgnorableForScenarioHealth** – указує, чи вважаємо ми, що помилку можна ігнорувати. 
 
-  - **Data\_NewestPackageVersion** – найпізніша версія Office на комп’ютері. 
+  - **Data\_NewestPackageVersion** – найпізніша версія Office на комп’ютері. 
 
-  - **Data\_OldestPackageVersion** – найраніша версія Office на комп’ютері. 
+  - **Data\_OldestPackageVersion** – найраніша версія Office на комп’ютері. 
 
-  - **Data\_ProductsToAdd** – продукти Office, які додаються. 
+  - **Data\_ProductsToAdd** – продукти Office, які додаються. 
 
-  - **Data\_ProductsToRemove**  – продукти Office, які вилучаються. 
+  - **Data\_ProductsToRemove** – продукти Office, які вилучаються. 
 
-  - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
+  - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
 
-  - **Data\_RemovingProducts** – продукти, для яких надходять запити на вилучення. 
+  - **Data\_RemovingProducts** – продукти, для яких надходять запити на вилучення. 
 
-  - **Data\_ScenarioInstanceID** – унікальний ідентифікатор GUID для сценарію, що виконується. 
+  - **Data\_ScenarioInstanceID** – унікальний ідентифікатор GUID для сценарію, що виконується. 
 
-  - **Data\_ScenarioName** – сценарій, що виконується (наприклад, інсталяція). 
+  - **Data\_ScenarioName** – сценарій, що виконується (наприклад, інсталяція). 
 
-  - **Data\_ScenarioSubType** – тип сценарію, що виконується (наприклад, видалення, повторна інсталяція). 
+  - **Data\_ScenarioSubType** – тип сценарію, що виконується (наприклад, видалення, повторна інсталяція). 
 
-  - **Data\_SourceType** – розташування джерела (наприклад, CDN). 
+  - **Data\_SourceType** – розташування джерела (наприклад, CDN). 
 
-  - **Data\_SqmMachineID**  – унікальний ідентифікатор комп’ютера, який використовується в SQM Windows. 
+  - **Data\_SqmMachineID** – унікальний ідентифікатор комп’ютера, який використовується в SQM Windows. 
 
-  - **Data\_SusClientID** – ідентифікатор комп’ютера для оновлення Office. 
+  - **Data\_SusClientID** – ідентифікатор комп’ютера для оновлення Office. 
 
-  - **Data\_TaskState** – стан завдання (наприклад, "Виконується" або "Скасовано"). 
+  - **Data\_TaskState** – стан завдання (наприклад, "Виконується" або "Скасовано"). 
 
-  - **Data\_TotalClientCabSize** – розмір файлу CAB клієнта. 
+  - **Data\_TotalClientCabSize** – розмір файлу CAB клієнта. 
 
-  - **Data\_TriggeringUI** – указує, що спричинило активацію інтерфейсу користувача. 
+  - **Data\_TriggeringUI** – указує, що спричинило активацію інтерфейсу користувача. 
 
-  - **Data\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office. 
+  - **Data\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office. 
 
-  - **Data\_Version** – версія Office. 
+  - **Data\_Version** – версія Office. 
 
 ### <a name="officeclicktorunscenarioupdatetaskupdateapply"></a>Office.ClickToRun.Scenario.UpdateTaskUpdateapply
 
@@ -2486,25 +2486,25 @@ ms.locfileid: "48491563"
 
 Збираються такі поля:
 
-  - **Data\_15\_SourceType** – розташування джерела Office 15 (наприклад, мережа CDN або локальна мережа). 
+  - **Data\_15\_SourceType** – розташування джерела Office 15 (наприклад, мережа CDN або локальна мережа). 
 
-  - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
+  - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
 
-  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
+  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
 
-  - **Data\_15\_Version** – версія Office 15. 
+  - **Data\_15\_Version** – версія Office 15. 
 
-  - **Data\_16\_SourceType** – розташування джерела Office 16 (наприклад, мережа CDN або локальна мережа). 
+  - **Data\_16\_SourceType** – розташування джерела Office 16 (наприклад, мережа CDN або локальна мережа). 
 
-  - **Data\_16\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 16. 
+  - **Data\_16\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 16. 
 
-  - **Data\_16\_UpdateVersion** – версія Office 16, до якої здійснюється оновлення. 
+  - **Data\_16\_UpdateVersion** – версія Office 16, до якої здійснюється оновлення. 
 
-  - **Data\_16\_Version** – версія Office 16. 
+  - **Data\_16\_Version** – версія Office 16. 
 
-  - **Data\_AddingFixedProducts** – продукти, які додаються. 
+  - **Data\_AddingFixedProducts** – продукти, які додаються. 
 
-  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
+  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
 
   - **Data\_AvailableVersion** – указує, для якої версії Office доступні оновлення.
 
@@ -2514,57 +2514,57 @@ ms.locfileid: "48491563"
 
   - **Data\_CorruptionChecksOnly** – указує, що ми перевіряємо лише наявність пошкоджень, а не виконуємо оновлення.
 
-  - **Data\_ErrorCode** – код помилки, що сталася. 
+  - **Data\_ErrorCode** – код помилки, що сталася. 
 
-  - **Data\_ErrorDetails** – додаткові відомості щодо помилки. 
+  - **Data\_ErrorDetails** – додаткові відомості щодо помилки. 
 
-  - **Data\_ErrorMessage** – повідомлення про помилку. 
+  - **Data\_ErrorMessage** – повідомлення про помилку. 
 
   - **Data\_ErrorSource** – указує, де сталася помилка.
 
-  - **Data\_ExceptionType** – виняток помилки. 
+  - **Data\_ExceptionType** – виняток помилки. 
 
   - **Data\_HardlinkingException** – виняток, який виникає під час спроби створення жорстких посилань.
 
-  - **Data\_IsErrorCodeIgnorable** – указує, чи можна ігнорувати помилку, що сталася. 
+  - **Data\_IsErrorCodeIgnorable** – указує, чи можна ігнорувати помилку, що сталася. 
 
-  - **Data\_IsErrorCodeIgnorableForScenarioHealth** – указує, чи вважаємо ми, що помилку можна ігнорувати. 
+  - **Data\_IsErrorCodeIgnorableForScenarioHealth** – указує, чи вважаємо ми, що помилку можна ігнорувати. 
 
-  - **Data\_NewestPackageVersion** – найпізніша версія Office на комп’ютері. 
+  - **Data\_NewestPackageVersion** – найпізніша версія Office на комп’ютері. 
 
-  - **Data\_OldestPackageVersion** – найраніша версія Office на комп’ютері. 
+  - **Data\_OldestPackageVersion** – найраніша версія Office на комп’ютері. 
 
   - **Data\_ PackageOperationSuccessful** – значення true, що вказує на успішне виконання завдання в пакеті Office.
 
-  - **Data\_ProductsToAdd** – продукти Office, які додаються. 
+  - **Data\_ProductsToAdd** – продукти Office, які додаються. 
 
-  - **Data\_ProductsToRemove**  – продукти Office, які вилучаються. 
+  - **Data\_ProductsToRemove** – продукти Office, які вилучаються. 
 
-  - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
+  - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
 
-  - **Data\_RemovingProducts** – продукти, для яких надходять запити на вилучення. 
+  - **Data\_RemovingProducts** – продукти, для яких надходять запити на вилучення. 
 
-  - **Data\_ScenarioInstanceID** – унікальний ідентифікатор GUID для сценарію, що виконується. 
+  - **Data\_ScenarioInstanceID** – унікальний ідентифікатор GUID для сценарію, що виконується. 
 
-  - **Data\_ScenarioName** – сценарій, що виконується (наприклад, інсталяція). 
+  - **Data\_ScenarioName** – сценарій, що виконується (наприклад, інсталяція). 
 
-  - **Data\_ScenarioSubType** – тип сценарію, що виконується (наприклад, видалення, повторна інсталяція). 
+  - **Data\_ScenarioSubType** – тип сценарію, що виконується (наприклад, видалення, повторна інсталяція). 
 
-  - **Data\_SourceType** – розташування джерела (наприклад, CDN). 
+  - **Data\_SourceType** – розташування джерела (наприклад, CDN). 
 
   - **Data\_SqmMachineID** – унікальний ідентифікатор комп’ютера, який використовується в SQM Windows.
 
-  - **Data\_SusClientID** – ідентифікатор комп’ютера для оновлення Office. 
+  - **Data\_SusClientID**  – ідентифікатор комп’ютера для оновлення Office. 
 
-  - **Data\_TaskState** – стан завдання (наприклад, "Виконується" або "Скасовано"). 
+  - **Data\_TaskState** – стан завдання (наприклад, "Виконується" або "Скасовано"). 
 
-  - **Data\_TotalClientCabSize** – розмір файлу CAB клієнта. 
+  - **Data\_TotalClientCabSize** – розмір файлу CAB клієнта. 
 
-  - **Data\_TriggeringUI** – указує, що спричинило активацію інтерфейсу користувача. 
+  - **Data\_TriggeringUI** – указує, що спричинило активацію інтерфейсу користувача. 
 
-  - **Data\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office. 
+  - **Data\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office. 
 
-  - **Data\_Version** – версія Office. 
+  - **Data\_Version** – версія Office. 
 
   - **Data\_ WorkstationLockState** – значення true, яке вказує на те, що комп’ютер заблоковано.
 
@@ -2574,75 +2574,75 @@ ms.locfileid: "48491563"
 
 Збираються такі поля:
 
-  - **Data\_15\_SourceType** – розташування джерела Office 15 (наприклад, мережа CDN або локальна мережа). 
+  - **Data\_15\_SourceType** – розташування джерела Office 15 (наприклад, мережа CDN або локальна мережа). 
 
-  - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
+  - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
 
-  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
+  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
 
-  - **Data\_15\_Version** – версія Office 15. 
+  - **Data\_15\_Version** – версія Office 15. 
 
-  - **Data\_16\_SourceType** – розташування джерела Office 16 (наприклад, мережа CDN або локальна мережа). 
+  - **Data\_16\_SourceType** – розташування джерела Office 16 (наприклад, мережа CDN або локальна мережа). 
 
-  - **Data\_16\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 16. 
+  - **Data\_16\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 16. 
 
-  - **Data\_16\_UpdateVersion** – версія Office 16, до якої здійснюється оновлення. 
+  - **Data\_16\_UpdateVersion** – версія Office 16, до якої здійснюється оновлення. 
 
-  - **Data\_16\_Version** – версія Office 16. 
+  - **Data\_16\_Version** – версія Office 16. 
 
-  - **Data\_AddingFixedProducts** – продукти, які додаються. 
+  - **Data\_AddingFixedProducts** – продукти, які додаються. 
 
-  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
+  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
 
   - **Data\_CompletionState** – указує, чи виконано завдання.
 
-  - **Data\_ErrorCode** – код помилки, що сталася. 
+  - **Data\_ErrorCode** – код помилки, що сталася. 
 
-  - **Data\_ErrorDetails** – додаткові відомості щодо помилки. 
+  - **Data\_ErrorDetails** – додаткові відомості щодо помилки. 
 
-  - **Data\_ErrorMessage** – повідомлення про помилку. 
+  - **Data\_ErrorMessage** – повідомлення про помилку. 
 
-  - **Data\_ErrorSource** – указує, де сталася помилка. 
+  - **Data\_ErrorSource** – указує, де сталася помилка. 
 
-  - **Data\_ExceptionType** – виняток помилки. 
+  - **Data\_ExceptionType** – виняток помилки. 
 
-  - **Data\_IsErrorCodeIgnorable** – указує, чи можна ігнорувати помилку, що сталася. 
+  - **Data\_IsErrorCodeIgnorable** – указує, чи можна ігнорувати помилку, що сталася. 
 
-  - **Data\_IsErrorCodeIgnorableForScenarioHealth** – указує, чи вважаємо ми, що помилку можна ігнорувати. 
+  - **Data\_IsErrorCodeIgnorableForScenarioHealth** – указує, чи вважаємо ми, що помилку можна ігнорувати. 
 
-  - **Data\_NewestPackageVersion** – найпізніша версія Office на комп’ютері. 
+  - **Data\_NewestPackageVersion** – найпізніша версія Office на комп’ютері. 
 
-  - **Data\_OldestPackageVersion** – найраніша версія Office на комп’ютері. 
+  - **Data\_OldestPackageVersion** – найраніша версія Office на комп’ютері. 
 
-  - **Data\_ProductsToAdd** – продукти Office, які додаються. 
+  - **Data\_ProductsToAdd** – продукти Office, які додаються. 
 
-  - **Data\_ProductsToRemove**  – продукти Office, які вилучаються. 
+  - **Data\_ProductsToRemove** – продукти Office, які вилучаються. 
 
-  - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
+  - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
 
-  - **Data\_RemovingProducts** – продукти, для яких надходять запити на вилучення. 
+  - **Data\_RemovingProducts** – продукти, для яких надходять запити на вилучення. 
 
-  - **Data\_ScenarioInstanceID** – унікальний ідентифікатор GUID для сценарію, що виконується. 
+  - **Data\_ScenarioInstanceID** – унікальний ідентифікатор GUID для сценарію, що виконується. 
 
-  - **Data\_ScenarioName** – сценарій, що виконується (наприклад, інсталяція). 
+  - **Data\_ScenarioName** – сценарій, що виконується (наприклад, інсталяція). 
 
-  - **Data\_ScenarioSubType** – тип сценарію, що виконується (наприклад, видалення, повторна інсталяція). 
+  - **Data\_ScenarioSubType** – тип сценарію, що виконується (наприклад, видалення, повторна інсталяція). 
 
-  - **Data\_SourceType** – розташування джерела (наприклад, CDN). 
+  - **Data\_SourceType** – розташування джерела (наприклад, CDN). 
 
   - **Data\_SqmMachineID** – унікальний ідентифікатор комп’ютера, який використовується в SQM Windows.
 
-  - **Data\_SusClientID** – ідентифікатор комп’ютера для оновлення Office. 
+  - **Data\_SusClientID** – ідентифікатор комп’ютера для оновлення Office. 
 
-  - **Data\_TaskState** – стан завдання (наприклад, "Виконується" або "Скасовано"). 
+  - **Data\_TaskState** – стан завдання (наприклад, "Виконується" або "Скасовано"). 
 
-  - **Data\_TotalClientCabSize** – розмір файлу CAB клієнта. 
+  - **Data\_TotalClientCabSize** – розмір файлу CAB клієнта. 
 
-  - **Data\_TriggeringUI** – указує, що спричинило активацію інтерфейсу користувача. 
+  - **Data\_TriggeringUI** – указує, що спричинило активацію інтерфейсу користувача. 
 
-  - **Data\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office. 
+  - **Data\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office. 
 
-  - **Data\_Version** – версія Office. 
+  - **Data\_Version** – версія Office. 
 
 ### <a name="officeclicktorunscenarioupdatetaskupdatedetection"></a>Office.ClickToRun.Scenario.UpdateTaskUpdatedetection
 
@@ -2650,25 +2650,25 @@ ms.locfileid: "48491563"
 
 Збираються такі поля:
 
-  - **Data\_15\_SourceType** – розташування джерела Office 15 (наприклад, мережа CDN або локальна мережа). 
+  - **Data\_15\_SourceType** – розташування джерела Office 15 (наприклад, мережа CDN або локальна мережа). 
 
-  - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
+  - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
 
-  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
+  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
 
-  - **Data\_15\_Version** – версія Office 15. 
+  - **Data\_15\_Version** – версія Office 15. 
 
-  - **Data\_16\_SourceType** – розташування джерела Office 16 (наприклад, мережа CDN або локальна мережа). 
+  - **Data\_16\_SourceType** – розташування джерела Office 16 (наприклад, мережа CDN або локальна мережа). 
 
-  - **Data\_16\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 16. 
+  - **Data\_16\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 16. 
 
-  - **Data\_16\_UpdateVersion** – версія Office 16, до якої здійснюється оновлення. 
+  - **Data\_16\_UpdateVersion** – версія Office 16, до якої здійснюється оновлення. 
 
-  - **Data\_16\_Version** – версія Office 16. 
+  - **Data\_16\_Version** – версія Office 16. 
 
-  - **Data\_AddingFixedProducts** – продукти, які додаються. 
+  - **Data\_AddingFixedProducts** – продукти, які додаються. 
 
-  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
+  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
 
   - **Data\_AvailableVersion** – указує, для якої версії Office доступні оновлення.
 
@@ -2678,55 +2678,55 @@ ms.locfileid: "48491563"
 
   - **Data\_CompletionState** – указує, чи виконано завдання.
 
-  - **Data\_ErrorCode** – код помилки, що сталася. 
+  - **Data\_ErrorCode** – код помилки, що сталася. 
 
-  - **Data\_ErrorDetails** – додаткові відомості щодо помилки. 
+  - **Data\_ErrorDetails** – додаткові відомості щодо помилки. 
 
-  - **Data\_ErrorMessage** – повідомлення про помилку. 
+  - **Data\_ErrorMessage** – повідомлення про помилку. 
 
   - **Data\_ErrorSource** – указує, де сталася помилка.
 
-  - **Data\_ExceptionType** – виняток помилки. 
+  - **Data\_ExceptionType** – виняток помилки. 
 
-  - **Data\_IsErrorCodeIgnorable** – указує, чи можна ігнорувати помилку, що сталася. 
+  - **Data\_IsErrorCodeIgnorable** – указує, чи можна ігнорувати помилку, що сталася. 
 
-  - **Data\_IsErrorCodeIgnorableForScenarioHealth** – указує, чи вважаємо ми, що помилку можна ігнорувати. 
+  - **Data\_IsErrorCodeIgnorableForScenarioHealth** – указує, чи вважаємо ми, що помилку можна ігнорувати. 
 
-  - **Data\_NewestPackageVersion** – найпізніша версія Office на комп’ютері. 
+  - **Data\_NewestPackageVersion** – найпізніша версія Office на комп’ютері. 
 
-  - **Data\_OldestPackageVersion** – найраніша версія Office на комп’ютері. 
+  - **Data\_OldestPackageVersion** – найраніша версія Office на комп’ютері. 
 
   - **Data\_ PackageUpdateAvailable** – значення true, яке вказує на те, що доступна нова версія Office.
 
-  - **Data\_ProductsToAdd** – продукти Office, які додаються. 
+  - **Data\_ProductsToAdd** – продукти Office, які додаються. 
 
-  - **Data\_ProductsToRemove**  – продукти Office, які вилучаються. 
+  - **Data\_ProductsToRemove** – продукти Office, які вилучаються. 
 
-  - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
+  - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
 
-  - **Data\_RemovingProducts** – продукти, для яких надходять запити на вилучення. 
+  - **Data\_RemovingProducts** – продукти, для яких надходять запити на вилучення. 
 
-  - **Data\_ScenarioInstanceID** – унікальний ідентифікатор GUID для сценарію, що виконується. 
+  - **Data\_ScenarioInstanceID** – унікальний ідентифікатор GUID для сценарію, що виконується. 
 
   - **Data\_ScenarioName** – сценарій, що виконується (наприклад, інсталяція).
 
-  - **Data\_ScenarioSubType** – тип сценарію, що виконується (наприклад, видалення, повторна інсталяція). 
+  - **Data\_ScenarioSubType** – тип сценарію, що виконується (наприклад, видалення, повторна інсталяція). 
 
-  - **Data\_SourceType** – розташування джерела (наприклад, CDN). 
+  - **Data\_SourceType** – розташування джерела (наприклад, CDN). 
 
-  - **Data\_SqmMachineID** – унікальний ідентифікатор комп’ютера, який використовується в SQM Windows. 
+  - **Data\_SqmMachineID** – унікальний ідентифікатор комп’ютера, який використовується в SQM Windows. 
 
-  - **Data\_SusClientID** – ідентифікатор комп’ютера для оновлення Office. 
+  - **Data\_SusClientID**  – ідентифікатор комп’ютера для оновлення Office. 
 
-  - **Data\_TaskState** – стан завдання (наприклад, "Виконується" або "Скасовано"). 
+  - **Data\_TaskState** – стан завдання (наприклад, "Виконується" або "Скасовано"). 
 
-  - **Data\_TotalClientCabSize** – розмір файлу CAB клієнта. 
+  - **Data\_TotalClientCabSize** – розмір файлу CAB клієнта. 
 
-  - **Data\_TriggeringUI** – указує, що спричинило активацію інтерфейсу користувача. 
+  - **Data\_TriggeringUI** – указує, що спричинило активацію інтерфейсу користувача. 
 
-  - **Data\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office. 
+  - **Data\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office. 
 
-  - **Data\_Version** – версія Office. 
+  - **Data\_Version** – версія Office. 
 
 ### <a name="officeclicktorunscenarioupdatetaskupdatedownload"></a>Office.ClickToRun.Scenario.UpdateTaskUpdatedownload
 
@@ -2734,25 +2734,25 @@ ms.locfileid: "48491563"
 
 Збираються такі поля:
 
-  - **Data\_15\_SourceType** – розташування джерела Office 15 (наприклад, мережа CDN або локальна мережа). 
+  - **Data\_15\_SourceType** – розташування джерела Office 15 (наприклад, мережа CDN або локальна мережа). 
 
-  - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
+  - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
 
-  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
+  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
 
-  - **Data\_15\_Version** – версія Office 15. 
+  - **Data\_15\_Version** – версія Office 15. 
 
-  - **Data\_16\_SourceType** – розташування джерела Office 16 (наприклад, мережа CDN або локальна мережа). 
+  - **Data\_16\_SourceType** – розташування джерела Office 16 (наприклад, мережа CDN або локальна мережа). 
 
-  - **Data\_16\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 16. 
+  - **Data\_16\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 16. 
 
-  - **Data\_16\_UpdateVersion** – версія Office 16, до якої здійснюється оновлення. 
+  - **Data\_16\_UpdateVersion** – версія Office 16, до якої здійснюється оновлення. 
 
-  - **Data\_16\_Version** – версія Office 16. 
+  - **Data\_16\_Version** – версія Office 16. 
 
-  - **Data\_AddingFixedProducts** – продукти, які додаються. 
+  - **Data\_AddingFixedProducts** – продукти, які додаються. 
 
-  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
+  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
 
   - **Data\_AvailableVersion** – указує, для якої версії Office доступні оновлення.
 
@@ -2762,59 +2762,59 @@ ms.locfileid: "48491563"
 
   - **Data\_CorruptionChecksOnly** – указує, що ми перевіряємо лише наявність пошкоджень, а не виконуємо оновлення.
 
-  - **Data\_ErrorCode** – код помилки, що сталася. 
+  - **Data\_ErrorCode** – код помилки, що сталася. 
 
-  - **Data\_ErrorDetails** – додаткові відомості щодо помилки. 
+  - **Data\_ErrorDetails** – додаткові відомості щодо помилки. 
 
-  - **Data\_ErrorMessage** – повідомлення про помилку. 
+  - **Data\_ErrorMessage** – повідомлення про помилку. 
 
   - **Data\_ErrorSource** – указує, де сталася помилка.
 
-  - **Data\_ExceptionType** – виняток помилки. 
+  - **Data\_ExceptionType** – виняток помилки. 
 
   - **Data\_FoundCorruptFiles** – значення true, яке вказує на те, що знайдено пошкоджені файли.
 
-  - **Data\_IsErrorCodeIgnorable** – указує, чи можна ігнорувати помилку, що сталася. 
+  - **Data\_IsErrorCodeIgnorable** – указує, чи можна ігнорувати помилку, що сталася. 
 
-  - **Data\_IsErrorCodeIgnorableForScenarioHealth** – указує, чи вважаємо ми, що помилку можна ігнорувати. 
+  - **Data\_IsErrorCodeIgnorableForScenarioHealth** – указує, чи вважаємо ми, що помилку можна ігнорувати. 
 
-  - **Data\_NewestPackageVersion** – найпізніша версія Office на комп’ютері. 
+  - **Data\_NewestPackageVersion** – найпізніша версія Office на комп’ютері. 
 
-  - **Data\_OldestPackageVersion** – найраніша версія Office на комп’ютері. 
+  - **Data\_OldestPackageVersion** – найраніша версія Office на комп’ютері. 
 
   - **Data\_ PackageOperationSuccessful** – значення true, що вказує на успішне виконання завдання в пакеті Office.
 
   - **Data\_ PipelineExitCode** – код виходу, повернений нашим конвеєром файлів.
 
-  - **Data\_ProductsToAdd** – продукти Office, які додаються. 
+  - **Data\_ProductsToAdd** – продукти Office, які додаються. 
 
-  - **Data\_ProductsToRemove**  – продукти Office, які вилучаються. 
+  - **Data\_ProductsToRemove** – продукти Office, які вилучаються. 
 
-  - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
+  - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
 
-  - **Data\_RemovingProducts** – продукти, для яких надходять запити на вилучення. 
+  - **Data\_RemovingProducts** – продукти, для яких надходять запити на вилучення. 
 
-  - **Data\_ScenarioInstanceID** – унікальний ідентифікатор GUID для сценарію, що виконується. 
+  - **Data\_ScenarioInstanceID** – унікальний ідентифікатор GUID для сценарію, що виконується. 
 
-  - **Data\_ScenarioName** – сценарій, що виконується (наприклад, інсталяція). 
+  - **Data\_ScenarioName** – сценарій, що виконується (наприклад, інсталяція). 
 
-  - **Data\_ScenarioSubType** – тип сценарію, що виконується (наприклад, видалення, повторна інсталяція). 
+  - **Data\_ScenarioSubType** – тип сценарію, що виконується (наприклад, видалення, повторна інсталяція). 
 
-  - **Data\_SourceType** – розташування джерела (наприклад, CDN). 
+  - **Data\_SourceType** – розташування джерела (наприклад, CDN). 
 
-  - **Data\_SqmMachineID** – унікальний ідентифікатор комп’ютера, який використовується в SQM Windows. 
+  - **Data\_SqmMachineID** – унікальний ідентифікатор комп’ютера, який використовується в SQM Windows. 
 
-  - **Data\_SusClientID** – ідентифікатор комп’ютера для оновлення Office. 
+  - **Data\_SusClientID** – ідентифікатор комп’ютера для оновлення Office. 
 
-  - **Data\_TaskState** – стан завдання (наприклад, "Виконується" або "Скасовано"). 
+  - **Data\_TaskState** – стан завдання (наприклад, "Виконується" або "Скасовано"). 
 
-  - **Data\_TotalClientCabSize** – розмір файлу CAB клієнта. 
+  - **Data\_TotalClientCabSize** – розмір файлу CAB клієнта. 
 
-  - **Data\_TriggeringUI** – указує, що спричинило активацію інтерфейсу користувача. 
+  - **Data\_TriggeringUI** – указує, що спричинило активацію інтерфейсу користувача. 
 
-  - **Data\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office. 
+  - **Data\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office. 
 
-  - **Data\_Version** – версія Office. 
+  - **Data\_Version** – версія Office. 
 
 ### <a name="officeclicktorunscenarioupdatetaskupdatefinalize"></a>Office.ClickToRun.Scenario.UpdateTaskUpdatefinalize
 
@@ -2822,75 +2822,75 @@ ms.locfileid: "48491563"
 
 Збираються такі поля:
 
-  - **Data\_15\_SourceType** – розташування джерела Office 15 (наприклад, мережа CDN або локальна мережа). 
+  - **Data\_15\_SourceType** – розташування джерела Office 15 (наприклад, мережа CDN або локальна мережа). 
 
-  - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
+  - **Data\_15\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 15. 
 
-  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
+  - **Data\_15\_UpdateVersion** – версія Office 15, до якої здійснюється оновлення. 
 
-  - **Data\_15\_Version** – версія Office 15. 
+  - **Data\_15\_Version** – версія Office 15. 
 
-  - **Data\_16\_SourceType** – розташування джерела Office 16 (наприклад, мережа CDN або локальна мережа). 
+  - **Data\_16\_SourceType** – розташування джерела Office 16 (наприклад, мережа CDN або локальна мережа). 
 
-  - **Data\_16\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 16. 
+  - **Data\_16\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office 16. 
 
-  - **Data\_16\_UpdateVersion** – версія Office 16, до якої здійснюється оновлення. 
+  - **Data\_16\_UpdateVersion** – версія Office 16, до якої здійснюється оновлення. 
 
-  - **Data\_16\_Version** – версія Office 16. 
+  - **Data\_16\_Version** – версія Office 16. 
 
-  - **Data\_AddingFixedProducts** – продукти, які додаються. 
+  - **Data\_AddingFixedProducts** – продукти, які додаються. 
 
-  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
+  - **Data\_AddingProducts** – продукти, про додавання яких запитується. 
 
   - **Data\_CompletionState** – указує, чи виконано завдання.
 
-  - **Data\_ErrorCode** – код помилки, що сталася. 
+  - **Data\_ErrorCode** – код помилки, що сталася. 
 
-  - **Data\_ErrorDetails** – додаткові відомості щодо помилки. 
+  - **Data\_ErrorDetails** – додаткові відомості щодо помилки. 
 
-  - **Data\_ErrorMessage** – повідомлення про помилку. 
+  - **Data\_ErrorMessage** – повідомлення про помилку. 
 
-  - **Data\_ErrorSource** – указує, де сталася помилка. 
+  - **Data\_ErrorSource** – указує, де сталася помилка. 
 
-  - **Data\_ExceptionType** – виняток помилки. 
+  - **Data\_ExceptionType** – виняток помилки. 
 
-  - **Data\_IsErrorCodeIgnorable** – указує, чи можна ігнорувати помилку, що сталася. 
+  - **Data\_IsErrorCodeIgnorable** – указує, чи можна ігнорувати помилку, що сталася. 
 
-  - **Data\_IsErrorCodeIgnorableForScenarioHealth** – указує, чи вважаємо ми, що помилку можна ігнорувати. 
+  - **Data\_IsErrorCodeIgnorableForScenarioHealth** – указує, чи вважаємо ми, що помилку можна ігнорувати. 
 
-  - **Data\_NewestPackageVersion** – найпізніша версія Office на комп’ютері. 
+  - **Data\_NewestPackageVersion** – найпізніша версія Office на комп’ютері. 
 
-  - **Data\_OldestPackageVersion** – найраніша версія Office на комп’ютері. 
+  - **Data\_OldestPackageVersion** – найраніша версія Office на комп’ютері. 
 
-  - **Data\_ProductsToAdd** – продукти Office, які додаються. 
+  - **Data\_ProductsToAdd** – продукти Office, які додаються. 
 
-  - **Data\_ProductsToRemove**  – продукти Office, які вилучаються. 
+  - **Data\_ProductsToRemove** – продукти Office, які вилучаються. 
 
-  - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
+  - **Data\_RemovingFixedProducts** – продукти, які вилучаються. 
 
-  - **Data\_RemovingProducts** – продукти, для яких надходять запити на вилучення. 
+  - **Data\_RemovingProducts** – продукти, для яких надходять запити на вилучення. 
 
-  - **Data\_ScenarioInstanceID** – унікальний ідентифікатор GUID для сценарію, що виконується. 
+  - **Data\_ScenarioInstanceID** – унікальний ідентифікатор GUID для сценарію, що виконується. 
 
-  - **Data\_ScenarioName** – сценарій, що виконується (наприклад, інсталяція). 
+  - **Data\_ScenarioName** – сценарій, що виконується (наприклад, інсталяція). 
 
-  - **Data\_ScenarioSubType** – тип сценарію, що виконується (наприклад, видалення, повторна інсталяція). 
+  - **Data\_ScenarioSubType** – тип сценарію, що виконується (наприклад, видалення, повторна інсталяція). 
 
-  - **Data\_SourceType** – розташування джерела (наприклад, CDN). 
+  - **Data\_SourceType** – розташування джерела (наприклад, CDN). 
 
-  - **Data\_SqmMachineID**  – унікальний ідентифікатор комп’ютера, який використовується в SQM Windows. 
+  - **Data\_SqmMachineID** – унікальний ідентифікатор комп’ютера, який використовується в SQM Windows. 
 
-  - **Data\_SusClientID**   – ідентифікатор комп’ютера для оновлення Office. 
+  - **Data\_SusClientID** – ідентифікатор комп’ютера для оновлення Office. 
 
-  - **Data\_TaskState** – стан завдання (наприклад, "Виконується" або "Скасовано"). 
+  - **Data\_TaskState** – стан завдання (наприклад, "Виконується" або "Скасовано"). 
 
-  - **Data\_TotalClientCabSize** – розмір файлу CAB клієнта. 
+  - **Data\_TotalClientCabSize** – розмір файлу CAB клієнта. 
 
-  - **Data\_TriggeringUI** – указує, що спричинило активацію інтерфейсу користувача. 
+  - **Data\_TriggeringUI** – указує, що спричинило активацію інтерфейсу користувача. 
 
-  - **Data\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office. 
+  - **Data\_UpdatesEnabled** – указує, чи ввімкнуто оновлення Office. 
 
-  - **Data\_Version** – версія Office. 
+  - **Data\_Version** – версія Office. 
 
 ### <a name="officeclicktoruntransport"></a>Office.ClickToRun.Transport
 
@@ -2949,7 +2949,7 @@ ms.locfileid: "48491563"
 
   - **Data\_SourceProtocol** – указує, звідки завантажуються файли: з мережі доставлення вмісту (CDN), з комп’ютера, на якому виконується інсталяція, з локального середовища або з ресурсу в локальній мережі.
 
-  - **Data\_Status** – успішне виконання або помилка. 
+  - **Data\_Status** – успішне виконання або помилка. 
 
 ### <a name="officeclicktorunupdatestatus"></a>Office.ClickToRun.UpdateStatus
 
@@ -2974,13 +2974,13 @@ ms.locfileid: "48491563"
 
 надає звіти про результат спроби інсталяції.
 
- - **ErrorCode –** ціле значення, пов’язане з необробленим винятком.
+ - **ErrorCode –**    ціле значення, пов’язане з необробленим винятком.
 
  - **ErrorDetails –** рядок, у якому описано розташування необробленого винятку (функція, файл, номер рядка, додаткові налаштовані параметри).
 
- - **ErrorMessage – **рядок, визначений в точці необробленого винятку, який описує природу помилки.
+ - **ErrorMessage –** рядок, визначений в точці необробленого винятку, який описує природу помилки.
 
- - **ErrorType –** рядок, який описує категорію необробленого винятку.
+ - **ErrorType –**    рядок, який описує категорію необробленого винятку.
 
  - **ExitCode –**    ціле число, пов’язане з результатом роботи завантажувача, що вказує на успіх або на певні типи помилок.
 
@@ -2992,7 +2992,7 @@ ms.locfileid: "48491563"
 
 - **Код каналу –**    ціле число, яке представляє значення перелічення вибраного каналу оновлення чи інсталяції. Наприклад, Бета-канал, Невідкладний канал (підготовча версія), Невідкладний канал, Місячний корпоративний канал, Піврічний корпоративний канал (підготовча версія), Піврічний корпоративний канал або неприпустимий.
 
-- **CMDMode –**    зручний рядок, котрий визначає, який перемикач загального режиму визначено в аргументах Cmd, які передано до exe.
+- **CMDMode –**    зручний рядок, котрий визначає який перемикач загального режиму визначено в аргументах Cmd, які передано до exe.
 
 - **C2RClientUICulture –**    культура клієнта C2R для інсталяції.
 
@@ -3000,7 +3000,7 @@ ms.locfileid: "48491563"
 
 - **ErrorDetails –** рядок, у якому описано розташування необробленого винятку (функція, файл, номер рядка, додаткові налаштовані параметри).
 
-- **ErrorMessage – **рядок, визначений в точці необробленого винятку, який описує природу помилки.
+- **ErrorMessage –** рядок, визначений в точці необробленого винятку, який описує природу помилки.
 
 - **ErrorType –**    рядок, який описує категорію необробленого винятку.
 
@@ -3059,9 +3059,9 @@ ms.locfileid: "48491563"
 
 - **ErrorDetails –** рядок, у якому описано розташування необробленого винятку (функція, файл, номер рядка, додаткові налаштовані параметри).
 
-- **ErrorMessage – **рядок, визначений в точці необробленого винятку, який описує природу помилки.
+- **ErrorMessage –** рядок, визначений в точці необробленого винятку, який описує природу помилки.
 
-- **ErrorType –** рядок, який описує категорію необробленого винятку.
+- **ErrorType –**    рядок, який описує категорію необробленого винятку.
 
 ### <a name="officeclicktorununiversalbootstrappercollectparameters"></a>Office.ClickToRun.UniversalBootstrapper.CollectParameters
 
@@ -3079,7 +3079,7 @@ ms.locfileid: "48491563"
 
 - **ErrorDetails –** рядок, у якому описано розташування необробленого винятку (функція, файл, номер рядка, додаткові налаштовані параметри).
 
-- **ErrorMessage – **рядок, визначений в точці необробленого винятку, який описує природу помилки.
+- **ErrorMessage –** рядок, визначений в точці необробленого винятку, який описує природу помилки.
 
 - **ErrorType –**    рядок, який описує категорію необробленого винятку.
 
@@ -3141,29 +3141,29 @@ ms.locfileid: "48491563"
 
 - **CMDMode –**    зручний рядок, котрий визначає який перемикач загального режиму визначено в аргументах Cmd, які передано до exe. Можливості: автозапуск, налаштування, користувач, завантаження, довідка, пакувальник.
 
-- **DeliveryMechanism –**    GUID "FFNRoot", отриманий з XML дескриптора версії (з позначкою RDX), що вказує з якої аудиторії чи каналу походить джерело збірки.
+- **DeliveryMechanism –**    GUID "FFNRoot", отриманий з XML дескриптора версії (з позначкою RDX), що вказує, з якої аудиторії чи каналу походить джерело збірки.
 
 - **DownloadC2RClientAction –**    "true", якщо завдання DownloadC2RClientAction заплановане до виконання під час інсталяції.
 
-- **ErrorCode –** ціле значення, пов’язане з необробленим винятком.
+- **ErrorCode –**    ціле значення, пов’язане з необробленим винятком.
 
 - **ErrorDetails –** рядок, у якому описано розташування необробленого винятку (функція, файл, номер рядка, додаткові налаштовані параметри).
 
-- **ErrorMessage – **рядок, визначений в точці необробленого винятку, який описує природу помилки.
+- **ErrorMessage –** рядок, визначений в точці необробленого винятку, який описує природу помилки.
 
-- **ErrorType –** рядок, який описує категорію необробленого винятку.
+- **ErrorType –**    рядок, який описує категорію необробленого винятку.
 
-- **ExitCode –** ціле число, пов’язане з результатом роботи етапу виконання завантажувача, що вказує на успіх або на певні типи помилок.
+- **ExitCode –**    ціле число, пов’язане з результатом роботи завантажувача на етапі виконання, що вказує на успіх або на певні типи помилок.
 
-- **LaunchAction –** "true", якщо завдання LaunchAction заплановане до виконання під час інсталяції.
+- **LaunchAction –**     "true", якщо завдання LaunchAction заплановане до виконання під час інсталяції.
 
 - **LaunchUpdateAction –**    "true", якщо завдання LaunchUpdateAction заплановане до виконання під час інсталяції.
 
-- **PreReqResult –** ціле значення Enum результату виконання перевірок PreReq (вдало/невдало/повторне виконання).
+- **PreReqResult –**    ціле значення Enum результату виконання перевірок PreReq (вдало/невдало/повторне виконання).
 
-- **UnexpectedAction –** "true", якщо завдання UnexpectedAction (випадок помилки) заплановане до виконання під час інсталяції.
+- **UnexpectedAction –**    "true", якщо завдання UnexpectedAction (випадок помилки) заплановане до виконання під час інсталяції.
 
-- **VersionToInstall –** значення рядка Office версії "16.0.xxxxx.yyyyy", що інсталюється.
+- **VersionToInstall –**    значення рядка Office версії "16.0.xxxxx.yyyyy", що інсталюється.
 
 ### <a name="officeserviceabilitymanagerinventoryaddonheartbeat"></a>Office.ServiceabilityManager.InventoryAddon.Heartbeat
 
@@ -3343,6 +3343,97 @@ ms.locfileid: "48491563"
 - **SessionID** – GUID для підключення подій за сеансами.
 
 
+### <a name="officeandroiddocsuiviewspurchasetokenredemptionresponse"></a>Office.Android.DocsUI.Views.PurchaseTokenRedemptionResponse
+
+Телеметрія продукту збирається для відстеження та журналювання внутрішнього стану транзакції та відомостей про узгодження, щоб підвищити надійність і продуктивність. Корпорація Майкрософт використовує ці дані для аналізу та підвищення надійності й продуктивності обробки внутрішніх транзакцій і механізмів узгодження.
+
+Збираються такі поля:
+
+- **MicrosoftPurchaseOrderId** – ідентифікатор замовлення Microsoft, що надсилається службою федерації роздрібної торгівлі (RFS) з метою відстеження.
+
+- **ResponseCode** – код відповіді HTTP (int).
+
+- **StatusCode** – код стану відповіді RFS (Enum визначається RFS, int – finite).
+
+
+### <a name="officedimesdkhealth"></a>Office.Dime.Sdk.Health
+
+Ця подія записує дані, які допомагають у моніторингу справності компонентів Dime. Дані використовуються для моніторингу та оповіщення про справність потоку покупок Dime, щоб забезпечити його належну роботу. 
+
+Збираються такі поля:
+
+- **Data_ActivityErrorDescription** – опис помилки дії.
+
+- **Data_ActivityErrorMessage** – повідомлення про помилку дії. 
+
+- **Data_CampaignId** – ідентифікатор кампанії для аргументу.
+
+- **Data_ContentId** – на основі ідентифікатора функціоналу; зіставляється з ідентифікатором потоку та ідентифікатором вмісту.
+
+- **Data_CorrelationVector** – вектор кореляції для кореляції методу DIME із партнерами, які використовують цей вектор.
+
+- **Data_CustomerImpacted** – використовується для виправлення неполадок, якщо клієнт зазнав впливу під час завантаження потоку.
+
+- **Data_DimeActivityDuration** – тривалість. 
+
+- **Data_DimeActivityMetadata** – метадані про дії.
+
+- **Data_DimeActivityName** – ім’я дії для моніторингу справності.
+
+- **Data_DimeActivityResult** – результат дії, успішно/помилка/очікувана помилка.
+
+- **Data_DimeVersion** – версія збірки.
+
+- **Data_DurationLevel** – важливість: 0/1/2.
+
+- **Data_EcsConfigIds** – ідентифікатори для експериментів.
+
+- **Data_EcsCountry** – виявлена країна або регіон
+
+- **Data_EcsETag** – інформація про тестовики.
+
+- **Data_Environment** – середовище Dime: виробниче/підготовче.
+
+- **Data_ExperienceId** – функціонал для завантаження. 
+
+- **Data_FlowId** – на основі ідентифікатора функціоналу; зіставляється з ідентифікатором потоку та ідентифікатором вмісту.
+
+- **Data_Language** – культура.
+
+- **Data_Market** – виявлений ринок.
+
+- **Data_OTelJS_Version** – версія телеметрії Office.
+
+- **Data_PageSessionId** – ідентифікатор сеансу сторінки.
+
+- **Data_PartnerId** – програма викликаючої сторони.
+
+- **Data_QosLevel** – важливість: 0/1/2.
+
+- **Data_SDX_AssetId** – ідентифікатор ресурсу SDX із розміщеним вмістом.
+
+- **Data_SDX_BrowserToken** – маркер для браузера.
+
+- **Data_SDX_HostJsVersion** – версія бібліотеки JavaScript.
+
+- **Data_SDX_Id** – ідентифікатор SDX.
+
+- **Data_SDX_InstanceId** – ідентифікатор екземпляра SDX.
+
+- **Data_SDX_MarketplaceType** – тип ринку SDX.
+
+- **Data_SDX_OfficeJsVersion** – версія Office JavaScript.
+
+- **Data_SDX_SessionId** – ідентифікатор сеансу SDX.
+
+- **Data_SDX_Version** – версія SDX.
+
+- **CollectionTime** – позначка часу події.
+
+- **Data_TsgId** – ідентифікатор керівництва з виправлення неполадок для кожної дії.
+
+- **Data_UserAgent** – теги заголовків.
+
 ### <a name="officeiospaywallskuchooserbuybuttontap"></a>Office.iOS.Paywall.SKUChooser.BuyButtonTap
 
 Критично важлива телеметрія використання, яка вказує, коли користувач натискає кнопку "Придбати".  Ці дані використовуються, щоб визначити структурну схему користування та показник конверсії для користувачів, які намагаються придбати передплату в програмі.
@@ -3387,6 +3478,47 @@ ms.locfileid: "48491563"
 Якщо з певних причин ми не зможемо автоматично активувати ліцензію, відкриється майстер активації. Ця подія повідомляє, що для користувача відкривається майстер. Це дуже важливо, щоб визначити, чи перебуває користувач у належному стані та чи всі функції йому доступні. Ця подія використовується для забезпечення справності системи й виконання діагностики, якщо користувач повідомляє про проблему, що виникла в роботі комп’ютера.
 
 Ця подія не збирає дані з полів.
+
+### <a name="officelicensingdialogswebviewdialogclose"></a>Office.Licensing.Dialogs.WebViewDialog.Close
+ 
+Ця подія сигналізує, що процес здійснення внутрішніх покупок закрито користувачем або програмою. Дані використовуються для моніторингу та оповіщення про справність потоку внутрішніх покупок, щоб забезпечити його належну роботу.  
+ 
+Збираються такі поля:
+ 
+- **Data_ClosedDialog** – позначка, яка вказує на те, що користувач закрив діалогове вікно.
+
+### <a name="officelicensingdialogswebviewdialoghandleerrornotification"></a>Office.Licensing.Dialogs.WebViewDialog.HandleErrorNotification
+ 
+Ця подія сигналізує про спробу завантаження процесу здійснення внутрішніх покупок, під час якої сталася помилка, через яку діалогове вікно не відображається. Дані використовуються для моніторингу та оповіщення про справність потоку внутрішніх покупок, щоб забезпечити його належну роботу.  
+ 
+Збираються такі поля:
+  
+- **Data_MoeErrorCode** – код помилки, який відображається в діалоговому вікні для Інтернету.
+
+### <a name="officelicensingdialogswebviewdialogpreload"></a>Office.Licensing.Dialogs.WebViewDialog.Preload
+ 
+Ця подія сигналізує, що процес здійснення внутрішніх покупок завантажується у фоновому режимі. Дані використовуються для моніторингу та оповіщення про справність потоку внутрішніх покупок, щоб забезпечити його належну роботу.  
+ 
+Збираються такі поля:
+
+ - Нічого
+
+### <a name="officelicensingdialogswebviewdialogshow"></a>Office.Licensing.Dialogs.WebViewDialog.Show
+ 
+Ця подія сигналізує, що процес здійснення внутрішніх покупок відображається для користувача. Дані використовуються для моніторингу та оповіщення про справність потоку внутрішніх покупок.  
+
+Збираються такі поля:
+
+ - Нічого
+
+### <a name="officelicensingdialogswebviewdialogtimeout"></a>Office.Licensing.Dialogs.WebViewDialog.Timeout
+
+Ця подія сигналізує про спробу завантаження процесу здійснення внутрішніх покупок, час очікування якої вичерпано. Дані використовуються для моніторингу та оповіщення про справність потоку внутрішніх покупок, щоб забезпечити його належну роботу. 
+
+Збираються такі поля:
+
+ - Нічого
+
 
 ### <a name="officelicensingenforcesigninqualified"></a>Office.Licensing.EnforceSignInQualified 
 
@@ -3949,7 +4081,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
     
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -3990,7 +4122,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -4110,7 +4242,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -4192,7 +4324,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -4275,7 +4407,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -4317,7 +4449,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -4363,7 +4495,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -4387,6 +4519,8 @@ ms.locfileid: "48491563"
 
 - **SessionId** – ідентифікатор сесії.
 
+- **Success** – указує, чи завдання клонування було успішним.
+
 - **UpdateID** – ідентифікатор оновлення.
 
 
@@ -4402,7 +4536,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -4443,7 +4577,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -4483,7 +4617,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -5700,6 +5834,47 @@ ms.locfileid: "48491563"
 - **SessionId** – ідентифікатор сесії.
 
 
+### <a name="controllermainwindowsetautomaticchecking"></a>controller.mainwindow.setautomaticchecking
+
+– вказує на те, що пристрій зареєстровано в режим автоматичного оновлення. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
+
+Збираються такі поля:
+
+ - **App** – процес програми, яка надсилає подію.
+
+- **AppInfo_Language** – мова, на якій працює програма.
+
+- **AppVersionLong** – версія програми.
+
+- **Channel** – уподобання для аудиторії.
+
+- **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
+
+- **DeviceID** – ідентифікатор пристрою.
+
+- **DeviceInfo_Model** – апаратна модель пристрою.
+
+- **DeviceInfo_NetworkType** – тип мережі (Wi-Fi, провідна, невідома).
+
+- **DeviceInfo_OsBuild** – версія ОС.
+
+- **Event_ReceivedTime** – час отримання телеметрії.
+
+- **EventInfo_Name** – ім’я телеметричної події, яка фіксується.
+
+- **EventInfo_Time** – час події, яка фіксується. 
+
+- **HowTocheck** – параметри перевірки оновлень.
+
+- **Payload** – текст, що вказує на характер події.
+
+- **PipelineInfo_ClientCountry** – країна або регіон пристрою (на основі IP-адреси).
+
+- **PipelineInfo_ClientIp** – перші 3 октети IP-адреси.
+
+- **SessionId** – ідентифікатор сеансу.
+
+
 ### <a name="controllermainwindowsetautomaticdownloadinstall"></a>controller.mainwindow.setautomaticdownloadinstall
 
 – вказує на те, що пристрій зареєстровано в режим автоматичного оновлення. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
@@ -6451,7 +6626,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -7205,7 +7380,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -7247,7 +7422,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -7289,7 +7464,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -7410,7 +7585,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -7448,7 +7623,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -7488,7 +7663,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -7528,7 +7703,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -7568,7 +7743,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -7608,7 +7783,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -7648,7 +7823,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -7688,7 +7863,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -7774,7 +7949,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -7816,7 +7991,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -7856,7 +8031,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -7896,7 +8071,7 @@ ms.locfileid: "48491563"
     
 - **AppVersionLong** – версія програми.
     
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
     
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
     
@@ -7936,7 +8111,7 @@ ms.locfileid: "48491563"
     
 - **AppVersionLong** – версія програми.
     
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -7976,7 +8151,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -8941,7 +9116,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -8989,7 +9164,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -9362,7 +9537,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -9488,7 +9663,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -9608,7 +9783,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -9650,7 +9825,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -9694,7 +9869,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -9738,7 +9913,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -9874,7 +10049,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -9918,7 +10093,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -9960,7 +10135,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -10002,7 +10177,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -10251,7 +10426,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -10300,7 +10475,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -10822,48 +10997,7 @@ ms.locfileid: "48491563"
 
 - **SessionId** – ідентифікатор сесії.
 
-
-### <a name="installupdatestaskretryproxyerror"></a>installupdatestask.retryproxyerror
-
-Реєструє помилки взаємодії між процесами (зв’язок із помічником засобу автоматичного оновлення Microsoft). Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
- 
-Збираються такі поля:
-
-- **App** – процес програми, яка надсилає подію.
-
-- **AppInfo_Language** – мова, на якій працює програма.
-
-- **AppVersionLong** – версія програми.
-
-- **Channel** – уподобання для аудиторії.
-
-- **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
-
-- **DeviceID** – ідентифікатор пристрою.
-
-- **DeviceInfo_Model** – апаратна модель пристрою.
-
-- **DeviceInfo_NetworkTypee** – тип мережі (Wi-Fi, провідна, невідома).
-
-- **DeviceInfo_OsBuild** – версія ОС.
-
-- **Event_ReceivedTime** – час отримання телеметрії.
-
-- **EventInfo_Name** – ім’я телеметричної події, яка фіксується.
-
-- **EventInfo_Time** – час події, яка фіксується. 
-
-- **HowTocheck** – параметри перевірки оновлень.
-
-- **Payload** – містить ідентифікатор, який використовується для відстеження активності оновлення, ім’я оновлення та відомості про зареєстровані помилки проксі-сервера.
-
-- **PipelineInfo_ClientCountry** – країна або регіон пристрою (на основі IP-адреси).
-
-- **PipelineInfo_ClientIp** – перші 3 октети IP-адреси.
-
-- **SessionId** – ідентифікатор сесії.
-
-    
+   
 ### <a name="installupdatestaskretryproxyerror"></a>installupdatestask.retryproxyerror
 
 Реєструє помилки взаємодії між процесами (зв’язок із помічником засобу автоматичного оновлення Microsoft). Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
@@ -11043,7 +11177,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -11082,6 +11216,94 @@ ms.locfileid: "48491563"
 - **UpdateName** – ім'я оновлення, яке відображається в завантаженому файлі маніфесту.
 
 - **UpdatePkg** – ім’я пакета оновлення, що застосовується.
+
+### <a name="lifecyclecomplimentproclaunch"></a>Lifecycle.complimentproclaunch
+
+Ця подія вказує на спробу запуску помічника з оновлення Microsoft із функції автоматичного оновлення Microsoft, або навпаки. Вона використовується для визначення та забезпечення справності функції автоматичного оновлення Microsoft і помічника з оновлення Microsoft.
+
+Збираються перелічені нижче поля.
+
+- **App** – процес програми, яка надсилає подію.
+
+- **AppInfo_Language** – мова, на якій працює програма.
+
+- **AppVersionLong** – версія програми.
+
+- **Channel** – уподобання для аудиторії.
+
+- **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
+
+- **DeviceID** – ідентифікатор пристрою.
+
+- **DeviceInfo_Model** – апаратна модель пристрою.
+
+- **DeviceInfo_NetworkType** – тип мережі (Wi-Fi, провідна, невідома).
+
+- **DeviceInfo_OsBuild** – версія ОС.
+
+- **Error** – будь-яка помилка під час спроби запуску.
+
+- **Event_ReceivedTime** – час отримання телеметрії.
+
+- **EventInfo_Name** – ім’я телеметричної події, яка фіксується.
+
+- **EventInfo_Time** – час події, яка фіксується. 
+
+- **HowToCheck** – перевірка параметра.
+
+- **PipelineInfo_ClientCountry** – країна або регіон пристрою (на основі IP-адреси).
+
+- **PipelineInfo_ClientIp** – перші 3 октети IP-адреси.
+
+- **Reason** – причина спроби запуску процесу визнання.
+
+- **SessionId** – ідентифікатор сеансу.
+
+- **Success** – указує, чи спроба запуску була успішною.
+
+### <a name="lifecyclelaunch"></a>Lifecycle.launch
+
+Ця подія вказує на запуск функції автоматичного оновлення Microsoft або помічника з оновлення Microsoft. Крім того, вона використовується, щоб повідомити про проблеми, виявлені під час процесу запуску, а також метод звітування, що використовується у випадку помічника з оновлення Microsoft.
+
+*[Ця подія заміняє події fba.launch і appdelegate.launch.]*
+
+Збираються перелічені нижче поля.
+
+- **App** – процес програми, яка надсилає подію.
+
+- **AppInfo_Language** – мова, на якій працює програма.
+
+- **AppVersionLong** – версія програми.
+
+- **Channel** – уподобання для аудиторії.
+
+- **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
+
+- **DeviceID** – ідентифікатор пристрою.
+
+- **DeviceInfo_Model** – апаратна модель пристрою.
+
+- **DeviceInfo_NetworkTypee** – тип мережі (Wi-Fi, провідна, невідома).
+
+- **DeviceInfo_OsBuild** – версія ОС.
+
+- **Error** – будь-яка помилка під час запуску.
+
+- **Event_ReceivedTime** – час отримання телеметрії.
+
+- **EventInfo_Name** – ім’я телеметричної події, яка фіксується.
+
+- **EventInfo_Time** – час події, яка фіксується. 
+
+- **HowToCheck** – перевірка параметра.
+
+- **LaunchedBy** – метод, який використовується для запуску помічника з оновлення Microsoft (якщо застосовується).
+
+- **PipelineInfo_ClientCountry** – країна або регіон пристрою (на основі IP-адреси).
+
+- **PipelineInfo_ClientIp** – перші 3 октети IP-адреси.
+
+- **SessionId** – ідентифікатор сесії.
 
 ### <a name="lifecycleperiodiccheck"></a>Lifecycle.periodiccheck
 
@@ -11134,6 +11356,50 @@ ms.locfileid: "48491563"
 - **SessionLength** – тривалість поточного сеансу процесу в секундах.
 
 
+### <a name="lifecycleterminate"></a>Lifecycle.terminate
+
+Ця подія вказує на завершення роботи функції автоматичного оновлення Microsoft або помічника з оновлення Microsoft. Вона використовується для визначення справності функції автоматичного оновлення Microsoft і помічника з оновлення Microsoft.
+
+*[Ця подія заміняє події fba.terminate і appdelegate.terminate.]*
+
+Збираються перелічені нижче поля.
+
+- **App** – процес програми, яка надсилає подію.
+
+- **AppInfo_Language** – мова, на якій працює програма.
+
+- **AppVersionLong** – версія програми.
+
+- **Channel** – уподобання для аудиторії.
+
+- **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
+
+- **DeviceID** – ідентифікатор пристрою.
+
+- **DeviceInfo_Model** – апаратна модель пристрою.
+
+- **DeviceInfo_NetworkType** – тип мережі (Wi-Fi, провідна, невідома).
+
+- **DeviceInfo_OsBuild** – версія ОС.
+
+- **Event_ReceivedTime** – час отримання телеметрії.
+
+- **EventInfo_Name** – ім’я телеметричної події, яка фіксується.
+
+- **EventInfo_Time** – час події, яка фіксується. 
+
+- **HowToCheck** – перевірка параметра.
+
+- **PipelineInfo_ClientCountry** – країна або регіон пристрою (на основі IP-адреси).
+
+- **PipelineInfo_ClientIp** – перші 3 октети IP-адреси.
+
+- **SessionId** – ідентифікатор сесії.
+
+- **SessionLength** – тривалість поточного сеансу процесу в секундах.
+
+
+
 ### <a name="msupdateclieventhandler"></a>msupdate.cli.eventhandler
 
 Ця подія використовується, щоб обчислювати використання різних типів API інтерфейсу командного рядка служби автоматичного оновлення Microsoft.
@@ -11148,7 +11414,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -11517,7 +11783,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -11557,7 +11823,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -11597,7 +11863,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -11637,7 +11903,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -11677,7 +11943,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -11717,7 +11983,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -11757,7 +12023,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -11797,7 +12063,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -11839,7 +12105,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -11879,7 +12145,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -11959,7 +12225,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -11999,7 +12265,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -12039,7 +12305,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -12079,7 +12345,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -12163,7 +12429,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -12207,7 +12473,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -12253,7 +12519,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -12297,7 +12563,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -12337,7 +12603,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -12379,7 +12645,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -12425,7 +12691,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -12471,7 +12737,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -12513,7 +12779,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -12559,7 +12825,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -12601,7 +12867,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -12647,7 +12913,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -12691,7 +12957,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -12731,7 +12997,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -12773,7 +13039,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -12815,7 +13081,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -12861,7 +13127,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -12903,7 +13169,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -13025,7 +13291,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -13105,7 +13371,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -13186,7 +13452,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -13226,7 +13492,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -13719,7 +13985,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -13883,7 +14149,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -13925,7 +14191,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -14336,7 +14602,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -14384,7 +14650,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -14535,47 +14801,6 @@ ms.locfileid: "48491563"
 - **SessionId** – ідентифікатор сесії.
 
 
-### <a name="webservicesserviceaction"></a>webservices.serviceaction
-
-Реєструє помилки, які виникають в результаті неочікуваної реакції веб-служби. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
- 
-Збираються такі поля:
-
-- **App** – процес програми, яка надсилає подію.
-
-- **AppInfo_Language** – мова, на якій працює програма.
-
-- **AppVersionLong** – версія програми.
-
-- **Channel** – уподобання для аудиторії.
-
-- **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
-
-- **DeviceID** – ідентифікатор пристрою.
-
-- **DeviceInfo_Model** – апаратна модель пристрою.
-
-- **DeviceInfo_NetworkTypee** – тип мережі (Wi-Fi, провідна, невідома).
-
-- **DeviceInfo_OsBuild** – версія ОС.
-
-- **Event_ReceivedTime** – час отримання телеметрії.
-
-- **EventInfo_Name** – ім’я телеметричної події, яка фіксується.
-
-- **EventInfo_Time** – час події, яка фіксується. 
-
-- **HowTocheck** – параметри перевірки оновлень.
-
-- **Payload** – містить відомості про дію з веб-служби.
-
-- **PipelineInfo_ClientCountry** – країна або регіон пристрою (на основі IP-адреси).
-
-- **PipelineInfo_ClientIp** – перші 3 октети IP-адреси.
-
-- **SessionId** – ідентифікатор сесії.
-
-
 ### <a name="webservicesserviceresponse"></a>webservices.serviceresponse
 
 Реєструє запити до служби автоматичного оновлення Microsoft, час відгуку та помилки. Ця подія використовується для забезпечення належного виконання процесу оновлення та для усунення помилок.
@@ -14669,7 +14894,7 @@ ms.locfileid: "48491563"
 
 - **AppVersionLong** – версія програми.
 
-- **Channel** - уподобання для аудиторії.
+- **Channel** – уподобання для аудиторії.
 
 - **Device_NetworkCountry** – країна або регіон пристрою (на основі IP-адреси).
 
@@ -15251,6 +15476,46 @@ ms.locfileid: "48491563"
 - **requestType** – рядок – тип запиту StoreKit. Як-от "Produtsfetch", "PendingPurchase".
 
 - **status** – рядок – успіх або помилка, що вказує на успішність або невдачу запиту.
+
+### <a name="officeonenotegetsharepointidsfordocument"></a>Office.OneNote.GetSharePointIdsForDocument
+
+Зібрані дані містять відомості про успішність або помилки під час отримання ідентифікаторів SharePoint (SPO) для URL-адреси документа. Успішність і помилки (включно з причиною помилки) виклику записуються для всіх платформ. Цей маркер потрібен для відстеження та діагностики справності виклику, зробленого з метою отримання ідентифікаторів. Ідентифікатори необхідні, щоб дані на сторінці OneNote (яка входить до блокнотів, що зберігаються в SharePoint) відображалися в каналі. 
+
+Збираються такі поля:
+
+- **ErrorCode** – значення int помилки.
+
+- **ErrorMessage** – рядок з описом помилки.
+
+- **FailureType** – рядок для визначення типу помилки.
+
+- **HttpStatusCode** – код помилки HTTP для виклику мережі.
+
+- **InnerErrorCode** – код int.
+
+- **InnerErrorMesage** – повідомлення про помилку.
+
+- **IsSuccess** – логічне значення, яке вказує на успішність.
+
+### <a name="officeonenotegetsharepointidsfordocumentw32old"></a>Office.OneNote.GetSharePointIdsForDocumentW32Old
+
+Телеметрія фіксує сценарії помилок і відомості про успішність під час отримання ідентифікаторів SharePoint (SPO) для URL-адреси документа. Успішність і помилки (включно з причиною помилки) виклику записуються. Запис ведеться тільки на старій платформі win32. Цей маркер потрібен для відстеження та діагностики справності виклику, зробленого з метою отримання ідентифікаторів. Ідентифікатори необхідні, щоб дані на сторінці OneNote (яка входить до блокнотів, що зберігаються в SharePoint) відображалися в каналі. 
+
+Збираються такі поля:
+
+- **ErrorCode** – значення int помилки.
+
+- **ErrorMessage** – рядок з описом помилки.
+
+- **FailureType** – рядок для визначення типу помилки.
+
+- **HttpStatusCode** – код помилки HTTP для виклику мережі.
+
+- **InnerErrorCode** – код int.
+
+- **InnerErrorMesage** – повідомлення про помилку.
+
+- **IsSuccess** – логічне значення, яке вказує на успішність.
 
 
 ### <a name="officesystemgracefulexitgracefulappexitdesktop"></a>Office.System.GracefulExit.GracefulAppExitDesktop
@@ -16021,7 +16286,7 @@ ms.locfileid: "48491563"
 
 ### <a name="officesystemsystemhealthungracefulappexitdesktop"></a>Office.System.SystemHealthUngracefulAppExitDesktop
 
-Використовується для збору метрик аварійного завершення роботи.
+Подія ініціюється аварійним завершенням роботи (закриття через диспетчер завдань, зависання програми тощо) таких клієнтських програм Office, як Word, Excel, PowerPoint і Outlook. Для оцінки справності клієнтських продуктів Office використовуються показники неправильного завершення програми. Це критично важливий сигнал, який використовується для визначення стабільності продукту.
 
 Збираються такі поля:
 
@@ -16029,83 +16294,103 @@ ms.locfileid: "48491563"
 
   - **AffectedProcessAppBuildRevision** – ідентифікатор редакції збірки для процесу, на який впливає проблема.
 
+  - **AffectedProcessAppMajorVer** – ідентифікатор проміжної версії для процесу, на який впливає проблема.
+
   - **AffectedProcessAppMinorVer** – ідентифікатор номера проміжної версії для процесу, на який впливає проблема.
 
-  - **AffectedProcessAppName** – ім’я процесу, на який впливає проблема.
+  - **AffectedProcessAppName** – ім’я процесу, на який впливає проблема. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
 
-  - **AffectedProcessExeBuildVersion** – номер версії збірки процесу, на який впливає проблема.
+  - **AffectedProcessExeBuildVersion** – номер версії збірки процесу, на який впливає проблема. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
 
-  - **AffectedProcessExeMajorVersion** – номер основної версії процесу, на який впливає проблема.
+  - **AffectedProcessExeMajorVersion** – номер основної версії процесу, на який впливає проблема. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
 
-  - **AffectedProcessExeMinorVersion** – номер проміжної версії процесу, на який впливає проблема.
+  - **AffectedProcessExeMinorVersion** – номер проміжної версії процесу, на який впливає проблема. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
 
-  - **AffectedProcessExeRevisionVersion** – номер версії редакції збірки процесу, на який впливає проблема.
+  - **AffectedProcessExeRevisionVersion** – номер версії редакції збірки процесу, на який впливає проблема. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
 
-  - **AffectedProcessIsDebug** – указує, чи є процес, на який впливає проблема, збіркою для налагодження.
+  - **AffectedProcessIsDebug** – указує, чи є процес, на який впливає проблема, збіркою для налагодження. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
 
-  - **AffectedProcessIsLabMachine** – указує, чи відбувається процес, на який впливає проблема, у лабораторії Майкрософт.
+  - **AffectedProcessIsLabMachine** – указує, чи відбувається процес, на який впливає проблема, у лабораторії Майкрософт. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
 
-  - **AffectedProcessOsEnvironment** – ідентифікатор ОС для процесу, на який впливає проблема.
+  - **AffectedProcessOsEnvironment** – ідентифікатор ОС для процесу, на який впливає проблема. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
 
-  - **AppName** – назва програми, на яку впливає проблема.
+  - **AppName** – назва програми, на яку впливає проблема. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
 
-  - **CrashedAssignedFlights** – тестовики, призначені процесу, який аварійно завершився.
+  - **CrashedAssignedFlights** – тестовики, призначені процесу, який аварійно завершився. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
 
-  - **CrashedConfigIds** – конфігурація, призначена процесу, який аварійно завершився.
+  - **CrashedConfigIds** – конфігурація, призначена процесу, який аварійно завершився. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
 
   - **CrashedEcsETag** – ідентифікатор експерименту для процесу, який аварійно завершився.
 
-  - **CrashedImpressionId** – ідентифікатор перегляду для процесу, який аварійно завершився.
+  - **CrashedImpressionId** – ідентифікатор перегляду для процесу, який аварійно завершився. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
 
-  - **CrashedProcessSessionID** – унікальний ідентифікатор процесу, який аварійно завершився.
+  - **CrashedModuleName** – ім’я модуля, у роботі якого сталася помилка.
 
-  - **CrashedSessionInitTime** – час початку процесу, який аварійно завершився.
+  - **CrashedProcessSessionID** – унікальний ідентифікатор процесу, який аварійно завершився. 
+
+  - **CrashedSessionInitTime** – час початку процесу, який аварійно завершився. 
+
+  - **CrashedProcessSessionUninitTime** – час завершення процесу, який аварійно завершився.
+
+  - **CrashTag –** унікальний ідентифікатор коду аварійного завершення.
 
   - **CrashType** – ідентифікатор сегментування для типу аварійного завершення роботи.
 
-  - **DetectionTime** – час виявлення непередбаченого виходу.
+  - **DetectionTime** – час виявлення непередбаченого виходу. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
 
-  - **ErrorString** – опис помилки.
+  - **ErrorString** – опис помилки. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
 
-  - **ExceptionAddress** – адреса в програмі, де сталася помилка.
+  - **ExceptionAddress** – адреса в програмі, де сталася помилка. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
 
   - **ExceptionCode** – ідентифікатор сегментування для винятку.
 
-  - **FaultAppName** – назва програми, у роботі якої сталася помилка.
+  - **FaultAppName** – назва програми, у роботі якої сталася помилка. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
 
   - **InstallMethod** – указує, чи є поточна збірка Office результатом оновлення, відкочування або нової інсталяції.
 
-  - **InstallType** – ідентифікатор способу інсталяції Office.
+  - **InstallType** – ідентифікатор способу інсталяції Office. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
 
-  - **InstallTypeName** – ідентифікатор способу інсталяції Office.
+  - **InstallTypeName** – ідентифікатор методу інсталяції Office. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
 
-  - **IsLabMachine** – указує, чи запущено Office у лабораторії Майкрософт.
+  - **IsLabMachine** – указує, чи запущено Office у лабораторії Майкрософт. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
 
-  - **IsMsftInternal** – указує, чи є користувач Windows, який запустив Office, працівником корпорації Майкрософт.
+  - **IsMsftInternal** – указує, чи є користувач Windows, який запустив Office, працівником корпорації Майкрософт. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
 
-  - **ModuleBaseAddress** – базова адреса модуля, у роботі якого сталася помилка.
+  - **ModuleBaseAddress** – базова адреса модуля, у роботі якого сталася помилка. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
 
-  - **ModuleBuildVersion** – номер версії збірки модуля, у роботі якого сталася помилка.
+  - **ModuleBuildVersion** – номер версії збірки модуля, у роботі якого сталася помилка. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
 
-  - **ModuleMajorVersion** – номер основної версії модуля, у роботі якого сталася помилка.
+  - **ModuleMajorVersion** – номер основної версії модуля, у роботі якого сталася помилка. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
 
-  - **ModuleMinorVersion** – номер проміжної версії модуля, у роботі якого сталася помилка.
+  - **ModuleMinorVersion** – номер проміжної версії модуля, у роботі якого сталася помилка. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
 
-  - **ModuleName** – ім’я модуля, у роботі якого сталася помилка.
+  - **ModuleName** – ім’я модуля, у роботі якого сталася помилка. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
 
-  - **ModuleOffset** – зміщення (у байтах) щодо базової адреси, яке вказує, де сталася помилка.
+  - **ModuleOffset** – шістнадцяткове зміщення (у байтах) щодо базової адреси, яке вказує, де сталася помилка.
 
-  - **ModuleRevisionVersion** – номер версії редакції збірки модуля, у роботі якого сталася помилка.
+  - **ModuleRevisionVersion** – номер версії редакції збірки модуля, у роботі якого сталася помилка. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
 
-  - **ModuleSize** – розмір модуля (у байтах), у роботі якого сталася помилка.
+  - **ModuleSize** – розмір модуля (у байтах), у роботі якого сталася помилка. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
+
+  - **ModuleVersion** – версія аварійного модуля, який відповідає за аварійне завершення роботи.
+
+  - **OfficeArchitectureText** – архітектура інсталяції: x64, x86 тощо.
+
+  - **OfficeUiLang** – мова інтерфейсу користувача збірки Office.
 
   - **OSEnvironment** – ідентифікатор середовища, у якому запущено Office.
 
   - **PreviousBuild** – раніше інстальована ​версія збірки.
 
-  - **UAETypeName** – ідентифікатор сегментування, який указує, у який спосіб стався неправильний вихід із програми.
+  - **ProcessorArchitecture** – архітектура обробника для середовища: x64, x86 тощо.
 
-  - **VerifyElseCrashTag** – унікальний ідентифікатор, який указує, де в роботі програми сталася помилка.
+  - **SessionFlags** – визначає умови сеансу, як-от чи було відкрито файл, чи він редагувався, чи було відкрито хмарний документ, чи виконано послідовність завантаження тощо. 
+
+  - **UAETypeName** – ідентифікатор сегментування, який указує, у який спосіб стався неправильний вихід із програми. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
+
+  - **UninitLibletId** – унікальний ідентифікатор компонента аварійного завершення, у якому сталася помилка.
+
+  - **VerifyElseCrashTag** – унікальний ідентифікатор, який указує, де в роботі програми сталася помилка. *[Ця поле видалене з поточних збірок Office, але все одно може відображатися в попередніх збірках.]*
 
 ### <a name="officesystemsystemhealthungracefulappexitimmersive"></a>Office.System.SystemHealthUngracefulAppExitImmersive
 
@@ -16171,79 +16456,110 @@ ms.locfileid: "48491563"
 
 Збираються такі поля:
 
-  - **AddinExecution** – позначка, що інформує про те, що надбудова виконувалася й не завершилася через некоректне завершення роботи програми.
+  - **AddinExecution** – позначка, що інформує про те, що надбудова виконувалася і її роботу не було завершено через неправильний вихід із програми. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
 
-  - **BootCompleted –** під час аварійного завершення роботи було виконано завантаження Office.
+  - **AppUsedVirtualMemory** – віртуальна пам’ять, яка використовується програмою Office.
 
-  - **CrashedAppBuild** – ідентифікатор версії збірки для процесу, на який впливає проблема.
+  - **BootCompleted** – указує, чи було виконано завантаження Office під час аварійного завершення роботи. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
 
-  - **CrashedAppMajor** – ідентифікатор основної версії для процесу, на який впливає проблема.
+  - **BucketId** – ідентифікатор сегмента Watson для аварійного завершення роботи.
+ 
+  - **CabGuid** – глобальний унікальний ідентифікатор (GUID) CAB-файлу Watson.
 
-  - **CrashedAppMinor** – ідентифікатор проміжної версії для процесу, на який впливає проблема.
+  - **CrashedAppBuild** – ідентифікатор версії збірки для процесу, на який впливає проблема. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
 
-  - **CrashedAppRevision** – ідентифікатор версії збірки для процесу, на який впливає проблема.
+  - **CrashedAppMajor** – ідентифікатор основної версії для процесу, на який впливає проблема. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
+ 
+  - **CrashedAppMinor** – ідентифікатор проміжної версії для процесу, на який впливає проблема. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
+
+  - **CrashedAppVersion** – ідентифікатор версії програми для процесу, який аварійно завершився.
 
   - **CrashedEcsETag** – ідентифікатор експерименту для процесу, який аварійно завершився.
 
   - **CrashedModuleName** – ім’я модуля, у роботі якого сталася помилка.
 
-  - **CrashedSessionId** – унікальний ідентифікатор процесу, який аварійно завершився.
+  - **CrashedProcessSessionId** – унікальний ідентифікатор процесу, який аварійно завершився.
 
-  - **CrashedSessionInitTime** – час початку процесу, який аварійно завершився.
+  - **CrashedProcessSessionInitTime** – час початку процесу, у роботі якого сталася помилка.
 
-  - **CrashTime –** час, коли клієнт неправильно завершив роботу.
+  - **CrashedProcessSessionUninitTime** – час завершення процесу, який аварійно завершився.
+
+  - **CrashTag** – унікальний ідентифікатор коду аварійного завершення.
+
+  - **CrashTime** – час, коли клієнт неправильно завершив роботу. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
 
   - **CrashType** – ідентифікатор сегментування для типу аварійного завершення роботи.
 
-  - **DetectionTime** – час виявлення непередбаченого виходу.
+  - **DetectionTime** – час виявлення непередбаченого виходу. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
 
-  - **ExceptionAddress** – адреса в програмі, де сталася помилка.
+  - **ExceptionAddress** – адреса в програмі, де сталася помилка. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
 
   - **ExceptionCode** – ідентифікатор сегментування для винятку.
 
-  - **HandOff –** чи створив і передав користувач процес Office до нового сеансу.
+  - **ExceptionInfo** – відомості про систему для винятку.
 
-  - **HasEdit –** чи редагувався користувачем документ у клієнті, який аварійно завершив роботу.
+  - **HandOff** – указує, чи користувач створив і передав процес Office до нового сеансу. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
 
-  - **HasOpen –** чи був відкритий документ у клієнті, який аварійно завершив роботу.
+  - **HangTypeCode** – відображає клас зависання, якщо процес завис під час виконання.
 
-  - **HexCrashTag – ** унікальний ідентифікатор коду аварійного завершення.
+  - **HasEdit** – указує, чи користувач редагував документ у клієнті, який аварійно завершив роботу. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
 
-  - **ExceptionAddress** – шістнадцяткова адреса в програмі, у роботі якої сталася помилка.
+  - **HasOpen** – указує, чи було відкрито документ у клієнті, який аварійно завершив роботу. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
 
-  - **HexExceptionCode** – шістнадцятковий ідентифікатор сегментування для винятку.
+  - **HexCrashTag** – унікальний ідентифікатор коду аварійного завершення. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
 
-  - **HexModuleBaseAddress** – шістнадцяткова базова адреса модуля, у роботі якого сталася помилка.
+  - **HexExceptionAddress** – шістнадцяткова адреса в програмі, у роботі якої сталася помилка. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
 
-  - **HexModuleOffset** – шістнадцяткове зміщення (у байтах) щодо базової адреси, яке вказує, де сталася помилка.
+  - **HexExceptionCode** – шістнадцятковий ідентифікатор сегментування для винятку. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
 
-  - **HexModuleSize** – шістнадцятковий розмір модуля (у байтах), у роботі якого сталася помилка.
+  - **HexModuleBaseAddress** – шістнадцяткова базова адреса модуля, у роботі якого сталася помилка. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
 
-  - **HexVerifyElseCrashTag** – шістнадцятковий унікальний ідентифікатор, який указує, де в роботі програми сталася помилка.
+  - **HexModuleOffset** – шістнадцяткове зміщення (у байтах) щодо базової адреси, яке вказує, де сталася помилка. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
+
+  - **HexModuleSize** – шістнадцятковий розмір модуля (у байтах), у роботі якого сталася помилка. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
+
+  - **HexVerifyElseCrashTag** – шістнадцятковий унікальний ідентифікатор, який указує, де в роботі програми сталася помилка. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
 
   - **InstallMethod** – указує, чи є поточна збірка Office результатом оновлення, відкочування або нової інсталяції.
 
-  - **IsLabMachine** – указує, чи запущено Office у лабораторії Майкрософт.
+  - **IsLabMachine** – указує, чи запущено Office у лабораторії Майкрософт. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
 
-  - **ModuleBaseAddress** – базова адреса модуля, у роботі якого сталася помилка.
+  - **ModuleBaseAddress** – базова адреса модуля, у роботі якого сталася помилка. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
 
-  - **ModuleOffset** – зміщення (у байтах) щодо базової адреси, яке вказує, де сталася помилка.
+  - **ModuleOffset** – шістнадцяткове зміщення (у байтах) щодо базової адреси, яке вказує, де сталася помилка.
 
-  - **ModuleSize** – розмір модуля (у байтах), у роботі якого сталася помилка.
+  - **ModuleSize** – розмір модуля (у байтах), у роботі якого сталася помилка. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
 
-  - **OfficeArchitectureText** – архітектура продукту Office (наприклад, x86, ARM).
+  - **ModuleStamp** – позначка модуля, у роботі якого сталася помилка.
 
-  - **OfficeUiLang** – мова інтерфейсу користувача збірки Office.
+  - **ModuleVersion** – версія аварійного модуля, який відповідає за аварійне завершення роботи.
 
-  - **PreviousBuild** – раніше інстальована ​версія збірки.
+  - **OfficeArchitectureText** – архітектура продукту Office як рядка (наприклад, x86, ARM).
 
-  - **SafeMode –** чи була завантажена сесія у безпечному режимі.
+  - **OfficeUILang** – мова інтерфейсу користувача збірки Office.
 
-  - **UAEOSEnvironment** – ідентифікатор середовища ОС.
+  - **PreviousBuild** – раніше інстальована версія збірки.
 
-  - **UninitLibletId –** унікальний ідентифікатор компонента аварійного завершення, у якому сталася помилка.
+  - **ProcessorArchitecture** – архітектура обробника для середовища x64, x86 тощо.
 
-  - **VerifyElseCrashTag** – унікальний ідентифікатор, який указує, де в роботі програми сталася помилка. *[Ця поле видалене з поточних збірок Office, але все одно може відображатися в попередніх збірках.]*
+  - **SafeMode** – указує, чи сеанс було завантажено в безпечному режимі. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
+
+  - **SessionFlags** – визначає умови сеансу, як-от чи було відкрито файл, чи він редагувався, чи було відкрито хмарний документ, чи виконано послідовність завантаження тощо. 
+
+  - **StackHash** – надає гешований ідентифікатор для стека помилок в Office.
+
+  - **SystemAvailableMemory** – доступна пам’ять в ОС.
+
+  - **UAEOSEnvironment** – ідентифікатор середовища ОС. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
+
+  - **UninitLibletId** – унікальний ідентифікатор компонента аварійного завершення, у якому сталася помилка.
+
+  - **VerifyElseCrashTag** – унікальний ідентифікатор, який указує, де в роботі програми сталася помилка. *[Ця поле вилучено з поточних збірок Office, але воно все одно може відображатися в попередніх збірках.]*
+
+  - **WatsonReportId** – ідентифікатор звіту, який надсилається в службу Windows Watson.
+
+  - **WerEventCreatedTime** – позначка часу для події звітування про критичні помилки Windows.
+
 
 ### <a name="officesystemungracefulapplicationexitdesktopappexit"></a>Office.System.UngracefulApplicationExit.DesktopAppExit
 
@@ -16491,7 +16807,7 @@ ms.locfileid: "48491563"
 
   - **IsRuleEvent** – логічне значення (true/false), яке вказує, чи реалізовано подію за допомогою правила телеметрії.
 
-### <a name="officetelemetryinvalideventcontractname"></a>Office.Telemetry.InvalidEventContractName 
+### <a name="officetelemetryinvalideventcontractname"></a>Office.Telemetry.InvalidEventContractName 
 
 Повідомляє про неприпустимі розгортання або реалізацію телеметрії.
 
