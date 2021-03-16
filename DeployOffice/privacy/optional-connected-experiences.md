@@ -13,12 +13,12 @@ ms.custom:
 - Ent_Office_Privacy
 description: Ця стаття пропонує адміністраторам Office інформацію про необов'язкові підключені можливості, зокрема, про застосовні умови користування ними.
 hideEdit: true
-ms.openlocfilehash: ed197ed1cc8dd3c19d10a227510fe687da54d9c7
-ms.sourcegitcommit: f7496035cde1b3a5a4efb9013fd30064fb0c9132
+ms.openlocfilehash: 942f32d7a8d177e6d74530a8382c145e94bec41a
+ms.sourcegitcommit: dee7b8706ba5a0e763052d2f2f79fb2d3d3a6907
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50597387"
+ms.lasthandoff: 03/16/2021
+ms.locfileid: "50826427"
 ---
 # <a name="overview-of-optional-connected-experiences-in-office"></a>Огляд необов’язкових підключених можливостей Office
 
@@ -87,7 +87,7 @@ Bing підтримує перелічені нижче можливості в 
 
 ### <a name="travel-time-in-up-next-in-outlook-for-ios"></a>Час подорожі у функції "Up Next" в Outlook для iOS
 
-В Outlook для iOS дані про наступну заплановану подію буде підсумовано вгорі папки "Вхідні" вашої поштової скриньки на картці [Up Next](https://www.osupportweb.com/a/outlook-mobile/?s=up-next&f=how-does-up-next-work). Ця можливість вимагає використання служби Apple, яка називається Apple Maps, щоб надавати відомості про приблизний час подорожі. При цьому застосовуються [правила використання](https://www.apple.com/legal/internet-services/maps/) Apple Maps і [політика конфіденційності](https://www.apple.com/legal/privacy) Apple.
+В Outlook для iOS дані про наступну заплановану подію буде підсумовано вгорі папки "Вхідні" вашої поштової скриньки на картці [Up Next](https://support.microsoft.com/office/d316ba95-c0d8-4a6e-87a3-84dd17f3775e). Ця можливість вимагає використання служби Apple, яка називається Apple Maps, щоб надавати відомості про приблизний час подорожі. При цьому застосовуються [правила використання](https://www.apple.com/legal/internet-services/maps/) Apple Maps і [політика конфіденційності](https://www.apple.com/legal/privacy) Apple.
 
 ### <a name="weather-bar-in-outlook"></a>Панель погоди в Outlook
 
