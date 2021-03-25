@@ -13,12 +13,12 @@ ms.custom:
 - Ent_Office_Privacy
 description: Ця стаття містить відомості для адміністраторів Office щодо підключених можливостей для Office, як-от можливості аналізу вмісту або завантаження вмісту з Інтернету.
 hideEdit: true
-ms.openlocfilehash: fe0d70bb03699af3b393de560234f9a1bb32c3c7
-ms.sourcegitcommit: f7496035cde1b3a5a4efb9013fd30064fb0c9132
+ms.openlocfilehash: d7c4af6af94025136ab09f0709d8c65382f456dd
+ms.sourcegitcommit: 2c4bf05e77415559080766cc7d7f241e9f968108
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "50597351"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51181283"
 ---
 # <a name="connected-experiences-in-office"></a>Підключені можливості в Office
 
@@ -57,7 +57,7 @@ ms.locfileid: "50597351"
 | Дизайнер PowerPoint   | [Створюйте професійні макети слайдів за допомогою Дизайнера PowerPoint](https://support.microsoft.com/office/53c77d7b-dc40-45c2-b684-81415eac0617)   |
 |Наставник доповідача (PowerPoint)|[Репетиція показу слайдів із Наставником доповідача](https://support.microsoft.com/office/cd7fc941-5c3b-498c-a225-83ef3f64f07b)|
 | Публікація в Microsoft Stream    | [Перетворюйте презентації на відео](https://support.microsoft.com/office/c140551f-cb37-4818-b5d4-3e30815c3e83#bkmk_microsoftstream)  |
-| Публікація в Power BI   | [Публікуйте в Power BI з Excel](https://docs.microsoft.com/power-bi/service-publish-from-excel) |
+| Публікація в Power BI   | [Публікуйте в Power BI з Excel](/power-bi/service-publish-from-excel) |
 | *Довідкові матеріали*\*   | [Додавайте або змінюйте довідкові служби](https://support.microsoft.com/office/b862efc5-9a7b-4f88-a23d-93712d6e4397)  |
 | Сканування візитної картки|  [Відскануйте або торкніться, щоб додати контакти в Outlook для Android](https://support.microsoft.com/office/4818ef14-0fc8-4ec2-bb4d-440ea8cae17b)|
 |Сповіщення про дії зі спільними файлами|[Отримання сповіщень про зміни, внесені до спільного файлу учасниками вашої команди](https://support.microsoft.com/office/9cc94893-02d5-4d96-9b3f-8b9414d5047a)|
@@ -85,7 +85,7 @@ ms.locfileid: "50597351"
 | ------------- | ------------- |
 | Програми календаря| [Що таке програми календаря?](https://support.microsoft.com/office/57f5ad1d-c364-4054-924e-c796b80f382b) |
 | Хмарні шрифти                 | [Хмарні шрифти у програмі Office](https://support.microsoft.com/office/f7b009fe-037f-45ed-a556-b5fe6ede6adb)  |
-| Запитання й відповіді |Коли ви вибираєте меню **Параметри** > **Довідка та відгук** > **Запитання й відповіді** в Outlook для iOS та Android, ви переходите до[довідки Outlook для iOS](https://support.microsoft.com/article/4456b5ef-d20e-4e86-abee-c95f9eba26da) або [довідки Outlook для Android.](https://support.microsoft.com/article/8ffeb4f6-b231-4b20-b36a-07e2bce0504b).|
+| Запитання й відповіді |Коли ви вибираєте меню **Параметри** > **Довідка та відгук** > **Запитання й відповіді** в Outlook для iOS та Android, ви переходите до [довідки Outlook для iOS](https://support.microsoft.com/article/4456b5ef-d20e-4e86-abee-c95f9eba26da) або [довідки Outlook для Android.](https://support.microsoft.com/article/8ffeb4f6-b231-4b20-b36a-07e2bce0504b).|
 | Ефекти рукописного вводу                 | [Малювання та писання від руки в Office](https://support.microsoft.com/office/6D76C674-7F4B-414D-B67F-B3FFEF6CCF53)  |
 | Вставлення піктограм                | [Вставлення піктограм у Microsoft Office](https://support.microsoft.com/office/e2459f17-3996-4795-996e-b9a13486fa79)   |
 | Вставлення Microsoft Forms      | [Вставлення форми або тесту в PowerPoint](https://support.microsoft.com/office/1a316f81-9ea7-4bc2-bda0-024c0d780df1) |
@@ -120,14 +120,14 @@ ms.locfileid: "50597351"
 | Очікується незабаром (Outlook)  |[Очікується незабаром](https://support.microsoft.com/office/d4b7db49-b4e0-4f98-a0dc-156952e551e2)  |
 | Зв’язок зі службою підтримки (Outlook) | Якщо вам потрібна **Довідка**, > **Зв’язок зі службою підтримки** на стрічці|
 | Користувацький імпорт (Visio)  | [Імпорт даних у фігури в кресленні](https://support.microsoft.com/office/d174b3fd-3079-42fd-81e8-2dbf8d38bb03) |
-| Підказки політики захисту від втрати даних |[Надсилання сповіщень електронною поштою та відображення підказок політики захисту від втрати даних](https://docs.microsoft.com/microsoft-365/compliance/use-notifications-and-policy-tips)  |
+| Підказки політики захисту від втрати даних |[Надсилання сповіщень електронною поштою та відображення підказок політики захисту від втрати даних](/microsoft-365/compliance/use-notifications-and-policy-tips)  |
 | Візуалізатор даних (Visio) |[Створення схеми Візуалізатора даних](https://support.microsoft.com/office/17211b46-d144-4ca2-9ea7-b0f48f0ae0a6)  |
 | Конструктор потоків (Visio)  | [Конструктор автоматизованого робочого циклу у Visio](https://support.microsoft.com/office/35f0c9a9-912b-486d-88f7-4fc68013ad1a) |
 | Зовнішній список (Outlook) |[Підключення зовнішнього списку до програми Outlook](https://support.microsoft.com/office/9F00540E-A6B8-4510-9CE1-C79E31CBC8C9)  |
 | Важливі вхідні (Outlook) |[Функція «Важливі вхідні» в програмі Outlook](https://support.microsoft.com/office/f445ad7f-02f4-4294-a82e-71d8964e3978)  |
 | Керування правами доступу до даних |[Відкриття файлу з обмеженими дозволами](https://support.microsoft.com/office/c7a70797-6b1e-493f-acf7-92a39b85e30c)  |
 | Картка контакту LinkedIn |[LinkedIn у програмах і службах Microsoft](https://support.microsoft.com/office/dc81cc70-4d64-4755-9f1c-b9536e34d381)  |
-| *Надбудови Office*\* | [Перегляд, керування та інсталяція надбудов у програмах Office](https://support.microsoft.com/office/16278816-1948-4028-91e5-76dca5380f8d) *(для користувачів)* <br/> [Розгортання надбудов у центрі адміністрування](https://docs.microsoft.com/microsoft-365/admin/manage/manage-deployment-of-add-ins) *(для адміністраторів)* |
+| *Надбудови Office*\* | [Перегляд, керування та інсталяція надбудов у програмах Office](https://support.microsoft.com/office/16278816-1948-4028-91e5-76dca5380f8d) *(для користувачів)* <br/> [Розгортання надбудов у центрі адміністрування](/microsoft-365/admin/manage/manage-deployment-of-add-ins) *(для адміністраторів)* |
 | Відгук про Office |[Надання відгуку про Microsoft Office](https://support.microsoft.com/office/2b102d44-b43f-4dd2-9ff4-23cf144cfb11)  |
 | Служба підтримки клієнтів Office (зверніться до нас) |Якщо вам потрібна **Довідка**, > **Зв’язок зі службою підтримки** на стрічці |
 | Організаційна діаграма (Visio) |[Створення організаційної діаграми у Visio](https://support.microsoft.com/office/abb3dd17-2692-439f-9945-3a015767d96a)|
@@ -136,8 +136,8 @@ ms.locfileid: "50597351"
 | Нещодавні документи |[Відкриття файлів із меню «Файл»](https://support.microsoft.com/office/97f087d8-3136-4485-8e86-c5b12a8c4176)  |
 | *Укладач резюме*\* |[Використання Укладача резюме та LinkedIn для створення чудових резюме](https://support.microsoft.com/office/444ff6f0-ef74-4a9c-9091-ffd7a9d1917a")  |
 | Пошук аудиторій (Outlook)|[Як керувати пошуком аудиторій у програмі Outlook](https://support.microsoft.com/help/2673231/how-to-control-the-room-finder-in-outlook)  |
-|Безпека документів|[Безпека документів](https://support.microsoft.com/office/e2071599-fb31-442b-a30c-198c25e2aacd) <br/> [Функція "Безпека документів" у Microsoft 365 E5](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs)|
-| Безпечні посилання |[Функція "Безпека посилань" у системі РЗВЗ](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links)  |
+|Безпека документів|[Безпека документів](https://support.microsoft.com/office/e2071599-fb31-442b-a30c-198c25e2aacd) <br/> [Функція "Безпека документів" у Microsoft 365 E5](/microsoft-365/security/office-365-security/safe-docs)|
+| Безпечні посилання |[Функція "Безпека посилань" у системі РЗВЗ](/microsoft-365/security/office-365-security/atp-safe-links)  |
 | Мітки конфіденційності |[Застосування міток делікатності до файлів і електронних листів в Office](https://support.microsoft.com/office/2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)  |
 | Спільний доступ  |[Спільний доступ до книги Excel](https://support.microsoft.com/office/8D8A52BB-03C3-4933-AB6C-330AABF1E589) <br/>[Спільний доступ до презентації (PowerPoint)](https://support.microsoft.com/office/fdcad9ad-4f13-4f5b-9910-12b4108a4c86) <br/>[Надання спільного доступу до документа (Word)](https://support.microsoft.com/office/d39f3cd8-0aa0-412f-9a35-1abba926d354) |
 | Я маю доступ |[Перегляд файлів, до яких інші користувачі надали вам доступ](https://support.microsoft.com/office/e0476dc7-bf2f-4203-b9ad-c809578b03e7)  |

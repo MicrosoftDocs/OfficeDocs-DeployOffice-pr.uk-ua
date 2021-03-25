@@ -13,12 +13,12 @@ ms.custom:
 - Ent_Office_Privacy
 description: Відомості про те, які продукти та версії Office містять найновіші елементи керування приватністю.
 hideEdit: true
-ms.openlocfilehash: 8434891947997908bb4de61ad56606f8b4b59614
-ms.sourcegitcommit: e64b8f2b7f92a3972d8dc83f47d84648fbe17370
+ms.openlocfilehash: 01d7658c90706ac2bc5870262e59be4e0d9d1dd5
+ms.sourcegitcommit: 2c4bf05e77415559080766cc7d7f241e9f968108
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "48931203"
+ms.lasthandoff: 03/24/2021
+ms.locfileid: "51181680"
 ---
 # <a name="privacy-controls-available-for-office-products"></a>Елементи керування приватністю, доступні в продуктах Office
 
@@ -192,7 +192,7 @@ ms.locfileid: "48931203"
 
 ## <a name="related-articles"></a>Пов’язані статті
 
-- [Приватність і Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/teams-privacy)
+- [Приватність і Microsoft Teams](/MicrosoftTeams/teams-privacy)
 - [Параметри приватності в Microsoft Whiteboard](https://support.microsoft.com/office/ed9f0de9-71be-44c2-837d-e0f448660be1)
 - [Яку версію пакета Office я використовую?](https://support.microsoft.com/office/932788b8-a3ce-44bf-bb09-e334518b8b19)
 - [Яка в мене версія Outlook?](https://support.microsoft.com/office/b3a9568c-edb5-42b9-9825-d48d82b2257c)
