@@ -13,12 +13,12 @@ ms.custom:
 - Ent_Office_Privacy
 description: Ця стаття пропонує адміністраторам Office інформацію про необов'язкові підключені можливості, зокрема, про застосовні умови користування ними.
 hideEdit: true
-ms.openlocfilehash: d651fb94cb031a0fc1a154201e2875c28f979f2a
-ms.sourcegitcommit: 2c4bf05e77415559080766cc7d7f241e9f968108
+ms.openlocfilehash: 8a5f236c3dbb2cb3bb61a9a987f764880987a189
+ms.sourcegitcommit: 54b9d411bb6a021fb6db8df4acfb28287693c84c
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51181752"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51914966"
 ---
 # <a name="overview-of-optional-connected-experiences-in-office"></a>Огляд необов’язкових підключених можливостей Office
 
@@ -43,6 +43,7 @@ Bing підтримує перелічені нижче можливості в 
 - **Пропозиції щодо розташування:**   після додавання адреси місця до елемента календаря програма Outlook для iOS і Android також відображатиме повну адресу в полі розташування.
 - **Цікаві календарі:** можна [підписатися](https://support.microsoft.com/office/cff1429c-5af6-41ec-a5b4-74f2c278e98c) на календарі, присвячені вашим улюбленим спортивним командам або телепрограмам.
 - **Час подорожі у функції "Up Next":** дані про наступну заплановану подію буде підсумовано вгорі папки "Вхідні" вашої поштової скриньки на картці [Up Next](https://support.microsoft.com/office/d316ba95-c0d8-4a6e-87a3-84dd17f3775e). В Outlook для Android ця можливість вимагає використання Карт Bing, щоб надавати відомості про приблизний час подорожі.
+- **Погода на календарі:** [прогноз погоди](https://support.microsoft.com/office/04c48f70-4780-47d6-bc2e-d77d2f4c4ef2) для вашого поточного розташування відображатиметься у верхній частині екрану календаря.
 
  Ці можливості Bing надаються вам на умовах [Угоди про використання служб Microsoft](https://www.microsoft.com/servicesagreement) і підпадають під [декларацію про конфіденційність](https://privacy.microsoft.com/). Будь-які пошукові запити, які ви надсилаєте організації з пропозицією "Програми Microsoft 365 для підприємств", використовуючи ці служби, передаються до Microsoft Bing. Організація Bing не пов’язує їх із вами.
 

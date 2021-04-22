@@ -13,12 +13,12 @@ ms.custom:
 - Ent_Office_Privacy
 description: Ця стаття містить відомості для адміністраторів Office щодо підключених можливостей для Office, як-от можливості аналізу вмісту або завантаження вмісту з Інтернету.
 hideEdit: true
-ms.openlocfilehash: d7c4af6af94025136ab09f0709d8c65382f456dd
-ms.sourcegitcommit: 2c4bf05e77415559080766cc7d7f241e9f968108
+ms.openlocfilehash: c1fb64bc45ed9e97cde37541dad85162a5a3699c
+ms.sourcegitcommit: 54b9d411bb6a021fb6db8df4acfb28287693c84c
 ms.translationtype: HT
 ms.contentlocale: uk-UA
-ms.lasthandoff: 03/24/2021
-ms.locfileid: "51181283"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "51916108"
 ---
 # <a name="connected-experiences-in-office"></a>Підключені можливості в Office
 
@@ -36,16 +36,16 @@ ms.locfileid: "51181283"
 | **Назва**   | **Докладні відомості**   |
 | ----------- | ------------------ |
 | *3D Maps*\*    | [Початок роботи з надбудовою 3D Maps](https://support.microsoft.com/office/6b56a50d-3c3e-4a9e-a527-eea62a387030)   |
+| Аналіз даних (попередня назва — "Ідеї") | [Аналіз даних в Excel](https://support.microsoft.com/office/3223aab8-f543-4fda-85ed-76bb0295ffc4) |
 |Автоматичне виправлення|[Швидке та легке вирівнювання вмісту за допомогою автоматичного виправлення](https://support.microsoft.com/office/b5ec9a1e-f955-46d5-a91b-f236459525b4)|
 | Автоматичне додавання тексту заміщення   | [Все, що необхідно знати про написання ефективного тексту заміщення](https://support.microsoft.com/office/df98f884-ca3d-456c-807b-1a1fa82f5dc2) |
 |Рекомендовані діаграми (вебпрограма Excel)|[Створення діаграми за допомогою рекомендованих діаграм](https://support.microsoft.com/office/cd131b77-79c7-4537-a438-8db20cea84c0#ID0EAADAAA=Web)|
 |Надбудови Блокнота для класу (OneNote)|[Початок роботи з програмою "Блокнот OneNote для класу": короткий огляд для викладачів](https://support.microsoft.com/office/28666b8e-b0ae-48fe-b001-1874f5f6db58)|
 | Типи даних| [Типи даних Excel: біржові та географічні дані](https://support.microsoft.com/office/61a33056-9935-484f-8ac8-f1a89e210877)   |
 |Конструктор (вебпрограма Microsoft Word)|[Створення ідеальних документів за допомогою конструктора](https://support.microsoft.com/office/97844bd3-b52d-4c94-9deb-b51db7f36d91    )|
-| Диктування  | [Диктування документів Word](https://support.microsoft.com/office/d4fd296e-8f15-4168-afec-1f95b13a6408) |
+| Диктування  | [Диктувати в Microsoft 365](https://support.microsoft.com/office/eab203e1-d030-43c1-84ef-999b0b9675fe) |
 |Редактор<sup>1</sup> |[Редактор Microsoft перевіряє текст на граматичні та інші помилки в документах, електронних листах та Інтернеті](https://support.microsoft.com/office/91ecbe1b-d021-4e9e-a82e-abc4cd7163d7)|
 |Зрозумілі посилання в Outlook |[Зрозуміліші імена посилань в електронній пошті](https://support.microsoft.com/office/02040f47-bd56-4806-8311-fc913fed54c0)|
-| Ідеї     | [Ідеї у програмі Excel](https://support.microsoft.com/office/3223aab8-f543-4fda-85ed-76bb0295ffc4) |
 | Перетворення рукопису на текст, перетворення рукописного фрагмента на фігуру, перетворення рукописного виразу на рівняння | [PowerPoint для Microsoft 365 дає змогу перетворити рукописні фрагменти на фігури, текст або математичні вирази](https://support.microsoft.com/office/0740dec3-6291-4c1f-8baa-011d18449919) |
 | Вставлення даних із зображення| [Вставлення даних із зображення](https://support.microsoft.com/office/3c1bb58d-2c59-4bc0-b04a-a671a6868fd7)|
 |Навчальні інструменти|[Навчальні інструменти](https://support.microsoft.com/office/eff7f7e3-7e21-42f0-a6f1-da7027f98261)|
@@ -103,6 +103,7 @@ ms.locfileid: "51181283"
 | Шаблони  | [Безкоштовне завантаження попередньо створених шаблонів](https://support.microsoft.com/office/29f2a18d-29a6-4a07-998b-cfe5ff7ffbbb)  |
 |*Приблизний час подорожі у функції "Up Next"*\*|Якщо ви вирішите надати Outlook для iOS і Android доступ до даних про ваше розташування, у картку [Up Next](https://support.microsoft.com/office/d316ba95-c0d8-4a6e-87a3-84dd17f3775e) у верхній частині папки "Вхідні" буде включено оцінку часу подорожі до наступної події.<br/><br/> [Скільки часу, щоб залишити сповіщення?](https://support.microsoft.com/office/ff4896c5-d3a7-40ef-8954-e5c99e8b88bd)|
 | *Панель погоди*\* (Outlook)| [Змінення міста для прогнозу погоди на панелі погоди календаря](https://support.microsoft.com/office/D11B7532-7C58-489E-8103-5CC5D727B06B) |
+|*Погода на календарі*\* (Outlook mobile)|[Як мені ввімкнути погоду на календарі в Outlook mobile?](https://support.microsoft.com/office/04c48f70-4780-47d6-bc2e-d77d2f4c4ef2)|
 
 > [!NOTE]
 >\*Якщо користувачі виконали вхід за допомогою робочого або навчального облікового запису, підключені можливості, вказані курсивом, є необов’язковими й надаються відповідно до умов [Угоди про використання служб Microsoft](https://www.microsoft.com/servicesagreement) і [декларації про конфіденційність](https://privacy.microsoft.com/), а також відповідно до інших умов. Докладні відомості див. в розділі [Огляд необов’язкових підключених можливостей в Office](optional-connected-experiences.md). Якщо у вас є права адміністратора, ці підключені можливості можна налаштувати за допомогою елементів керування конфіденційністю для підключених можливостей або застосовуючи параметр політики *Дозволити використання в Office додаткових необов’язкових підключених можливостей*.
